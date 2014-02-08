@@ -1,29 +1,11 @@
+[![Build Status](http://img.shields.io/travis/pikesley/ultron.png)](https://travis-ci.org/pikesley/ultron)
+[![Dependency Status](http://img.shields.io/gemnasium/pikesley/ultron.png)](https://gemnasium.com/pikesley/ultron)
+[![Coverage Status](http://img.shields.io/coveralls/pikesley/ultron.png)](https://coveralls.io/r/pikesley/ultron)
+[![Code Climate](http://img.shields.io/codeclimate/github/pikesley/ultron.png)](https://codeclimate.com/github/pikesley/ultron)
+[![Gem Version](http://img.shields.io/gem/v/ultron.png)](https://rubygems.org/gems/ultron)
+[![License](http://img.shields.io/:license-mit-blue.png)](http://pikesley.mit-license.org)
+[![Badges](http://img.shields.io/:badges-7/7-ff6799.png)](https://github.com/pikesley/badger)
+
 # Ultron
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'ultron'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ultron
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/ultron/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Wrap some Ruby around the Marvel Comics API
