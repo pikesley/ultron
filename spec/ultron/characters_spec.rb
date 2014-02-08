@@ -51,6 +51,10 @@ module Ultron
       it 'should have the correct name', :vcr do
         @character['name'].should == 'Doctor Doom'
       end
+
+      it 'should have the correct id', :vcr do
+        @character['id'].should == 1009281
+      end
     end
   end
 end
