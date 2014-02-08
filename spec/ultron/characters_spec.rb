@@ -6,7 +6,7 @@ module Ultron
     end
 
     it 'should have a url' do
-      @characters.url.should match /gateway.marvel.com/
+      @characters.url.to_s.should == 'http://gateway.marvel.com/v1/public/characters'
     end
   end
 end
