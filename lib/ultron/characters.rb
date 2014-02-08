@@ -3,7 +3,7 @@ module Ultron
     attr_reader :url
 
     def initialize
-      @url = 'http://gateway.marvel.com'
+      @url = Config.instance.config['host']
     end
   end
 end
