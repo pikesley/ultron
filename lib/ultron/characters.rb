@@ -1,13 +1,22 @@
 module Ultron
   class Characters
     def initialize
+      @cnxn =  Ultron::Connection.new 'characters'
+    end
+
+    def [] key
+      results[key]
     end
 
     def results
-      cnxn = Ultron::Connection.new 'characters'
-      res = cnxn.perform
+      @results || begin
+        @cnxn.perform['data']['results']
+      end
+    end
 
-      res['data']['results']
+    def by_name name
+      @cnxn.add_params 'name' => name
+      @cnxn.perform['data']['results'][0]
     end
   end
 end
