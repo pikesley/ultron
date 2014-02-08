@@ -9,3 +9,5 @@
 # Ultron
 
 Wrap some Ruby around the Marvel Comics API
+
+How hard can it be?
