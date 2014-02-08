@@ -8,4 +8,4 @@ RSpec::Core::RakeTask.new
 Cucumber::Rake::Task.new
 
 #task :default => [:spec, :cucumber, 'coveralls:push']
-task :default => [:spec]
+task :default => [:spec, 'coveralls:push']
