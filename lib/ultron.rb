@@ -1,10 +1,11 @@
 require 'singleton'
+require 'curb'
+require 'dotenv'
 
 require 'ultron/version'
 require 'ultron/config'
 require 'ultron/characters'
 require 'ultron/helpers'
+require 'ultron/connection'
 
-module Ultron
-  # Your code goes here...
-end
+require 'pry'
