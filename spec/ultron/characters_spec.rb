@@ -10,12 +10,21 @@ module Ultron
       Timecop.return
     end
 
-#    it 'should return a list of characters' do
-#      @characters.results.class.should == Array
-#    end
+    context 'get a character' do
+      before :each do
+        @character = @characters[0]
+      end
+      it 'should have the correct id', :vcr do
+        @character['id'].should == 1009521
+      end
 
-    it 'should have the correct first character', :vcr do
-      @characters[0]['id'].should == 1009521
+      it 'should have the correct name', :vcr do
+        @character['name'].strip.should == 'Hank Pym'
+      end
+
+      it 'should have the correct resourceURI', :vcr do
+        @character['resourceURI'].should == 'http://gateway.marvel.com/v1/public/characters/1009521'
+      end
     end
   end
 end
