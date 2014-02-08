@@ -1,13 +1,13 @@
 module Ultron
   class Characters
-    attr_reader :url
-
     def initialize
-      @url = Ultron.get_url 'characters'
     end
 
     def results
+      cnxn = Ultron::Connection.new 'characters'
+      res = cnxn.perform
 
+      res['data']['results']
     end
   end
 end
