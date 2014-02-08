@@ -1,13 +1,8 @@
 module Ultron
   class Characters
     def initialize
+      @cnxn =  Ultron::Connection.new 'characters'
     end
-
-#    include Enumerable
-
-#    def each
-#      @results.each { |result| yield result }
-#    end
 
     def [] key
       results[key]
@@ -15,9 +10,13 @@ module Ultron
 
     def results
       @results || begin
-        cnxn     = Ultron::Connection.new 'characters'
-        cnxn.perform['data']['results']
+        @cnxn.perform['data']['results']
       end
+    end
+
+    def by_name name
+      @cnxn.add_params 'name' => name
+      @cnxn.perform['data']['results'][0]
     end
   end
 end
