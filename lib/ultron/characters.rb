@@ -5,5 +5,9 @@ module Ultron
     def initialize
       @url = Ultron.get_url 'characters'
     end
+
+    def results
+
+    end
   end
 end
