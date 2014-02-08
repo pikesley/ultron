@@ -9,7 +9,7 @@ module Ultron
     def add_params h
       @params ||= {}
       h.each_pair do |key, value|
-        @params[key] = value
+        @params[key] = URI.encode value
       end
     end
 

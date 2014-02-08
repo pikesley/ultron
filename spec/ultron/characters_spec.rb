@@ -42,5 +42,15 @@ module Ultron
         @character['id'].should == 1009351
       end
     end
+
+    context 'get a character with a space in their name' do
+      before :each do
+        @character = @characters.by_name('Doctor Doom')
+      end
+
+      it 'should have the correct name', :vcr do
+        @character['name'].should == 'Doctor Doom'
+      end
+    end
   end
 end

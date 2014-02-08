@@ -19,5 +19,10 @@ module Ultron
       @cnxn.add_params 'foo' => 'bar'
       @cnxn.url.to_s.should match /&foo=bar/
     end
+
+    it 'should know how to URL-encode things', :vcr do
+      @cnxn.add_params 'this' => 'has spaces'
+      @cnxn.url.to_s.should match /&this=has%20spaces/
+    end
   end
 end
