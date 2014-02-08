@@ -18,6 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
+  spec.add_dependency 'curb'
+  spec.add_dependency 'dotenv'
+
   spec.add_development_dependency 'bundler', '~> 1.5'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
@@ -30,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'coveralls'
   spec.add_development_dependency 'webmock'
   spec.add_development_dependency 'vcr'
+  spec.add_development_dependency 'timecop'
 end
