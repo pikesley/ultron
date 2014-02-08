@@ -3,11 +3,7 @@ module Ultron
     attr_reader :url
 
     def initialize
-      @url = URI.join(
-          Config.instance.config['host'],
-          Config.instance.config['path'],
-          'characters'
-      )
+      @url = Ultron.get_url 'characters'
     end
   end
 end
