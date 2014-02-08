@@ -11,7 +11,7 @@ module Ultron
       Timecop.return
     end
 
-    context 'get a character' do
+    context 'get the first character off the list' do
       before :each do
         @character = @characters[0]
       end
