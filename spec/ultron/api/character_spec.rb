@@ -21,7 +21,9 @@ module Ultron
       end
 
       it 'should have an events set', :vcr do
+        pending 'The EventSet is empty. Need to think about how to handle this'
         @character.events.class.should == EventSet
+        @character.events[0].name.should == 'Derp'
       end
 
       it 'should have a series set', :vcr
