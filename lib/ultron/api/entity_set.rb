@@ -7,6 +7,10 @@ module Ultron
         @cnxn = Ultron::Connection.new path
       end
 
+      def [] key
+        results[key]['id']
+      end
+
       def each
         @results.each do |item|
           yield item
