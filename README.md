@@ -21,3 +21,7 @@ To actually use it you need an API key and secret which you can get from [here](
 
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
+
+## Alpha alpha alpha
+
+I'm working this out as I go along, please don't rely on my API changing beyond all recognition before I'm done.
