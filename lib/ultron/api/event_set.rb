@@ -1,12 +1,12 @@
 module Ultron
   module API
-    class ComicsSet < EntitySet
+    class EventSet < EntitySet
       def initialize path
-        super '%s/comics' % path
+        super '%s/events' % path
       end
 
       def [] key
-        Comic.new results[key]['id']
+        Event.new results[key]['id']
       end
     end
   end

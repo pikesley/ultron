@@ -1,9 +1,9 @@
 module Ultron
   module API
-    class Comic < Entity
+    class Event < Entity
       def initialize id
         @id = id
-        @path = 'comics/%s' % @id
+        @path = 'events/%s' % @id
         super @path
       end
     end

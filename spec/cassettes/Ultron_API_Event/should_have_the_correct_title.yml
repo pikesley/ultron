@@ -1,0 +1,108 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/events/314?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 82dd62cac1b41eb6ea907d899290520e6ab55eaf
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '9774'
+      Date:
+      - Sun, 09 Feb 2014 22:32:40 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"82dd62cac1b41eb6ea907d899290520e6ab55eaf\",\"data\":{\"offset\":0,\"limit\":20,\"total\":1,\"count\":1,\"results\":[{\"id\":314,\"title\":\"Age
+        of Ultron\",\"description\":\"In a 10-issue event written by Brian Michael
+        Bendis with art by Bryan Hitch, Carlos Pacheco, Brandon Peterson and more,
+        the heroes of the Marvel Universe have already fallen with the robot Ultron
+        remaking the world in his image. The surviving Avengers, X-Men and others
+        must fight through time and space in the hope of defeating their foe by any
+        means necessary!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/314\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/events/314/age_of_ultron?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"wiki\",\"url\":\"http://marvel.com/universe/Age_of_Ultron?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"modified\":\"2013-06-25T17:47:28-0400\",\"start\":\"2013-03-06
+        00:00:00\",\"end\":\"2013-06-19 00:00:00\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/10/51ca0fc4c83c8\",\"extension\":\"jpg\"},\"creators\":{\"available\":27,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/314/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4994\",\"name\":\"Kalman
+        Andrasofszky\",\"role\":\"penciler (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11748\",\"name\":\"Marco
+        Checchetto\",\"role\":\"penciler (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/12277\",\"name\":\"Jimmy
+        Cheung\",\"role\":\"penciler (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/12297\",\"name\":\"Andre
+        Lima Araujo\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/820\",\"name\":\"Leonard
+        Kirk\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/24\",\"name\":\"Brian
+        Michael Bendis\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10023\",\"name\":\"Cullen
+        Bunn\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11680\",\"name\":\"Gerard
+        Gorman Duggan\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8843\",\"name\":\"Joshua
+        Fialkov\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/12253\",\"name\":\"Joshua
+        Hale Fialkov\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11765\",\"name\":\"Christos
+        Gage\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5144\",\"name\":\"Kathryn
+        Immonen\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10066\",\"name\":\"MATT
+        KINDT\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/312\",\"name\":\"Mike
+        Deodato\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/436\",\"name\":\"Adi
+        Granov\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/339\",\"name\":\"Bryan
+        Hitch\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/306\",\"name\":\"Phil
+        Jimenez\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2879\",\"name\":\"Adam
+        Kubert\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/208\",\"name\":\"Paco
+        Medina\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/101\",\"name\":\"Carlos
+        Pacheco\",\"role\":\"artist\"}],\"returned\":20},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/314/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009685\",\"name\":\"Ultron\"}],\"returned\":1},\"stories\":{\"available\":40,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/314/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82809\",\"name\":\"Cover
+        #82809\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82810\",\"name\":\"Interior
+        #82810\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82811\",\"name\":\"Cover
+        #82811\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82812\",\"name\":\"Interior
+        #82812\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82813\",\"name\":\"Cover
+        #82813\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82814\",\"name\":\"Interior
+        #82814\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103326\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103327\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103328\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #7\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103329\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #7\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103330\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #8\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103331\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #8\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103332\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #9\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103333\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #9\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103334\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #10\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103335\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #10\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105614\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #1 \",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105615\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #1 (ULTRON VARIANT)\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105618\",\"name\":\"cover
+        from Avengers: Age of Ultron (2013) #2 \",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105619\",\"name\":\"story
+        from Avengers: Age of Ultron (2013) #2 (ULTRON VARIANT)\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":20,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/314/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/37405\",\"name\":\"AGE
+        OF ULTRON (2013) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/37406\",\"name\":\"AGE
+        OF ULTRON (2013) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/37407\",\"name\":\"AGE
+        OF ULTRON (2013) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/45904\",\"name\":\"AGE
+        OF ULTRON (2013) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/45905\",\"name\":\"AGE
+        OF ULTRON (2013) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/45906\",\"name\":\"AGE
+        OF ULTRON (2013) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/45907\",\"name\":\"AGE
+        OF ULTRON (2013) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47072\",\"name\":\"Age
+        of Ultron: AI (2013) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/45908\",\"name\":\"AGE
+        OF ULTRON (2013) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/48172\",\"name\":\"Hunger
+        (2013) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/48174\",\"name\":\"Hunger
+        (2013) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47001\",\"name\":\"AGE
+        OF ULTRON (2013) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47003\",\"name\":\"AGE
+        OF ULTRON (2013) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47355\",\"name\":\"Fearless
+        Defenders (2013) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/48175\",\"name\":\"Hunger
+        (2013) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/48176\",\"name\":\"Hunger
+        (2013) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47145\",\"name\":\"Superior
+        Spider-Man (2013) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47394\",\"name\":\"Ultron
+        (2013) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47343\",\"name\":\"Uncanny
+        Avengers (2012) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47395\",\"name\":\"Wolverine
+        & the X-Men (2011) #27\"}],\"returned\":20},\"series\":{\"available\":8,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/314/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17318\",\"name\":\"AGE
+        OF ULTRON (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17719\",\"name\":\"Age
+        of Ultron: AI (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17370\",\"name\":\"Fearless
+        Defenders (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/18248\",\"name\":\"Hunger
+        (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17745\",\"name\":\"Superior
+        Spider-Man (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17900\",\"name\":\"Ultron
+        (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/16414\",\"name\":\"Uncanny
+        Avengers (2012 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13910\",\"name\":\"Wolverine
+        & the X-Men (2011 - Present)\"}],\"returned\":8},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/315\",\"name\":\"Infinity\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/311\",\"name\":\"Marvel
+        NOW!\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0

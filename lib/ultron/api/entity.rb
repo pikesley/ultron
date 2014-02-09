@@ -18,6 +18,18 @@ module Ultron
           OpenStruct.new @cnxn.perform['data']['results'].first
         end
       end
+
+      def comics
+        ComicSet.new @path
+      end
+
+      def characters
+        CharacterSet.new @path
+      end
+
+      def events
+        EventSet.new @path
+      end
     end
   end
 end

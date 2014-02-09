@@ -17,6 +17,12 @@ require 'ultron/api/character_set'
 
 require 'ultron/api/comic'
 require 'ultron/api/comics'
-require 'ultron/api/comics_set'
+require 'ultron/api/comic_set'
+
+require 'ultron/api/creator'
+
+require 'ultron/api/event'
+require 'ultron/api/events'
+require 'ultron/api/event_set'
 
 require 'pry'

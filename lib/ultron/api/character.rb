@@ -3,11 +3,8 @@ module Ultron
     class Character < Entity
       def initialize id
         @id = id
-        super 'characters/%s' % @id
-      end
-
-      def comics
-        ComicsSet.new @id
+        @path = 'characters/%s' % @id
+        super @path
       end
     end
   end
