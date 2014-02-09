@@ -7,9 +7,16 @@ require 'ultron/helpers'
 require 'ultron/config'
 require 'ultron/connection'
 
-require 'ultron/characters'
-require 'ultron/character'
-require 'ultron/comic'
-require 'ultron/comics_set'
+require 'ultron/api/entity'
+require 'ultron/api/entities'
+require 'ultron/api/entity_set'
+
+require 'ultron/api/character'
+require 'ultron/api/characters'
+require 'ultron/api/character_set'
+
+require 'ultron/api/comic'
+require 'ultron/api/comics'
+require 'ultron/api/comics_set'
 
 require 'pry'

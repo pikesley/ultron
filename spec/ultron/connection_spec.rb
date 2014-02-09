@@ -24,5 +24,10 @@ module Ultron
       @cnxn.add_params 'this' => 'has spaces'
       @cnxn.url.to_s.should match /&this=has%20spaces/
     end
+
+    it 'should accept parameters in different hash notation', :vcr do
+      @cnxn.add_params limit: 1
+      @cnxn.url.to_s.should match /&limit=1/
+    end
   end
 end
