@@ -19,4 +19,6 @@ require 'ultron/api/comic'
 require 'ultron/api/comics'
 require 'ultron/api/comics_set'
 
+require 'ultron/api/creator'
+
 require 'pry'
