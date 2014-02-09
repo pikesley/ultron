@@ -15,7 +15,7 @@ Wrapping some Ruby around the [Marvel Comics API](http://developer.marvel.com/)
     bundle
     rake
 
-Look at the [specs](https://github.com/pikesley/ultron/blob/master/spec/ultron/characters_spec.rb) to see what it's actually doing - right now it can retrieve a list of characters and that's about it.
+Look at the [specs](https://github.com/pikesley/ultron/blob/master/spec/ultron/) to see what it's actually doing - I'm knocking things off one-at-a-time from [this list](http://developer.marvel.com/docs#!/public/).
 
 To actually use it you need an API key and secret which you can get from [here](https://developer.marvel.com/signup), put them into `.env` like this
 
