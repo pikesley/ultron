@@ -21,7 +21,7 @@ http_interactions:
       Content-Length:
       - '3544'
       Date:
-      - Sun, 09 Feb 2014 20:00:00 GMT
+      - Sun, 09 Feb 2014 20:12:22 GMT
       Connection:
       - keep-alive
     body:
