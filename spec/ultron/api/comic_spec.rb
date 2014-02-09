@@ -13,11 +13,7 @@ module Ultron
       end
 
       it 'should have the correct title', :vcr do
-        @comic.title.should == 'Uncanny X-Men'
-      end
-
-      it 'should have the correct year', :vcr do
-        @comic.year.should == 1963
+        @comic.title.should == 'Uncanny X-Men (1963) #67'
       end
 
       it 'should have openstruct method-style attribute accessors', :vcr do

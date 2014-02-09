@@ -13,7 +13,7 @@ module Ultron
       end
 
       it 'should have the correct first comic', :vcr do
-        @set[0].title.should == 'Uncanny X-Force'
+        @set[0].title.should == 'Uncanny X-Force (2010) #13 (2nd Printing Variant)'
       end
     end
   end
