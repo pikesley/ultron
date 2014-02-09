@@ -19,6 +19,13 @@ module Ultron
       it 'should have a comics set', :vcr do
         @character.comics.class.should == ComicsSet
       end
+
+      it 'should have an events set', :vcr do
+        @character.events.class.should == EventSet
+      end
+
+      it 'should have a series set', :vcr
+      it 'should have a stories set', :vcr
     end
   end
 end

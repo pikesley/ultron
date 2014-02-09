@@ -26,6 +26,10 @@ module Ultron
       def characters
         CharacterSet.new @path
       end
+
+      def events
+        EventSet.new @path
+      end
     end
   end
 end

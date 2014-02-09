@@ -23,5 +23,6 @@ require 'ultron/api/creator'
 
 require 'ultron/api/event'
 require 'ultron/api/events'
+require 'ultron/api/event_set'
 
 require 'pry'
