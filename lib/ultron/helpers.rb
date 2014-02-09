@@ -22,4 +22,17 @@ module Ultron
         digest
     ]
   end
+
+  def self.title_extractor t
+    title_pieces(t)[1]
+  end
+
+  def self.year_extractor t
+    title_pieces(t)[2].to_i
+  end
+
+  def self.title_pieces t
+    regex   = /(.*) \(([0-9][0-9][0-9][0-9])\).*/
+    regex.match t
+  end
 end

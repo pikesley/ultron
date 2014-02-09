@@ -14,5 +14,9 @@ module Ultron
         @cnxn.perform['data']['results'].first
       end
     end
+
+    def comics
+      results['comics']
+    end
   end
 end

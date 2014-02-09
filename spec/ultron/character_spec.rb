@@ -11,8 +11,13 @@ module Ultron
       Timecop.return
     end
 
-    it 'should have the correct name' do
+    it 'should have the correct name', :vcr do
       @character['name'].should == 'Phoenix'
+    end
+
+    it 'should have a of comics set', :vcr do
+      pending 'getting way ahead of myself'
+      @character.comics.class.should == Ultron::ComicsSet
     end
   end
 end
