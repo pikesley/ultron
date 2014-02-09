@@ -21,4 +21,7 @@ require 'ultron/api/comics_set'
 
 require 'ultron/api/creator'
 
+require 'ultron/api/event'
+require 'ultron/api/events'
+
 require 'pry'

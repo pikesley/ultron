@@ -30,7 +30,6 @@ module Ultron
       }
       c.perform
 
-#      binding.pry
       JSON.parse c.body_str
     end
   end
