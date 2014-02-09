@@ -57,6 +57,15 @@ module Ultron
           @character['id'].should == 1009281
         end
       end
+
+      context 'parameterize the request', :vcr do
+        it 'should let us set multiple parameters', :vcr do
+          @characters.add_params limit: 10
+          @characters.add_params offset: 400
+          @characters.length.should == 10
+          @characters[0].name.should == 'Galactus'
+        end
+      end
     end
   end
 end
