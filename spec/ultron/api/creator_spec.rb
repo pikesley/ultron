@@ -17,7 +17,7 @@ module Ultron
       end
 
       it 'should have a comics set', :vcr do
-        @creator.comics.class.should == ComicsSet
+        @creator.comics.class.should == ComicSet
         @creator.comics[0].title.should == 'THE FANTASTIC FOUR OMNIBUS VOL. 2 HC (NEW PRINTING) (Hardcover)'
       end
     end
