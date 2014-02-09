@@ -7,5 +7,6 @@ require 'ultron/config'
 require 'ultron/characters'
 require 'ultron/helpers'
 require 'ultron/connection'
+require 'ultron/character'
 
 require 'pry'
