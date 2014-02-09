@@ -16,7 +16,7 @@ module Ultron
     end
 
     def comics
-      results['comics']
+      ComicsSet.new @id
     end
   end
 end

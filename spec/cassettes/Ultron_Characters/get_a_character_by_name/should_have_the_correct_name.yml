@@ -15,18 +15,18 @@ http_interactions:
       message: OK
     headers:
       Etag:
-      - 16b71bfb8de0dedcff5fa066a0313f43ea7a9ab3
+      - a81da1024c59e0f1fae203da388374c77da99fd2
       Content-Type:
       - application/json
       Content-Length:
       - '9670'
       Date:
-      - Sat, 08 Feb 2014 22:53:18 GMT
+      - Sun, 09 Feb 2014 20:00:00 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"16b71bfb8de0dedcff5fa066a0313f43ea7a9ab3\",\"data\":{\"offset\":0,\"limit\":20,\"total\":1,\"count\":1,\"results\":[{\"id\":1009351,\"name\":\"Hulk\",\"description\":\"Caught
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"a81da1024c59e0f1fae203da388374c77da99fd2\",\"data\":{\"offset\":0,\"limit\":20,\"total\":1,\"count\":1,\"results\":[{\"id\":1009351,\"name\":\"Hulk\",\"description\":\"Caught
         in a gamma bomb explosion while trying to save the life of a teenager, Dr.
         Bruce Banner was transformed into the incredibly powerful creature called
         the Hulk. An all too often misunderstood hero, the angrier the Hulk gets,
@@ -47,25 +47,25 @@ http_interactions:
         (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6952\",\"name\":\"Avengers
         (1996) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17490\",\"name\":\"Avengers
         (1998) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7174\",\"name\":\"Avengers
-        (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17523\",\"name\":\"Avengers
-        (1998) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17758\",\"name\":\"Avengers
-        (1996) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17759\",\"name\":\"Avengers
-        (1996) #5\"}],\"returned\":20},\"series\":{\"available\":314,\"collectionURI\":\"http://gateway.marvel.com/v1/public/characters/1009351/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15276\",\"name\":\"5
-        Ronin (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/12429\",\"name\":\"5
-        Ronin (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/458\",\"name\":\"Actor
+        (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17758\",\"name\":\"Avengers
+        (1996) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17523\",\"name\":\"Avengers
+        (1998) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17759\",\"name\":\"Avengers
+        (1996) #5\"}],\"returned\":20},\"series\":{\"available\":314,\"collectionURI\":\"http://gateway.marvel.com/v1/public/characters/1009351/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/12429\",\"name\":\"5
+        Ronin (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15276\",\"name\":\"5
+        Ronin (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/458\",\"name\":\"Actor
         Presents Spider-Man and the Incredible Hulk (2003)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13896\",\"name\":\"Age
         of X: Universe (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7231\",\"name\":\"All-New
         Savage She-Hulk (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2116\",\"name\":\"Alpha
         Flight (1983 - 1994)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1987\",\"name\":\"Amazing
         Spider-Man (1963 - 1998)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/454\",\"name\":\"Amazing
         Spider-Man (1999 - 2013)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2984\",\"name\":\"Amazing
-        Spider-Man Annual (1964 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1991\",\"name\":\"Avengers
+        Spider-Man Annual (1964 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/354\",\"name\":\"Avengers
+        (1998 - 2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1991\",\"name\":\"Avengers
         (1963 - 1996)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3621\",\"name\":\"Avengers
         (1996 - 1997)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9085\",\"name\":\"Avengers
-        (2010 - 2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/354\",\"name\":\"Avengers
-        (1998 - 2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10035\",\"name\":\"Avengers
-        & the Infinity Gauntlet (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9859\",\"name\":\"Avengers
-        & the Infinity Gauntlet (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1988\",\"name\":\"Avengers
+        (2010 - 2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9859\",\"name\":\"Avengers
+        & the Infinity Gauntlet (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10035\",\"name\":\"Avengers
+        & the Infinity Gauntlet (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1988\",\"name\":\"Avengers
         Annual (1967 - 1994)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15373\",\"name\":\"AVENGERS
         ASSEMBLE (2012 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1340\",\"name\":\"Avengers
         Assemble (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1816\",\"name\":\"Avengers

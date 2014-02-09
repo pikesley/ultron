@@ -15,8 +15,7 @@ module Ultron
       @character['name'].should == 'Phoenix'
     end
 
-    it 'should have a of comics set', :vcr do
-      pending 'getting way ahead of myself'
+    it 'should have a comics set', :vcr do
       @character.comics.class.should == Ultron::ComicsSet
     end
   end

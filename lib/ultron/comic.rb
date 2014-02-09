@@ -17,9 +17,13 @@ module Ultron
       results[key]
     end
 
+    def method_missing method_name, *args
+      results.send(method_name)
+    end
+
     def results
       @results || begin
-        @cnxn.perform['data']['results'].first
+        OpenStruct.new @cnxn.perform['data']['results'].first
       end
     end
   end

@@ -1,0 +1,18 @@
+require 'spec_helper'
+
+module Ultron
+  describe ComicsSet do
+    before :each do
+      Timecop.freeze '2014-02-08T21:20:00+00:00'
+      @set = ComicsSet.new 'characters/1009496'
+    end
+
+    after :each do
+      Timecop.return
+    end
+
+    it 'should have the correct first comic', :vcr do
+      @set[0].title.should == 'Uncanny X-Force'
+    end
+  end
+end
