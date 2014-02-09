@@ -1,18 +1,12 @@
 module Ultron
   module API
-    class Comics
+    class Comics < Entities
       def initialize
-        @cnxn = Ultron::Connection.new 'comics'
+        super 'comics'
       end
 
       def [] key
         Comic.new results[key]['id']
-      end
-
-      def results
-        @results || begin
-          @cnxn.perform['data']['results']
-        end
       end
     end
   end
