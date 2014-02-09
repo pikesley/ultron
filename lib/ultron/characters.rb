@@ -5,7 +5,7 @@ module Ultron
     end
 
     def [] key
-      results[key]
+      Character.new results[key]['id']
     end
 
     def results

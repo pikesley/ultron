@@ -10,5 +10,6 @@ require 'ultron/connection'
 require 'ultron/characters'
 require 'ultron/character'
 require 'ultron/comic'
+require 'ultron/comics_set'
 
 require 'pry'

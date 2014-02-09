@@ -7,6 +7,10 @@ module Ultron
       @comic = Ultron::Comic.new 12518
     end
 
+    after :each do
+      Timecop.return
+    end
+
     it 'should have the correct title', :vcr do
       @comic.title.should == 'Uncanny X-Men'
     end
