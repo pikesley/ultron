@@ -14,5 +14,9 @@ module Ultron
     it 'should have the correct year', :vcr do
       @comic.year.should == 1963
     end
+
+    it 'should have openstruct method-style attribute accessors', :vcr do
+      @comic.issueNumber.should == 67
+    end
   end
 end
