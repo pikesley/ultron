@@ -24,4 +24,4 @@ To actually use it you need an API key and secret which you can get from [here](
 
 ## Alpha alpha alpha
 
-I'm working this out as I go along, please don't rely on my API changing beyond all recognition before I'm done.
+I'm working this out as I go along, my API is liable to get bent out of all recognition before I'm done.
