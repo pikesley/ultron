@@ -9,6 +9,7 @@ require 'ultron/connection'
 
 require 'ultron/api/entity'
 require 'ultron/api/entities'
+require 'ultron/api/entity_set'
 
 require 'ultron/api/character'
 require 'ultron/api/characters'
