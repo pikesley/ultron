@@ -17,7 +17,7 @@ module Ultron
       end
 
       it 'should have a comics set', :vcr do
-        @character.comics.class.should == Ultron::API::ComicsSet
+        @character.comics.class.should == ComicsSet
       end
     end
   end

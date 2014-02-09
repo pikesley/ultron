@@ -20,7 +20,9 @@ module Ultron
         @comic.issueNumber.should == 67
       end
 
-      it 'should have a list of characters', :vcr
+      it 'should have a list of characters', :vcr do
+        @comic.characters.class.should == CharacterSet
+      end
     end
   end
 end

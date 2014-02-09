@@ -5,6 +5,10 @@ module Ultron
         @id = id
         super 'comics/%s' % @id
       end
+
+      def characters
+        CharacterSet.new @id
+      end
     end
   end
 end

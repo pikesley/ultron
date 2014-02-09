@@ -29,6 +29,18 @@ module Ultron
           @comic['resourceURI'].should == 'http://gateway.marvel.com/v1/public/comics/41530'
         end
       end
+
+      context 'parameterize the request', :vcr do
+        it 'should let us set a limit', :vcr do
+          @comics.add_params limit: 1
+          @comics.length.should == 1
+        end
+
+        it 'should let us set a dateRange', :vcr do
+          @comics.add_params dateRange: '1980-01-01,1990-01-01'
+          @comics[0].title.should == 'Wolverine (1988) #20'
+        end
+      end
     end
   end
 end
