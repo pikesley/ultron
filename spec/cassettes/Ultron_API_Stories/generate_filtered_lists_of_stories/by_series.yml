@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/series/9981/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 21f467fa55cd6b967231d41d12f46de98b3ec6e7
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '8918'
+      Date:
+      - Mon, 10 Feb 2014 21:14:12 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"21f467fa55cd6b967231d41d12f46de98b3ec6e7\",\"data\":{\"offset\":0,\"limit\":20,\"total\":6,\"count\":6,\"results\":[{\"id\":74310,\"title\":\"Cover
+        #74310\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74310\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74310},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}},{\"id\":74311,\"title\":\"Interior #74311\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74311\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":2},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74311},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}},{\"id\":74312,\"title\":\"Cover #74312\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74312\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciler\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74312},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}},{\"id\":74313,\"title\":\"Interior #74313\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74313\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74313},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}},{\"id\":74318,\"title\":\"Cover #74318\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74318\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"artist\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74318},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}},{\"id\":74319,\"title\":\"Interior #74319\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74319\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74319},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/series/9981/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 21f467fa55cd6b967231d41d12f46de98b3ec6e7
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '8918'
+      Date:
+      - Mon, 10 Feb 2014 21:14:19 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"21f467fa55cd6b967231d41d12f46de98b3ec6e7\",\"data\":{\"offset\":0,\"limit\":20,\"total\":6,\"count\":6,\"results\":[{\"id\":74310,\"title\":\"Cover
+        #74310\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74310\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74310},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74310/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}},{\"id\":74311,\"title\":\"Interior #74311\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74311\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":2},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74311},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74311/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"}},{\"id\":74312,\"title\":\"Cover #74312\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74312\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciler\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74312},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74312/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}},{\"id\":74313,\"title\":\"Interior #74313\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74313\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74313},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74313/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"}},{\"id\":74318,\"title\":\"Cover #74318\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74318\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"artist\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74318},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74318/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}},{\"id\":74319,\"title\":\"Interior #74319\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74319\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":74319},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"name\":\"X-Men:
+        Hellbound (2010)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/74319/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0

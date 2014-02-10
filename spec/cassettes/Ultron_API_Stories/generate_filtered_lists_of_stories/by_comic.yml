@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/comics/41540/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 71c83e4b640e4dd931f8a1ada9cf028ce0f7f97e
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2704'
+      Date:
+      - Mon, 10 Feb 2014 21:06:44 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"71c83e4b640e4dd931f8a1ada9cf028ce0f7f97e\",\"data\":{\"offset\":0,\"limit\":20,\"total\":2,\"count\":2,\"results\":[{\"id\":93966,\"title\":\"Cover
+        #93966\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/93966\",\"type\":\"cover\",\"modified\":\"2012-03-28T10:09:05-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/300\",\"name\":\"Kyle
+        Baker\",\"role\":\"artist\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":93966},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15482\",\"name\":\"Deadpool
+        Max 2 (2011 - 2012)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}},{\"id\":93967,\"title\":\"Interior #93967\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/93967\",\"type\":\"story\",\"modified\":\"2012-03-28T10:08:29-0400\",\"thumbnail\":null,\"creators\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/300\",\"name\":\"Kyle
+        Baker\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1227\",\"name\":\"David
+        Lapham\",\"role\":\"writer\"}],\"returned\":2},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":93967},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15482\",\"name\":\"Deadpool
+        Max 2 (2011 - 2012)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/comics/41540/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 71c83e4b640e4dd931f8a1ada9cf028ce0f7f97e
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2704'
+      Date:
+      - Mon, 10 Feb 2014 21:06:39 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"71c83e4b640e4dd931f8a1ada9cf028ce0f7f97e\",\"data\":{\"offset\":0,\"limit\":20,\"total\":2,\"count\":2,\"results\":[{\"id\":93966,\"title\":\"Cover
+        #93966\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/93966\",\"type\":\"cover\",\"modified\":\"2012-03-28T10:09:05-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/300\",\"name\":\"Kyle
+        Baker\",\"role\":\"artist\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":93966},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15482\",\"name\":\"Deadpool
+        Max 2 (2011 - 2012)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93966/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}},{\"id\":93967,\"title\":\"Interior #93967\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/93967\",\"type\":\"story\",\"modified\":\"2012-03-28T10:08:29-0400\",\"thumbnail\":null,\"creators\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/300\",\"name\":\"Kyle
+        Baker\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1227\",\"name\":\"David
+        Lapham\",\"role\":\"writer\"}],\"returned\":2},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/characters\",\"items\":[],\"returned\":0},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":93967},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15482\",\"name\":\"Deadpool
+        Max 2 (2011 - 2012)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/93967/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/41540\",\"name\":\"Deadpool
+        Max 2 (2011) #5\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0
