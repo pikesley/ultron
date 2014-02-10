@@ -17,7 +17,7 @@ module Ultron
       end
 
       it 'should have a list of characters', :vcr do
-        @event.characters.class.should == CharacterSet
+        @event.characters.class.should == Characters
         @event.characters[0].name.should == 'Ultron'
       end
     end

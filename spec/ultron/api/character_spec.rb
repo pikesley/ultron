@@ -21,7 +21,7 @@ module Ultron
       end
 
       it 'should have an events set', :vcr do
-        @character.events.class.should == EventSet
+        @character.events.class.should == Events
         @character.has_events?.should == false
       end
 

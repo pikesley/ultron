@@ -25,6 +25,10 @@ module Ultron
         results[0]
       end
 
+      def any?
+        results.any?
+      end
+
       def results
         @results || begin
           @cnxn.perform['data']['results']

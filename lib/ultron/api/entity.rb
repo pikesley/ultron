@@ -24,11 +24,11 @@ module Ultron
       end
 
       def characters
-        CharacterSet.new @path
+        Characters.new '%s/characters' % @path
       end
 
       def events
-        EventSet.new @path
+        Events.new '%s/events' % @path
       end
 
       def has_events?
