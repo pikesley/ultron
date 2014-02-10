@@ -25,6 +25,10 @@ module Ultron
         results[0]
       end
 
+      def last
+        results[-1]
+      end
+
       def any?
         results.any?
       end

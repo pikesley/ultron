@@ -15,13 +15,12 @@ require 'ultron/api/characters'
 
 require 'ultron/api/comic'
 require 'ultron/api/comics'
-require 'ultron/api/comic_set'
 
 require 'ultron/api/creator'
+require 'ultron/api/creators'
 
 require 'ultron/api/event'
 require 'ultron/api/events'
-require 'ultron/api/event_set'
 
 require 'ultron/api/series'
 require 'ultron/api/serieses'

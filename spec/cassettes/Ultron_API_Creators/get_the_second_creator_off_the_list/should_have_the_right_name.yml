@@ -1,0 +1,384 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/creators?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&offset=600&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 647b9f7c00603e25d7432bf7d0a4dd246435ef75
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '55093'
+      Date:
+      - Mon, 10 Feb 2014 16:18:12 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"647b9f7c00603e25d7432bf7d0a4dd246435ef75\",\"data\":{\"offset\":600,\"limit\":20,\"total\":5558,\"count\":20,\"results\":[{\"id\":10137,\"firstName\":\"Michele\",\"middleName\":\"\",\"lastName\":\"Bertilorenzi\",\"suffix\":\"\",\"fullName\":\"Michele
+        Bertilorenzi\",\"modified\":\"2013-01-28T16:38:23-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10137\",\"comics\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10137/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36473\",\"name\":\"Daken:
+        Dark Wolverine (2010) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36474\",\"name\":\"Daken:
+        Dark Wolverine (2010) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36472\",\"name\":\"Daken:
+        Dark Wolverine (2010) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/40525\",\"name\":\"Daken:
+        Dark Wolverine (2010) #19\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/34286\",\"name\":\"Daredevil:
+        Black and White (2010) #1\"}],\"returned\":5},\"series\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10137/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9368\",\"name\":\"Daken:
+        Dark Wolverine (2010 - 2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/11676\",\"name\":\"Daredevil:
+        Black and White (2010)\"}],\"returned\":2},\"stories\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10137/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76454\",\"name\":\"Interior
+        #76454\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80974\",\"name\":\"Interior
+        #80974\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80976\",\"name\":\"Daken:
+        Dark Wolverine (2010) #14 - Int\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80978\",\"name\":\"Interior
+        #80978\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81770\",\"name\":\"Interior
+        #81770\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/91873\",\"name\":\"Interior
+        #91873\",\"type\":\"interiorStory\"}],\"returned\":6},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10137/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/10137/michele_bertilorenzi?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":9181,\"firstName\":\"Nicholas\",\"middleName\":\"\",\"lastName\":\"Bertozzi\",\"suffix\":\"\",\"fullName\":\"Nicholas
+        Bertozzi\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/1/20/4bb3bba51fc0b\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9181\",\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/31489\",\"name\":\"Strange
+        Tales (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/25919\",\"name\":\"Strange
+        Tales (2009) #1\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8098\",\"name\":\"Strange
+        Tales (2009 - 2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9260\",\"name\":\"Strange
+        Tales (2010 - Present)\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57124\",\"name\":\"Interior
+        #57124\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/71667\",\"name\":\"Interior
+        #71667\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/9181/nicholas_bertozzi?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":4225,\"firstName\":\"Jimmy\",\"middleName\":\"\",\"lastName\":\"Betancourt\",\"suffix\":\"\",\"fullName\":\"Jimmy
+        Betancourt\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4225\",\"comics\":{\"available\":25,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4225/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12613\",\"name\":\"Black
+        Panther (1998) #44\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7381\",\"name\":\"Cable
+        (1993) #105\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1043\",\"name\":\"Cable
+        Vol. II: The End (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/15635\",\"name\":\"Daredevil
+        (1998) #33\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/957\",\"name\":\"Daredevil
+        Vol. V: Out (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20037\",\"name\":\"Ghost
+        Rider (2001) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1062\",\"name\":\"Ghost
+        Rider: The Hammer Lane (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/19940\",\"name\":\"Iron
+        Man (1998) #64\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5451\",\"name\":\"New
+        X-Men (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14945\",\"name\":\"New
+        X-Men (2001) #126\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14951\",\"name\":\"New
+        X-Men (2001) #132\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14956\",\"name\":\"New
+        X-Men (2001) #137\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/2592\",\"name\":\"New
+        X-Men Vol. 2: Imperial (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/994\",\"name\":\"New
+        X-Men Vol. III: New Worlds (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10915\",\"name\":\"Spider-Man's
+        Tangled Web (2001) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10917\",\"name\":\"Spider-Man's
+        Tangled Web (2001) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1007\",\"name\":\"Spider-Man's
+        Tangled Web Vol. III (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1113\",\"name\":\"Thor
+        Vol. 3: Gods on Earth (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/15708\",\"name\":\"Ultimate
+        X-Men (2000) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16226\",\"name\":\"Ultimate
+        X-Men Ultimate Collection Book 2 (Trade Paperback)\"}],\"returned\":20},\"series\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4225/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2115\",\"name\":\"Black
+        Panther (1998 - 2003)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1995\",\"name\":\"Cable
+        (1993 - 2002)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/103\",\"name\":\"Cable
+        Vol. II: The End (2002)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/449\",\"name\":\"Daredevil
+        (1998 - 2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/22\",\"name\":\"Daredevil
+        Vol. V: Out (2005)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3733\",\"name\":\"Ghost
+        Rider (2001 - 2002)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/122\",\"name\":\"Ghost
+        Rider: The Hammer Lane (1999)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2572\",\"name\":\"Iron
+        Man (1998 - 2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2281\",\"name\":\"New
+        X-Men (2001 - 2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1807\",\"name\":\"New
+        X-Men (2006)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1166\",\"name\":\"New
+        X-Men Vol. 2: Imperial (2005)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/56\",\"name\":\"New
+        X-Men Vol. III: New Worlds (1999)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2071\",\"name\":\"Spider-Man's
+        Tangled Web (2001 - 2003)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/69\",\"name\":\"Spider-Man's
+        Tangled Web Vol. III (2002)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/173\",\"name\":\"Thor
+        Vol. 3: Gods on Earth (2003)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/474\",\"name\":\"Ultimate
+        X-Men (2000 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2719\",\"name\":\"Ultimate
+        X-Men Ultimate Collection Book 2 (2007)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1168\",\"name\":\"Ultimate
+        X-Men Vol. 3: World Tour (2005)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/82\",\"name\":\"Ultimate
+        X-Men Vol. III: World Tour (2002)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2262\",\"name\":\"Wolverine
+        (1988 - 2003)\"}],\"returned\":20},\"stories\":{\"available\":13,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4225/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/24182\",\"name\":\"Don't
+        Forget to Tip Your Waitress\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/25090\",\"name\":\"Jay
+        Leno & Spider-Man: One Night Only! Part Two (Don't Forget to Tip Your Waitress)\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/25418\",\"name\":\"The
+        Last Shoot\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/25429\",\"name\":\"Heartbreaker\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/28766\",\"name\":\"See
+        Ya Around, Frankie\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/28768\",\"name\":\"Down
+        the Road\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/30427\",\"name\":\"Riot
+        at Xavier's\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/30438\",\"name\":\"Ambient
+        Magnetic Fields\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/30455\",\"name\":\"Interior
+        #30455\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/31978\",\"name\":\"Jay
+        Leno and Spider-Man: One Night Only Part 3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32084\",\"name\":\"Jay
+        Leno & Spider-Man: One Night Only! (Don't Forget to Tip Your Waitress) Part
+        Three\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42753\",\"name\":\"Standoff
+        Part Two\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42917\",\"name\":\"The
+        Hammer Lane Part 6: Spirit of Forgiveness\",\"type\":\"interiorStory\"}],\"returned\":13},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4225/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/4225/jimmy_betancourt?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":4676,\"firstName\":\"Bev\",\"middleName\":\"\",\"lastName\":\"Beveridge\",\"suffix\":\"\",\"fullName\":\"Bev
+        Beveridge\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4676\",\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4676/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5785\",\"name\":\"Champions
+        Classic Vol. 2 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1585\",\"name\":\"Essential
+        Peter Parker, the Spectacular Spider-Man Vol. (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14631\",\"name\":\"Peter
+        Parker, the Spectacular Spider-Man (1976) #18\"}],\"returned\":3},\"series\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4676/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1721\",\"name\":\"Champions
+        Classic Vol. 2 (2007)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1427\",\"name\":\"Essential
+        Peter Parker, the Spectacular Spider-Man Vol. (2005)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2271\",\"name\":\"Peter
+        Parker, the Spectacular Spider-Man (1976 - 1998)\"}],\"returned\":3},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4676/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/29708\",\"name\":\"My
+        Friend, My Foe!\",\"type\":\"interiorStory\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4676/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/4676/bev_beveridge?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":2765,\"firstName\":\"Mary\",\"middleName\":\"\",\"lastName\":\"Beveridge\",\"suffix\":\"\",\"fullName\":\"Mary
+        Beveridge\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2765\",\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/2765/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7604\",\"name\":\"Captain
+        America (1968) #223\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8737\",\"name\":\"Ghost
+        Rider (1973) #30\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8738\",\"name\":\"Ghost
+        Rider (1973) #31\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10299\",\"name\":\"Ms.
+        Marvel (1977) #20\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12166\",\"name\":\"What
+        If? (1977) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3633\",\"name\":\"What
+        If? Classic Volume 2 (Trade Paperback)\"}],\"returned\":6},\"series\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/2765/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1996\",\"name\":\"Captain
+        America (1968 - 1996)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2013\",\"name\":\"Ghost
+        Rider (1973 - 1983)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2050\",\"name\":\"Ms.
+        Marvel (1977 - 1979)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2095\",\"name\":\"What
+        If? (1977 - 1984)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/360\",\"name\":\"What
+        If? Classic Volume 2 (2005)\"}],\"returned\":5},\"stories\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/2765/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/17705\",\"name\":\"Call
+        Me Animus\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/20248\",\"name\":\"The
+        Mage and the Monster!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/20250\",\"name\":\"Demon's
+        Rage!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/20625\",\"name\":\"The
+        All-New Ms. Marvel\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/20874\",\"name\":\"What
+        if the World Knew Daredevil was Blind?\",\"type\":\"interiorStory\"}],\"returned\":5},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/2765/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/2765/mary_beveridge?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":8001,\"firstName\":\"Alex\",\"middleName\":\"\",\"lastName\":\"Bialy\",\"suffix\":\"\",\"fullName\":\"Alex
+        Bialy\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8001\",\"comics\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/8001/comics\",\"items\":[],\"returned\":0},\"series\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/8001/series\",\"items\":[],\"returned\":0},\"stories\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/8001/stories\",\"items\":[],\"returned\":0},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/8001/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/8001/alex_bialy?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":648,\"firstName\":\"Simone\",\"middleName\":\"\",\"lastName\":\"Bianchi\",\"suffix\":\"\",\"fullName\":\"Simone
+        Bianchi\",\"modified\":\"2013-09-10T10:10:14-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/30/4bc5a8bb82ff1\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/648\",\"comics\":{\"available\":147,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/648/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/38524\",\"name\":\"Age
+        of X: Universe (2011) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/38523\",\"name\":\"Age
+        of X: Universe (2011) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20961\",\"name\":\"Amazing
+        Spider-Man (1999) #555 (VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28227\",\"name\":\"Amazing
+        Spider-Man (1999) #622\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/38462\",\"name\":\"Astonishing
+        Spider-Man & Wolverine: Another Fine Mess (2011) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21511\",\"name\":\"Astonishing
+        X-Men (2004) #25\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21714\",\"name\":\"Astonishing
+        X-Men (2004) #26\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21941\",\"name\":\"Astonishing
+        X-Men (2004) #27\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23087\",\"name\":\"Astonishing
+        X-Men (2004) #28\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23937\",\"name\":\"Astonishing
+        X-Men (2004) #29\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24501\",\"name\":\"Astonishing
+        X-Men (2004) #30\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24518\",\"name\":\"Astonishing
+        X-Men: Ghost Box (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22381\",\"name\":\"Astonishing
+        X-Men: Ghost Boxes (2008) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22572\",\"name\":\"Astonishing
+        X-Men: Ghost Boxes (2008) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/49555\",\"name\":\"Avengers
+        (2012) #24 (Bianchi Sketch Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/46932\",\"name\":\"Avengers
+        (2012) #24 (Bianchi Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/50002\",\"name\":\"Avengers
+        World (2014) #2 (Bianchi Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/30372\",\"name\":\"Black
+        Panther: The Man Without Fear (2010) #513\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/38932\",\"name\":\"Black
+        Panther: The Man Without Fear (2010) #513 (2nd Printing Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/30373\",\"name\":\"Black
+        Panther: The Man Without Fear (2010) #514\"}],\"returned\":20},\"series\":{\"available\":66,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/648/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13896\",\"name\":\"Age
+        of X: Universe (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/454\",\"name\":\"Amazing
+        Spider-Man (1999 - 2013)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13864\",\"name\":\"Astonishing
+        Spider-Man & Wolverine: Another Fine Mess (2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/744\",\"name\":\"Astonishing
+        X-Men (2004 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8916\",\"name\":\"Astonishing
+        X-Men: Ghost Box (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5998\",\"name\":\"Astonishing
+        X-Men: Ghost Boxes (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/16452\",\"name\":\"Avengers
+        (2012 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/18398\",\"name\":\"Avengers
+        World (2014 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15691\",\"name\":\"Black
+        Panther: The Man Without Fear (2010 - 2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13165\",\"name\":\"Black
+        Panther: The Man Without Fear - Fear Itself TPB (2010 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/16907\",\"name\":\"Cable
+        and X-Force (2012 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/16516\",\"name\":\"Captain
+        America (2012 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6599\",\"name\":\"Dark
+        Avengers (2009 - 2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8798\",\"name\":\"Dark
+        Avengers/Uncanny X-Men: Exodus (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8799\",\"name\":\"Dark
+        Avengers/Uncanny X-Men: Utopia (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7687\",\"name\":\"Dark
+        Reign: Fantastic Four (2009 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7000\",\"name\":\"Dark
+        Reign: Fantastic Four (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7707\",\"name\":\"Dark
+        Wolverine (2009 - 2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9424\",\"name\":\"Dark
+        X-Men (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9051\",\"name\":\"Dark
+        X-Men (2009)\"}],\"returned\":20},\"stories\":{\"available\":232,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/648/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/2243\",\"name\":\"1
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/2244\",\"name\":\"1
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7641\",\"name\":\"2
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7642\",\"name\":\"2
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7643\",\"name\":\"3
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7644\",\"name\":\"3
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8111\",\"name\":\"3
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8112\",\"name\":\"3
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8113\",\"name\":\"4
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8114\",\"name\":\"4
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8115\",\"name\":\"4
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8116\",\"name\":\"4
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8586\",\"name\":\"5
+        of 6 - Evolution / No Cover or Interior Ads! UPC on Cv4!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8587\",\"name\":\"5
+        of 6 - Evolution / No Cover or Interior Ads! UPC on Cv4!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8588\",\"name\":\"5
+        of 6 - Evolution\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8589\",\"name\":\"5
+        of 6 - Evolution\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32309\",\"name\":\"THE
+        INITIATIVE BANNER\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32526\",\"name\":\"6
+        of 6 - Evolution / No Cover or Interior Ads! UPC on Cv4!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32527\",\"name\":\"6
+        of 6 - Evolution / No Cover or Interior Ads! UPC on Cv4!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32528\",\"name\":\"6
+        of 6 - Evolution\",\"type\":\"cover\"}],\"returned\":20},\"events\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/648/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/303\",\"name\":\"Age
+        of X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/302\",\"name\":\"Fear
+        Itself\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/317\",\"name\":\"Inhumanity\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/255\",\"name\":\"Initiative\"}],\"returned\":5},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/648/simone_bianchi?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":4583,\"firstName\":\"Steve\",\"middleName\":\"\",\"lastName\":\"Biasi\",\"suffix\":\"\",\"fullName\":\"Steve
+        Biasi\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4583\",\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4583/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14187\",\"name\":\"Wolverine
+        (1988) #65\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14188\",\"name\":\"Wolverine
+        (1988) #66\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/14190\",\"name\":\"Wolverine
+        (1988) #68\"}],\"returned\":3},\"series\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4583/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2262\",\"name\":\"Wolverine
+        (1988 - 2003)\"}],\"returned\":1},\"stories\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4583/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/28891\",\"name\":\"State
+        of Grace\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/28893\",\"name\":\"Prophecy\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/28897\",\"name\":\"Epsilon
+        Red\",\"type\":\"interiorStory\"}],\"returned\":3},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/4583/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/4583/steve_biasi?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":12007,\"firstName\":\"Leslie\",\"middleName\":\"\",\"lastName\":\"Bibb\",\"suffix\":\"\",\"fullName\":\"Leslie
+        Bibb\",\"modified\":\"2013-08-30T15:18:42-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/40/5220efff2dca9\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/12007\",\"comics\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/12007/comics\",\"items\":[],\"returned\":0},\"series\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/12007/series\",\"items\":[],\"returned\":0},\"stories\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/12007/stories\",\"items\":[],\"returned\":0},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/12007/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/12007/leslie_bibb?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":5179,\"firstName\":\"Seth\",\"middleName\":\"\",\"lastName\":\"Biederman\",\"suffix\":\"\",\"fullName\":\"Seth
+        Biederman\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5179\",\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5179/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23010\",\"name\":\"Astonishing
+        X-Men Vol. 2 (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21635\",\"name\":\"Captain
+        Marvel: Secret Invasion Premiere (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22402\",\"name\":\"Elektra
+        by Frank Miller Omnibus (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16654\",\"name\":\"Legion
+        of Monsters (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21426\",\"name\":\"Marvel
+        Zombies 2 (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17326\",\"name\":\"Punisher
+        War Journal Vol. 2: Goin' Out West Premiere (Hardcover)\"}],\"returned\":6},\"series\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5179/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6422\",\"name\":\"Astonishing
+        X-Men Vol. 2 (2008 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5259\",\"name\":\"Captain
+        Marvel: Secret Invasion Premiere (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6023\",\"name\":\"Elektra
+        by Frank Miller Omnibus (2008 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2961\",\"name\":\"Legion
+        of Monsters (2007)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5064\",\"name\":\"Marvel
+        Zombies 2 (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3128\",\"name\":\"Punisher
+        War Journal Vol. 2: Goin' Out West Premiere (2007)\"}],\"returned\":6},\"stories\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5179/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/33594\",\"name\":\"Legion
+        of Monsters: Werewolf by Night, Morbius, Man-Thing, Satana; Dead of Night
+        11, Marvel Spotlight 26, Marvel Two-In-One 18, \",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/36318\",\"name\":\"Punisher
+        War Journal 5-9\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47316\",\"name\":\"Marvel
+        Zombies 2 1-5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47688\",\"name\":\"Captain
+        Marvel 1-5, Civil War: The Return\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49319\",\"name\":\"Elektra:
+        Assassin 1-8, Elektra Lives Again, Bizarre Adventures 28, What If? 35\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/51064\",\"name\":\"Astonishing
+        X-Men 13-24, Giant-Size Astonishing X-Men 1\",\"type\":\"interiorStory\"}],\"returned\":6},\"events\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5179/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/255\",\"name\":\"Initiative\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/269\",\"name\":\"Secret
+        Invasion\"}],\"returned\":2},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/5179/seth_biederman?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":5486,\"firstName\":\"Jessica\",\"middleName\":\"\",\"lastName\":\"Biel\",\"suffix\":\"\",\"fullName\":\"Jessica
+        Biel\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5486\",\"comics\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5486/comics\",\"items\":[],\"returned\":0},\"series\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5486/series\",\"items\":[],\"returned\":0},\"stories\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5486/stories\",\"items\":[],\"returned\":0},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5486/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/5486/jessica_biel?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":9560,\"firstName\":\"Tom\",\"middleName\":\"\",\"lastName\":\"Bierbaum\",\"suffix\":\"\",\"fullName\":\"Tom
+        Bierbaum\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9560\",\"comics\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9560/comics\",\"items\":[],\"returned\":0},\"series\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9560/series\",\"items\":[],\"returned\":0},\"stories\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9560/stories\",\"items\":[],\"returned\":0},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9560/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/9560/tom_bierbaum?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":10265,\"firstName\":\"Michael\",\"middleName\":\"\",\"lastName\":\"Bierek\",\"suffix\":\"\",\"fullName\":\"Michael
+        Bierek\",\"modified\":\"2013-01-28T16:39:28-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/70/4bb3cea7e696a\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10265\",\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10265/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/25439\",\"name\":\"Incredible
+        Hercules (2008) #139\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10265/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3762\",\"name\":\"Incredible
+        Hercules (2008 - 2010)\"}],\"returned\":1},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10265/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/56118\",\"name\":\"Cover
+        #56118\",\"type\":\"cover\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10265/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/10265/michael_bierek?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":11922,\"firstName\":\"Yves\",\"middleName\":\"\",\"lastName\":\"Bigerel\",\"suffix\":\"\",\"fullName\":\"Yves
+        Bigerel\",\"modified\":\"2012-09-25T18:23:34-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11922\",\"comics\":{\"available\":12,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11922/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/43556\",\"name\":\"Avengers
+        VS X-Men (2012) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47162\",\"name\":\"Guardians
+        of the Galaxy Infinite Comic (2013) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47163\",\"name\":\"Guardians
+        of the Galaxy Infinite Comic (2013) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47164\",\"name\":\"Guardians
+        of the Galaxy Infinite Comic (2013) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47165\",\"name\":\"Guardians
+        of the Galaxy Infinite Comic (2013) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/46140\",\"name\":\"GUARDIANS
+        OF THE GALAXY VOL. 1: COSMIC AVENGERS PREMIERE HC (MARVEL NOW, WITH DIGITAL
+        CODE) (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/40746\",\"name\":\"New
+        Avengers (2010) #34\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/44528\",\"name\":\"Ultimate
+        Spider-Man Infinite (2012) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47254\",\"name\":\"Wolverine:
+        Japan's Most Wanted Infinite Comic (2013) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47255\",\"name\":\"Wolverine:
+        Japan's Most Wanted Infinite Comic (2013) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47256\",\"name\":\"Wolverine:
+        Japan's Most Wanted Infinite Comic (2013) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/47257\",\"name\":\"Wolverine:
+        Japan's Most Wanted Infinite Comic (2013) #4\"}],\"returned\":12},\"series\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11922/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15305\",\"name\":\"Avengers
+        VS X-Men (2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17755\",\"name\":\"Guardians
+        of the Galaxy Infinite Comic (2013 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17394\",\"name\":\"GUARDIANS
+        OF THE GALAXY VOL. 1: COSMIC AVENGERS PREMIERE HC (MARVEL NOW, WITH DIGITAL
+        CODE) (2013)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9922\",\"name\":\"New
+        Avengers (2010 - 2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/16804\",\"name\":\"Ultimate
+        Spider-Man Infinite (2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/17820\",\"name\":\"Wolverine:
+        Japan's Most Wanted Infinite Comic (2013 - Present)\"}],\"returned\":6},\"stories\":{\"available\":12,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11922/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/92317\",\"name\":\"Interior
+        #92317\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/103829\",\"name\":\"story
+        from Guardians of the Galaxy (2013)\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105904\",\"name\":\"story
+        from Guardians of the Galaxy Infinite Digital Comic (2013) #1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105906\",\"name\":\"story
+        from Guardians of the Galaxy Infinite Digital Comic (2013) #2\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105908\",\"name\":\"story
+        from Guardians of the Galaxy Infinite Digital Comic (2013) #3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/105910\",\"name\":\"story
+        from Guardians of the Galaxy Infinite Digital Comic (2013) #4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106821\",\"name\":\"story
+        from Wolverine Infinite Digital Comic (2013) #1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106823\",\"name\":\"story
+        from Wolverine Infinite Digital Comic (2013) #2\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106825\",\"name\":\"story
+        from Wolverine Infinite Digital Comic (2013) #3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106827\",\"name\":\"story
+        from Wolverine Infinite Digital Comic (2013) #4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/113652\",\"name\":\"Avengers
+        Vs X-Men #10 Infinite\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/113653\",\"name\":\"Ultimate
+        Spider-Man Infinite\",\"type\":\"interiorStory\"}],\"returned\":12},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11922/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/11922/yves_bigerel?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":904,\"firstName\":\"Chris\",\"middleName\":\"\",\"lastName\":\"Biggs\",\"suffix\":\"\",\"fullName\":\"Chris
+        Biggs\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/904\",\"comics\":{\"available\":32,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/904/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3441\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3566\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3970\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4206\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4298\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4773\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20741\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z Vol. 1 Premiere (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21080\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z Vol. 2 (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/15977\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z: Update (2007) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29271\",\"name\":\"Avengers
+        Assemble Handbook (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29273\",\"name\":\"Deadpool
+        Corps: Rank and Foul (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17298\",\"name\":\"Marvel
+        Legacy: The 1960s-1990s Handbook (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4201\",\"name\":\"Marvel
+        Legacy: The 1970s (2006) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/25876\",\"name\":\"Marvel
+        Pets Handbook (2009) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/2191\",\"name\":\"Official
+        Handbook of the Marvel Universe (2004) #15 (AVENGERS)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/2441\",\"name\":\"Official
+        Handbook of the Marvel Universe (2004) #16 (ALTERNATE UNIVERSES)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/2442\",\"name\":\"Official
+        Handbook of the Marvel Universe (2004) #17 (HORROR)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26104\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 11 (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26106\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 11 (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28818\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 12 (Hardcover)\"}],\"returned\":20},\"series\":{\"available\":23,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/904/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1023\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z (2006)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3884\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z Vol. 1 Premiere (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/4600\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z Vol. 2 (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1147\",\"name\":\"All-New
+        Official Handbook of the Marvel Universe a to Z: Update (2007)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9783\",\"name\":\"Avengers
+        Assemble Handbook (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9353\",\"name\":\"Deadpool
+        Corps: Rank and Foul (2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3092\",\"name\":\"Marvel
+        Legacy: The 1960s-1990s Handbook (2007)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1019\",\"name\":\"Marvel
+        Legacy: The 1970s (2006)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8081\",\"name\":\"Marvel
+        Pets Handbook (2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/787\",\"name\":\"Official
+        Handbook of the Marvel Universe (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8171\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 11 (2009 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9217\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 12 (2010 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8850\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 13 (2010 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8851\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 14 (2010 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5092\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 3 Premiere (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5411\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 4 Premiere (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6047\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 5 Premiere (2008 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6447\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 6 Premiere (2008 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7026\",\"name\":\"Official
+        Handbook of the Marvel Universe a to Z Vol. 7 Premiere (2009 - Present)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/846\",\"name\":\"Official
+        Handbook of the Ultimate Marvel Universe 2005 (2005)\"}],\"returned\":20},\"stories\":{\"available\":34,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/904/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4417\",\"name\":\"Interior
+        #4417\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4502\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4617\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4619\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5701\",\"name\":\"Interior
+        #5701\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5713\",\"name\":\"Interior
+        #5713\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5715\",\"name\":\"Interior
+        #5715\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5717\",\"name\":\"Interior
+        #5717\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5721\",\"name\":\"Interior
+        #5721\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5723\",\"name\":\"Interior
+        #5723\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5727\",\"name\":\"Interior
+        #5727\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/32629\",\"name\":\"Interior
+        #32629\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/36251\",\"name\":\"Marvel
+        Legacy: The 1960s, The 1970s, The 1980s, The 1990s Handbooks\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/36466\",\"name\":\"Interior
+        #36466\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44493\",\"name\":\"Interior
+        #44493\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46185\",\"name\":\"Interior
+        #46185\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47372\",\"name\":\"Interior
+        #47372\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47976\",\"name\":\"Interior
+        #47976\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/48142\",\"name\":\"Interior
+        #48142\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49367\",\"name\":\"Interior
+        #49367\",\"type\":\"interiorStory\"}],\"returned\":20},\"events\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/904/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/299\",\"name\":\"Messiah
+        CompleX\"}],\"returned\":2},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/904/chris_biggs?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":11232,\"firstName\":\"CHRISTINA\",\"middleName\":\"L.\",\"lastName\":\"BIGGS\",\"suffix\":\"\",\"fullName\":\"CHRISTINA
+        L. BIGGS\",\"modified\":\"2013-01-28T16:40:30-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11232\",\"comics\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11232/comics\",\"items\":[],\"returned\":0},\"series\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11232/series\",\"items\":[],\"returned\":0},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11232/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/70382\",\"name\":\"Interior
+        #70382\",\"type\":\"interiorStory\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/11232/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/11232/christina_l_biggs?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":5826,\"firstName\":\"Al\",\"middleName\":\"\",\"lastName\":\"Bigley\",\"suffix\":\"\",\"fullName\":\"Al
+        Bigley\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5826\",\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5826/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17845\",\"name\":\"Avengers
+        West Coast Annual (1989) #7\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5826/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3624\",\"name\":\"Avengers
+        West Coast Annual (1989 - 1993)\"}],\"returned\":1},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5826/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37923\",\"name\":\"A
+        Study In Scarlet\",\"type\":\"\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/5826/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/5826/al_bigley?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":6043,\"firstName\":\"Armando\",\"middleName\":\"\",\"lastName\":\"Bil\",\"suffix\":\"\",\"fullName\":\"Armando
+        Bil\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6043\",\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/6043/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/18316\",\"name\":\"What
+        If? (1989) #16\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/6043/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3648\",\"name\":\"What
+        If? (1989 - 1998)\"}],\"returned\":1},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/6043/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/38983\",\"name\":\"What
+        if Wolverine REALLY met Conan the Barbarian?!\",\"type\":\"\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/6043/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/6043/armando_bil?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":10063,\"firstName\":\"Jake\",\"middleName\":\"\",\"lastName\":\"Bilbao\",\"suffix\":\"\",\"fullName\":\"Jake
+        Bilbao\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/00/4baa6d433c448\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10063\",\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10063/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32767\",\"name\":\"Wolverine
+        (2010) #900\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33494\",\"name\":\"Wolverine:
+        Worst There Is (2010) #1\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10063/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9962\",\"name\":\"Wolverine
+        (2010 - 2012)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9831\",\"name\":\"Wolverine:
+        Worst There Is (2010)\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10063/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73873\",\"name\":\"Interior
+        #73873\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75306\",\"name\":\"\",\"type\":\"\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/10063/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/10063/jake_bilbao?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]},{\"id\":3336,\"firstName\":\"Dave\",\"middleName\":\"\",\"lastName\":\"Billman\",\"suffix\":\"\",\"fullName\":\"Dave
+        Billman\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/3336\",\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/3336/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12151\",\"name\":\"What
+        If? (1977) #37\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/3336/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2095\",\"name\":\"What
+        If? (1977 - 1984)\"}],\"returned\":1},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/3336/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/20828\",\"name\":\"What
+        if the Thing Continued to Mutate?\",\"type\":\"interiorStory\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/3336/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/3336/dave_billman?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/creators/9181?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - b3764a64c3f2091006549da7435d34583c34cc6a
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1752'
+      Date:
+      - Mon, 10 Feb 2014 16:18:07 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"b3764a64c3f2091006549da7435d34583c34cc6a\",\"data\":{\"offset\":0,\"limit\":20,\"total\":1,\"count\":1,\"results\":[{\"id\":9181,\"firstName\":\"Nicholas\",\"middleName\":\"\",\"lastName\":\"Bertozzi\",\"suffix\":\"\",\"fullName\":\"Nicholas
+        Bertozzi\",\"modified\":\"2007-01-02T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/1/20/4bb3bba51fc0b\",\"extension\":\"jpg\"},\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9181\",\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/31489\",\"name\":\"Strange
+        Tales (Hardcover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/25919\",\"name\":\"Strange
+        Tales (2009) #1\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/8098\",\"name\":\"Strange
+        Tales (2009 - 2010)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9260\",\"name\":\"Strange
+        Tales (2010 - Present)\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57124\",\"name\":\"Interior
+        #57124\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/71667\",\"name\":\"Interior
+        #71667\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/creators/9181/events\",\"items\":[],\"returned\":0},\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/creators/9181/nicholas_bertozzi?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}]}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0
