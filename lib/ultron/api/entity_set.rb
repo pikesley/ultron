@@ -12,7 +12,7 @@ module Ultron
       end
 
       def each
-        @results.each do |item|
+        results.each do |item|
           yield item
         end
       end

@@ -30,6 +30,10 @@ module Ultron
       def events
         EventSet.new @path
       end
+
+      def has_events?
+        events.any?
+      end
     end
   end
 end
