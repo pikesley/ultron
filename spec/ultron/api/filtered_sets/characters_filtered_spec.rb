@@ -31,10 +31,9 @@ module Ultron
           @set.first['id'].should == 1009726
           @set.first['name'].should == 'X-Men'
         end
-
-        it 'should not generate a list of characters filtered by creator'
-
       end
+
+      it 'should not generate a list of characters filtered by creator'
 
       after :each do
         Timecop.return

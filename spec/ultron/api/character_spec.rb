@@ -28,7 +28,10 @@ module Ultron
       it 'should have a series set', :vcr do
         @character.serieses.class.should == Serieses
       end
-      it 'should have a stories set', :vcr
+
+      it 'should have a stories set', :vcr do
+        @character.stories.class.should == Stories
+      end
     end
   end
 end

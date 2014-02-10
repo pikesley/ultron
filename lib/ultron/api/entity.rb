@@ -27,12 +27,20 @@ module Ultron
         Characters.new '%s/characters' % @path
       end
 
+      def creators
+        Creators.new '%s/creators' % @path
+      end
+
       def events
         Events.new '%s/events' % @path
       end
 
       def serieses
         Serieses.new '%s/serieses' % @path
+      end
+
+      def stories
+        Stories.new '%s/stories' % @path
       end
 
       def has_events?
