@@ -34,6 +34,11 @@ module Ultron
           @cnxn.perform['data']['results']
         end
       end
+
+      def by_name name
+        @cnxn.add_params 'name' => name
+        @cnxn.perform['data']['results'].first
+      end
     end
   end
 end

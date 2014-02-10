@@ -12,7 +12,6 @@ require 'ultron/api/entities'
 
 require 'ultron/api/character'
 require 'ultron/api/characters'
-require 'ultron/api/character_set'
 
 require 'ultron/api/comic'
 require 'ultron/api/comics'

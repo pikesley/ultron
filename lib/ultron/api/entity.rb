@@ -20,7 +20,7 @@ module Ultron
       end
 
       def comics
-        ComicSet.new @path
+        Comics.new '%s/comics' % @path
       end
 
       def characters

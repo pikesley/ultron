@@ -2,10 +2,10 @@ require 'spec_helper'
 
 module Ultron
   module API
-    describe ComicSet do
+    describe Comics do
       before :each do
         Timecop.freeze '2014-02-08T21:20:00+00:00'
-        @set = Ultron::API::ComicSet.new 'characters/1009496'
+        @set = Ultron::API::Comics.new 'characters/1009496/comics'
       end
 
       after :each do
