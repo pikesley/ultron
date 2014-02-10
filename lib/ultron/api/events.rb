@@ -1,8 +1,9 @@
 module Ultron
   module API
     class Events < Entities
-      def initialize
-        super 'events'
+      def initialize path = nil
+        path = 'events' if path.nil?
+        super path
       end
 
       def [] key

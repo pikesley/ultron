@@ -1,8 +1,16 @@
 module Ultron
   module API
     class Entities
+      include Enumerable
+
       def initialize type
         @cnxn = Ultron::Connection.new type
+      end
+
+      def each
+        results.each do |item|
+          yield item
+        end
       end
 
       def add_params params

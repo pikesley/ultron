@@ -1,6 +1,6 @@
 module Ultron
   module API
-    class ComicSet < EntitySet
+    class ComicSet < Entities
       def initialize path
         super '%s/comics' % path
       end

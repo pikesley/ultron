@@ -1,8 +1,9 @@
 module Ultron
   module API
     class Comics < Entities
-      def initialize
-        super 'comics'
+      def initialize path = nil
+        path = 'comics' if path.nil?
+        super path
       end
 
       def [] key

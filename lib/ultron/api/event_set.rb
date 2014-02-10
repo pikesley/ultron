@@ -1,6 +1,6 @@
 module Ultron
   module API
-    class EventSet < EntitySet
+    class EventSet < Entities
       def initialize path
         super '%s/events' % path
       end

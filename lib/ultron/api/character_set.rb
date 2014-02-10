@@ -1,6 +1,6 @@
 module Ultron
   module API
-    class CharacterSet < EntitySet
+    class CharacterSet < Entities
       def initialize path
         super '%s/characters' % path
       end
