@@ -26,8 +26,8 @@ module Ultron
       end
 
       it 'should have a series set', :vcr do
-        pending "This doesn't exist yet"
-        @character.serieses.class.should == SeriesSet
+ #       pending "This doesn't exist yet"
+        @character.serieses.class.should == Serieses
       end
       it 'should have a stories set', :vcr
     end

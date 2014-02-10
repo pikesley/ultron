@@ -31,6 +31,10 @@ module Ultron
         Events.new '%s/events' % @path
       end
 
+      def serieses
+        Serieses.new '%s/serieses' % @path
+      end
+
       def has_events?
         events.any?
       end
