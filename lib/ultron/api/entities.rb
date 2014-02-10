@@ -17,6 +17,10 @@ module Ultron
         @cnxn.add_params params
       end
 
+      def remove_param p
+        @cnxn.remove_param p
+      end
+
       def length
         results.length
       end
@@ -39,10 +43,12 @@ module Ultron
         end
       end
 
-      def by_name name
-        # this can be done with method_missig I think
-        @cnxn.add_params 'name' => name
-        @cnxn.perform['data']['results'].first
+      def method_missing method_name, *args
+        method_name = method_name.to_s
+        if param = method_name.match(/^by_(.*)/)[1]
+          @cnxn.add_params param => args.join(' ')
+          @cnxn.perform['data']['results'].first
+        end
       end
     end
   end
