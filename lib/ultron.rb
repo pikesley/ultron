@@ -9,20 +9,23 @@ require 'ultron/connection'
 
 require 'ultron/api/entity'
 require 'ultron/api/entities'
-require 'ultron/api/entity_set'
 
 require 'ultron/api/character'
 require 'ultron/api/characters'
-require 'ultron/api/character_set'
 
 require 'ultron/api/comic'
 require 'ultron/api/comics'
-require 'ultron/api/comic_set'
 
 require 'ultron/api/creator'
+require 'ultron/api/creators'
 
 require 'ultron/api/event'
 require 'ultron/api/events'
-require 'ultron/api/event_set'
+
+require 'ultron/api/series'
+require 'ultron/api/serieses'
+
+require 'ultron/api/story'
+require 'ultron/api/stories'
 
 require 'pry'

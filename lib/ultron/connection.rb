@@ -13,6 +13,11 @@ module Ultron
       end
     end
 
+    def remove_param p
+      @params ||= {}
+      @params.delete p
+    end
+
     def url
       u = "%s?%s" % [
           Ultron.get_url(@type),

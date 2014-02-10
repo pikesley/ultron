@@ -1,0 +1,497 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/characters/1009367/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - a295c33768e4a4d670c9512aa4adb53126e3d621
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '42684'
+      Date:
+      - Mon, 10 Feb 2014 21:06:30 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"a295c33768e4a4d670c9512aa4adb53126e3d621\",\"data\":{\"offset\":0,\"limit\":20,\"total\":129,\"count\":20,\"results\":[{\"id\":5872,\"title\":\"1
+        of 7 - 7XLS\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5872\",\"type\":\"cover\",\"modified\":\"2012-03-30T09:23:14-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9484\",\"name\":\"Steve
+        McNiven\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5872},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4216\",\"name\":\"Civil
+        War (2006) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/238\",\"name\":\"Civil
+        War\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4216\",\"name\":\"Civil
+        War (2006) #1\"}},{\"id\":5874,\"title\":\"Cover #5874\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5874\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/856\",\"name\":\"Michael
+        Turner\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5874},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4217\",\"name\":\"Civil
+        War (2006) #1 (Turner Variant)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4217\",\"name\":\"Civil
+        War (2006) #1 (Turner Variant)\"}},{\"id\":5882,\"title\":\"Cover #5882\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5882\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9484\",\"name\":\"Steve
+        McNiven\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5882},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4514\",\"name\":\"Civil
+        War (2006) #1 (sketch variant)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4514\",\"name\":\"Civil
+        War (2006) #1 (sketch variant)\"}},{\"id\":6254,\"title\":\"3 of 5 - The Immortal
+        Iron Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/6254\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:06:49-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":6254},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5869\",\"name\":\"Immortal
+        Iron Fist (2006) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5869\",\"name\":\"Immortal
+        Iron Fist (2006) #3\"}},{\"id\":7703,\"title\":\"2 of 6 - Death of the Dream\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7703\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/367\",\"name\":\"Ed
+        Brubaker\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/374\",\"name\":\"Steve
+        Epting\",\"role\":\"penciller\"}],\"returned\":4},\"characters\":{\"available\":13,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010722\",\"name\":\"Human
+        Robot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009378\",\"name\":\"Jessica
+        Jones\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009535\",\"name\":\"Red
+        Skull\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009379\",\"name\":\"Rick
+        Jones\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009228\",\"name\":\"Sharon
+        Carter\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010898\",\"name\":\"Sin\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010795\",\"name\":\"Spider-Woman
+        (Charlotte Witter)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010740\",\"name\":\"The
+        Winter Soldier\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":13},\"series\":{\"available\":3,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":7703},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/832\",\"name\":\"Captain
+        America (2004 - 2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5061\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3127\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 Premiere (2007)\"}],\"returned\":3},\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6152\",\"name\":\"Captain
+        America (2004) #26\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21424\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17325\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 Premiere (Hardcover)\"}],\"returned\":3},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/255\",\"name\":\"Initiative\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6152\",\"name\":\"Captain
+        America (2004) #26\"}},{\"id\":7916,\"title\":\"4 of 5 - The Immortal Iron
+        Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7916\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:06:43-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010888\",\"name\":\"Iron
+        Fist (Orson Randall)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":7916},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"}},{\"id\":8365,\"title\":\"4 of 5 - The Immortal Iron
+        Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8365\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010888\",\"name\":\"Iron
+        Fist (Orson Randall)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":8365},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"}},{\"id\":8701,\"title\":\"1 of 2 - Story A\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8701\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:11:57-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":8701},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13487\",\"name\":\"Immortal
+        Iron Fist (2006) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13487\",\"name\":\"Immortal
+        Iron Fist (2006) #6\"}},{\"id\":15889,\"title\":\"Daredevil Meets Power Man
+        & Iron Fist!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/15889\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/570\",\"name\":\"Klaus
+        Janson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/17\",\"name\":\"Frank
+        Miller\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1226\",\"name\":\"Dennis
+        Oneil\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":15889},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1911\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5998\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (Hardcover)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"}},{\"id\":15891,\"title\":\"\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/15891\",\"type\":\"promo\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2050\",\"name\":\"Denys
+        Cowan\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/399\",\"name\":\"Jim
+        Novak\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1226\",\"name\":\"Dennis
+        Oneil\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":15891},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1911\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5998\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (Hardcover)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"}},{\"id\":18749,\"title\":\"Days of Rage\",\"description\":\"Hulk
+        returns to savagery and is exiled from Earth.\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/18749\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/105\",\"name\":\"Sal
+        Buscema\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/966\",\"name\":\"Bill
+        Mantlo\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/399\",\"name\":\"Jim
+        Novak\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1863\",\"name\":\"Carl
+        Potts\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1832\",\"name\":\"Bob
+        Sharen\",\"role\":\"colorist\"}],\"returned\":5},\"characters\":{\"available\":8,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009282\",\"name\":\"Doctor
+        Strange\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009351\",\"name\":\"Hulk\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009562\",\"name\":\"Scarlet
+        Witch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009664\",\"name\":\"Thor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009707\",\"name\":\"Wasp\"}],\"returned\":8},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":18749},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/4943\",\"name\":\"Hulk
+        Vs. the Marvel Universe (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2021\",\"name\":\"Incredible
+        Hulk (1962 - 1999)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21315\",\"name\":\"Hulk
+        Vs. the Marvel Universe (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/9111\",\"name\":\"Incredible
+        Hulk (1962) #300\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/9111\",\"name\":\"Incredible
+        Hulk (1962) #300\"}},{\"id\":19901,\"title\":\"Cover #19901\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19901\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19901},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1313\",\"name\":\"Essential
+        Iron Fist Vol. 1 (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1327\",\"name\":\"Essential
+        Iron Fist Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}},{\"id\":19902,\"title\":\"The Fury of Iron Fist!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19902\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6631\",\"name\":\"L.P.
+        Gregory\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1872\",\"name\":\"Glynis
+        Oliver\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19902},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1313\",\"name\":\"Essential
+        Iron Fist Vol. 1 (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1327\",\"name\":\"Essential
+        Iron Fist Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}},{\"id\":19903,\"title\":\"Cover #19903\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19903\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/570\",\"name\":\"Klaus
+        Janson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19903},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}},{\"id\":19904,\"title\":\"Heart of the Dragon!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19904\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6631\",\"name\":\"L.P.
+        Gregory\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1872\",\"name\":\"Glynis
+        Oliver\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/967\",\"name\":\"Len
+        Wein\",\"role\":\"writer\"}],\"returned\":7},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19904},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}},{\"id\":19905,\"title\":\"Citadel of Vengeance!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19905\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19905},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}},{\"id\":19906,\"title\":\"Citadel On the Edge of Vengeance\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19906\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1747\",\"name\":\"Petra
+        Goldberg\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/223\",\"name\":\"Doug
+        Moench\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1548\",\"name\":\"Artie
+        Simek\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19906},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}},{\"id\":19907,\"title\":\"Cover #19907\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19907\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1186\",\"name\":\"Jack
+        Abel\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19907},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}},{\"id\":19908,\"title\":\"Lair of Shattered Vengeance!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19908\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1747\",\"name\":\"Petra
+        Goldberg\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/223\",\"name\":\"Doug
+        Moench\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1548\",\"name\":\"Artie
+        Simek\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19908},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}},{\"id\":19909,\"title\":\"Cover #19909\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19909\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/435\",\"name\":\"Al
+        Milgrom\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/146\",\"name\":\"Jim
+        Starlin\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19909},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10205\",\"name\":\"Marvel
+        Premiere (1972) #19\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10205\",\"name\":\"Marvel
+        Premiere (1972) #19\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/characters/1009367/stories?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - a295c33768e4a4d670c9512aa4adb53126e3d621
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '42684'
+      Date:
+      - Mon, 10 Feb 2014 21:06:37 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"a295c33768e4a4d670c9512aa4adb53126e3d621\",\"data\":{\"offset\":0,\"limit\":20,\"total\":129,\"count\":20,\"results\":[{\"id\":5872,\"title\":\"1
+        of 7 - 7XLS\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5872\",\"type\":\"cover\",\"modified\":\"2012-03-30T09:23:14-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9484\",\"name\":\"Steve
+        McNiven\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5872},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4216\",\"name\":\"Civil
+        War (2006) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5872/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/238\",\"name\":\"Civil
+        War\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4216\",\"name\":\"Civil
+        War (2006) #1\"}},{\"id\":5874,\"title\":\"Cover #5874\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5874\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/856\",\"name\":\"Michael
+        Turner\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5874},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4217\",\"name\":\"Civil
+        War (2006) #1 (Turner Variant)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5874/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4217\",\"name\":\"Civil
+        War (2006) #1 (Turner Variant)\"}},{\"id\":5882,\"title\":\"Cover #5882\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5882\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9484\",\"name\":\"Steve
+        McNiven\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":21,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009241\",\"name\":\"Cloak\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009258\",\"name\":\"Dagger\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009299\",\"name\":\"Fantastic
+        Four\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010927\",\"name\":\"Goliath
+        (Bill Foster)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009366\",\"name\":\"Invisible
+        Woman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009215\",\"name\":\"Luke
+        Cage\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009459\",\"name\":\"Mr.
+        Fantastic\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009492\",\"name\":\"Patriot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009608\",\"name\":\"Spider-Woman
+        (Jessica Drew)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":20},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":5882},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1067\",\"name\":\"Civil
+        War (2006 - 2007)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4514\",\"name\":\"Civil
+        War (2006) #1 (sketch variant)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/5882/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4514\",\"name\":\"Civil
+        War (2006) #1 (sketch variant)\"}},{\"id\":6254,\"title\":\"3 of 5 - The Immortal
+        Iron Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/6254\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:06:49-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":6254},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5869\",\"name\":\"Immortal
+        Iron Fist (2006) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/6254/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5869\",\"name\":\"Immortal
+        Iron Fist (2006) #3\"}},{\"id\":7703,\"title\":\"2 of 6 - Death of the Dream\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7703\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/367\",\"name\":\"Ed
+        Brubaker\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/374\",\"name\":\"Steve
+        Epting\",\"role\":\"penciller\"}],\"returned\":4},\"characters\":{\"available\":13,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009297\",\"name\":\"Falcon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010722\",\"name\":\"Human
+        Robot\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009368\",\"name\":\"Iron
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009378\",\"name\":\"Jessica
+        Jones\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009535\",\"name\":\"Red
+        Skull\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009379\",\"name\":\"Rick
+        Jones\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009228\",\"name\":\"Sharon
+        Carter\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010898\",\"name\":\"Sin\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010795\",\"name\":\"Spider-Woman
+        (Charlotte Witter)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010740\",\"name\":\"The
+        Winter Soldier\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009662\",\"name\":\"Thing\"}],\"returned\":13},\"series\":{\"available\":3,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":7703},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/832\",\"name\":\"Captain
+        America (2004 - 2011)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/5061\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3127\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 Premiere (2007)\"}],\"returned\":3},\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6152\",\"name\":\"Captain
+        America (2004) #26\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21424\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17325\",\"name\":\"Captain
+        America: The Death of Captain America Vol. 1 Premiere (Hardcover)\"}],\"returned\":3},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7703/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/255\",\"name\":\"Initiative\"}],\"returned\":1},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6152\",\"name\":\"Captain
+        America (2004) #26\"}},{\"id\":7916,\"title\":\"4 of 5 - The Immortal Iron
+        Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/7916\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:06:43-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010888\",\"name\":\"Iron
+        Fist (Orson Randall)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":7916},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/7916/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"}},{\"id\":8365,\"title\":\"4 of 5 - The Immortal Iron
+        Fist\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8365\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010888\",\"name\":\"Iron
+        Fist (Orson Randall)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":8365},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8365/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6179\",\"name\":\"Immortal
+        Iron Fist (2006) #4\"}},{\"id\":8701,\"title\":\"1 of 2 - Story A\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/8701\",\"type\":\"cover\",\"modified\":\"2013-06-11T12:11:57-0400\",\"thumbnail\":null,\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/750\",\"name\":\"David
+        Aja\",\"role\":\"penciller (cover)\"}],\"returned\":1},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":8701},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1140\",\"name\":\"Immortal
+        Iron Fist (2006 - 2009)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2943\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13487\",\"name\":\"Immortal
+        Iron Fist (2006) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16636\",\"name\":\"Immortal
+        Iron Fist Vol. 1: The Last Iron Fist Story (Trade Paperback)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/8701/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13487\",\"name\":\"Immortal
+        Iron Fist (2006) #6\"}},{\"id\":15889,\"title\":\"Daredevil Meets Power Man
+        & Iron Fist!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/15889\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/570\",\"name\":\"Klaus
+        Janson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/17\",\"name\":\"Frank
+        Miller\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1226\",\"name\":\"Dennis
+        Oneil\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":15889},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1911\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5998\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (Hardcover)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15889/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"}},{\"id\":15891,\"title\":\"\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/15891\",\"type\":\"promo\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2050\",\"name\":\"Denys
+        Cowan\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/399\",\"name\":\"Jim
+        Novak\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1226\",\"name\":\"Dennis
+        Oneil\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":2},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":15891},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1911\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (2007)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5998\",\"name\":\"Daredevil
+        by Frank Miller & Klaus Janson (Hardcover)\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/15891/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8160\",\"name\":\"Daredevil
+        (1963) #178\"}},{\"id\":18749,\"title\":\"Days of Rage\",\"description\":\"Hulk
+        returns to savagery and is exiled from Earth.\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/18749\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/105\",\"name\":\"Sal
+        Buscema\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/966\",\"name\":\"Bill
+        Mantlo\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/399\",\"name\":\"Jim
+        Novak\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1863\",\"name\":\"Carl
+        Potts\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1832\",\"name\":\"Bob
+        Sharen\",\"role\":\"colorist\"}],\"returned\":5},\"characters\":{\"available\":8,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009282\",\"name\":\"Doctor
+        Strange\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009351\",\"name\":\"Hulk\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009562\",\"name\":\"Scarlet
+        Witch\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009664\",\"name\":\"Thor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009707\",\"name\":\"Wasp\"}],\"returned\":8},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":18749},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/4943\",\"name\":\"Hulk
+        Vs. the Marvel Universe (2008)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2021\",\"name\":\"Incredible
+        Hulk (1962 - 1999)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21315\",\"name\":\"Hulk
+        Vs. the Marvel Universe (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/9111\",\"name\":\"Incredible
+        Hulk (1962) #300\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/18749/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/9111\",\"name\":\"Incredible
+        Hulk (1962) #300\"}},{\"id\":19901,\"title\":\"Cover #19901\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19901\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19901},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1313\",\"name\":\"Essential
+        Iron Fist Vol. 1 (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1327\",\"name\":\"Essential
+        Iron Fist Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19901/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}},{\"id\":19902,\"title\":\"The Fury of Iron Fist!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19902\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6631\",\"name\":\"L.P.
+        Gregory\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1872\",\"name\":\"Glynis
+        Oliver\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":2,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19902},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1313\",\"name\":\"Essential
+        Iron Fist Vol. 1 (2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":2},\"comics\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1327\",\"name\":\"Essential
+        Iron Fist Vol. 1 (Trade Paperback)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19902/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10201\",\"name\":\"Marvel
+        Premiere (1972) #15\"}},{\"id\":19903,\"title\":\"Cover #19903\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19903\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/570\",\"name\":\"Klaus
+        Janson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19903},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19903/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}},{\"id\":19904,\"title\":\"Heart of the Dragon!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19904\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6631\",\"name\":\"L.P.
+        Gregory\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1872\",\"name\":\"Glynis
+        Oliver\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/967\",\"name\":\"Len
+        Wein\",\"role\":\"writer\"}],\"returned\":7},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19904},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19904/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10202\",\"name\":\"Marvel
+        Premiere (1972) #16\"}},{\"id\":19905,\"title\":\"Citadel of Vengeance!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19905\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19905},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19905/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}},{\"id\":19906,\"title\":\"Citadel On the Edge of Vengeance\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19906\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1747\",\"name\":\"Petra
+        Goldberg\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/223\",\"name\":\"Doug
+        Moench\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1548\",\"name\":\"Artie
+        Simek\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19906},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19906/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10203\",\"name\":\"Marvel
+        Premiere (1972) #17\"}},{\"id\":19907,\"title\":\"Cover #19907\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19907\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1186\",\"name\":\"Jack
+        Abel\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/148\",\"name\":\"Gil
+        Kane\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1754\",\"name\":\"Gaspar
+        Saladino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":4},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19907},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19907/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}},{\"id\":19908,\"title\":\"Lair of Shattered Vengeance!\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19908\",\"type\":\"story\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/404\",\"name\":\"Dick
+        Giordano\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1747\",\"name\":\"Petra
+        Goldberg\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/42\",\"name\":\"Larry
+        Hama\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/223\",\"name\":\"Doug
+        Moench\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1548\",\"name\":\"Artie
+        Simek\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19908},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19908/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10204\",\"name\":\"Marvel
+        Premiere (1972) #18\"}},{\"id\":19909,\"title\":\"Cover #19909\",\"description\":\"\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/19909\",\"type\":\"cover\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":null,\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/435\",\"name\":\"Al
+        Milgrom\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/146\",\"name\":\"Jim
+        Starlin\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2909\",\"name\":\"Roy
+        Thomas\",\"role\":\"editor\"}],\"returned\":3},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009367\",\"name\":\"Iron
+        Fist (Danny Rand)\"}],\"returned\":1},\"series\":{\"available\":1,\"collectionURI\":{\"service\":\"comic_storySeries\",\"id\":19909},\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2045\",\"name\":\"Marvel
+        Premiere (1972 - 1981)\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10205\",\"name\":\"Marvel
+        Premiere (1972) #19\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/stories/19909/events\",\"items\":[],\"returned\":0},\"originalIssue\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10205\",\"name\":\"Marvel
+        Premiere (1972) #19\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0

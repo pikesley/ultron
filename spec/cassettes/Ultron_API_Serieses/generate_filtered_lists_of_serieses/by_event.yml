@@ -1,0 +1,1029 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/events/279/series?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - bef5efdc24e309b2406fc459d6a31183f8ad316b
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '70896'
+      Date:
+      - Mon, 10 Feb 2014 20:59:26 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"bef5efdc24e309b2406fc459d6a31183f8ad316b\",\"data\":{\"offset\":0,\"limit\":20,\"total\":13,\"count\":13,\"results\":[{\"id\":7455,\"title\":\"New
+        Mutants (2009 - 2011)\",\"description\":\"The original New Mutants team of
+        Cannonball, Dani Moonstar, Sunspot, Karma, Magma and Magik have reunited!
+        With old friends and foes coming out of the woodwork, these friends will be
+        challenged like never before!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7455\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/7455/new_mutants_2009_-_2011?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2009,\"endYear\":2011,\"rating\":\"T\",\"type\":\"ongoing\",\"modified\":\"2013-03-01T14:30:01-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/70/513101542cfa6\",\"extension\":\"jpg\"},\"creators\":{\"available\":59,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9716\",\"name\":\"BENJAMIN\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/249\",\"name\":\"Art
+        Adams\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10405\",\"name\":\"John
+        Tyler Christopher\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8522\",\"name\":\"Gabriele
+        Dell'Otto\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/277\",\"name\":\"Terry
+        Dodson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/273\",\"name\":\"Leandro
+        Fernandez\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8571\",\"name\":\"Guru-eFX\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8000\",\"name\":\"Alejandro
+        Arbona\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10035\",\"name\":\"Zachary
+        Baldus\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10454\",\"name\":\"Nathan
+        Fairbairn\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1107\",\"name\":\"Dan
+        Abnett\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/779\",\"name\":\"Matt
+        Banning\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9998\",\"name\":\"Elena
+        Casagrande\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/7639\",\"name\":\"John
+        Barber\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5251\",\"name\":\"Joe
+        Caramagna\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller (cover)\"}],\"returned\":20},\"characters\":{\"available\":25,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010354\",\"name\":\"Adam
+        Warlock\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009219\",\"name\":\"Cannonball\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009243\",\"name\":\"Colossus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011385\",\"name\":\"Cypher\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009453\",\"name\":\"Dani
+        Moonstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009310\",\"name\":\"Emma
+        Frost\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009382\",\"name\":\"Juggernaut\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011386\",\"name\":\"Karma\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009508\",\"name\":\"Kitty
+        Pryde\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009399\",\"name\":\"Legion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010942\",\"name\":\"Magik
+        (Amanda Sefton)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009416\",\"name\":\"Magma
+        (Amara Aquilla)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009417\",\"name\":\"Magneto\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009410\",\"name\":\"Moira
+        MacTaggert\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011336\",\"name\":\"New
+        Mutants\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009504\",\"name\":\"Professor
+        X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011212\",\"name\":\"Sugar
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009638\",\"name\":\"Sunspot\"}],\"returned\":20},\"stories\":{\"available\":134,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53752\",\"name\":\"Cover
+        #53752\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53753\",\"name\":\"Interior
+        #53753\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53754\",\"name\":\"Cover
+        #53754\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57384\",\"name\":\"Cover
+        #57384\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57385\",\"name\":\"Interior
+        #57385\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57390\",\"name\":\"Cover
+        #57390\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57391\",\"name\":\"Interior
+        #57391\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57392\",\"name\":\"Cover
+        #57392\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57393\",\"name\":\"Interior
+        #57393\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57394\",\"name\":\"Cover
+        #57394\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57395\",\"name\":\"Interior
+        #57395\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57396\",\"name\":\"Cover
+        #57396\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57397\",\"name\":\"Interior
+        #57397\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57398\",\"name\":\"Cover
+        #57398\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57399\",\"name\":\"Interior
+        #57399\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57400\",\"name\":\"Cover
+        #57400\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57401\",\"name\":\"Interior
+        #57401\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57402\",\"name\":\"Cover
+        #57402\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57403\",\"name\":\"Interior
+        #57403\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57404\",\"name\":\"Cover
+        #57404\",\"type\":\"cover\"}],\"returned\":20},\"comics\":{\"available\":55,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24262\",\"name\":\"New
+        Mutants (2009) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27398\",\"name\":\"New
+        Mutants (2009) #1 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27461\",\"name\":\"New
+        Mutants (2009) #1 (MCLEOD VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27462\",\"name\":\"New
+        Mutants (2009) #1 (ROSS COVER)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28107\",\"name\":\"New
+        Mutants (2009) #1 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26051\",\"name\":\"New
+        Mutants (2009) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27463\",\"name\":\"New
+        Mutants (2009) #2 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28600\",\"name\":\"New
+        Mutants (2009) #2 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26052\",\"name\":\"New
+        Mutants (2009) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27464\",\"name\":\"New
+        Mutants (2009) #3 (VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27857\",\"name\":\"New
+        Mutants (2009) #3 (50S DECADE VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26053\",\"name\":\"New
+        Mutants (2009) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27465\",\"name\":\"New
+        Mutants (2009) #4 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27896\",\"name\":\"New
+        Mutants (2009) #4 (70TH FRAME VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26054\",\"name\":\"New
+        Mutants (2009) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26055\",\"name\":\"New
+        Mutants (2009) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/31427\",\"name\":\"New
+        Mutants (2009) #6 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26056\",\"name\":\"New
+        Mutants (2009) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26057\",\"name\":\"New
+        Mutants (2009) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26058\",\"name\":\"New
+        Mutants (2009) #9\"}],\"returned\":20},\"events\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/303\",\"name\":\"Age
+        of X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/302\",\"name\":\"Fear
+        Itself\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/273\",\"name\":\"Siege\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":4},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2055\",\"name\":\"New
+        Mutants (1983 - 1991)\"}},{\"id\":9851,\"title\":\"Second Coming: Prepare
+        (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9851\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9851/second_coming_prepare_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"one
+        shot\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/creators\",\"items\":[],\"returned\":0},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106527\",\"name\":\"cover
+        from Second Coming: Prepare #1\",\"type\":\"cover\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33554\",\"name\":\"Second
+        Coming: Prepare (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":2258,\"title\":\"Uncanny
+        X-Men (1963 - 2011)\",\"description\":\"The flagship X-Men comic for over
+        40 years, Uncanny X-Men delivers action, suspense, and a hint of science fiction
+        month in and month out. Follow the adventures of Professor Charles Xavier's
+        team of mutants as they attempt to protect a world that hates and fears them.
+        \",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2258\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2258/uncanny_x-men_1963_-_2011?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1963,\"endYear\":2011,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-06-27T14:10:47-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/00/512527be6fba3\",\"extension\":\"jpg\"},\"creators\":{\"available\":372,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6694\",\"name\":\"Wes
+        Abbot\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/314\",\"name\":\"Neal
+        Adams\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1865\",\"name\":\"Diana
+        Albers\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1937\",\"name\":\"Jon
+        Babcock\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4472\",\"name\":\"Jg\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4165\",\"name\":\"Sr.\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1836\",\"name\":\"Terry
+        Austin\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
+        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/779\",\"name\":\"Matt
+        Banning\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2077\",\"name\":\"Hilary
+        Barta\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/249\",\"name\":\"Art
+        Adams\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1212\",\"name\":\"Dan
+        Adkins\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/651\",\"name\":\"Brent
+        Anderson\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1167\",\"name\":\"Ross
+        Andru\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/219\",\"name\":\"Kia
+        Asamiya\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/232\",\"name\":\"Chris
+        Bachalo\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4444\",\"name\":\"Senen
+        Antonio\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8320\",\"name\":\"Darryl
+        Banks\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11\",\"name\":\"Chuck
+        Austen\",\"role\":\"writer\"}],\"returned\":20},\"characters\":{\"available\":236,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009144\",\"name\":\"A.I.M.\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009146\",\"name\":\"Abomination
+        (Emil Blonsky)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009149\",\"name\":\"Abyss\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010354\",\"name\":\"Adam
+        Warlock\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010370\",\"name\":\"Alpha
+        Flight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009151\",\"name\":\"Amiko\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009156\",\"name\":\"Apocalypse\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009158\",\"name\":\"Arcade\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009159\",\"name\":\"Archangel\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009160\",\"name\":\"Arclight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009163\",\"name\":\"Aurora\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009164\",\"name\":\"Avalanche\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011766\",\"name\":\"Azazel
+        (Mutant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009168\",\"name\":\"Banshee\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009596\",\"name\":\"Banshee
+        (Theresa Rourke)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009169\",\"name\":\"Baron
+        Strucker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009175\",\"name\":\"Beast\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009178\",\"name\":\"Beef\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009182\",\"name\":\"Bishop\"}],\"returned\":20},\"stories\":{\"available\":1311,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/690\",\"name\":\"1
+        of 3\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/691\",\"name\":\"1
+        of 3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/698\",\"name\":\"Cover
+        #698\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/699\",\"name\":\"Interior
+        #699\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/708\",\"name\":\"Cover
+        #708\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/709\",\"name\":\"Interior
+        #709\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/710\",\"name\":\"Cover
+        #710\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/711\",\"name\":\"Interior
+        #711\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/712\",\"name\":\"Cover
+        #712\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/713\",\"name\":\"Interior
+        #713\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/714\",\"name\":\"Cover
+        #714\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/715\",\"name\":\"Interior
+        #715\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/716\",\"name\":\"Cover
+        #716\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/717\",\"name\":\"Interior
+        #717\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/718\",\"name\":\"Cover
+        #718\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/719\",\"name\":\"Interior
+        #719\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/720\",\"name\":\"Cover
+        #720\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/721\",\"name\":\"Interior
+        #721\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/722\",\"name\":\"Cover
+        #722\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/723\",\"name\":\"Interior
+        #723\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":595,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13682\",\"name\":\"Uncanny
+        X-Men (1963)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12413\",\"name\":\"Uncanny
+        X-Men (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12466\",\"name\":\"Uncanny
+        X-Men (1963) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12477\",\"name\":\"Uncanny
+        X-Men (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12488\",\"name\":\"Uncanny
+        X-Men (1963) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12499\",\"name\":\"Uncanny
+        X-Men (1963) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12510\",\"name\":\"Uncanny
+        X-Men (1963) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12521\",\"name\":\"Uncanny
+        X-Men (1963) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12532\",\"name\":\"Uncanny
+        X-Men (1963) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12543\",\"name\":\"Uncanny
+        X-Men (1963) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12414\",\"name\":\"Uncanny
+        X-Men (1963) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12425\",\"name\":\"Uncanny
+        X-Men (1963) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12436\",\"name\":\"Uncanny
+        X-Men (1963) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12447\",\"name\":\"Uncanny
+        X-Men (1963) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12458\",\"name\":\"Uncanny
+        X-Men (1963) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12461\",\"name\":\"Uncanny
+        X-Men (1963) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12462\",\"name\":\"Uncanny
+        X-Men (1963) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12463\",\"name\":\"Uncanny
+        X-Men (1963) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12464\",\"name\":\"Uncanny
+        X-Men (1963) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12465\",\"name\":\"Uncanny
+        X-Men (1963) #19\"}],\"returned\":20},\"events\":{\"available\":15,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/116\",\"name\":\"Acts
+        of Vengeance!\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/248\",\"name\":\"Fall
+        of the Mutants\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/249\",\"name\":\"Fatal
+        Attractions\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/302\",\"name\":\"Fear
+        Itself\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/251\",\"name\":\"House
+        of M\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/37\",\"name\":\"Maximum
+        Security\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/299\",\"name\":\"Messiah
+        CompleX\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/263\",\"name\":\"Mutant
+        Massacre\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/154\",\"name\":\"Onslaught\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/270\",\"name\":\"Secret
+        Wars\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/271\",\"name\":\"Secret
+        Wars II\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/280\",\"name\":\"X-Tinction
+        Agenda\"}],\"returned\":15},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/14914\",\"name\":\"Uncanny
+        X-Men (2011 - 2012)\"},\"previous\":null},{\"id\":1035,\"title\":\"X-Factor
+        (2005 - Present)\",\"description\":\"X-Factor is quite possibly the most unpredictable
+        book in the Marvel line-up. A psychological tour de force that doesn't skimp
+        on the laughs, action or mystery, each issue of X-Factor brings something
+        new to the table. Maybe not the best bet for a young reader, but a killer
+        title for serious readers. \",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1035\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1035/x-factor_2005_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2005,\"endYear\":2099,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-08-06T15:21:14-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/8/03/513114f727e67\",\"extension\":\"jpg\"},\"creators\":{\"available\":68,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10142\",\"name\":\"MITRIC\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/937\",\"name\":\"Renato
+        Arlem\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/970\",\"name\":\"Dennis
+        Calero\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8068\",\"name\":\"Bing
+        Cansino\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8132\",\"name\":\"Boo
+        Cook\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/589\",\"name\":\"Nelson
+        DeCastro\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/7722\",\"name\":\"VALENTINE
+        DELANDRO\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11575\",\"name\":\"Kristafer
+        Anka\",\"role\":\"penciler (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11543\",\"name\":\"Dan
+        Brown\",\"role\":\"colorist (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11559\",\"name\":\"Jeff
+        Scott Campbell\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/357\",\"name\":\"Jim
+        Cheung\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8522\",\"name\":\"Gabriele
+        Dell'Otto\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9998\",\"name\":\"Elena
+        Casagrande\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8738\",\"name\":\"Jeromy
+        Cox\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/430\",\"name\":\"Edgar
+        Delgado\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/692\",\"name\":\"Pat
+        Davidson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/359\",\"name\":\"John
+        Dell\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":19,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009596\",\"name\":\"Banshee
+        (Theresa Rourke)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009185\",\"name\":\"Black
+        Cat\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009342\",\"name\":\"Hepzibah\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011100\",\"name\":\"Layla
+        Miller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011068\",\"name\":\"M
+        (Monet St. Croix)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009413\",\"name\":\"Madrox\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011056\",\"name\":\"Multiple
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009506\",\"name\":\"Proudstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009430\",\"name\":\"Rachel
+        Grey\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009542\",\"name\":\"Rictor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009580\",\"name\":\"Shatterstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011051\",\"name\":\"Strong
+        Guy\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009717\",\"name\":\"Wolfsbane\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009722\",\"name\":\"X-23\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010738\",\"name\":\"X-Factor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010739\",\"name\":\"X-Factor
+        Investigations\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":19},\"stories\":{\"available\":282,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4905\",\"name\":\"1
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4906\",\"name\":\"1
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4907\",\"name\":\"2
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4908\",\"name\":\"3
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4909\",\"name\":\"3
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4910\",\"name\":\"4
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4911\",\"name\":\"4
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4912\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4913\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4914\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4915\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5758\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5759\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5760\",\"name\":\"1
+        of 2\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5761\",\"name\":\"1
+        of 2\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5762\",\"name\":\"2
+        of 2 - Civil War\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5763\",\"name\":\"2
+        of 2 - Civil War\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5764\",\"name\":\"1
+        of 3\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5765\",\"name\":\"1
+        of 3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5766\",\"name\":\"2
+        of 3\",\"type\":\"cover\"}],\"returned\":20},\"comics\":{\"available\":131,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3046\",\"name\":\"X-Factor
+        (2005) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3150\",\"name\":\"X-Factor
+        (2005) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3372\",\"name\":\"X-Factor
+        (2005) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3486\",\"name\":\"X-Factor
+        (2005) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3897\",\"name\":\"X-Factor
+        (2005) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4029\",\"name\":\"X-Factor
+        (2005) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4211\",\"name\":\"X-Factor
+        (2005) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4306\",\"name\":\"X-Factor
+        (2005) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4462\",\"name\":\"X-Factor
+        (2005) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4777\",\"name\":\"X-Factor
+        (2005) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5065\",\"name\":\"X-Factor
+        (2005) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5219\",\"name\":\"X-Factor
+        (2005) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5594\",\"name\":\"X-Factor
+        (2005) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5472\",\"name\":\"X-Factor
+        (2005) #13 (variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5710\",\"name\":\"X-Factor
+        (2005) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5847\",\"name\":\"X-Factor
+        (2005) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6000\",\"name\":\"X-Factor
+        (2005) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6155\",\"name\":\"X-Factor
+        (2005) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6302\",\"name\":\"X-Factor
+        (2005) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13465\",\"name\":\"X-Factor
+        (2005) #19\"}],\"returned\":20},\"events\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/238\",\"name\":\"Civil
+        War\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/299\",\"name\":\"Messiah
+        CompleX\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/269\",\"name\":\"Secret
+        Invasion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/308\",\"name\":\"X-Men:
+        Regenesis\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":5},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2098\",\"name\":\"X-Factor
+        (1986 - 1998)\"}},{\"id\":10950,\"title\":\"X-Factor: Second Coming (2010
+        - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10950\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/10950/x-factor_second_coming_2010_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/00/4beaf1b4940ed\",\"extension\":\"jpg\"},\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5249\",\"name\":\"Aubrey
+        Sitterson\",\"role\":\"writer\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76072\",\"name\":\"Cover
+        #76072\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76073\",\"name\":\"Interior
+        #76073\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33909\",\"name\":\"X-Factor:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":10583,\"title\":\"X-Factor:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10583\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/10583/x-factor_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2011-08-11T16:12:58-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/c0/4cb608621d1f0\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/778\",\"name\":\"Valentine
+        De Landro\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/789\",\"name\":\"David
+        Yardin\",\"role\":\"artist\"}],\"returned\":3},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64153\",\"name\":\"Cover
+        #64153\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64154\",\"name\":\"Interior
+        #64154\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29500\",\"name\":\"X-Factor:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":3839,\"title\":\"X-Force
+        (2008 - 2010)\",\"description\":\"When Cyclops has jobs too dirty for the
+        X-Men to handle, he calls X-Force. Wolverine, X-23, Warpath, Wolfsbane, Archangel
+        and Domino make up the most violent X-team of all time! If the odds look impossible
+        you want this X-Force on your side!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3839\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3839/x-force_2008_-_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2008,\"endYear\":2010,\"rating\":\"Parental
+        Advisory\",\"type\":\"limited\",\"modified\":\"2013-02-13T17:31:52-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/80/511c13cb07373\",\"extension\":\"jpg\"},\"creators\":{\"available\":27,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/191\",\"name\":\"Kaare
+        Andrews\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/436\",\"name\":\"Adi
+        Granov\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1374\",\"name\":\"Sonia
+        Oback\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/412\",\"name\":\"Carlo
+        Barberi\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/162\",\"name\":\"John
+        Cassaday\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/73\",\"name\":\"Steve
+        Dillon\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11521\",\"name\":\"Greg
+        Horn\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5127\",\"name\":\"Travis
+        Charest\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/600\",\"name\":\"Clayton
+        Crain\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5037\",\"name\":\"Ed
+        Dukeshire\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10050\",\"name\":\"Jason
+        Levesque\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4306\",\"name\":\"Laura
+        Martin\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1082\",\"name\":\"Ariel
+        Olivetti\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8813\",\"name\":\"Jon
+        Ennis\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10022\",\"name\":\"Justin
+        Gabrie\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/649\",\"name\":\"Ed
+        McGuinness\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/212\",\"name\":\"Jason
+        Pearson\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011207\",\"name\":\"Purifiers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009705\",\"name\":\"Warpath\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009717\",\"name\":\"Wolfsbane\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009722\",\"name\":\"X-23\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009724\",\"name\":\"X-Force\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":7},\"stories\":{\"available\":130,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44403\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44404\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44405\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44406\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44407\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44408\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44744\",\"name\":\"Angels
+        and Demons 2 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44745\",\"name\":\"Angels
+        and Demons 2 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45810\",\"name\":\"Angels
+        and Demons 3 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45811\",\"name\":\"Angels
+        and Demons 3 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46919\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46920\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46921\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46922\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47528\",\"name\":\"Angels
+        and Demons 5 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47529\",\"name\":\"Angels
+        and Demons 5 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47822\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47823\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47824\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47825\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":54,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20704\",\"name\":\"X-Force
+        (2008) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20705\",\"name\":\"X-Force
+        (2008) #1 (Charest Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20706\",\"name\":\"X-Force
+        (2008) #1 (Bloody Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20895\",\"name\":\"X-Force
+        (2008) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21028\",\"name\":\"X-Force
+        (2008) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21244\",\"name\":\"X-Force
+        (2008) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21243\",\"name\":\"X-Force
+        (2008) #4 (Bloody Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21561\",\"name\":\"X-Force
+        (2008) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21757\",\"name\":\"X-Force
+        (2008) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21756\",\"name\":\"X-Force
+        (2008) #6 (BLOODY VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21996\",\"name\":\"X-Force
+        (2008) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22322\",\"name\":\"X-Force
+        (2008) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22521\",\"name\":\"X-Force
+        (2008) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22929\",\"name\":\"X-Force
+        (2008) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23125\",\"name\":\"X-Force
+        (2008) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23617\",\"name\":\"X-Force
+        (2008) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23772\",\"name\":\"X-Force
+        (2008) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23969\",\"name\":\"X-Force
+        (2008) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27979\",\"name\":\"X-Force
+        (2008) #14 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23970\",\"name\":\"X-Force
+        (2008) #14 (CRAIN (MW, 50/50 COVER))\"}],\"returned\":20},\"events\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/298\",\"name\":\"Messiah
+        War\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":2},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9976\",\"name\":\"Uncanny
+        X-Force (2010 - 2012)\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/4559\",\"name\":\"X-Men:
+        Messiah Complex (2008)\"}},{\"id\":3754,\"title\":\"X-Men Legacy (2008 - 2012)\",\"description\":\"Once
+        a troubled youth herself, Rogue has come full circle and now trains the newest
+        generation of X-Men to be heroes. Catch all your favorite mutants, old and
+        new, in this unique series!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3754\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3754/x-men_legacy_2008_-_2012?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2008,\"endYear\":2012,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-03-01T16:04:43-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/03/51311782d8f15\",\"extension\":\"jpg\"},\"creators\":{\"available\":87,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8571\",\"name\":\"Guru-eFX\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11562\",\"name\":\"Jean-Francois
+        Beaulieu\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/520\",\"name\":\"Rainier
+        Beredo\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1004\",\"name\":\"Daniel
+        Acuna\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4840\",\"name\":\"Joy
+        Ang\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9043\",\"name\":\"Mariah
+        Benes\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/694\",\"name\":\"Mark
+        Brooks\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/16\",\"name\":\"Alan
+        Davis\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8208\",\"name\":\"Chris
+        Allo\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4014\",\"name\":\"Axel
+        Alonso\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9799\",\"name\":\"David
+        Baldeon\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/512\",\"name\":\"Lee
+        Bermejo\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1279\",\"name\":\"Jon
+        Bogdanove\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1122\",\"name\":\"Philippe
+        Briones\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11748\",\"name\":\"Marco
+        Checchetto\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11614\",\"name\":\"Rafa
+        Lopez Blanco\",\"role\":\"Penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5251\",\"name\":\"Joe
+        Caramagna\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009165\",\"name\":\"Avengers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009310\",\"name\":\"Emma
+        Frost\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009295\",\"name\":\"Exodus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009313\",\"name\":\"Gambit\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009337\",\"name\":\"Havok\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009381\",\"name\":\"Jubilee\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009399\",\"name\":\"Legion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009417\",\"name\":\"Magneto\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009499\",\"name\":\"Polaris\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009504\",\"name\":\"Professor
+        X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009430\",\"name\":\"Rachel
+        Grey\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009546\",\"name\":\"Rogue\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009629\",\"name\":\"Storm\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":18},\"stories\":{\"available\":206,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44239\",\"name\":\"1
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44240\",\"name\":\"1
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44590\",\"name\":\"2
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44591\",\"name\":\"2
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45165\",\"name\":\"3
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45166\",\"name\":\"3
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46758\",\"name\":\"4
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46759\",\"name\":\"4
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46760\",\"name\":\"5
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46761\",\"name\":\"5
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47083\",\"name\":\"1
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47084\",\"name\":\"1
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47395\",\"name\":\"1
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47396\",\"name\":\"1
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47703\",\"name\":\"2
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47704\",\"name\":\"2
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/48166\",\"name\":\"3
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/48167\",\"name\":\"3
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49012\",\"name\":\"4
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49013\",\"name\":\"4
+        of 4\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":96,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20632\",\"name\":\"X-Men
+        Legacy (2008) #208\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20819\",\"name\":\"X-Men
+        Legacy (2008) #209\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20957\",\"name\":\"X-Men
+        Legacy (2008) #210\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21166\",\"name\":\"X-Men
+        Legacy (2008) #211\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21167\",\"name\":\"X-Men
+        Legacy (2008) #212\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21317\",\"name\":\"X-Men
+        Legacy (2008) #213\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21495\",\"name\":\"X-Men
+        Legacy (2008) #214\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21698\",\"name\":\"X-Men
+        Legacy (2008) #215\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21923\",\"name\":\"X-Men
+        Legacy (2008) #216\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22254\",\"name\":\"X-Men
+        Legacy (2008) #217\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22462\",\"name\":\"X-Men
+        Legacy (2008) #218\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22857\",\"name\":\"X-Men
+        Legacy (2008) #219\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23073\",\"name\":\"X-Men
+        Legacy (2008) #220\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23563\",\"name\":\"X-Men
+        Legacy (2008) #221\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23734\",\"name\":\"X-Men
+        Legacy (2008) #222\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23917\",\"name\":\"X-Men
+        Legacy (2008) #223\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23918\",\"name\":\"X-Men
+        Legacy (2008) #223\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27341\",\"name\":\"X-Men
+        Legacy (2008) #223 (WOLVERINE ART VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24129\",\"name\":\"X-Men
+        Legacy (2008) #224\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27342\",\"name\":\"X-Men
+        Legacy (2008) #225\"}],\"returned\":20},\"events\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/303\",\"name\":\"Age
+        of X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/310\",\"name\":\"Avengers
+        VS X-Men\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/308\",\"name\":\"X-Men:
+        Regenesis\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":5},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/403\",\"name\":\"X-Men
+        (2004 - 2007)\"}},{\"id\":9981,\"title\":\"X-Men: Hellbound (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9981/x-men_hellbound_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2011-06-01T17:18:41-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/50/4baa86c671fb5\",\"extension\":\"jpg\"},\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":4},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":2},\"stories\":{\"available\":12,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74310\",\"name\":\"Cover
+        #74310\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74311\",\"name\":\"Interior
+        #74311\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74312\",\"name\":\"Cover
+        #74312\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74313\",\"name\":\"Interior
+        #74313\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74318\",\"name\":\"Cover
+        #74318\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74319\",\"name\":\"Interior
+        #74319\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78959\",\"name\":\"Cover
+        #78959\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78960\",\"name\":\"Cover
+        #78960\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78961\",\"name\":\"Interior
+        #78961\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78962\",\"name\":\"Interior
+        #78962\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80702\",\"name\":\"Cover
+        #80702\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80703\",\"name\":\"Interior
+        #80703\",\"type\":\"interiorStory\"}],\"returned\":12},\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":3},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9359,\"title\":\"X-Men:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9359\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9359/x-men_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2013-03-01T16:09:40-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/51311888cb511\",\"extension\":\"jpg\"},\"creators\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/436\",\"name\":\"Adi
+        Granov\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10612\",\"name\":\"MICHAEL
+        TURNER, PETER STEIGERWALD\",\"role\":\"colorist\"}],\"returned\":5},\"characters\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009214\",\"name\":\"Cable\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011428\",\"name\":\"Hope
+        Summers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":6},\"stories\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/69374\",\"name\":\"Cover
+        #69374\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/69375\",\"name\":\"Interior
+        #69375\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73415\",\"name\":\"Cover
+        #73415\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73416\",\"name\":\"Interior
+        #73416\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73671\",\"name\":\"Cover
+        #73671\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73674\",\"name\":\"Interior
+        #73674\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74653\",\"name\":\"Cover
+        #74653\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74654\",\"name\":\"Interior
+        #74654\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75730\",\"name\":\"Cover
+        #75730\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75731\",\"name\":\"Interior
+        #75731\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76420\",\"name\":\"Cover
+        #76420\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80471\",\"name\":\"Cover
+        #80471\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80472\",\"name\":\"Interior
+        #80472\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80856\",\"name\":\"Cover
+        #80856\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80857\",\"name\":\"Interior
+        #80857\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81072\",\"name\":\"Cover
+        #81072\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81073\",\"name\":\"Interior
+        #81073\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81914\",\"name\":\"Cover
+        #81914\",\"type\":\"cover\"}],\"returned\":18},\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/30274\",\"name\":\"X-Men:
+        Second Coming (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32507\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36524\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (3RD PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/34269\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33166\",\"name\":\"X-Men:
+        Second Coming (2010) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36781\",\"name\":\"X-Men:
+        Second Coming (2010) #2 (VARIANT)\"}],\"returned\":6},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9679,\"title\":\"X-Men:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9679\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9679/x-men_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"collection\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/a0/4c1155ac0ddc7\",\"extension\":\"jpg\"},\"creators\":{\"available\":9,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1132\",\"name\":\"Matt
+        Fraction\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10409\",\"name\":\"Zeb
+        Wells\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/277\",\"name\":\"Terry
+        Dodson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/425\",\"name\":\"Greg
+        Land\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10061\",\"name\":\"Ibraim
+        Roberson\",\"role\":\"penciller\"}],\"returned\":9},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64191\",\"name\":\"Cover
+        From X-Men: Second Coming (2010)\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64192\",\"name\":\"Interior
+        Story 1 From X-Men: Second Coming (2010)\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29519\",\"name\":\"X-Men:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":13423,\"title\":\"X-Men:
+        Second Coming - Revelations (2010 - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13423\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/13423/x-men_second_coming_-_revelations_2010_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/50/4c4df67b6aa6b\",\"extension\":\"jpg\"},\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5635\",\"name\":\"Simon
+        Spurrier\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/778\",\"name\":\"Valentine
+        De Landro\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciler\"}],\"returned\":7},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82767\",\"name\":\"Cover
+        #82767\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82768\",\"name\":\"\",\"type\":\"\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/37369\",\"name\":\"X-Men:
+        Second Coming - Revelations (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9808,\"title\":\"X-Men:
+        Second Coming - Revelations: Blind Science (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9808\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9808/x-men_second_coming_-_revelations_blind_science_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/a0/4baa8339dd6e7\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1369\",\"name\":\"Gerald
+        Parel\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5635\",\"name\":\"Simon
+        Spurrier\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":2},\"stories\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74304\",\"name\":\"Cover
+        #74304\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74306\",\"name\":\"Interior
+        #74306\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75240\",\"name\":\"Cover
+        #75240\",\"type\":\"cover\"}],\"returned\":3},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32984\",\"name\":\"X-Men:
+        Second Coming - Revelations: Blind Science (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/events/279/series?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - bef5efdc24e309b2406fc459d6a31183f8ad316b
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '70896'
+      Date:
+      - Mon, 10 Feb 2014 20:59:33 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"bef5efdc24e309b2406fc459d6a31183f8ad316b\",\"data\":{\"offset\":0,\"limit\":20,\"total\":13,\"count\":13,\"results\":[{\"id\":7455,\"title\":\"New
+        Mutants (2009 - 2011)\",\"description\":\"The original New Mutants team of
+        Cannonball, Dani Moonstar, Sunspot, Karma, Magma and Magik have reunited!
+        With old friends and foes coming out of the woodwork, these friends will be
+        challenged like never before!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/7455\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/7455/new_mutants_2009_-_2011?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2009,\"endYear\":2011,\"rating\":\"T\",\"type\":\"ongoing\",\"modified\":\"2013-03-01T14:30:01-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/70/513101542cfa6\",\"extension\":\"jpg\"},\"creators\":{\"available\":59,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9716\",\"name\":\"BENJAMIN\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/249\",\"name\":\"Art
+        Adams\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10405\",\"name\":\"John
+        Tyler Christopher\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8522\",\"name\":\"Gabriele
+        Dell'Otto\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/277\",\"name\":\"Terry
+        Dodson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/273\",\"name\":\"Leandro
+        Fernandez\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8571\",\"name\":\"Guru-eFX\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8000\",\"name\":\"Alejandro
+        Arbona\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10035\",\"name\":\"Zachary
+        Baldus\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10454\",\"name\":\"Nathan
+        Fairbairn\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1107\",\"name\":\"Dan
+        Abnett\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/779\",\"name\":\"Matt
+        Banning\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9998\",\"name\":\"Elena
+        Casagrande\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/7639\",\"name\":\"John
+        Barber\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5251\",\"name\":\"Joe
+        Caramagna\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller (cover)\"}],\"returned\":20},\"characters\":{\"available\":25,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010354\",\"name\":\"Adam
+        Warlock\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009219\",\"name\":\"Cannonball\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009243\",\"name\":\"Colossus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011385\",\"name\":\"Cypher\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009453\",\"name\":\"Dani
+        Moonstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009310\",\"name\":\"Emma
+        Frost\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009382\",\"name\":\"Juggernaut\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011386\",\"name\":\"Karma\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009508\",\"name\":\"Kitty
+        Pryde\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009399\",\"name\":\"Legion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010942\",\"name\":\"Magik
+        (Amanda Sefton)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009416\",\"name\":\"Magma
+        (Amara Aquilla)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009417\",\"name\":\"Magneto\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009410\",\"name\":\"Moira
+        MacTaggert\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011336\",\"name\":\"New
+        Mutants\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009504\",\"name\":\"Professor
+        X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011212\",\"name\":\"Sugar
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009638\",\"name\":\"Sunspot\"}],\"returned\":20},\"stories\":{\"available\":134,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53752\",\"name\":\"Cover
+        #53752\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53753\",\"name\":\"Interior
+        #53753\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/53754\",\"name\":\"Cover
+        #53754\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57384\",\"name\":\"Cover
+        #57384\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57385\",\"name\":\"Interior
+        #57385\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57390\",\"name\":\"Cover
+        #57390\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57391\",\"name\":\"Interior
+        #57391\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57392\",\"name\":\"Cover
+        #57392\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57393\",\"name\":\"Interior
+        #57393\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57394\",\"name\":\"Cover
+        #57394\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57395\",\"name\":\"Interior
+        #57395\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57396\",\"name\":\"Cover
+        #57396\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57397\",\"name\":\"Interior
+        #57397\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57398\",\"name\":\"Cover
+        #57398\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57399\",\"name\":\"Interior
+        #57399\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57400\",\"name\":\"Cover
+        #57400\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57401\",\"name\":\"Interior
+        #57401\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57402\",\"name\":\"Cover
+        #57402\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57403\",\"name\":\"Interior
+        #57403\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/57404\",\"name\":\"Cover
+        #57404\",\"type\":\"cover\"}],\"returned\":20},\"comics\":{\"available\":55,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24262\",\"name\":\"New
+        Mutants (2009) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27398\",\"name\":\"New
+        Mutants (2009) #1 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27461\",\"name\":\"New
+        Mutants (2009) #1 (MCLEOD VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27462\",\"name\":\"New
+        Mutants (2009) #1 (ROSS COVER)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28107\",\"name\":\"New
+        Mutants (2009) #1 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26051\",\"name\":\"New
+        Mutants (2009) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27463\",\"name\":\"New
+        Mutants (2009) #2 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/28600\",\"name\":\"New
+        Mutants (2009) #2 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26052\",\"name\":\"New
+        Mutants (2009) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27464\",\"name\":\"New
+        Mutants (2009) #3 (VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27857\",\"name\":\"New
+        Mutants (2009) #3 (50S DECADE VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26053\",\"name\":\"New
+        Mutants (2009) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27465\",\"name\":\"New
+        Mutants (2009) #4 (BENJAMIN VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27896\",\"name\":\"New
+        Mutants (2009) #4 (70TH FRAME VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26054\",\"name\":\"New
+        Mutants (2009) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26055\",\"name\":\"New
+        Mutants (2009) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/31427\",\"name\":\"New
+        Mutants (2009) #6 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26056\",\"name\":\"New
+        Mutants (2009) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26057\",\"name\":\"New
+        Mutants (2009) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/26058\",\"name\":\"New
+        Mutants (2009) #9\"}],\"returned\":20},\"events\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/7455/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/303\",\"name\":\"Age
+        of X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/302\",\"name\":\"Fear
+        Itself\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/273\",\"name\":\"Siege\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":4},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2055\",\"name\":\"New
+        Mutants (1983 - 1991)\"}},{\"id\":9851,\"title\":\"Second Coming: Prepare
+        (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9851\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9851/second_coming_prepare_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"one
+        shot\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/creators\",\"items\":[],\"returned\":0},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/106527\",\"name\":\"cover
+        from Second Coming: Prepare #1\",\"type\":\"cover\"}],\"returned\":1},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33554\",\"name\":\"Second
+        Coming: Prepare (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9851/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":2258,\"title\":\"Uncanny
+        X-Men (1963 - 2011)\",\"description\":\"The flagship X-Men comic for over
+        40 years, Uncanny X-Men delivers action, suspense, and a hint of science fiction
+        month in and month out. Follow the adventures of Professor Charles Xavier's
+        team of mutants as they attempt to protect a world that hates and fears them.
+        \",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2258\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2258/uncanny_x-men_1963_-_2011?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1963,\"endYear\":2011,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-06-27T14:10:47-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/00/512527be6fba3\",\"extension\":\"jpg\"},\"creators\":{\"available\":372,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6694\",\"name\":\"Wes
+        Abbot\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/314\",\"name\":\"Neal
+        Adams\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1865\",\"name\":\"Diana
+        Albers\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1937\",\"name\":\"Jon
+        Babcock\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4472\",\"name\":\"Jg\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4165\",\"name\":\"Sr.\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1836\",\"name\":\"Terry
+        Austin\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
+        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/779\",\"name\":\"Matt
+        Banning\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2077\",\"name\":\"Hilary
+        Barta\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/249\",\"name\":\"Art
+        Adams\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1212\",\"name\":\"Dan
+        Adkins\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/651\",\"name\":\"Brent
+        Anderson\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1167\",\"name\":\"Ross
+        Andru\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/219\",\"name\":\"Kia
+        Asamiya\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/232\",\"name\":\"Chris
+        Bachalo\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4444\",\"name\":\"Senen
+        Antonio\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8320\",\"name\":\"Darryl
+        Banks\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11\",\"name\":\"Chuck
+        Austen\",\"role\":\"writer\"}],\"returned\":20},\"characters\":{\"available\":236,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009144\",\"name\":\"A.I.M.\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009146\",\"name\":\"Abomination
+        (Emil Blonsky)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009149\",\"name\":\"Abyss\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010354\",\"name\":\"Adam
+        Warlock\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010370\",\"name\":\"Alpha
+        Flight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009151\",\"name\":\"Amiko\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009156\",\"name\":\"Apocalypse\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009158\",\"name\":\"Arcade\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009159\",\"name\":\"Archangel\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009160\",\"name\":\"Arclight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009163\",\"name\":\"Aurora\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009164\",\"name\":\"Avalanche\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011766\",\"name\":\"Azazel
+        (Mutant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009168\",\"name\":\"Banshee\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009596\",\"name\":\"Banshee
+        (Theresa Rourke)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009169\",\"name\":\"Baron
+        Strucker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009175\",\"name\":\"Beast\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009178\",\"name\":\"Beef\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009182\",\"name\":\"Bishop\"}],\"returned\":20},\"stories\":{\"available\":1311,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/690\",\"name\":\"1
+        of 3\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/691\",\"name\":\"1
+        of 3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/698\",\"name\":\"Cover
+        #698\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/699\",\"name\":\"Interior
+        #699\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/708\",\"name\":\"Cover
+        #708\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/709\",\"name\":\"Interior
+        #709\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/710\",\"name\":\"Cover
+        #710\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/711\",\"name\":\"Interior
+        #711\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/712\",\"name\":\"Cover
+        #712\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/713\",\"name\":\"Interior
+        #713\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/714\",\"name\":\"Cover
+        #714\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/715\",\"name\":\"Interior
+        #715\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/716\",\"name\":\"Cover
+        #716\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/717\",\"name\":\"Interior
+        #717\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/718\",\"name\":\"Cover
+        #718\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/719\",\"name\":\"Interior
+        #719\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/720\",\"name\":\"Cover
+        #720\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/721\",\"name\":\"Interior
+        #721\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/722\",\"name\":\"Cover
+        #722\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/723\",\"name\":\"Interior
+        #723\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":595,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13682\",\"name\":\"Uncanny
+        X-Men (1963)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12413\",\"name\":\"Uncanny
+        X-Men (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12466\",\"name\":\"Uncanny
+        X-Men (1963) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12477\",\"name\":\"Uncanny
+        X-Men (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12488\",\"name\":\"Uncanny
+        X-Men (1963) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12499\",\"name\":\"Uncanny
+        X-Men (1963) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12510\",\"name\":\"Uncanny
+        X-Men (1963) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12521\",\"name\":\"Uncanny
+        X-Men (1963) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12532\",\"name\":\"Uncanny
+        X-Men (1963) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12543\",\"name\":\"Uncanny
+        X-Men (1963) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12414\",\"name\":\"Uncanny
+        X-Men (1963) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12425\",\"name\":\"Uncanny
+        X-Men (1963) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12436\",\"name\":\"Uncanny
+        X-Men (1963) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12447\",\"name\":\"Uncanny
+        X-Men (1963) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12458\",\"name\":\"Uncanny
+        X-Men (1963) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12461\",\"name\":\"Uncanny
+        X-Men (1963) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12462\",\"name\":\"Uncanny
+        X-Men (1963) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12463\",\"name\":\"Uncanny
+        X-Men (1963) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12464\",\"name\":\"Uncanny
+        X-Men (1963) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12465\",\"name\":\"Uncanny
+        X-Men (1963) #19\"}],\"returned\":20},\"events\":{\"available\":15,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2258/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/116\",\"name\":\"Acts
+        of Vengeance!\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/248\",\"name\":\"Fall
+        of the Mutants\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/249\",\"name\":\"Fatal
+        Attractions\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/302\",\"name\":\"Fear
+        Itself\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/251\",\"name\":\"House
+        of M\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/37\",\"name\":\"Maximum
+        Security\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/299\",\"name\":\"Messiah
+        CompleX\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/263\",\"name\":\"Mutant
+        Massacre\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/154\",\"name\":\"Onslaught\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/270\",\"name\":\"Secret
+        Wars\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/271\",\"name\":\"Secret
+        Wars II\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/280\",\"name\":\"X-Tinction
+        Agenda\"}],\"returned\":15},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/14914\",\"name\":\"Uncanny
+        X-Men (2011 - 2012)\"},\"previous\":null},{\"id\":1035,\"title\":\"X-Factor
+        (2005 - Present)\",\"description\":\"X-Factor is quite possibly the most unpredictable
+        book in the Marvel line-up. A psychological tour de force that doesn't skimp
+        on the laughs, action or mystery, each issue of X-Factor brings something
+        new to the table. Maybe not the best bet for a young reader, but a killer
+        title for serious readers. \",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1035\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1035/x-factor_2005_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2005,\"endYear\":2099,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-08-06T15:21:14-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/8/03/513114f727e67\",\"extension\":\"jpg\"},\"creators\":{\"available\":68,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10142\",\"name\":\"MITRIC\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/937\",\"name\":\"Renato
+        Arlem\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/970\",\"name\":\"Dennis
+        Calero\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8068\",\"name\":\"Bing
+        Cansino\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8132\",\"name\":\"Boo
+        Cook\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/589\",\"name\":\"Nelson
+        DeCastro\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/7722\",\"name\":\"VALENTINE
+        DELANDRO\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11575\",\"name\":\"Kristafer
+        Anka\",\"role\":\"penciler (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11543\",\"name\":\"Dan
+        Brown\",\"role\":\"colorist (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11559\",\"name\":\"Jeff
+        Scott Campbell\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/357\",\"name\":\"Jim
+        Cheung\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8522\",\"name\":\"Gabriele
+        Dell'Otto\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9998\",\"name\":\"Elena
+        Casagrande\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8738\",\"name\":\"Jeromy
+        Cox\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/430\",\"name\":\"Edgar
+        Delgado\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/692\",\"name\":\"Pat
+        Davidson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/359\",\"name\":\"John
+        Dell\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":19,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009596\",\"name\":\"Banshee
+        (Theresa Rourke)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009185\",\"name\":\"Black
+        Cat\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009342\",\"name\":\"Hepzibah\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011100\",\"name\":\"Layla
+        Miller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011068\",\"name\":\"M
+        (Monet St. Croix)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009413\",\"name\":\"Madrox\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011056\",\"name\":\"Multiple
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009506\",\"name\":\"Proudstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009430\",\"name\":\"Rachel
+        Grey\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009542\",\"name\":\"Rictor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009580\",\"name\":\"Shatterstar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011051\",\"name\":\"Strong
+        Guy\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009717\",\"name\":\"Wolfsbane\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009722\",\"name\":\"X-23\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010738\",\"name\":\"X-Factor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010739\",\"name\":\"X-Factor
+        Investigations\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":19},\"stories\":{\"available\":282,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4905\",\"name\":\"1
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4906\",\"name\":\"1
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4907\",\"name\":\"2
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4908\",\"name\":\"3
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4909\",\"name\":\"3
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4910\",\"name\":\"4
+        of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4911\",\"name\":\"4
+        of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4912\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4913\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4914\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/4915\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5758\",\"name\":\"1
+        of 1\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5759\",\"name\":\"1
+        of 1\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5760\",\"name\":\"1
+        of 2\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5761\",\"name\":\"1
+        of 2\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5762\",\"name\":\"2
+        of 2 - Civil War\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5763\",\"name\":\"2
+        of 2 - Civil War\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5764\",\"name\":\"1
+        of 3\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5765\",\"name\":\"1
+        of 3\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/5766\",\"name\":\"2
+        of 3\",\"type\":\"cover\"}],\"returned\":20},\"comics\":{\"available\":131,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3046\",\"name\":\"X-Factor
+        (2005) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3150\",\"name\":\"X-Factor
+        (2005) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3372\",\"name\":\"X-Factor
+        (2005) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3486\",\"name\":\"X-Factor
+        (2005) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/3897\",\"name\":\"X-Factor
+        (2005) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4029\",\"name\":\"X-Factor
+        (2005) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4211\",\"name\":\"X-Factor
+        (2005) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4306\",\"name\":\"X-Factor
+        (2005) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4462\",\"name\":\"X-Factor
+        (2005) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/4777\",\"name\":\"X-Factor
+        (2005) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5065\",\"name\":\"X-Factor
+        (2005) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5219\",\"name\":\"X-Factor
+        (2005) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5594\",\"name\":\"X-Factor
+        (2005) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5472\",\"name\":\"X-Factor
+        (2005) #13 (variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5710\",\"name\":\"X-Factor
+        (2005) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/5847\",\"name\":\"X-Factor
+        (2005) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6000\",\"name\":\"X-Factor
+        (2005) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6155\",\"name\":\"X-Factor
+        (2005) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6302\",\"name\":\"X-Factor
+        (2005) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/13465\",\"name\":\"X-Factor
+        (2005) #19\"}],\"returned\":20},\"events\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1035/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/238\",\"name\":\"Civil
+        War\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/299\",\"name\":\"Messiah
+        CompleX\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/269\",\"name\":\"Secret
+        Invasion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/308\",\"name\":\"X-Men:
+        Regenesis\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":5},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2098\",\"name\":\"X-Factor
+        (1986 - 1998)\"}},{\"id\":10950,\"title\":\"X-Factor: Second Coming (2010
+        - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10950\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/10950/x-factor_second_coming_2010_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/00/4beaf1b4940ed\",\"extension\":\"jpg\"},\"creators\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5249\",\"name\":\"Aubrey
+        Sitterson\",\"role\":\"writer\"}],\"returned\":1},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76072\",\"name\":\"Cover
+        #76072\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76073\",\"name\":\"Interior
+        #76073\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33909\",\"name\":\"X-Factor:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10950/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":10583,\"title\":\"X-Factor:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/10583\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/10583/x-factor_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2011-08-11T16:12:58-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/c0/4cb608621d1f0\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/778\",\"name\":\"Valentine
+        De Landro\",\"role\":\"artist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/789\",\"name\":\"David
+        Yardin\",\"role\":\"artist\"}],\"returned\":3},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64153\",\"name\":\"Cover
+        #64153\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64154\",\"name\":\"Interior
+        #64154\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29500\",\"name\":\"X-Factor:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/10583/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":3839,\"title\":\"X-Force
+        (2008 - 2010)\",\"description\":\"When Cyclops has jobs too dirty for the
+        X-Men to handle, he calls X-Force. Wolverine, X-23, Warpath, Wolfsbane, Archangel
+        and Domino make up the most violent X-team of all time! If the odds look impossible
+        you want this X-Force on your side!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3839\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3839/x-force_2008_-_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2008,\"endYear\":2010,\"rating\":\"Parental
+        Advisory\",\"type\":\"limited\",\"modified\":\"2013-02-13T17:31:52-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/80/511c13cb07373\",\"extension\":\"jpg\"},\"creators\":{\"available\":27,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/191\",\"name\":\"Kaare
+        Andrews\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/452\",\"name\":\"Chris
+        Eliopoulos\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/436\",\"name\":\"Adi
+        Granov\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1374\",\"name\":\"Sonia
+        Oback\",\"role\":\"other\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/412\",\"name\":\"Carlo
+        Barberi\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/162\",\"name\":\"John
+        Cassaday\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/73\",\"name\":\"Steve
+        Dillon\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11521\",\"name\":\"Greg
+        Horn\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5127\",\"name\":\"Travis
+        Charest\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/600\",\"name\":\"Clayton
+        Crain\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5037\",\"name\":\"Ed
+        Dukeshire\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10050\",\"name\":\"Jason
+        Levesque\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4306\",\"name\":\"Laura
+        Martin\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1082\",\"name\":\"Ariel
+        Olivetti\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8813\",\"name\":\"Jon
+        Ennis\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10022\",\"name\":\"Justin
+        Gabrie\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/649\",\"name\":\"Ed
+        McGuinness\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/212\",\"name\":\"Jason
+        Pearson\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011207\",\"name\":\"Purifiers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009705\",\"name\":\"Warpath\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009717\",\"name\":\"Wolfsbane\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009722\",\"name\":\"X-23\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009724\",\"name\":\"X-Force\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":7},\"stories\":{\"available\":130,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44403\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44404\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44405\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44406\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44407\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44408\",\"name\":\"Angels
+        and Demons 1 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44744\",\"name\":\"Angels
+        and Demons 2 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44745\",\"name\":\"Angels
+        and Demons 2 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45810\",\"name\":\"Angels
+        and Demons 3 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45811\",\"name\":\"Angels
+        and Demons 3 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46919\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46920\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46921\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46922\",\"name\":\"Angels
+        and Demons 4 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47528\",\"name\":\"Angels
+        and Demons 5 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47529\",\"name\":\"Angels
+        and Demons 5 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47822\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47823\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47824\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47825\",\"name\":\"Angels
+        and Demons 6 of 6\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":54,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20704\",\"name\":\"X-Force
+        (2008) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20705\",\"name\":\"X-Force
+        (2008) #1 (Charest Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20706\",\"name\":\"X-Force
+        (2008) #1 (Bloody Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20895\",\"name\":\"X-Force
+        (2008) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21028\",\"name\":\"X-Force
+        (2008) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21244\",\"name\":\"X-Force
+        (2008) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21243\",\"name\":\"X-Force
+        (2008) #4 (Bloody Variant)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21561\",\"name\":\"X-Force
+        (2008) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21757\",\"name\":\"X-Force
+        (2008) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21756\",\"name\":\"X-Force
+        (2008) #6 (BLOODY VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21996\",\"name\":\"X-Force
+        (2008) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22322\",\"name\":\"X-Force
+        (2008) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22521\",\"name\":\"X-Force
+        (2008) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22929\",\"name\":\"X-Force
+        (2008) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23125\",\"name\":\"X-Force
+        (2008) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23617\",\"name\":\"X-Force
+        (2008) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23772\",\"name\":\"X-Force
+        (2008) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23969\",\"name\":\"X-Force
+        (2008) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27979\",\"name\":\"X-Force
+        (2008) #14 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23970\",\"name\":\"X-Force
+        (2008) #14 (CRAIN (MW, 50/50 COVER))\"}],\"returned\":20},\"events\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3839/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/298\",\"name\":\"Messiah
+        War\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":2},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9976\",\"name\":\"Uncanny
+        X-Force (2010 - 2012)\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/4559\",\"name\":\"X-Men:
+        Messiah Complex (2008)\"}},{\"id\":3754,\"title\":\"X-Men Legacy (2008 - 2012)\",\"description\":\"Once
+        a troubled youth herself, Rogue has come full circle and now trains the newest
+        generation of X-Men to be heroes. Catch all your favorite mutants, old and
+        new, in this unique series!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3754\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3754/x-men_legacy_2008_-_2012?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2008,\"endYear\":2012,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-03-01T16:04:43-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/03/51311782d8f15\",\"extension\":\"jpg\"},\"creators\":{\"available\":87,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8571\",\"name\":\"Guru-eFX\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11562\",\"name\":\"Jean-Francois
+        Beaulieu\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/520\",\"name\":\"Rainier
+        Beredo\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8504\",\"name\":\"Frank
+        D'Armata\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1004\",\"name\":\"Daniel
+        Acuna\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4840\",\"name\":\"Joy
+        Ang\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9043\",\"name\":\"Mariah
+        Benes\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/694\",\"name\":\"Mark
+        Brooks\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/16\",\"name\":\"Alan
+        Davis\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8208\",\"name\":\"Chris
+        Allo\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4014\",\"name\":\"Axel
+        Alonso\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9799\",\"name\":\"David
+        Baldeon\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/512\",\"name\":\"Lee
+        Bermejo\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1279\",\"name\":\"Jon
+        Bogdanove\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1122\",\"name\":\"Philippe
+        Briones\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11748\",\"name\":\"Marco
+        Checchetto\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11614\",\"name\":\"Rafa
+        Lopez Blanco\",\"role\":\"Penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5251\",\"name\":\"Joe
+        Caramagna\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"inker\"}],\"returned\":20},\"characters\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009165\",\"name\":\"Avengers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009310\",\"name\":\"Emma
+        Frost\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009295\",\"name\":\"Exodus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009313\",\"name\":\"Gambit\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009337\",\"name\":\"Havok\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009381\",\"name\":\"Jubilee\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009399\",\"name\":\"Legion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009417\",\"name\":\"Magneto\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009499\",\"name\":\"Polaris\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009504\",\"name\":\"Professor
+        X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009430\",\"name\":\"Rachel
+        Grey\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009546\",\"name\":\"Rogue\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009583\",\"name\":\"She-Hulk
+        (Jennifer Walters)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009629\",\"name\":\"Storm\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010791\",\"name\":\"Sub-Mariner\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":18},\"stories\":{\"available\":206,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44239\",\"name\":\"1
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44240\",\"name\":\"1
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44590\",\"name\":\"2
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/44591\",\"name\":\"2
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45165\",\"name\":\"3
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/45166\",\"name\":\"3
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46758\",\"name\":\"4
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46759\",\"name\":\"4
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46760\",\"name\":\"5
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/46761\",\"name\":\"5
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47083\",\"name\":\"1
+        of 5\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47084\",\"name\":\"1
+        of 5\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47395\",\"name\":\"1
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47396\",\"name\":\"1
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47703\",\"name\":\"2
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/47704\",\"name\":\"2
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/48166\",\"name\":\"3
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/48167\",\"name\":\"3
+        of 4\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49012\",\"name\":\"4
+        of 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/49013\",\"name\":\"4
+        of 4\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":96,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20632\",\"name\":\"X-Men
+        Legacy (2008) #208\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20819\",\"name\":\"X-Men
+        Legacy (2008) #209\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/20957\",\"name\":\"X-Men
+        Legacy (2008) #210\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21166\",\"name\":\"X-Men
+        Legacy (2008) #211\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21167\",\"name\":\"X-Men
+        Legacy (2008) #212\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21317\",\"name\":\"X-Men
+        Legacy (2008) #213\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21495\",\"name\":\"X-Men
+        Legacy (2008) #214\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21698\",\"name\":\"X-Men
+        Legacy (2008) #215\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/21923\",\"name\":\"X-Men
+        Legacy (2008) #216\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22254\",\"name\":\"X-Men
+        Legacy (2008) #217\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22462\",\"name\":\"X-Men
+        Legacy (2008) #218\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22857\",\"name\":\"X-Men
+        Legacy (2008) #219\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23073\",\"name\":\"X-Men
+        Legacy (2008) #220\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23563\",\"name\":\"X-Men
+        Legacy (2008) #221\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23734\",\"name\":\"X-Men
+        Legacy (2008) #222\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23917\",\"name\":\"X-Men
+        Legacy (2008) #223\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23918\",\"name\":\"X-Men
+        Legacy (2008) #223\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27341\",\"name\":\"X-Men
+        Legacy (2008) #223 (WOLVERINE ART VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/24129\",\"name\":\"X-Men
+        Legacy (2008) #224\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/27342\",\"name\":\"X-Men
+        Legacy (2008) #225\"}],\"returned\":20},\"events\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3754/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/303\",\"name\":\"Age
+        of X\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/310\",\"name\":\"Avengers
+        VS X-Men\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/318\",\"name\":\"Dark
+        Reign\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/308\",\"name\":\"X-Men:
+        Regenesis\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":5},\"next\":null,\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/403\",\"name\":\"X-Men
+        (2004 - 2007)\"}},{\"id\":9981,\"title\":\"X-Men: Hellbound (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9981\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9981/x-men_hellbound_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2011-06-01T17:18:41-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/50/4baa86c671fb5\",\"extension\":\"jpg\"},\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10288\",\"name\":\"Marko
+        Djurdjevic\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/444\",\"name\":\"Tom
+        Raney\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"}],\"returned\":4},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009415\",\"name\":\"Magik
+        (Illyana Rasputin)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":2},\"stories\":{\"available\":12,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74310\",\"name\":\"Cover
+        #74310\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74311\",\"name\":\"Interior
+        #74311\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74312\",\"name\":\"Cover
+        #74312\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74313\",\"name\":\"Interior
+        #74313\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74318\",\"name\":\"Cover
+        #74318\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74319\",\"name\":\"Interior
+        #74319\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78959\",\"name\":\"Cover
+        #78959\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78960\",\"name\":\"Cover
+        #78960\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78961\",\"name\":\"Interior
+        #78961\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/78962\",\"name\":\"Interior
+        #78962\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80702\",\"name\":\"Cover
+        #80702\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80703\",\"name\":\"Interior
+        #80703\",\"type\":\"interiorStory\"}],\"returned\":12},\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32987\",\"name\":\"X-Men:
+        Hellbound (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32988\",\"name\":\"X-Men:
+        Hellbound (2010) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32991\",\"name\":\"X-Men:
+        Hellbound (2010) #3\"}],\"returned\":3},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9981/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9359,\"title\":\"X-Men:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9359\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9359/x-men_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"2013-03-01T16:09:40-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/51311888cb511\",\"extension\":\"jpg\"},\"creators\":{\"available\":5,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/436\",\"name\":\"Adi
+        Granov\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10612\",\"name\":\"MICHAEL
+        TURNER, PETER STEIGERWALD\",\"role\":\"colorist\"}],\"returned\":5},\"characters\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009214\",\"name\":\"Cable\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011428\",\"name\":\"Hope
+        Summers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009718\",\"name\":\"Wolverine\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":6},\"stories\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/69374\",\"name\":\"Cover
+        #69374\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/69375\",\"name\":\"Interior
+        #69375\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73415\",\"name\":\"Cover
+        #73415\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73416\",\"name\":\"Interior
+        #73416\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73671\",\"name\":\"Cover
+        #73671\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/73674\",\"name\":\"Interior
+        #73674\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74653\",\"name\":\"Cover
+        #74653\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74654\",\"name\":\"Interior
+        #74654\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75730\",\"name\":\"Cover
+        #75730\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75731\",\"name\":\"Interior
+        #75731\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/76420\",\"name\":\"Cover
+        #76420\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80471\",\"name\":\"Cover
+        #80471\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80472\",\"name\":\"Interior
+        #80472\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80856\",\"name\":\"Cover
+        #80856\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/80857\",\"name\":\"Interior
+        #80857\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81072\",\"name\":\"Cover
+        #81072\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81073\",\"name\":\"Interior
+        #81073\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/81914\",\"name\":\"Cover
+        #81914\",\"type\":\"cover\"}],\"returned\":18},\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/30274\",\"name\":\"X-Men:
+        Second Coming (2010) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32507\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36524\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (3RD PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/34269\",\"name\":\"X-Men:
+        Second Coming (2010) #1 (2ND PRINTING VARIANT)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/33166\",\"name\":\"X-Men:
+        Second Coming (2010) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/36781\",\"name\":\"X-Men:
+        Second Coming (2010) #2 (VARIANT)\"}],\"returned\":6},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9359/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9679,\"title\":\"X-Men:
+        Second Coming (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9679\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9679/x-men_second_coming_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"collection\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/a0/4c1155ac0ddc7\",\"extension\":\"jpg\"},\"creators\":{\"available\":9,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/366\",\"name\":\"Mike
+        Carey\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1132\",\"name\":\"Matt
+        Fraction\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/801\",\"name\":\"Craig
+        Kyle\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10409\",\"name\":\"Zeb
+        Wells\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/277\",\"name\":\"Terry
+        Dodson\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/425\",\"name\":\"Greg
+        Land\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/10061\",\"name\":\"Ibraim
+        Roberson\",\"role\":\"penciller\"}],\"returned\":9},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64191\",\"name\":\"Cover
+        From X-Men: Second Coming (2010)\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/64192\",\"name\":\"Interior
+        Story 1 From X-Men: Second Coming (2010)\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/29519\",\"name\":\"X-Men:
+        Second Coming (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9679/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":13423,\"title\":\"X-Men:
+        Second Coming - Revelations (2010 - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/13423\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/13423/x-men_second_coming_-_revelations_2010_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/50/4c4df67b6aa6b\",\"extension\":\"jpg\"},\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5635\",\"name\":\"Simon
+        Spurrier\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/803\",\"name\":\"Chris
+        Yost\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/248\",\"name\":\"David
+        Finch\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/778\",\"name\":\"Valentine
+        De Landro\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/8584\",\"name\":\"Harvey
+        Tolibao\",\"role\":\"penciler\"}],\"returned\":7},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82767\",\"name\":\"Cover
+        #82767\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/82768\",\"name\":\"\",\"type\":\"\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/37369\",\"name\":\"X-Men:
+        Second Coming - Revelations (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/13423/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null},{\"id\":9808,\"title\":\"X-Men:
+        Second Coming - Revelations: Blind Science (2010)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/9808\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/9808/x-men_second_coming_-_revelations_blind_science_2010?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2010,\"endYear\":2010,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/a0/4baa8339dd6e7\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9224\",\"name\":\"Paul
+        Davidson\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1369\",\"name\":\"Gerald
+        Parel\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5635\",\"name\":\"Simon
+        Spurrier\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009171\",\"name\":\"Bastion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009726\",\"name\":\"X-Men\"}],\"returned\":2},\"stories\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74304\",\"name\":\"Cover
+        #74304\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/74306\",\"name\":\"Interior
+        #74306\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/75240\",\"name\":\"Cover
+        #75240\",\"type\":\"cover\"}],\"returned\":3},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/32984\",\"name\":\"X-Men:
+        Second Coming - Revelations: Blind Science (2010) #1\"}],\"returned\":1},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/9808/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/279\",\"name\":\"X-Men:
+        Second Coming\"}],\"returned\":1},\"next\":null,\"previous\":null}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+recorded_with: VCR 2.8.0

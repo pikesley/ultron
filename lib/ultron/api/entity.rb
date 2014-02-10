@@ -20,15 +20,31 @@ module Ultron
       end
 
       def comics
-        ComicSet.new @path
+        Comics.new '%s/comics' % @path
       end
 
       def characters
-        CharacterSet.new @path
+        Characters.new '%s/characters' % @path
+      end
+
+      def creators
+        Creators.new '%s/creators' % @path
       end
 
       def events
-        EventSet.new @path
+        Events.new '%s/events' % @path
+      end
+
+      def serieses
+        Serieses.new '%s/serieses' % @path
+      end
+
+      def stories
+        Stories.new '%s/stories' % @path
+      end
+
+      def has_events?
+        events.any?
       end
     end
   end

@@ -17,17 +17,21 @@ module Ultron
       end
 
       it 'should have a comics set', :vcr do
-        @character.comics.class.should == ComicSet
+        @character.comics.class.should == Comics
       end
 
       it 'should have an events set', :vcr do
-        pending 'The EventSet is empty. Need to think about how to handle this'
-        @character.events.class.should == EventSet
-        @character.events[0].name.should == 'Derp'
+        @character.events.class.should == Events
+        @character.has_events?.should == false
       end
 
-      it 'should have a series set', :vcr
-      it 'should have a stories set', :vcr
+      it 'should have a series set', :vcr do
+        @character.serieses.class.should == Serieses
+      end
+
+      it 'should have a stories set', :vcr do
+        @character.stories.class.should == Stories
+      end
     end
   end
 end

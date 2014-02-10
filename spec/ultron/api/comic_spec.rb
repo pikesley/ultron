@@ -21,7 +21,7 @@ module Ultron
       end
 
       it 'should have a list of characters', :vcr do
-        @comic.characters.class.should == CharacterSet
+        @comic.characters.class.should == Characters
       end
     end
   end
