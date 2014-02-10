@@ -7,28 +7,33 @@ module Ultron
         Timecop.freeze '2014-02-08T21:20:00+00:00'
       end
 
-      it 'should generate a list of characters filtered by comic', :vcr do
-        @set = Ultron::API::Characters.new 'comics/29506/characters'
-        @set.first['id'].should == 1009257
-        @set.first['name'].should == 'Cyclops'
-      end
+      context 'generate filtered lists of characters' do
+        it 'by comic', :vcr do
+          @set = Ultron::API::Characters.new 'comics/29506/characters'
+          @set.first['id'].should == 1009257
+          @set.first['name'].should == 'Cyclops'
+        end
 
-      it 'should generate a list of characters filtered by event', :vcr do
-        @set = Ultron::API::Characters.new 'events/116/characters'
-        @set.last['id'].should == 1009282
-        @set.last['name'].should == 'Doctor Strange'
-      end
+        it 'by event', :vcr do
+          @set = Ultron::API::Characters.new 'events/116/characters'
+          @set.last['id'].should == 1009282
+          @set.last['name'].should == 'Doctor Strange'
+        end
 
-      it 'should generate a list of characters filtered by series', :vcr do
-        @set = Ultron::API::Characters.new 'series/150/characters'
-        @set[1]['id'].should == 1009368
-        @set[1]['name'].should == 'Iron Man'
-      end
+        it 'by series', :vcr do
+          @set = Ultron::API::Characters.new 'series/150/characters'
+          @set[1]['id'].should == 1009368
+          @set[1]['name'].should == 'Iron Man'
+        end
 
-      it 'should generate a list of characters filtered by story', :vcr do
-        @set = Ultron::API::Characters.new 'stories/44081/characters'
-        @set.first['id'].should == 1009726
-        @set.first['name'].should == 'X-Men'
+        it 'by story', :vcr do
+          @set = Ultron::API::Characters.new 'stories/44081/characters'
+          @set.first['id'].should == 1009726
+          @set.first['name'].should == 'X-Men'
+        end
+
+        it 'should not generate a list of characters filtered by creator'
+
       end
 
       after :each do

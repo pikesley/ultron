@@ -40,6 +40,7 @@ module Ultron
       end
 
       def by_name name
+        # this can be done with method_missig I think
         @cnxn.add_params 'name' => name
         @cnxn.perform['data']['results'].first
       end
