@@ -10,6 +10,10 @@ module Ultron
       def characters
         nil
       end
+
+      def creators
+        nil
+      end
     end
   end
 end

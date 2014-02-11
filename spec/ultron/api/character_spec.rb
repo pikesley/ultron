@@ -8,10 +8,6 @@ module Ultron
         @character = Ultron::API::Character.new '1009496'
       end
 
-      after :each do
-        Timecop.return
-      end
-
       context 'should have the correct sets' do
         it 'comics', :vcr do
           @character.comics.class.should == Comics
@@ -44,6 +40,10 @@ module Ultron
 
       it 'should not have any events', :vcr do
         @character.has_events?.should == false
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end

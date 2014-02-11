@@ -8,13 +8,17 @@ module Ultron
         @event = Ultron::API::Event.new 314
       end
 
-      after :each do
-        Timecop.return
-      end
-
       context 'should have the correct sets' do
         it 'characters', :vcr do
           @event.characters.class.should == Characters
+        end
+
+        it 'comics', :vcr do
+          @event.comics.class.should == Comics
+        end
+
+        it 'creators', :vcr do
+          @event.creators.class.should == Creators
         end
 
         it 'series', :vcr do
@@ -25,15 +29,7 @@ module Ultron
           @event.stories.class.should == Stories
         end
 
-        it 'creators', :vcr do
-          @event.creators.class.should == Creators
-        end
-
-        it 'not comics', :vcr do
-          @event.comics.class.should == Comics
-        end
-
-        it 'events', :vcr do
+        it 'not events', :vcr do
           @event.events.class.should == NilClass
         end
       end
@@ -44,6 +40,10 @@ module Ultron
 
       it 'should have the correct first character', :vcr do
         @event.characters[0].name.should == 'Ultron'
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end

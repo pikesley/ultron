@@ -6,6 +6,10 @@ module Ultron
         @path = 'stories/%s' % @id
         super @path
       end
+
+      def stories
+        nil
+      end
     end
   end
 end

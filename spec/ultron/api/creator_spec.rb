@@ -8,10 +8,6 @@ module Ultron
         @creator = Ultron::API::Creator.new 196
       end
 
-      after :each do
-        Timecop.return
-      end
-
       context 'it should have the correct sets' do
         it 'comics', :vcr do
           @creator.comics.class.should == Comics
@@ -32,6 +28,10 @@ module Ultron
         it 'not characters', :vcr do
           @creator.characters.class.should == NilClass
         end
+
+        it 'not creators', :vcr do
+          @creator.creators.class.should == NilClass
+        end
       end
 
       it 'should have the correct name', :vcr do
@@ -40,6 +40,10 @@ module Ultron
 
       it 'should have the correct comic', :vcr do
         @creator.comics[0].title.should == 'THE FANTASTIC FOUR OMNIBUS VOL. 2 HC (NEW PRINTING) (Hardcover)'
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end

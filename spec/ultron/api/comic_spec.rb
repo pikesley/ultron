@@ -8,13 +8,13 @@ module Ultron
         @comic = Ultron::API::Comic.new 12518
       end
 
-      after :each do
-        Timecop.return
-      end
-
       context 'should have the correct sets' do
         it 'characters', :vcr do
           @comic.characters.class.should == Characters
+        end
+
+        it 'creators', :vcr do
+          @comic.creators.class.should == Creators
         end
 
         it 'events', :vcr do
@@ -29,10 +29,6 @@ module Ultron
           @comic.stories.class.should == Stories
         end
 
-        it 'creators', :vcr do
-          @comic.creators.class.should == Creators
-        end
-
         it 'not comics', :vcr do
           @comic.comics.class.should == NilClass
         end
@@ -44,6 +40,10 @@ module Ultron
 
       it 'should have openstruct method-style attribute accessors', :vcr do
         @comic.issueNumber.should == 67
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end
