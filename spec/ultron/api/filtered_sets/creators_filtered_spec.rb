@@ -12,7 +12,7 @@ module Ultron
           set     = Creators.new 'comics/40452/creators'
           creator = set[0]
           creator['id'].should == 361
-          creator.fullName.should == 'Cory Petit'
+          creator['fullName'].should == 'Cory Petit'
         end
 
         it 'by event', :vcr do
@@ -24,15 +24,15 @@ module Ultron
 
         it 'by series', :vcr do
           set = Creators.new 'series/1137/creators'
-          set.first['id'].should == 24
-          set.first['fullName'].should == 'Brian Michael Bendis'
+          set[0]['id'].should == 24
+          set[0]['fullName'].should == 'Brian Michael Bendis'
         end
 
         it 'by story', :vcr do
           set     = Creators.new 'stories/49846/creators'
           creator = set[-1]
-          creator.id.should == 454
-          creator.fullName.should == 'Mark Morales'
+          creator['id'].should == 454
+          creator['fullName'].should == 'Mark Morales'
         end
       end
 

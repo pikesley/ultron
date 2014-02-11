@@ -1,6 +1,9 @@
 require 'singleton'
 require 'curb'
 require 'dotenv'
+require 'json'
+require 'yaml'
+require 'digest'
 
 require 'ultron/version'
 require 'ultron/helpers'

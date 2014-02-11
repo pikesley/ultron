@@ -35,7 +35,7 @@ module Ultron
       end
 
       it 'should have the correct title', :vcr do
-        @series.title.should == 'Amazing Fantasy 15: Spider-Man! (2011 - 2012)'
+        @series['title'].should == 'Amazing Fantasy 15: Spider-Man! (2011 - 2012)'
       end
 
       after :each do

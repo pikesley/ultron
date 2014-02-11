@@ -19,11 +19,13 @@ module Ultron
         end
 
         it 'should have the right name', :vcr do
-          @creator.fullName.should == 'Nicholas Bertozzi'
+          @creator['fullName'].should == 'Nicholas Bertozzi'
         end
       end
 
-
+#      it 'should have the correct total', :vcr do
+#        @creators.metadata['total'].should == 5558
+#      end
     end
   end
 end

@@ -13,7 +13,7 @@ module Ultron
           series = set[-1]
           series.class.should == Series
           series['id'].should == 9086
-          series.title.should == 'Avengers Academy (2010 - 2012)'
+          series['title'].should == 'Avengers Academy (2010 - 2012)'
         end
 
         it 'by creator', :vcr do
@@ -25,8 +25,8 @@ module Ultron
         it 'by event', :vcr do
           set    = Serieses.new 'events/279/series'
           series = set[-1]
-          series.id.should == 9808
-          series.title.should == 'X-Men: Second Coming - Revelations: Blind Science (2010)'
+          series['id'].should == 9808
+          series['title'].should == 'X-Men: Second Coming - Revelations: Blind Science (2010)'
         end
       end
 

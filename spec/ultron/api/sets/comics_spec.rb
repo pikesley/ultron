@@ -38,7 +38,7 @@ module Ultron
 
         it 'should let us set a dateRange', :vcr do
           @comics.add_params dateRange: '1980-01-01,1990-01-01'
-          @comics[0].title.should == 'Wolverine (1988) #20'
+          @comics[0]['title'].should == 'Wolverine (1988) #20'
         end
       end
     end

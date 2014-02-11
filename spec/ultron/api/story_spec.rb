@@ -35,7 +35,7 @@ module Ultron
       end
 
       it 'should have the correct title', :vcr do
-        @story.title.should == 'Cover #15820'
+        @story['title'].should == 'Cover #15820'
       end
 
       after :each do

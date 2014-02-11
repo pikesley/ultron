@@ -35,11 +35,11 @@ module Ultron
       end
 
       it 'should have the correct title', :vcr do
-        @event.title.should == 'Age of Ultron'
+        @event['title'].should == 'Age of Ultron'
       end
 
       it 'should have the correct first character', :vcr do
-        @event.characters[0].name.should == 'Ultron'
+        @event.characters[0]['name'].should == 'Ultron'
       end
 
       after :each do

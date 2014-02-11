@@ -19,7 +19,7 @@ module Ultron
         it 'by creator', :vcr do
           set   = Comics.new 'creators/196/comics'
           comic = set[-1]
-          comic.id.should == 46245
+          comic['id'].should == 46245
           comic['title'].should == 'Marvel Masterworks: Golden Age All-Winners (Trade Paperback)'
         end
 
@@ -39,7 +39,7 @@ module Ultron
         it 'by story', :vcr do
           comic = Comics.new('stories/3228/comics')[0]
           comic['id'].should == 5032
-          comic.title.should == 'X-Men: The End Book 3: Men and X-Men (Trade Paperback)'
+          comic['title'].should == 'X-Men: The End Book 3: Men and X-Men (Trade Paperback)'
         end
       end
 

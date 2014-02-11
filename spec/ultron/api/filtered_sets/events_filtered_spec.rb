@@ -18,14 +18,14 @@ module Ultron
 
         it 'by comic', :vcr do
           event = Events.new('comics/6669/events')[0]
-          event.id.should == 271
+          event['id'].should == 271
           event['title'].should == 'Secret Wars II'
         end
 
         it 'by creator', :vcr do
           set = Events.new 'creators/214/events'
-          set.first['id'].should == 116
-          set[0].title.should == 'Acts of Vengeance!'
+          set[0]['id'].should == 116
+          set[0]['title'].should == 'Acts of Vengeance!'
         end
 
         it 'by series', :vcr do
@@ -38,7 +38,7 @@ module Ultron
         it 'by story', :vcr do
           set = Events.new 'stories/1203/events'
           event = set[0]
-          event.id.should == 238
+          event['id'].should == 238
           event['title'].should == 'Civil War'
         end
       end

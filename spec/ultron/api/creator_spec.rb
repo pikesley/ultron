@@ -35,11 +35,11 @@ module Ultron
       end
 
       it 'should have the correct name', :vcr do
-        @creator.fullName.should == 'Jack Kirby'
+        @creator['fullName'].should == 'Jack Kirby'
       end
 
       it 'should have the correct comic', :vcr do
-        @creator.comics[0].title.should == 'THE FANTASTIC FOUR OMNIBUS VOL. 2 HC (NEW PRINTING) (Hardcover)'
+        @creator.comics[0]['title'].should == 'THE FANTASTIC FOUR OMNIBUS VOL. 2 HC (NEW PRINTING) (Hardcover)'
       end
 
       after :each do

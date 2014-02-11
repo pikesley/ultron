@@ -12,15 +12,15 @@ module Ultron
           set  = Characters.new 'comics/29506/characters'
           char = set[0]
           char.class.should == Character
-          char.id.should == 1009257
-          char.name.should == 'Cyclops'
+          char['id'].should == 1009257
+          char['name'].should == 'Cyclops'
         end
 
         it 'by event', :vcr do
           set  = Characters.new 'events/116/characters'
           char = set[-1]
-          char.id.should == 1009282
-          char.name.should == 'Doctor Strange'
+          char['id'].should == 1009282
+          char['name'].should == 'Doctor Strange'
         end
 
         it 'by series', :vcr do
@@ -34,7 +34,7 @@ module Ultron
           set  = Characters.new 'stories/44081/characters'
           char = set[0]
           char['id'].should == 1009726
-          char.name.should == 'X-Men'
+          char['name'].should == 'X-Men'
         end
       end
 

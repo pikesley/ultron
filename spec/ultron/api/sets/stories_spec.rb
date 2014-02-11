@@ -18,7 +18,7 @@ module Ultron
         end
 
         it 'should have the right name', :vcr do
-          @story.title.should match /Investigating the murder of a teenage girl, Cage suddenly learns/
+          @story['title'].should match /Investigating the murder of a teenage girl, Cage suddenly learns/
         end
       end
     end

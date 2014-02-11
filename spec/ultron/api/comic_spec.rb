@@ -35,11 +35,12 @@ module Ultron
       end
 
       it 'should have the correct title', :vcr do
-        @comic.title.should == 'Uncanny X-Men (1963) #67'
+        @comic['title'].should == 'Uncanny X-Men (1963) #67'
       end
 
-      it 'should have openstruct method-style attribute accessors', :vcr do
-        @comic.issueNumber.should == 67
+      it 'should give me a story' do
+        story = @comic.stories[0]
+        story.class.should == Story
       end
 
       after :each do

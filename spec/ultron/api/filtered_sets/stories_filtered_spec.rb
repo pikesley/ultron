@@ -25,7 +25,7 @@ module Ultron
         it 'by creator', :vcr do
           set = Stories.new 'creators/457/stories'
           story = set[-1]
-          story.id.should == 851
+          story['id'].should == 851
           story['title'].should == '1 of - Old Soldiers'
         end
 
@@ -39,7 +39,7 @@ module Ultron
         it 'by series', :vcr do
           set = Stories.new 'series/9981/stories'
           story = set[-1]
-          story.id.should == 74319
+          story['id'].should == 74319
           story['title'].should == 'Interior #74319'
         end
       end

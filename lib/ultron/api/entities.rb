@@ -1,6 +1,8 @@
 module Ultron
   module API
     class Entities
+      attr_accessor :metadata
+
       include Enumerable
 
       def initialize type
@@ -25,21 +27,16 @@ module Ultron
         results.length
       end
 
-      def first
-        results[0]
-      end
-
-      def last
-        results[-1]
-      end
-
-      def any?
-        results.any?
+      def metadata
+        @metadata || begin
+          @cnxn.perform['data']
+        end
       end
 
       def results
         @results || begin
-          @cnxn.perform['data']['results']
+          @metadata = @cnxn.perform
+          @metadata['data']['results']
         rescue NoMethodError
           []
         end
@@ -49,7 +46,7 @@ module Ultron
         method_name = method_name.to_s
         if param = method_name.match(/^by_(.*)/)[1]
           @cnxn.add_params param => args.join(' ')
-          @cnxn.perform['data']['results'].first
+          @cnxn.perform['data']['results'][0]
         end
       end
     end
