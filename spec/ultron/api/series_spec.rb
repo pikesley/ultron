@@ -8,12 +8,38 @@ module Ultron
         @series = Ultron::API::Series.new 15280
       end
 
-      after :each do
-        Timecop.return
+      context 'should have the correct sets' do
+        it 'characters', :vcr do
+          @series.characters.class.should == Characters
+        end
+
+        it 'creators', :vcr do
+          @series.creators.class.should == Creators
+        end
+
+        it 'events', :vcr do
+          @series.events.class.should == Events
+        end
+
+        it 'not comics', :vcr do
+          @series.comics.class.should == NilClass
+        end
+
+        it 'not series', :vcr do
+          @series.serieses.class.should == NilClass
+        end
+
+        it 'not stories', :vcr do
+          @series.stories.class.should == NilClass
+        end
       end
 
       it 'should have the correct title', :vcr do
         @series.title.should == 'Amazing Fantasy 15: Spider-Man! (2011 - 2012)'
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end

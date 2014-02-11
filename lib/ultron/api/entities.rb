@@ -40,6 +40,8 @@ module Ultron
       def results
         @results || begin
           @cnxn.perform['data']['results']
+        rescue NoMethodError
+          []
         end
       end
 

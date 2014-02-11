@@ -8,17 +8,42 @@ module Ultron
         @event = Ultron::API::Event.new 314
       end
 
-      after :each do
-        Timecop.return
+      context 'should have the correct sets' do
+        it 'characters', :vcr do
+          @event.characters.class.should == Characters
+        end
+
+        it 'comics', :vcr do
+          @event.comics.class.should == Comics
+        end
+
+        it 'creators', :vcr do
+          @event.creators.class.should == Creators
+        end
+
+        it 'series', :vcr do
+          @event.serieses.class.should == Serieses
+        end
+
+        it 'stories', :vcr do
+          @event.stories.class.should == Stories
+        end
+
+        it 'not events', :vcr do
+          @event.events.class.should == NilClass
+        end
       end
 
       it 'should have the correct title', :vcr do
         @event.title.should == 'Age of Ultron'
       end
 
-      it 'should have a list of characters', :vcr do
-        @event.characters.class.should == Characters
+      it 'should have the correct first character', :vcr do
         @event.characters[0].name.should == 'Ultron'
+      end
+
+      after :each do
+        Timecop.return
       end
     end
   end

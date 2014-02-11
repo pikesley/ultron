@@ -8,8 +8,30 @@ module Ultron
         @comic = Ultron::API::Comic.new 12518
       end
 
-      after :each do
-        Timecop.return
+      context 'should have the correct sets' do
+        it 'characters', :vcr do
+          @comic.characters.class.should == Characters
+        end
+
+        it 'creators', :vcr do
+          @comic.creators.class.should == Creators
+        end
+
+        it 'events', :vcr do
+          @comic.events.class.should == Events
+        end
+
+        it 'series', :vcr do
+          @comic.serieses.class.should == Serieses
+        end
+
+        it 'stories', :vcr do
+          @comic.stories.class.should == Stories
+        end
+
+        it 'not comics', :vcr do
+          @comic.comics.class.should == NilClass
+        end
       end
 
       it 'should have the correct title', :vcr do
@@ -20,8 +42,8 @@ module Ultron
         @comic.issueNumber.should == 67
       end
 
-      it 'should have a list of characters', :vcr do
-        @comic.characters.class.should == Characters
+      after :each do
+        Timecop.return
       end
     end
   end
