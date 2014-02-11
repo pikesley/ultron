@@ -21,7 +21,7 @@ http_interactions:
       Content-Length:
       - '7903'
       Date:
-      - Mon, 10 Feb 2014 20:46:29 GMT
+      - Tue, 11 Feb 2014 13:22:16 GMT
       Connection:
       - keep-alive
     body:
@@ -81,7 +81,7 @@ http_interactions:
   recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/series/489/events?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    uri: http://gateway.marvel.com/v1/public/events/32?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
     body:
       encoding: US-ASCII
       string: ''
@@ -100,7 +100,86 @@ http_interactions:
       Content-Length:
       - '7903'
       Date:
-      - Mon, 10 Feb 2014 20:46:30 GMT
+      - Tue, 11 Feb 2014 13:22:23 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"0773993d6ae2c5af918d7919ac09452994365b1e\",\"data\":{\"offset\":0,\"limit\":20,\"total\":1,\"count\":1,\"results\":[{\"id\":32,\"title\":\"Kings
+        of Pain\",\"description\":\"The terrorist organization A.I.M. seek to resurrect
+        the powerful reality-altering mutant named Proteus, and it's up to the various
+        X-teams and the New Warriors to stop them.\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/32\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/events/32/kings_of_pain?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"wiki\",\"url\":\"http://marvel.com/universe/Kings_of_Pain?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"modified\":\"2013-10-18T12:39:11-0400\",\"start\":\"1991-01-01
+        00:00:00\",\"end\":\"1992-05-11 00:00:00\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/d/60/51c9e88b7fbd9\",\"extension\":\"jpg\"},\"creators\":{\"available\":25,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/32/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2077\",\"name\":\"Hilary
+        Barta\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/435\",\"name\":\"Al
+        Milgrom\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1914\",\"name\":\"Dan
+        Panosian\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/939\",\"name\":\"Joe
+        Rubinstein\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1279\",\"name\":\"Jon
+        Bogdanove\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/175\",\"name\":\"Andy
+        Kubert\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/571\",\"name\":\"Rob
+        Liefeld\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/3459\",\"name\":\"Judy
+        Bogdanove\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/567\",\"name\":\"Neil
+        Gaiman\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6001\",\"name\":\"Fabian
+        Nacieza\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1909\",\"name\":\"Steve
+        Buccellato\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1224\",\"name\":\"Marie
+        Javins\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5815\",\"name\":\"Steven
+        Butler\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9565\",\"name\":\"Tom
+        DeFalco\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2099\",\"name\":\"Suzanne
+        Gaffney\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/375\",\"name\":\"Bob
+        Harras\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/566\",\"name\":\"Scott
+        McKowen\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1926\",\"name\":\"Mike
+        Mignola\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
+        Rosen\",\"role\":\"letterer\"}],\"returned\":20},\"characters\":{\"available\":31,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/32/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009159\",\"name\":\"Archangel\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009164\",\"name\":\"Avalanche\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009596\",\"name\":\"Banshee
+        (Theresa Rourke)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009175\",\"name\":\"Beast\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010366\",\"name\":\"Boom
+        Boom\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009214\",\"name\":\"Cable\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009219\",\"name\":\"Cannonball\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009223\",\"name\":\"Captain
+        Britain\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009277\",\"name\":\"Domino\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011213\",\"name\":\"Feral\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009306\",\"name\":\"Firestar\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011055\",\"name\":\"Gideon\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009362\",\"name\":\"Iceman\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009399\",\"name\":\"Legion\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009427\",\"name\":\"Marvel
+        Boy\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011056\",\"name\":\"Multiple
+        Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009465\",\"name\":\"Mystique\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009469\",\"name\":\"Namorita\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1011336\",\"name\":\"New
+        Mutants\"}],\"returned\":20},\"stories\":{\"available\":14,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/32/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/2629\",\"name\":\"1602
+        #7\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/2630\",\"name\":\"1602
+        #7\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21637\",\"name\":\"Cover
+        #21637\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21638\",\"name\":\"\",\"type\":\"table
+        of contents\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21639\",\"name\":\"Pawns
+        of Senescence\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21640\",\"name\":\"The
+        First Cut\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21641\",\"name\":\"Close
+        Encounters of the Mutant Kind\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21642\",\"name\":\"New
+        Mutants Organizational Chart\",\"type\":\"feature\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21643\",\"name\":\"\",\"type\":\"pin-up\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21644\",\"name\":\"\",\"type\":\"pin-up\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/51883\",\"name\":\"Kings
+        of Pain Part 4\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/51884\",\"name\":\"King
+        of Pain\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/51885\",\"name\":\"The
+        Killing Stroke Part Three: Sacrificial Lambs\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/51886\",\"name\":\"Tribute
+        The Third\",\"type\":\"interiorStory\"}],\"returned\":14},\"comics\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/32/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/145\",\"name\":\"1602
+        (2003) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10341\",\"name\":\"New
+        Mutants Annual (1984) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23514\",\"name\":\"X-Factor
+        Annual (1986) #6\"}],\"returned\":3},\"series\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/events/32/series\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/489\",\"name\":\"1602
+        (2003 - 2004)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2053\",\"name\":\"New
+        Mutants Annual (1984 - 1991)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6689\",\"name\":\"X-Factor
+        Annual (1986 - Present)\"}],\"returned\":3},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/253\",\"name\":\"Infinity
+        Gauntlet\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/280\",\"name\":\"X-Tinction
+        Agenda\"}}]}}"
+    http_version: 
+  recorded_at: Sat, 08 Feb 2014 21:20:00 GMT
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/events/32?apikey=<PUBLIC_KEY>&hash=f8366b9e8b1ae6c7ed29d87062efffef&ts=1391894400
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - 0773993d6ae2c5af918d7919ac09452994365b1e
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '7903'
+      Date:
+      - Tue, 11 Feb 2014 13:22:23 GMT
       Connection:
       - keep-alive
     body:

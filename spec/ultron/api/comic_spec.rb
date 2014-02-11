@@ -12,16 +12,38 @@ module Ultron
         Timecop.return
       end
 
+      context 'should have the correct sets' do
+        it 'characters', :vcr do
+          @comic.characters.class.should == Characters
+        end
+
+        it 'events', :vcr do
+          @comic.events.class.should == Events
+        end
+
+        it 'series', :vcr do
+          @comic.serieses.class.should == Serieses
+        end
+
+        it 'stories', :vcr do
+          @comic.stories.class.should == Stories
+        end
+
+        it 'creators', :vcr do
+          @comic.creators.class.should == Creators
+        end
+
+        it 'not comics', :vcr do
+          @comic.comics.class.should == NilClass
+        end
+      end
+
       it 'should have the correct title', :vcr do
         @comic.title.should == 'Uncanny X-Men (1963) #67'
       end
 
       it 'should have openstruct method-style attribute accessors', :vcr do
         @comic.issueNumber.should == 67
-      end
-
-      it 'should have a list of characters', :vcr do
-        @comic.characters.class.should == Characters
       end
     end
   end

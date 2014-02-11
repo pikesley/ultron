@@ -6,6 +6,10 @@ module Ultron
         @path = 'events/%s' % @id
         super @path
       end
+
+      def events
+        nil
+      end
     end
   end
 end

@@ -12,25 +12,38 @@ module Ultron
         Timecop.return
       end
 
+      context 'should have the correct sets' do
+        it 'comics', :vcr do
+          @character.comics.class.should == Comics
+        end
+
+        it 'events', :vcr do
+          @character.events.class.should == Events
+      end
+
+        it 'series', :vcr do
+          @character.serieses.class.should == Serieses
+        end
+
+        it 'stories', :vcr do
+          @character.stories.class.should == Stories
+        end
+
+        it 'not characters', :vcr do
+          @character.characters.class.should == NilClass
+        end
+
+        it 'not creators', :vcr do
+          @character.creators.class.should == NilClass
+        end
+      end
+
       it 'should have the correct name', :vcr do
         @character['name'].should == 'Phoenix'
       end
 
-      it 'should have a comics set', :vcr do
-        @character.comics.class.should == Comics
-      end
-
-      it 'should have an events set', :vcr do
-        @character.events.class.should == Events
+      it 'should not have any events', :vcr do
         @character.has_events?.should == false
-      end
-
-      it 'should have a series set', :vcr do
-        @character.serieses.class.should == Serieses
-      end
-
-      it 'should have a stories set', :vcr do
-        @character.stories.class.should == Stories
       end
     end
   end

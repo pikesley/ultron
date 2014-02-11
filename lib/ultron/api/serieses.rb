@@ -9,6 +9,8 @@ module Ultron
       def [] key
         Series.new results[key]['id']
       end
+
+      # something something delete_method
     end
   end
 end

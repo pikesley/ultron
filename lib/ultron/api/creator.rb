@@ -6,6 +6,10 @@ module Ultron
         @path = 'creators/%s' % @id
         super @path
       end
+
+      def characters
+        nil
+      end
     end
   end
 end

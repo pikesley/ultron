@@ -12,12 +12,33 @@ module Ultron
         Timecop.return
       end
 
+      context 'it should have the correct sets' do
+        it 'comics', :vcr do
+          @creator.comics.class.should == Comics
+        end
+
+        it 'events', :vcr do
+          @creator.events.class.should == Events
+        end
+
+        it 'serieses', :vcr do
+          @creator.serieses.class.should == Serieses
+        end
+
+        it 'stories', :vcr do
+          @creator.stories.class.should == Stories
+        end
+
+        it 'not characters', :vcr do
+          @creator.characters.class.should == NilClass
+        end
+      end
+
       it 'should have the correct name', :vcr do
         @creator.fullName.should == 'Jack Kirby'
       end
 
-      it 'should have a comics set', :vcr do
-        @creator.comics.class.should == Comics
+      it 'should have the correct comic', :vcr do
         @creator.comics[0].title.should == 'THE FANTASTIC FOUR OMNIBUS VOL. 2 HC (NEW PRINTING) (Hardcover)'
       end
     end
