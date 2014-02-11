@@ -23,9 +23,9 @@ module Ultron
         end
       end
 
-#      it 'should have the correct total', :vcr do
-#        @creators.metadata['total'].should == 5558
-#      end
+      it 'should have the correct total', :vcr do
+        @creators.metadata['total'].should == 5558
+      end
     end
   end
 end

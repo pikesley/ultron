@@ -2,8 +2,17 @@ module Ultron
   module API
     class Entities
       attr_accessor :metadata
-
       include Enumerable
+
+      def self.random_id
+        e = self.new
+        total = e.metadata['total']
+
+        e.by_offset Random.rand(total)
+        e.by_limit 1
+
+        e[0]['id']
+      end
 
       def initialize type
         @cnxn = Ultron::Connection.new type

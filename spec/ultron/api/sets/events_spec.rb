@@ -21,6 +21,13 @@ module Ultron
           @event['title'].should == 'Age of Apocalypse'
         end
       end
+
+      it 'should give me a random event', :vcr do
+        pending 'I need to stub the shit out of this'
+        event = Events.shuffle
+        event.class.should == Event
+        event['name'].should_not == nil
+      end
     end
   end
 end
