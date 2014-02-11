@@ -42,6 +42,11 @@ module Ultron
         @comic.issueNumber.should == 67
       end
 
+      it 'should give me a story' do
+        story = @comic.stories[0]
+        story.class.should == Story
+      end
+
       after :each do
         Timecop.return
       end
