@@ -18,7 +18,7 @@ module Ultron
         end
 
         it 'should have the right name', :vcr do
-          @series.title.should == '1602 (2003 - 2004)'
+          @series['title'].should == '1602 (2003 - 2004)'
         end
       end
     end

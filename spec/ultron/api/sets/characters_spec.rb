@@ -63,7 +63,7 @@ module Ultron
           @characters.add_params limit: 10
           @characters.add_params offset: 400
           @characters.length.should == 10
-          @characters[0].name.should == 'Galactus'
+          @characters[0]['name'].should == 'Galactus'
         end
       end
     end

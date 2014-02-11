@@ -18,7 +18,7 @@ module Ultron
         end
 
         it 'should have the right name', :vcr do
-          @event.title.should == 'Age of Apocalypse'
+          @event['title'].should == 'Age of Apocalypse'
         end
       end
     end

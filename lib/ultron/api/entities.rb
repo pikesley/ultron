@@ -1,6 +1,8 @@
 module Ultron
   module API
     class Entities
+      attr_accessor :metadata
+
       include Enumerable
 
       def initialize type
@@ -25,9 +27,16 @@ module Ultron
         results.length
       end
 
+      def metadata
+        @metadata || begin
+          @cnxn.perform['data']
+        end
+      end
+
       def results
         @results || begin
-          @cnxn.perform['data']['results']
+          @metadata = @cnxn.perform
+          @metadata['data']['results']
         rescue NoMethodError
           []
         end
