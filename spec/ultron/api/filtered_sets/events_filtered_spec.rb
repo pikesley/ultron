@@ -24,7 +24,7 @@ module Ultron
 
         it 'by creator', :vcr do
           set = Events.new 'creators/214/events'
-          set.first['id'].should == 116
+          set[0]['id'].should == 116
           set[0].title.should == 'Acts of Vengeance!'
         end
 

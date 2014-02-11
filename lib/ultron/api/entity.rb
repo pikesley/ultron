@@ -15,7 +15,7 @@ module Ultron
 
       def results
         @results || begin
-          OpenStruct.new @cnxn.perform['data']['results'].first
+          OpenStruct.new @cnxn.perform['data']['results'][0]
         end
       end
 

@@ -25,14 +25,6 @@ module Ultron
         results.length
       end
 
-      def first
-        results[0]
-      end
-
-      def last
-        results[-1]
-      end
-
       def any?
         results.any?
       end
@@ -49,7 +41,7 @@ module Ultron
         method_name = method_name.to_s
         if param = method_name.match(/^by_(.*)/)[1]
           @cnxn.add_params param => args.join(' ')
-          @cnxn.perform['data']['results'].first
+          @cnxn.perform['data']['results'][0]
         end
       end
     end
