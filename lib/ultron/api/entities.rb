@@ -16,6 +16,7 @@ module Ultron
 
       define_singleton_method :shuffle do
         SINGLE_OF_SELF.new self.random_id
+        eval(CLASSES[self.name.split('::')[-1].to_sym].to_s).new self.random_id
       end
 
       def initialize type
