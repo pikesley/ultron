@@ -1,10 +1,21 @@
 module Ultron
   module API
+    CLASSES = {
+        :Characters => :Character,
+        :Comics     => :Comic,
+        :Creators   => :Creator,
+        :Events     => :Event,
+        :Serieses   => :Series,
+        :Stories    => :Story
+    }
+
+    SINGLE_OF_SELF = Entity
+
     class Entities
       attr_accessor :metadata
       include Enumerable
 
-      def self.random_id
+      define_method :random_id do
         e = self.new
         total = e.metadata['total']
 
@@ -15,7 +26,6 @@ module Ultron
       end
 
       define_singleton_method :shuffle do
-        SINGLE_OF_SELF.new self.random_id
         eval(CLASSES[self.name.split('::')[-1].to_sym].to_s).new self.random_id
       end
 
