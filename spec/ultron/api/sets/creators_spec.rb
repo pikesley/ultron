@@ -23,9 +23,16 @@ module Ultron
         end
       end
 
-#      it 'should have the correct total', :vcr do
-#        @creators.metadata['total'].should == 5558
-#      end
+      it 'should have the correct total', :vcr do
+        @creators.metadata['total'].should == 5558
+      end
+
+      it 'should give me a random creator', :vcr do
+        Creators.stub(:random_id).and_return(9438)
+        creator = Creators.shuffle
+        creator.class.should == Creator
+        creator['fullName'].should == 'Sergio Aragones'
+      end
     end
   end
 end

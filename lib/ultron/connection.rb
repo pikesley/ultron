@@ -33,6 +33,9 @@ module Ultron
       c.headers = {
           'Accept' => 'application/json'
       }
+      if Config.instance.config['debug']
+        puts '>>> Hitting %s' % url
+      end
       c.perform
 
       JSON.parse c.body_str

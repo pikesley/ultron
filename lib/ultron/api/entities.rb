@@ -1,9 +1,33 @@
 module Ultron
   module API
+    CLASSES = {
+        :Characters => :Character,
+        :Comics     => :Comic,
+        :Creators   => :Creator,
+        :Events     => :Event,
+        :Serieses   => :Series,
+        :Stories    => :Story
+    }
+
+    SINGLE_OF_SELF = Entity
+
     class Entities
       attr_accessor :metadata
-
       include Enumerable
+
+      define_singleton_method :random_id do
+        e = self.new
+        total = e.metadata['total']
+
+        e.by_offset Random.rand(total)
+        e.by_limit 1
+
+        e[0]['id']
+      end
+
+      define_singleton_method :shuffle do
+        eval(CLASSES[self.name.split('::')[-1].to_sym].to_s).new self.random_id
+      end
 
       def initialize type
         @cnxn = Ultron::Connection.new type

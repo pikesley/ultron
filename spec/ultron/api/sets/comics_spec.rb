@@ -41,6 +41,13 @@ module Ultron
           @comics[0]['title'].should == 'Wolverine (1988) #20'
         end
       end
+
+      it 'should give me a random comic', :vcr do
+        Comics.stub(:random_id).and_return(38207)
+        comic = Comics.shuffle
+        comic.class.should == Comic
+        comic['title'].should == 'The Mighty Thor (2011) #11'
+      end
     end
   end
 end
