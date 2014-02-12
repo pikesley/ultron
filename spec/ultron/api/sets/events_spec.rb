@@ -23,10 +23,10 @@ module Ultron
       end
 
       it 'should give me a random event', :vcr do
-        pending 'I need to stub the shit out of this'
+        Events.stub(:random_id).and_return(233)
         event = Events.shuffle
         event.class.should == Event
-        event['name'].should_not == nil
+        event['title'].should == 'Atlantis Attacks'
       end
     end
   end
