@@ -14,6 +14,10 @@ module Ultron
         e[0]['id']
       end
 
+      define_singleton_method :shuffle do
+        SINGLE_OF_SELF.new self.random_id
+      end
+
       def initialize type
         @cnxn = Ultron::Connection.new type
       end

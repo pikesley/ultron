@@ -1,5 +1,6 @@
 module Ultron
   module API
+
     class Comics < Entities
       def initialize path = nil
         path = 'comics' if path.nil?

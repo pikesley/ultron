@@ -4,12 +4,14 @@ module Ultron
   module API
     describe Events do
       before :each do
+#        Config.instance.config['debug'] = true
         Timecop.freeze '2014-02-08T21:20:00+00:00'
         @events = Ultron::API::Events.new
       end
 
       after :each do
         Timecop.return
+#        Config.instance.reset!
       end
 
       context 'get the second event off the list' do

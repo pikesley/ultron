@@ -1,10 +1,8 @@
 module Ultron
   module API
-    class Events < Entities
-      def self.shuffle
-        Event.new self.random_id
-      end
+    SINGLE_OF_SELF = Event
 
+    class Events < Entities
       def initialize path = nil
         path = 'events' if path.nil?
         super path
