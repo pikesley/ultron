@@ -15,7 +15,7 @@ module Ultron
       attr_accessor :metadata
       include Enumerable
 
-      define_method :random_id do
+      define_singleton_method :random_id do
         e = self.new
         total = e.metadata['total']
 
