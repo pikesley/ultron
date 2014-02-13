@@ -10,7 +10,7 @@ module Ultron
       Comics.name_for_path.should == 'comics'
     end
 
-    it 'find a comic', :vcr do
+    it 'should find a comic', :vcr do
       @comic = Comics.find 12518
       @comic.title.should == 'Uncanny X-Men (1963) #67'
     end
