@@ -2,6 +2,15 @@ module Ultron
   class Entities
     include Enumerable
 
+    PLURALS = {
+        'character' => 'characters',
+        'comic'     => 'comics',
+        'creator'   => 'creators',
+        'event'     => 'events',
+        'series'    => 'series',
+        'story'     => 'stories'
+    }
+
     def self.name_for_path
       name = self.name
       name_parts = name.split('::')
@@ -30,7 +39,7 @@ module Ultron
 
     def self.by_something something, id
       args = [
-          something,
+          PLURALS[something],
           id,
           self.name_for_path
       ].join '/'

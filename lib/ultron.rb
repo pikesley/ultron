@@ -16,5 +16,7 @@ require 'ultron/entities'
 
 require 'ultron/characters'
 require 'ultron/comics'
+require 'ultron/creators'
+require 'ultron/series'
 
 require 'pry'
