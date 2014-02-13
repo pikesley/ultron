@@ -1,5 +1,7 @@
 module Ultron
   class Entities
+    include Enumerable
+
     def self.name_for_path
       name = self.name
       name_parts = name.split('::')
@@ -9,22 +11,50 @@ module Ultron
     end
 
     def self.connection
-      Ultron::Connection.new self.name_for_path
+      Ultron::Connection.new
     end
 
     def self.find id
-      OpenStruct.new self.perform(id)['data']['results'][0]
+      args = [
+          self.name_for_path,
+          id
+      ]
+      OpenStruct.new self.perform(args)['data']['results'][0]
+    end
+
+    def self.method_missing method_name, *args
+      if method_name.to_s =~ /by_(.*)/
+        self.send(:by_something, $1, args)
+      end
+    end
+
+    def self.by_something something, id
+      args = [
+          something,
+          id,
+          self.name_for_path
+      ].join '/'
+      self.new self.perform(args)['data']['results']
     end
 
     def self.perform *args
-
       c = self.connection
-      c.path = [
-          self.name_for_path,
-          args
-      ].join '/'
+      c.path = args.join '/'
+      c.perform
+    end
 
-      @@results = c.perform
+    def initialize results_set
+      @results_set = results_set
+    end
+
+    def [] key
+      @results_set[key]
+    end
+
+    def each
+      @results.each do |item|
+        yield item
+      end
     end
   end
 end
