@@ -11,12 +11,12 @@ module Ultron
     end
 
     it 'should find a list of stories for the event', :vcr do
-      @event = Events.find 271
-      @event.title.should == 'Secret Wars II'
-      @stories = Stories.by_event 271
-      @stories[4].title.should == 'Doctor Doom Versus the Beyonder'
-      @stories[4].id.should == 12850
-      @stories.class.should == Stories
+      event = Events.find 271
+      event.title.should == 'Secret Wars II'
+      stories = Stories.by_event 271
+      stories[4].title.should == 'Doctor Doom Versus the Beyonder'
+      stories[4].id.should == 12850
+      stories.class.should == Stories
     end
 
     after :each do

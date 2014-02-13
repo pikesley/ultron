@@ -23,6 +23,9 @@ module Ultron
       @@connection ||= Ultron::Connection.new
     end
 
+    def self.connection_reset!
+      @@connection = nil
+    end
 
     def self.find id
       self.path = [
@@ -47,10 +50,11 @@ module Ultron
 
     def self.where params
       params.each_pair do |key, value|
-        self.connection.add_params key: value
+        self.connection.add_params key => value
       end
 
-  #    self.perform
+      self.connection.path = self.name_for_path
+      self.new self.perform['data']['results']
     end
 
     def self.method_missing method_name, *args
