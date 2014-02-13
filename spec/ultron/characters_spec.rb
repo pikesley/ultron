@@ -1,18 +1,18 @@
 require 'spec_helper'
 
 module Ultron
-  describe Comics do
+  describe Characters do
     before :each do
       Timecop.freeze '2014-02-13T18:47:24+00:00'
     end
 
     it 'should generate the right string for the URL path' do
-      Comics.name_for_path.should == 'comics'
+      Characters.name_for_path.should == 'characters'
     end
 
-    it 'find a comic', :vcr do
-      @comic = Comics.find 12518
-      @comic.title.should == 'Uncanny X-Men (1963) #67'
+    it 'find a character', :vcr do
+      @character = Characters.find 1009685
+      @character.name.should == 'Ultron'
     end
 
     after :each do
