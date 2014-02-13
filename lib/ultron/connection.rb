@@ -2,8 +2,10 @@ Dotenv.load
 
 module Ultron
   class Connection
-    def initialize type
-      @type = type
+    attr_accessor :path
+
+    def initialize path = 'characters'
+      @path = path
     end
 
     def add_params h
@@ -18,14 +20,18 @@ module Ultron
       @params.delete p
     end
 
-    def url
-      u = "%s?%s" % [
-          Ultron.get_url(@type),
-          Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
-      ]
-      u = "%s&%s" % [u, ((@params.map { |k, v| "#{k}=#{v}" }).join '&')] if @params
 
-      u
+
+    def url
+      @url || begin
+        url = "%s?%s" % [
+            Ultron.get_url(@path),
+            Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
+        ]
+        url = "%s&%s" % [url, ((@params.map { |k, v| "#{k}=#{v}" }).join '&')] if @params
+
+        url
+      end
     end
 
     def perform

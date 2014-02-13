@@ -1,6 +1,5 @@
 module Ultron
   class Config
-
     include Singleton
 
     def initialize
@@ -8,7 +7,7 @@ module Ultron
     end
 
     def reset!
-      @config = fetch_yaml 'ultron'
+      @config = OpenStruct.new fetch_yaml 'ultron'
     end
 
     def config
