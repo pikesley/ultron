@@ -13,13 +13,18 @@ module Ultron
     end
 
     def self.find id
+      OpenStruct.new self.perform(id)['data']['results'][0]
+    end
+
+    def self.perform *args
+
       c = self.connection
-      c.path = '%s/%s' % [
+      c.path = [
           self.name_for_path,
-          id
-      ]
+          args
+      ].join '/'
+
       @@results = c.perform
-      OpenStruct.new @@results['data']['results'][0]
     end
   end
 end
