@@ -53,7 +53,7 @@ module Ultron
         self.connection.add_params key => value
       end
 
-      self.connection.path = self.name_for_path
+      self.path = self.name_for_path
       self.new self.perform['data']['results']
     end
 

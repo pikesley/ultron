@@ -11,13 +11,7 @@ module Ultron
       series.count.should == 20
     end
 
-    it 'should let us search with parameters', :vcr do
-      series = Series.where title: 'Uncanny X-Men'
-      series[2].title.should == 'Uncanny X-Men (2011 - 2012)'
-    end
-
     after :each do
-      Series.connection_reset!
       Timecop.return
     end
   end
