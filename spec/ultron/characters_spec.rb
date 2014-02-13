@@ -18,6 +18,8 @@ module Ultron
     it 'should find a list of comics featuring the character', :vcr do
       @character = Characters.find 1009610
       @character.name.should == 'Spider-Man'
+      @comics = Comics.by_characters(1009610)
+      @comics[0]['title'].should == 'Superior Spider-Man (2013) #22'
     end
 
     after :each do
