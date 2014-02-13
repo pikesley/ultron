@@ -5,6 +5,7 @@ module Ultron
     before :each do
       Timecop.freeze '2014-02-08T21:20:00+00:00'
       @cnxn = Ultron::Connection.new
+      @cnxn.path = 'characters'
     end
 
     it 'should have the correct url', :vcr do

@@ -4,9 +4,9 @@ module Ultron
   class Connection
     attr_accessor :path
 
-    def initialize path = 'characters'
-      @path = path
-    end
+#    def initialize path = 'characters'
+#      @path = path
+#    end
 
     def add_params h
       @params ||= {}
@@ -19,8 +19,6 @@ module Ultron
       @params ||= {}
       @params.delete p
     end
-
-
 
     def url
       @url || begin
