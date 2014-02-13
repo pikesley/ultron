@@ -10,9 +10,14 @@ module Ultron
       Characters.name_for_path.should == 'characters'
     end
 
-    it 'find a character', :vcr do
+    it 'should find a character', :vcr do
       @character = Characters.find 1009685
       @character.name.should == 'Ultron'
+    end
+
+    it 'should find a list of comics featuring the character', :vcr do
+      @character = Characters.find 1009610
+      @character.name.should == 'Spider-Man'
     end
 
     after :each do
