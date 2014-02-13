@@ -48,12 +48,12 @@ module Ultron
     end
 
     def [] key
-      @results_set[key]
+      OpenStruct.new @results_set[key]
     end
 
     def each
-      @results.each do |item|
-        yield item
+      @results_set.each do |item|
+        yield OpenStruct.new item
       end
     end
   end
