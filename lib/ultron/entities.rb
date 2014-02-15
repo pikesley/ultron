@@ -8,13 +8,16 @@ module Ultron
 
     def self.method_missing method_name, *args
       mname = method_name.to_s
-      query = nil
 
+      query = nil
       path  = self.name_for_path #if mname == 'get'
       path  = '%s/%s' % [path, args[0]] if mname == 'find'
-      path  = self.send(:by_something, $1, args) if mname =~ /by_(.*)/
 
-      query = self.send(:by_params, args) if mname == 'where'
+      parts = mname.split /_and_/
+      parts.each do |part|
+        path  = self.send(:by_something, $1, args.shift) if part =~ /by_(.*)/
+        query = self.send(:by_params, args) if ['with', 'where'].include? part
+      end
 
       url = "%s%s?%s%s" % [
           Ultron.get_url,
@@ -24,9 +27,7 @@ module Ultron
       ]
 
       response = Ultron::Connection.perform url
-
       return OpenStruct.new response['data']['results'][0] if response['data']['results'].count == 1
-
       self.new response['data']['results']
     end
 

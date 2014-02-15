@@ -26,6 +26,16 @@ module Ultron
       comics.first.title.should == 'Fear Itself (2010) #7'
     end
 
+    it 'should accept with as a synonym for where', :vcr do
+      comics = Comics.with sharedAppearances: '1009685,1009351' # Ultron and Hulk
+      comics.first.title.should == 'Avengers: First to Last (Hardcover)'
+    end
+
+    it 'should let us get comics by a creator *with params*', :vcr do
+      comics = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+      comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
+    end
+
     after :each do
       Timecop.return
     end
