@@ -19,8 +19,10 @@ module Ultron
       end
 
       response = Ultron::Connection.perform get_url path, query
-      return OpenStruct.new response['data']['results'][0] if response['data']['results'].count == 1
-      self.new response['data']['results']
+
+      set = self.new response['data']['results']
+      return set.first if set.count == 1
+      set
     end
 
     def self.by_something something, id
