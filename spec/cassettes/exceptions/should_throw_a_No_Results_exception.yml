@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://gateway.marvel.com/v1/public/comics?apikey=<PUBLIC_KEY>&hash=a304d29c7e65217654f6ddd18daf2b3c&offset=1000000&ts=1392317244
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - 'Ultron v0.1.2: https://rubygems.org/gems/ultron'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - c6221500e62a7317e759c6bd37130ee5c62c0cba
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '150'
+      Date:
+      - Sat, 15 Feb 2014 18:07:41 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"c6221500e62a7317e759c6bd37130ee5c62c0cba\",\"data\":{\"offset\":1000000,\"limit\":20,\"total\":31917,\"count\":0,\"results\":[]}}"
+    http_version: 
+  recorded_at: Thu, 13 Feb 2014 18:47:24 GMT
+recorded_with: VCR 2.8.0

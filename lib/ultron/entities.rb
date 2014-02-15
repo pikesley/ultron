@@ -1,5 +1,7 @@
 module Ultron
   class Entities
+    attr_reader :metadata
+
     include Enumerable
 
     def self.name_for_path
@@ -9,13 +11,14 @@ module Ultron
     def self.find id
       path     = self.name_for_path
       path     = '%s/%s' % [path, id]
-      response = Ultron::Connection.perform get_url path
+      url      = get_url path
+      response = Ultron::Connection.perform url
       case response['code'].to_i
         when 404
           raise NotFoundException.new response
 
         else
-          set = self.new response['data']['results']
+          set = self.new response['data'], url
           set.first
       end
     end
@@ -35,11 +38,12 @@ module Ultron
         end
       end
 
-      response = Ultron::Connection.perform get_url path, query
+      url      = get_url path, query
+      response = Ultron::Connection.perform url
       unless response['data']['results'].any?
         raise NoResultsException.new 'That search returned no results'
       end
-      self.new response['data']['results']
+      self.new response['data'], url
     end
 
     def self.by_something something, id
@@ -56,8 +60,10 @@ module Ultron
 
     ###
 
-    def initialize results_set
-      @results_set = results_set
+    def initialize data, url
+      @results_set = data['results']
+      @metadata    = OpenStruct.new data
+      @url         = url
     end
 
     def [] key
@@ -68,6 +74,17 @@ module Ultron
       @results_set.each do |item|
         yield OpenStruct.new item
       end
+    end
+
+    def random_offset
+      Random.rand @metadata.total
+    end
+
+    def shuffle
+      shuffle_params = '&offset=%d&limit=1' % random_offset
+      full_url = '%s%s' % [@url, shuffle_params]
+      response = Ultron::Connection.perform full_url
+      self.class.new(response['data'], full_url).first
     end
   end
 end
