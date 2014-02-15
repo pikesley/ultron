@@ -1,49 +1,45 @@
 module Ultron
   class Entities
-    attr_reader :metadata
-
     include Enumerable
-
-    def self.name_for_path
-      self.name.split('::')[-1].downcase
-    end
-
-    def self.find id
-      path     = self.name_for_path
-      path     = '%s/%s' % [path, id]
-      url      = get_url path
-      response = Ultron::Connection.perform url
-      case response['code'].to_i
-        when 404
-          raise NotFoundException.new response
-
-        else
-          set = self.new response['data'], url
-          set.first
-      end
-    end
 
     def self.method_missing method_name, *args
       mname = method_name.to_s
       query = nil
       path  = self.name_for_path #if mname == 'get'
 
-      parts = mname.split /_and_/
-      parts.each do |part|
+      mname.split(/_and_/).each do |part|
         case part
+          when 'find'
+            path = '%s/%s' % [path, args.shift]
+
           when /by_(.*)/
             path = self.send(:by_something, $1, args.shift)
+
           when 'with', 'where'
-            query = self.send(:by_params, args[0])
+            query = self.send(:by_params, args.shift)
         end
       end
 
       url      = get_url path, query
+      response = self.response url
+
+      set = self.new response['data'], url
+      return set.first if mname == 'find'
+      set
+    end
+
+    def self.response url
       response = Ultron::Connection.perform url
-      unless response['data']['results'].any?
-        raise NoResultsException.new 'That search returned no results'
+      case response['code'].to_s
+        when /^4/
+          raise MarvelException.new response
+        when 'ResourceNotFound'
+          raise UltronException.new 'Resource does not exist. Check %s' % Config.instance.config.api_docs
       end
-      self.new response['data'], url
+
+      raise UltronException.new 'The search returned no results' unless response['data']['results'].any?
+
+      response
     end
 
     def self.by_something something, id
@@ -58,7 +54,13 @@ module Ultron
       "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
     end
 
+    def self.name_for_path
+      self.name.split('::')[-1].downcase
+    end
+
     ###
+
+    attr_reader :metadata
 
     def initialize data, url
       @results_set = data['results']

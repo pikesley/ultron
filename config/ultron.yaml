@@ -1,2 +1,3 @@
 host: http://gateway.marvel.com
 path: /v1/public/
+api_docs: http://developer.marvel.com/docs

@@ -1,5 +1,5 @@
 module Ultron
-  class NotFoundException < Exception
+  class MarvelException < Exception
     attr_reader :code, :status
 
     def initialize params
