@@ -32,7 +32,7 @@ module Ultron
       end
     end
 
-    it 'should throw a Resource Not Found exception when we search for something non-sensical', :vcr do
+    it 'should throw a Resource Not Found exception when we search for something nonsensical', :vcr do
       begin
         characters = Characters.by_creator 186 # characters by creator is a nonsense concept in the Marvel API
       rescue UltronException => e
