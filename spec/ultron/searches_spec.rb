@@ -17,8 +17,13 @@ module Ultron
     end
 
     it 'should let us search with parameters', :vcr do
-      comics = Comics.where sharedAppearances: '1009351,1009718'
+      comics = Comics.where sharedAppearances: '1009351,1009718' # Hulk and Wolverine
       comics[7].title.should == 'Deadpool (2008) #37'
+    end
+
+    it 'should let us search with multiple parameters', :vcr do
+      comics = Comics.where sharedAppearances: '1009610,1009718', events: 302 # Spider-Man and Wolverine, Fear Itself
+      comics.first.title.should == 'Fear Itself (2010) #7'
     end
 
     after :each do
