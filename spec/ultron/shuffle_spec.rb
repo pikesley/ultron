@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 module Ultron
-  describe 'shuffle' do
+  describe 'sample' do
     before :each do
       Timecop.freeze '2014-02-13T18:47:24+00:00'
     end
@@ -21,11 +21,13 @@ module Ultron
       it 'should give us a random comic', :vcr do
         set = Comics.by_character 1009610
         set.stub(:random_offset).and_return(512)
-        set.shuffle.title.should == 'Amazing Spider-Man (1999) #590'
+        set.sample.title.should == 'Amazing Spider-Man (1999) #590'
       end
 
-      it 'should give us a random character', :vcr do
-  #      set = Characters
+      it 'should give us a random comic for a more complex search', :vcr do
+        set = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+        set.stub(:random_offset).and_return(99)
+        set.sample.title.should == 'Dazzler (1981) #19'
       end
     end
 

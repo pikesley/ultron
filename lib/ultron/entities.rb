@@ -80,9 +80,9 @@ module Ultron
       Random.rand @metadata.total
     end
 
-    def shuffle
-      shuffle_params = '&offset=%d&limit=1' % random_offset
-      full_url = '%s%s' % [@url, shuffle_params]
+    def sample
+      sample_params = '&offset=%d&limit=1' % random_offset
+      full_url = '%s%s' % [@url, sample_params]
       response = Ultron::Connection.perform full_url
       self.class.new(response['data'], full_url).first
     end
