@@ -7,32 +7,25 @@ module Ultron
     end
 
     def self.method_missing method_name, *args
-      path = self.name_for_path
-
-  #    binding.pry
       mname = method_name.to_s
-      if mname =~ /by_(.*)/
-        path = self.send(:by_something, $1, args)
-      end
+      query = nil
 
-      if mname == 'find'
-        path = '%s/%s' % [
-            path,
-            args[0]
-        ]
-      end
+      path  = self.name_for_path #if mname == 'get'
+      path  = '%s/%s' % [path, args[0]] if mname == 'find'
+      path  = self.send(:by_something, $1, args) if mname =~ /by_(.*)/
 
-      url = "%s%s?%s" % [
+      query = self.send(:by_params, args) if mname == 'where'
+
+      url = "%s%s?%s%s" % [
           Ultron.get_url,
           path,
+          query,
           Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
       ]
 
       response = Ultron::Connection.perform url
 
-      if mname == 'find'
-        return OpenStruct.new response['data']['results'][0]
-      end
+      return OpenStruct.new response['data']['results'][0] if response['data']['results'].count == 1
 
       self.new response['data']['results']
     end
@@ -43,6 +36,20 @@ module Ultron
           id,
           self.name_for_path
       ].join '/'
+    end
+
+    def self.by_params params
+      p = ''
+
+      params.each do |pair|
+        parts = pair.flatten
+        p << '%s=%s&' % [
+           URI.encode(parts[0].to_s),
+           URI.encode(parts[1])
+        ]
+      end
+
+      p
     end
 
     ###
