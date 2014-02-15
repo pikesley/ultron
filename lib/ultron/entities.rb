@@ -20,15 +20,41 @@ module Ultron
     end
 
     def self.connection
-      Ultron::Connection.new
+      @@connection ||= Ultron::Connection.new
+    end
+
+    def self.connection_reset!
+      @@connection = nil
     end
 
     def self.find id
-      args = [
+      self.path = [
           self.name_for_path,
           id
-      ]
-      OpenStruct.new self.perform(args)['data']['results'][0]
+      ].join '/'
+      OpenStruct.new self.perform['data']['results'][0]
+    end
+
+    def self.path
+      self.connection.path
+    end
+
+    def self.path= path
+      self.connection.path = path
+    end
+
+    def self.get
+      self.path = self.name_for_path
+      self.perform['data']['results']
+    end
+
+    def self.where params
+      params.each_pair do |key, value|
+        self.connection.add_params key => value
+      end
+
+      self.path = self.name_for_path
+      self.new self.perform['data']['results']
     end
 
     def self.method_missing method_name, *args
@@ -38,18 +64,16 @@ module Ultron
     end
 
     def self.by_something something, id
-      args = [
+      self.path = [
           PLURALS[something],
           id,
           self.name_for_path
       ].join '/'
-      self.new self.perform(args)['data']['results']
+      self.new self.perform['data']['results']
     end
 
-    def self.perform *args
-      c = self.connection
-      c.path = args.join '/'
-      c.perform
+    def self.perform
+      self.connection.perform
     end
 
     def initialize results_set
