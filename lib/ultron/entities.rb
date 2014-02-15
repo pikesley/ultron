@@ -14,19 +14,23 @@ module Ultron
 
       parts = mname.split /_and_/
       parts.each do |part|
-        path  = self.send(:by_something, $1, args.shift) if part =~ /by_(.*)/
-        query = self.send(:by_params, args[0]) if ['with', 'where'].include? part
+        case part
+          when /by_(.*)/
+            path = self.send(:by_something, $1, args.shift)
+          when 'with', 'where'
+            query = self.send(:by_params, args[0])
+        end
       end
 
       response = Ultron::Connection.perform get_url path, query
+      set      = self.new response['data']['results']
 
-      set = self.new response['data']['results']
-      return set.first if set.count == 1
+      return set.first if mname == 'find'
       set
     end
 
     def self.by_something something, id
-      [something.pluralize, id, self.name_for_path].join '/'
+    [something.pluralize, id, self.name_for_path].join '/'
     end
 
     def self.by_params params

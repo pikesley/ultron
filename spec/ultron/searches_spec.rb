@@ -36,6 +36,11 @@ module Ultron
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
 
+    it 'should let us get more than the default 20 results', :vcr do
+      comics = Comics.where limit: 50
+      comics.count.should == 50
+    end
+
     it 'should handle an empty response gracefully'
     it 'should let us pick a random item'
 
