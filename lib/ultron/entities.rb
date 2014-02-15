@@ -33,9 +33,11 @@ module Ultron
       case response['code'].to_s
         when /^4/
           raise MarvelException.new response
+        when 'ResourceNotFound'
+          raise UltronException.new 'Resource does not exist. Check %s' % Config.instance.config.api_docs
       end
 
-      raise UltronException.new 'That search returned no results' unless response['data']['results'].any?
+      raise UltronException.new 'The search returned no results' unless response['data']['results'].any?
 
       response
     end

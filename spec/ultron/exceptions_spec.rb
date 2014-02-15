@@ -28,7 +28,15 @@ module Ultron
       begin
         comics = Comics.where offset: 1000000
       rescue UltronException => e
-        e.status.should == 'That search returned no results'
+        e.status.should == 'The search returned no results'
+      end
+    end
+
+    it 'should throw a Resource Not Found exception when we search for something non-sensical', :vcr do
+      begin
+        characters = Characters.by_creator 186 # characters by creator is a nonsense concept in the Marvel API
+      rescue UltronException => e
+        e.status.should == 'Resource does not exist. Check http://developer.marvel.com/docs'
       end
     end
 
