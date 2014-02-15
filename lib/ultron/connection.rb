@@ -9,9 +9,9 @@ module Ultron
           'User-agent' => 'Ultron v%s: https://rubygems.org/gems/ultron' % Ultron::VERSION
       }
 
-  #    if Config.instance.config['debug']
-  #      puts '>>> Hitting %s' % url
-  #    end
+      if Config.instance.config['debug']
+        puts ">>> Hitting\n\t%s" % url
+      end
 
       c.perform
       JSON.parse c.body_str
