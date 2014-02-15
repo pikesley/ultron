@@ -43,7 +43,7 @@ module Ultron
 
     it 'should throw a Not Found exception', :vcr do
       begin
-        comic = Comics.find 1000000
+        comic = Comics.find 1000000 # there are not a million comics
       rescue NotFoundException => e
         e.code.should == 404
         e.status.should == "We couldn't find that comic_issue"
