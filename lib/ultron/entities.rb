@@ -8,7 +8,6 @@ module Ultron
 
     def self.method_missing method_name, *args
       mname = method_name.to_s
-
       query = nil
       path  = self.name_for_path #if mname == 'get'
       path  = '%s/%s' % [path, args[0]] if mname == 'find'
