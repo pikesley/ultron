@@ -6,11 +6,24 @@ module Ultron
       self.name.split('::')[-1].downcase
     end
 
+    def self.find id
+      path     = self.name_for_path
+      path     = '%s/%s' % [path, id]
+      response = Ultron::Connection.perform get_url path
+      case response['code'].to_i
+        when 404
+          raise NotFoundException.new response
+
+        else
+          set = self.new response['data']['results']
+          set.first
+      end
+    end
+
     def self.method_missing method_name, *args
       mname = method_name.to_s
       query = nil
       path  = self.name_for_path #if mname == 'get'
-      path  = '%s/%s' % [path, args[0]] if mname == 'find'
 
       parts = mname.split /_and_/
       parts.each do |part|
@@ -23,21 +36,21 @@ module Ultron
       end
 
       response = Ultron::Connection.perform get_url path, query
-      set      = self.new response['data']['results']
-
-      return set.first if mname == 'find'
-      set
+      unless response['data']['results'].any?
+        raise NoResultsException.new 'That search returned no results'
+      end
+      self.new response['data']['results']
     end
 
     def self.by_something something, id
-    [something.pluralize, id, self.name_for_path].join '/'
+      [something.pluralize, id, self.name_for_path].join '/'
     end
 
     def self.by_params params
       params.map { |k, v| '%s=%s&' % [k, v] }.join
     end
 
-    def self.get_url path, query
+    def self.get_url path, query = nil
       "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
     end
 
