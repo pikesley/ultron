@@ -19,7 +19,7 @@ module Ultron
       end
 
       url = "%s%s?%s%s" % [
-          Ultron.get_url,
+          Ultron::Config.instance.root_url,
           path,
           query,
           Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
