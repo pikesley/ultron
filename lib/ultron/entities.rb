@@ -2,21 +2,8 @@ module Ultron
   class Entities
     include Enumerable
 
-    PLURALS = {
-        'character' => 'characters',
-        'comic'     => 'comics',
-        'creator'   => 'creators',
-        'event'     => 'events',
-        'series'    => 'series',
-        'story'     => 'stories'
-    }
-
     def self.name_for_path
-      name = self.name
-      name_parts = name.split('::')
-      basename = name_parts[-1]
-      downcased = basename.downcase
-      downcased
+      self.name.split('::')[-1].downcase
     end
 
     def self.connection
@@ -27,20 +14,20 @@ module Ultron
       @@connection = nil
     end
 
-    def self.find id
-      self.path = [
-          self.name_for_path,
-          id
-      ].join '/'
-      OpenStruct.new self.perform['data']['results'][0]
-    end
-
     def self.path
       self.connection.path
     end
 
     def self.path= path
       self.connection.path = path
+    end
+
+    def self.find id
+      self.path = [
+          self.name_for_path,
+          id
+      ].join '/'
+      OpenStruct.new self.perform['data']['results'][0]
     end
 
     def self.get
@@ -65,7 +52,7 @@ module Ultron
 
     def self.by_something something, id
       self.path = [
-          PLURALS[something],
+          something.pluralize,
           id,
           self.name_for_path
       ].join '/'
@@ -74,6 +61,7 @@ module Ultron
 
     def self.perform
       self.connection.perform
+#      binding.pry
     end
 
     def initialize results_set

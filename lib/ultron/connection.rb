@@ -25,7 +25,7 @@ module Ultron
         url = "%s&%s" % [url, ((@params.map { |k, v| "#{k}=#{v}" }).join '&')] if @params
 
         url
-      end
+     end
     end
 
     def perform
