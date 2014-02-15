@@ -5,6 +5,7 @@ require 'json'
 require 'yaml'
 require 'digest'
 require 'ostruct'
+require 'active_support/core_ext/string'
 
 require 'ultron/version'
 require 'ultron/helpers'
