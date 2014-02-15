@@ -79,14 +79,14 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
         set.sample.title.should == 'Dazzler (1981) #19'
       end
     
-There's also some Noddy exception handling:
+## Exceptions
 
 ### Catch and re-raise a 404
 
-    it 'should throw a Not Found exception', :vcr do
+    it 'should throw a 404 (wrapped in a Marvel exception) on a 404', :vcr do
       begin
         comic = Comics.find 1000000 # there are not a million comics
-      rescue NotFoundException => e
+      rescue MarvelException => e
         e.code.should == 404
         e.status.should == "We couldn't find that comic_issue"
       end
@@ -94,10 +94,10 @@ There's also some Noddy exception handling:
     
 ### Raise a custom exception when no results are found
 
-    it 'should throw a No Results exception', :vcr do
+    it 'should throw an Ultron exception for something internal to Ultron', :vcr do
       begin
         comics = Comics.where offset: 1000000
-      rescue NoResultsException => e
-        e.status.should == 'That search returned no results'
+      rescue UltronException => e
+        e.status.should == 'The search returned no results'
       end
     end
