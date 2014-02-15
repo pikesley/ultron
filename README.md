@@ -19,6 +19,8 @@ To actually use it you need an API key and secret which you can get from [here](
 
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
+    
+This all got a lot more elegant after chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
 
 ## API
 
