@@ -2,35 +2,30 @@ module Ultron
   class Entities
     include Enumerable
 
-    def self.find id
-      path     = self.name_for_path
-      path     = '%s/%s' % [path, id]
-      url      = get_url path
-      response = self.response url
-
-      set = self.new response['data'], url
-      set.first
-    end
-
     def self.method_missing method_name, *args
       mname = method_name.to_s
       query = nil
       path  = self.name_for_path #if mname == 'get'
 
-      parts = mname.split /_and_/
-      parts.each do |part|
+      mname.split(/_and_/).each do |part|
         case part
+          when 'find'
+            path = '%s/%s' % [path, args.shift]
+
           when /by_(.*)/
             path = self.send(:by_something, $1, args.shift)
+
           when 'with', 'where'
-            query = self.send(:by_params, args[0])
+            query = self.send(:by_params, args.shift)
         end
       end
 
       url      = get_url path, query
       response = self.response url
 
-      self.new response['data'], url
+      set = self.new response['data'], url
+      return set.first if mname == 'find'
+      set
     end
 
     def self.response url

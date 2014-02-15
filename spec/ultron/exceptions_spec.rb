@@ -6,12 +6,21 @@ module Ultron
       Timecop.freeze '2014-02-13T18:47:24+00:00'
     end
 
-    it 'should throw a Marvel exception on an API error', :vcr do
+    it 'should throw a 404 (wrapped in a Marvel exception) on a 404', :vcr do
       begin
         comic = Comics.find 1000000 # there are not a million comics
       rescue MarvelException => e
         e.code.should == 404
         e.status.should == "We couldn't find that comic_issue"
+      end
+    end
+
+    it 'should throw a No Idea What This Param Is exception', :vcr do
+      begin
+        character = Characters.where Thor: 'Mighty'
+      rescue MarvelException => e
+        e.code.should == 409
+        e.status.should == "We don't recognize the parameter Thor"
       end
     end
 
@@ -22,8 +31,6 @@ module Ultron
         e.status.should == 'That search returned no results'
       end
     end
-
-    it 'should throw a No Idea What This Param Is exception'
 
     after :each do
       Timecop.return
