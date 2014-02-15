@@ -62,3 +62,26 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comics = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
+    
+There's also some Noddy exception handling:
+
+### Catch and re-raise a 404
+
+    it 'should throw a Not Found exception', :vcr do
+      begin
+        comic = Comics.find 1000000 # there are not a million comics
+      rescue NotFoundException => e
+        e.code.should == 404
+        e.status.should == "We couldn't find that comic_issue"
+      end
+    end
+    
+### Raise a custom exception when no results are found
+
+    it 'should throw a No Results exception', :vcr do
+      begin
+        comics = Comics.where offset: 1000000
+      rescue NoResultsException => e
+        e.status.should == 'That search returned no results'
+      end
+    end
