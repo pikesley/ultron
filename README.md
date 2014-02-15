@@ -65,6 +65,20 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
     
+### Get a random item from a search
+
+      it 'should give us a random comic', :vcr do
+        set = Comics.by_character 1009610
+        set.stub(:random_offset).and_return(512)
+        set.sample.title.should == 'Amazing Spider-Man (1999) #590'
+      end
+
+      it 'should give us a random comic for a more complex search', :vcr do
+        set = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+        set.stub(:random_offset).and_return(99)
+        set.sample.title.should == 'Dazzler (1981) #19'
+      end
+    
 There's also some Noddy exception handling:
 
 ### Catch and re-raise a 404
