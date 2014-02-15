@@ -36,6 +36,9 @@ module Ultron
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
 
+    it 'should handle an empty response gracefully'
+    it 'should let us pick a random item'
+
     after :each do
       Timecop.return
     end
