@@ -13,6 +13,10 @@ module Ultron
       @conf['path'].should == '/v1/public/'
     end
 
+    it 'should have a root url' do
+      Ultron::Config.instance.root_url.should == 'http://gateway.marvel.com/v1/public/'
+    end
+
     it 'should let us add arbitrary keys' do
       @conf['doge'] = 'wow'
       @conf['doge'].should == 'wow'

@@ -1,9 +1,8 @@
 module Ultron
-  def self.get_url s
+  def self.get_url
     URI.join(
         Config.instance.config['host'],
-        Config.instance.config['path'],
-        s
+        Config.instance.config['path']
     )
   end
 end

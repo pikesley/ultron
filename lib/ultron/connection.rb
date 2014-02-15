@@ -28,7 +28,7 @@ module Ultron
      end
     end
 
-    def perform
+    def self.perform url
       c = Curl::Easy.new("%s" % url)
       c.headers = {
           'Accept' => 'application/json'
