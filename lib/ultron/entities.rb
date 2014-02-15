@@ -1,21 +1,15 @@
 module Ultron
   class Entities
-    attr_reader :metadata
-
     include Enumerable
-
-    def self.name_for_path
-      self.name.split('::')[-1].downcase
-    end
 
     def self.find id
       path     = self.name_for_path
       path     = '%s/%s' % [path, id]
       url      = get_url path
-      response = Ultron::Connection.perform url
+      response = self.response url
       case response['code'].to_i
         when 404
-          raise NotFoundException.new response
+          raise MarvelException.new response
 
         else
           set = self.new response['data'], url
@@ -39,9 +33,9 @@ module Ultron
       end
 
       url      = get_url path, query
-      response = Ultron::Connection.perform url
+      response = self.response url
       unless response['data']['results'].any?
-        raise NoResultsException.new 'That search returned no results'
+        raise UltronException.new 'That search returned no results'
       end
       self.new response['data'], url
     end
@@ -58,7 +52,17 @@ module Ultron
       "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
     end
 
+    def self.response url
+      Ultron::Connection.perform url
+    end
+
+    def self.name_for_path
+      self.name.split('::')[-1].downcase
+    end
+
     ###
+
+    attr_reader :metadata
 
     def initialize data, url
       @results_set = data['results']

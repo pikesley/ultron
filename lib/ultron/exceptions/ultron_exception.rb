@@ -1,5 +1,5 @@
 module Ultron
-  class NoResultsException < Exception
+  class UltronException < Exception
     attr_reader :status
 
     def initialize status

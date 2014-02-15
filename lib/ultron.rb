@@ -21,7 +21,7 @@ require 'ultron/events'
 require 'ultron/series'
 require 'ultron/stories'
 
-require 'ultron/exceptions/not_found_exception'
-require 'ultron/exceptions/no_results_exception'
+require 'ultron/exceptions/marvel_exception'
+require 'ultron/exceptions/ultron_exception'
 
 require 'pry'
