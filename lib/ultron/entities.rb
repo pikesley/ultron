@@ -25,7 +25,7 @@ module Ultron
       response = Ultron::Connection.perform get_url path, query
       set      = self.new response['data']['results']
 
-      return set.first if set.count == 1
+      return set.first if mname == 'find'
       set
     end
 
