@@ -7,14 +7,9 @@ module Ultron
       path     = '%s/%s' % [path, id]
       url      = get_url path
       response = self.response url
-      case response['code'].to_i
-        when 404
-          raise MarvelException.new response
 
-        else
-          set = self.new response['data'], url
-          set.first
-      end
+      set = self.new response['data'], url
+      set.first
     end
 
     def self.method_missing method_name, *args
@@ -34,10 +29,20 @@ module Ultron
 
       url      = get_url path, query
       response = self.response url
-      unless response['data']['results'].any?
-        raise UltronException.new 'That search returned no results'
-      end
+
       self.new response['data'], url
+    end
+
+    def self.response url
+      response = Ultron::Connection.perform url
+      case response['code'].to_s
+        when /^4/
+          raise MarvelException.new response
+      end
+
+      raise UltronException.new 'That search returned no results' unless response['data']['results'].any?
+
+      response
     end
 
     def self.by_something something, id
@@ -50,10 +55,6 @@ module Ultron
 
     def self.get_url path, query = nil
       "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
-    end
-
-    def self.response url
-      Ultron::Connection.perform url
     end
 
     def self.name_for_path
