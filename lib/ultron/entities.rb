@@ -15,17 +15,10 @@ module Ultron
       parts = mname.split /_and_/
       parts.each do |part|
         path  = self.send(:by_something, $1, args.shift) if part =~ /by_(.*)/
-        query = self.send(:by_params, args) if ['with', 'where'].include? part
+        query = self.send(:by_params, args[0]) if ['with', 'where'].include? part
       end
 
-      url = "%s%s?%s%s" % [
-          Ultron::Config.instance.root_url,
-          path,
-          query,
-          Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
-      ]
-
-      response = Ultron::Connection.perform url
+      response = Ultron::Connection.perform get_url path, query
       return OpenStruct.new response['data']['results'][0] if response['data']['results'].count == 1
       self.new response['data']['results']
     end
@@ -35,14 +28,11 @@ module Ultron
     end
 
     def self.by_params params
-      p = ''
+      params.map { |k, v| '%s=%s&' % [k, v] }.join
+    end
 
-      params[0].each do |pair|
-        parts = pair.flatten
-        p << '%s=%s&' % [URI.encode(parts[0].to_s), URI.encode(parts[1].to_s)]
-      end
-
-      p
+    def self.get_url path, query
+      "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
     end
 
     ###
