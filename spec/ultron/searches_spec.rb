@@ -58,8 +58,6 @@ module Ultron
       end
     end
 
-    it 'should let us pick a random item'
-
     after :each do
       Timecop.return
     end
