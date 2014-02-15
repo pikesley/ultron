@@ -31,11 +31,7 @@ module Ultron
     end
 
     def self.by_something something, id
-      [
-          something.pluralize,
-          id,
-          self.name_for_path
-      ].join '/'
+      [something.pluralize, id, self.name_for_path].join '/'
     end
 
     def self.by_params params
@@ -43,10 +39,7 @@ module Ultron
 
       params[0].each do |pair|
         parts = pair.flatten
-        p << '%s=%s&' % [
-            URI.encode(parts[0].to_s),
-            URI.encode(parts[1].to_s)
-        ]
+        p << '%s=%s&' % [URI.encode(parts[0].to_s), URI.encode(parts[1].to_s)]
       end
 
       p
