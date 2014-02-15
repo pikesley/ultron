@@ -6,63 +6,46 @@ module Ultron
       self.name.split('::')[-1].downcase
     end
 
-    def self.connection
-      @@connection ||= Ultron::Connection.new
-    end
-
-    def self.connection_reset!
-      @@connection = nil
-    end
-
-    def self.path
-      self.connection.path
-    end
-
-    def self.path= path
-      self.connection.path = path
-    end
-
-    def self.find id
-      self.path = [
-          self.name_for_path,
-          id
-      ].join '/'
-      OpenStruct.new self.perform['data']['results'][0]
-    end
-
-    def self.get
-      self.path = self.name_for_path
-      self.perform['data']['results']
-    end
-
-    def self.where params
-      params.each_pair do |key, value|
-        self.connection.add_params key => value
-      end
-
-      self.path = self.name_for_path
-      self.new self.perform['data']['results']
-    end
-
     def self.method_missing method_name, *args
-      if method_name.to_s =~ /by_(.*)/
-        self.send(:by_something, $1, args)
+      mname = method_name.to_s
+      query = nil
+      path  = self.name_for_path #if mname == 'get'
+      path  = '%s/%s' % [path, args[0]] if mname == 'find'
+
+      parts = mname.split /_and_/
+      parts.each do |part|
+        path  = self.send(:by_something, $1, args.shift) if part =~ /by_(.*)/
+        query = self.send(:by_params, args) if ['with', 'where'].include? part
       end
+
+      url = "%s%s?%s%s" % [
+          Ultron::Config.instance.root_url,
+          path,
+          query,
+          Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])
+      ]
+
+      response = Ultron::Connection.perform url
+      return OpenStruct.new response['data']['results'][0] if response['data']['results'].count == 1
+      self.new response['data']['results']
     end
 
     def self.by_something something, id
-      self.path = [
-          something.pluralize,
-          id,
-          self.name_for_path
-      ].join '/'
-      self.new self.perform['data']['results']
+      [something.pluralize, id, self.name_for_path].join '/'
     end
 
-    def self.perform
-      self.connection.perform
-#      binding.pry
+    def self.by_params params
+      p = ''
+
+      params[0].each do |pair|
+        parts = pair.flatten
+        p << '%s=%s&' % [URI.encode(parts[0].to_s), URI.encode(parts[1].to_s)]
+      end
+
+      p
     end
+
+    ###
 
     def initialize results_set
       @results_set = results_set

@@ -8,7 +8,6 @@ require 'ostruct'
 require 'active_support/core_ext/string'
 
 require 'ultron/version'
-require 'ultron/helpers'
 require 'ultron/auth'
 require 'ultron/config'
 require 'ultron/connection'

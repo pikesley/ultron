@@ -6,7 +6,7 @@ module Ultron
       reset!
     end
 
-    def reset!
+    def reset! # testing a singleton is hard
       @config = OpenStruct.new fetch_yaml 'ultron'
     end
 
@@ -14,21 +14,17 @@ module Ultron
       @config
     end
 
+    def root_url
+      URI.join(
+          Config.instance.config['host'],
+          Config.instance.config['path']
+      ).to_s
+    end
+
     private
 
     def fetch_yaml file
-      YAML.load(
-          File.open(
-              File.join(
-                  File.dirname(__FILE__),
-                  '..',
-                  '..',
-                  'config/%s.yaml' % [
-                      file
-                  ]
-              )
-          )
-      )
+      YAML.load(File.open(File.join(File.dirname(__FILE__), '..', '..', 'config/%s.yaml' % file)))
     end
   end
 end

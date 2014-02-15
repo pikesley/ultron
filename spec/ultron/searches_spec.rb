@@ -1,25 +1,43 @@
 require 'spec_helper'
 
 module Ultron
-
   describe 'searching' do
     before :each do
       Timecop.freeze '2014-02-13T18:47:24+00:00'
     end
 
+    it 'should let us get a comic', :vcr do
+      comic = Comics.find 10588
+      comic.title.should == 'Secret Wars (1984) #6'
+    end
+
+    it 'should let us get comics by a creator', :vcr do
+      comics = Comics.by_creator 196 # Jack Kirby
+      comics[14].title.should == 'INHUMANS: THE ORIGIN OF THE INHUMANS TPB (Trade Paperback)'
+    end
+
     it 'should let us search with parameters', :vcr do
-      series = Series.where title: 'Uncanny X-Men'
-      series[2].title.should == 'Uncanny X-Men (2011 - 2012)'
+      comics = Comics.where sharedAppearances: '1009351,1009718' # Hulk and Wolverine
+      comics[7].title.should == 'Deadpool (2008) #37'
     end
 
     it 'should let us search with multiple parameters', :vcr do
-      series = Series.where characters: 1009685, events: 270
-      puts series.first.title.should == 'Secret Wars (1984 - 1985)'
+      comics = Comics.where sharedAppearances: '1009610,1009718', events: 302 # Spider-Man and Wolverine, Fear Itself
+      comics.first.title.should == 'Fear Itself (2010) #7'
+    end
+
+    it 'should accept with as a synonym for where', :vcr do
+      comics = Comics.with sharedAppearances: '1009685,1009351' # Ultron and Hulk
+      comics.first.title.should == 'Avengers: First to Last (Hardcover)'
+    end
+
+    it 'should let us get comics by a creator *with params*', :vcr do
+      comics = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+      comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
 
     after :each do
       Timecop.return
-      Entities.connection_reset!
     end
   end
 end
