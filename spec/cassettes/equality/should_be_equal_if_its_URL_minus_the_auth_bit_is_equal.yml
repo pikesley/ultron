@@ -23,7 +23,7 @@ http_interactions:
       Content-Length:
       - '134301'
       Date:
-      - Sun, 16 Feb 2014 21:08:56 GMT
+      - Sun, 16 Feb 2014 21:17:29 GMT
       Connection:
       - keep-alive
     body:
@@ -2997,7 +2997,7 @@ http_interactions:
   recorded_at: Wed, 31 Dec 1969 23:00:00 GMT
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/characters/1009472/comics?apikey=<PUBLIC_KEY>&hash=ae206f7c9c5077950fc4618af8ec254b&ts=-3600
+    uri: http://gateway.marvel.com/v1/public/characters/1009472/comics?apikey=<PUBLIC_KEY>&hash=414e33c708fee1c40d0d08122293d869&ts=140482800
     body:
       encoding: US-ASCII
       string: ''
@@ -3018,7 +3018,7 @@ http_interactions:
       Content-Length:
       - '134301'
       Date:
-      - Sun, 16 Feb 2014 21:08:58 GMT
+      - Sun, 16 Feb 2014 21:17:30 GMT
       Connection:
       - keep-alive
     body:
@@ -5989,5 +5989,5 @@ http_interactions:
         Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8yMDkxMy9ldmVudHMiLCJp
         dGVtcyI6W10sInJldHVybmVkIjowfX1dfX0=
     http_version: 
-  recorded_at: Wed, 31 Dec 1969 23:00:00 GMT
+  recorded_at: Fri, 14 Jun 1974 23:00:00 GMT
 recorded_with: VCR 2.8.0
