@@ -5,3 +5,11 @@ env:
   global:
   - secure: I6w+eRCXNkVnye8y/NVU9FAiSGgSC6RKtClXUdM1ZbYZHYf/PtruM0eHQAA+2fMR3Vg3Ekg88D2ePWUwLG1HfJO694YMyYIMnaIsK1ESvnhavPSmpWxnXlQhrQcAsDi4QDLM1qpUtnwAOAmo+WNXpU5Jdaoa6024IGKm5VMwWtE=
   - secure: V3Ebf8/4PMSD8vv/kto8OoUlKWk7RlvPmhySbDGkyO6XgPmCYhUMblvwP9gYBjZzowiZcU4bD5D0HUMBimz5XSojK4FpMKPtxtjt20wf3FS43LTxLbvpST6XWDcKfqcEPLIRn/9Z/o5I019O4LbkI7PmHNJyP2MXyNYfZuGvrvw=
+deploy:
+  provider: rubygems
+  api_key:
+    secure: W2O5QFITnxLXmen47OqdCWgFO6QxW8JGxgjafHgR0ncbSTA+HUOCbsiZnblm4M5bUmAR9gjze7LPeudN27PEgaL1NmbAu0wdkotkItdIsys96/z+b1yqKKxbmUpdkJjCRW90ggsUNX9ADMAWW2EAI5EaU/fYhVCXAqyJmQXgEj4=
+  gem: ultron
+  on:
+    tags: true
+    repo: pikesley/ultron
