@@ -26,7 +26,7 @@ module Ultron
 
       it 'should give us a random comic for a more complex search', :vcr do
         set = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
-        set.stub(:random_offset).and_return(99)
+        set.stub(:random_offset).and_return(100)
         set.sample.title.should == 'Dazzler (1981) #19'
       end
     end

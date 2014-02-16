@@ -11,6 +11,7 @@ require 'ultron/version'
 require 'ultron/auth'
 require 'ultron/config'
 require 'ultron/connection'
+require 'ultron/url'
 
 require 'ultron/models/entities'
 require 'ultron/models/characters'
