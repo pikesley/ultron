@@ -5,7 +5,7 @@ module Ultron
     def self.method_missing method_name, *args
       mname = method_name.to_s
       query = nil
-      path  = self.name_for_path #if mname == 'get'
+      path  = self.name_for_path
 
       mname.split(/_and_/).each do |part|
         case part
@@ -24,8 +24,7 @@ module Ultron
       response = self.response url
 
       set = self.new response['data'], url
-      return set.first if mname == 'find'
-      set
+      mname == 'find' ? set.first : set
     end
 
     def self.response url
@@ -51,14 +50,14 @@ module Ultron
     end
 
     def self.get_url path, query = nil
-      "%s%s?%s%s" % [Ultron::Config.instance.root_url, path, query, Ultron.auth(ENV['PRIVATE_KEY'], ENV['PUBLIC_KEY'])]
+      Ultron::URL.new path, query
     end
 
     def self.name_for_path
       self.name.split('::')[-1].downcase
     end
 
-    ###
+    # instance methods
 
     attr_reader :metadata
 
