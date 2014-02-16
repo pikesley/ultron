@@ -87,5 +87,9 @@ module Ultron
       response = Ultron::Connection.perform full_url
       self.class.new(response['data'], full_url).first
     end
+
+    def == other
+      other.url == @url
+    end
   end
 end
