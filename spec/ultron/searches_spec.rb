@@ -28,7 +28,7 @@ module Ultron
 
     it 'should accept with as a synonym for where', :vcr do
       comics = Comics.with sharedAppearances: '1009685,1009351' # Ultron and Hulk
-      comics.first.title.should == 'Avengers: First to Last (Hardcover)'
+      comics.first.title.should == 'Avengers: First to Last Premiere (Hardcover)'
     end
 
     it 'should let us get comics by a creator *with params*', :vcr do

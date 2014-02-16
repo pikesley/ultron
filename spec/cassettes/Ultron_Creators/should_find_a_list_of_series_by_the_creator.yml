@@ -9,26 +9,28 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      User-Agent:
+      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
       message: OK
     headers:
       Etag:
-      - d355d421d974f1d23b6915e6d4513a6e400a9827
+      - a6f57165484d672a244a2d13771d2f411daab1e4
       Content-Type:
       - application/json
       Content-Length:
       - '9508'
       Date:
-      - Fri, 14 Feb 2014 09:27:12 GMT
+      - Sun, 16 Feb 2014 21:09:41 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6ImQzNTVkNDIxZDk3
-        NGYxZDIzYjY5MTVlNmQ0NTEzYTZlNDAwYTk4MjciLCJkYXRhIjp7Im9mZnNl
+        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6ImE2ZjU3MTY1NDg0
+        ZDY3MmEyNDRhMmQxMzc3MWQyZjQxMWRhYWIxZTQiLCJkYXRhIjp7Im9mZnNl
         dCI6MCwibGltaXQiOjIwLCJ0b3RhbCI6MSwiY291bnQiOjEsInJlc3VsdHMi
         Olt7ImlkIjoxOTYsImZpcnN0TmFtZSI6IkphY2siLCJtaWRkbGVOYW1lIjoi
         IiwibGFzdE5hbWUiOiJLaXJieSIsInN1ZmZpeCI6IiIsImZ1bGxOYW1lIjoi
@@ -45,10 +47,10 @@ http_interactions:
         Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8xMjU2NiIs
         Im5hbWUiOiJBbGwtV2lubmVycyBDb21pY3MgKDE5NDEpICMyIn0seyJyZXNv
         dXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L2NvbWljcy8xNzcyNSIsIm5hbWUiOiJBbWF6aW5nIEFkdmVudHVyZXMgKDE5
-        NjEpICMxIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NvbWljcy8yMzI0NSIsIm5hbWUiOiJBbWF6aW5n
-        IEFkdmVudHVyZXMgKDE5NzApICMxIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6
+        L2NvbWljcy8yMzI0NSIsIm5hbWUiOiJBbWF6aW5nIEFkdmVudHVyZXMgKDE5
+        NzApICMxIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
+        bC5jb20vdjEvcHVibGljL2NvbWljcy8xNzcyNSIsIm5hbWUiOiJBbWF6aW5n
+        IEFkdmVudHVyZXMgKDE5NjEpICMxIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6
         Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8xNzcyNiIs
         Im5hbWUiOiJBbWF6aW5nIEFkdmVudHVyZXMgKDE5NjEpICMyIn0seyJyZXNv
         dXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
@@ -122,10 +124,10 @@ http_interactions:
         cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
         YmxpYy9zZXJpZXMvMjk4MiIsIm5hbWUiOiJBc3RvbmlzaGluZyAoMTk1MSAt
         IDE5NTcpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL3Nlcmllcy8zNTQiLCJuYW1lIjoiQXZlbmdlcnMg
-        KDE5OTggLSAyMDA0KSJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdh
-        eS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zZXJpZXMvMTk5MSIsIm5hbWUiOiJB
-        dmVuZ2VycyAoMTk2MyAtIDE5OTYpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6
+        bC5jb20vdjEvcHVibGljL3Nlcmllcy8xOTkxIiwibmFtZSI6IkF2ZW5nZXJz
+        ICgxOTYzIC0gMTk5NikifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
+        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc2VyaWVzLzM1NCIsIm5hbWUiOiJB
+        dmVuZ2VycyAoMTk5OCAtIDIwMDQpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6
         Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3Nlcmllcy8xNTI4MSIs
         Im5hbWUiOiJBdmVuZ2VycyAxOiBUaGUgQ29taW5nIG9mIHRoZSBBdmVuZ2Vy
         cyEgKDIwMTEgLSAyMDEyKSJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
@@ -249,24 +251,26 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      User-Agent:
+      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
       message: OK
     headers:
       Etag:
-      - a57239c9479ef6504713db6b9166cd19143b3ef8
+      - 9ca9c7d07f1ff32df665c5d232f48913f53b1809
       Content-Type:
       - application/json
       Content-Length:
-      - '129584'
+      - '129582'
       Date:
-      - Fri, 14 Feb 2014 09:27:13 GMT
+      - Sun, 16 Feb 2014 21:09:45 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"a57239c9479ef6504713db6b9166cd19143b3ef8\",\"data\":{\"offset\":0,\"limit\":20,\"total\":337,\"count\":20,\"results\":[{\"id\":2114,\"title\":\"All-Winners
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"9ca9c7d07f1ff32df665c5d232f48913f53b1809\",\"data\":{\"offset\":0,\"limit\":20,\"total\":337,\"count\":20,\"results\":[{\"id\":2114,\"title\":\"All-Winners
         Comics (1941 - 1947)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2114\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2114/all-winners_comics_1941_-_1947?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1941,\"endYear\":1947,\"rating\":\"\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/80/4bad38841d376\",\"extension\":\"jpg\"},\"creators\":{\"available\":36,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2114/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1496\",\"name\":\"Illo\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1452\",\"name\":\"Vince
         Alascia\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1456\",\"name\":\"Jack
         Binder\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1494\",\"name\":\"Al
@@ -331,7 +335,40 @@ http_interactions:
         Comics (1941) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12564\",\"name\":\"All-Winners
         Comics (1941) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12565\",\"name\":\"All-Winners
         Comics (1941) #19\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12567\",\"name\":\"All-Winners
-        Comics (1941) #21\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2114/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":6666,\"title\":\"Amazing
+        Comics (1941) #21\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2114/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":3617,\"title\":\"Amazing
+        Adventures (1961)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3617\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3617/amazing_adventures_1961?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1961,\"endYear\":1961,\"rating\":\"\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/90/4bad2be77c973\",\"extension\":\"jpg\"},\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
+        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/32\",\"name\":\"Steve
+        Ditko\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/305\",\"name\":\"Don
+        Heck\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/196\",\"name\":\"Jack
+        Kirby\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1306\",\"name\":\"Paul
+        Reinman\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/30\",\"name\":\"Stan
+        Lee\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/945\",\"name\":\"Larry
+        Lieber\",\"role\":\"writer\"}],\"returned\":7},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":28,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37596\",\"name\":\"Join
+        Us In The Search For Torr!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37597\",\"name\":\"Torr\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37598\",\"name\":\"Masquerade\",\"type\":\"text
+        story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37599\",\"name\":\"Midnight
+        in the Wax Museum\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37600\",\"name\":\"I
+        Am the Fantastic Dr. Droom!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37601\",\"name\":\"This
+        is Manoo! The Thing That Hid On Earth!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37602\",\"name\":\"I
+        Led the Strange Search for Manoo!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37603\",\"name\":\"The
+        Comic\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37604\",\"name\":\"The
+        World Below\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37605\",\"name\":\"Rocky's
+        Last Ride\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37606\",\"name\":\"We
+        Were Trapped in the Twilight World!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37607\",\"name\":\"We
+        Were Trapped in the Twilight World!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37608\",\"name\":\"The
+        Masterpiece\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37609\",\"name\":\"The
+        Teddy Bear\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37610\",\"name\":\"Doctor
+        Droom Meets Zemu!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37611\",\"name\":\"I
+        Am X\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37612\",\"name\":\"I
+        Am Robot X\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37613\",\"name\":\"The
+        Pact\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37614\",\"name\":\"Who
+        or What Was ... the Bootblack?\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37615\",\"name\":\"What
+        Lurks Within?\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17725\",\"name\":\"Amazing
+        Adventures (1961) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17726\",\"name\":\"Amazing
+        Adventures (1961) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17727\",\"name\":\"Amazing
+        Adventures (1961) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17728\",\"name\":\"Amazing
+        Adventures (1961) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17729\",\"name\":\"Amazing
+        Adventures (1961) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17730\",\"name\":\"Amazing
+        Adventures (1961) #6\"}],\"returned\":6},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":6666,\"title\":\"Amazing
         Adventures (1970 - 1976)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6666\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/6666/amazing_adventures_1970_-_1976?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1970,\"endYear\":1976,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/50/4bb53ab5bd79f\",\"extension\":\"jpg\"},\"creators\":{\"available\":82,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/6666/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1186\",\"name\":\"Jack
         Abel\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1212\",\"name\":\"Dan
         Adkins\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2751\",\"name\":\"D.
@@ -395,40 +432,7 @@ http_interactions:
         Adventures (1970) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23254\",\"name\":\"Amazing
         Adventures (1970) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23255\",\"name\":\"Amazing
         Adventures (1970) #19\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/23257\",\"name\":\"Amazing
-        Adventures (1970) #20\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/6666/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":3617,\"title\":\"Amazing
-        Adventures (1961)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3617\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/3617/amazing_adventures_1961?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1961,\"endYear\":1961,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/90/4bad2be77c973\",\"extension\":\"jpg\"},\"creators\":{\"available\":7,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
-        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/32\",\"name\":\"Steve
-        Ditko\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/305\",\"name\":\"Don
-        Heck\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/196\",\"name\":\"Jack
-        Kirby\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1306\",\"name\":\"Paul
-        Reinman\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/30\",\"name\":\"Stan
-        Lee\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/945\",\"name\":\"Larry
-        Lieber\",\"role\":\"writer\"}],\"returned\":7},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":28,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37596\",\"name\":\"Join
-        Us In The Search For Torr!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37597\",\"name\":\"Torr\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37598\",\"name\":\"Masquerade\",\"type\":\"text
-        story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37599\",\"name\":\"Midnight
-        in the Wax Museum\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37600\",\"name\":\"I
-        Am the Fantastic Dr. Droom!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37601\",\"name\":\"This
-        is Manoo! The Thing That Hid On Earth!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37602\",\"name\":\"I
-        Led the Strange Search for Manoo!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37603\",\"name\":\"The
-        Comic\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37604\",\"name\":\"The
-        World Below\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37605\",\"name\":\"Rocky's
-        Last Ride\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37606\",\"name\":\"We
-        Were Trapped in the Twilight World!\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37607\",\"name\":\"We
-        Were Trapped in the Twilight World!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37608\",\"name\":\"The
-        Masterpiece\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37609\",\"name\":\"The
-        Teddy Bear\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37610\",\"name\":\"Doctor
-        Droom Meets Zemu!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37611\",\"name\":\"I
-        Am X\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37612\",\"name\":\"I
-        Am Robot X\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37613\",\"name\":\"The
-        Pact\",\"type\":\"text story\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37614\",\"name\":\"Who
-        or What Was ... the Bootblack?\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/37615\",\"name\":\"What
-        Lurks Within?\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17725\",\"name\":\"Amazing
-        Adventures (1961) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17726\",\"name\":\"Amazing
-        Adventures (1961) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17727\",\"name\":\"Amazing
-        Adventures (1961) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17728\",\"name\":\"Amazing
-        Adventures (1961) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17729\",\"name\":\"Amazing
-        Adventures (1961) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/17730\",\"name\":\"Amazing
-        Adventures (1961) #6\"}],\"returned\":6},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/3617/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":2987,\"title\":\"Amazing
+        Adventures (1970) #20\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/6666/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":2987,\"title\":\"Amazing
         Fantasy (1962)\",\"description\":\"The very first appearance of Spider-Man!
         Learn the Wallcrawler's tragic origin and witness amazing fantasy as only
         Marvel can provide it!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2987\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2987/amazing_fantasy_1962?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1962,\"endYear\":1962,\"rating\":\"\",\"type\":\"\",\"modified\":\"2011-03-04T10:15:46-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/60/4bad2d8670e37\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2987/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/32\",\"name\":\"Steve
@@ -556,7 +560,7 @@ http_interactions:
         Wars II\"}],\"returned\":7},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/454\",\"name\":\"Amazing
         Spider-Man (1999 - 2013)\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2987\",\"name\":\"Amazing
         Fantasy (1962)\"}},{\"id\":2984,\"title\":\"Amazing Spider-Man Annual (1964
-        - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2984\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2984/amazing_spider-man_annual_1964_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1964,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/60/4bad2d98f2adf\",\"extension\":\"jpg\"},\"creators\":{\"available\":121,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2984/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5388\",\"name\":\"Jr\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2112\",\"name\":\"Larry
+        - Present)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2984\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/2984/amazing_spider-man_annual_1964_-_present?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1964,\"endYear\":2099,\"rating\":\"\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/60/4bad2d98f2adf\",\"extension\":\"jpg\"},\"creators\":{\"available\":121,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2984/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5388\",\"name\":\"Jr\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2112\",\"name\":\"Larry
         Alexander\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
         Ayers\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/87\",\"name\":\"Mark
         Bagley\",\"role\":\"penciler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/3483\",\"name\":\"Mark
@@ -633,7 +637,7 @@ http_interactions:
         Attacks\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/246\",\"name\":\"Evolutionary
         War\"}],\"returned\":2},\"next\":null,\"previous\":null},{\"id\":1967,\"title\":\"Amazing
         Spider-Man Omnibus Vol. 1 (2007)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1967\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1967/amazing_spider-man_omnibus_vol_1_2007?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2007,\"endYear\":2007,\"rating\":\"ALL
-        AGES\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/70/4bc354e3f1df8\",\"extension\":\"jpg\"},\"creators\":{\"available\":9,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1967/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2055\",\"name\":\"Bw
+        AGES\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/70/4bc354e3f1df8\",\"extension\":\"jpg\"},\"creators\":{\"available\":9,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1967/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2055\",\"name\":\"Bw
         reprint colorist\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2054\",\"name\":\"Original
         Colorist\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2625\",\"name\":\"Jon
         DAgostino\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1541\",\"name\":\"John
@@ -660,7 +664,7 @@ http_interactions:
         with Daredevil\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/13697\",\"name\":\"\",\"type\":\"\"}],\"returned\":20},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1967/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6332\",\"name\":\"Amazing
         Spider-Man Omnibus Vol. 1 (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1967/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":1970,\"title\":\"Amazing
         Spider-Man Omnibus Vol. 1 (Book Market (2007)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1970\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1970/amazing_spider-man_omnibus_vol_1_book_market_2007?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2007,\"endYear\":2007,\"rating\":\"ALL
-        AGES\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1970/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/32\",\"name\":\"Steve
+        AGES\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1970/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/32\",\"name\":\"Steve
         Ditko\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/30\",\"name\":\"Stan
         Lee\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/196\",\"name\":\"Jack
         Kirby\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/63\",\"name\":\"Alex
@@ -669,7 +673,7 @@ http_interactions:
         #8522\",\"type\":\"interiorStory\"}],\"returned\":2},\"comics\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1970/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6326\",\"name\":\"Amazing
         Spider-Man Omnibus Vol. 1 (Book Market (Hardcover)\"}],\"returned\":1},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1970/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":6056,\"title\":\"Annihilation
         Classic (2008)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/6056\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/6056/annihilation_classic_2008?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2008,\"endYear\":2008,\"rating\":\"RATED
-        A\",\"type\":\"\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/00/4bb6c85261aaf\",\"extension\":\"jpg\"},\"creators\":{\"available\":42,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/6056/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1887\",\"name\":\"Janice
+        A\",\"type\":\"\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/00/4bb6c85261aaf\",\"extension\":\"jpg\"},\"creators\":{\"available\":42,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/6056/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1887\",\"name\":\"Janice
         Chiang\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1746\",\"name\":\"John
         Costanza\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1778\",\"name\":\"Dan
         Crespi\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/415\",\"name\":\"Derec
@@ -782,74 +786,8 @@ http_interactions:
         (1951) #19\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16816\",\"name\":\"Astonishing
         (1951) #20\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16817\",\"name\":\"Astonishing
         (1951) #21\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/16818\",\"name\":\"Astonishing
-        (1951) #22\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2982/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":1991,\"title\":\"Avengers
-        (1963 - 1996)\",\"description\":\"Avengers Assemble! Iron Man, Thor, Captain
-        America and the rest of Earth's Mightiest Heroes unite to stand against the
-        threats none can face alone! See the Avengers go up against Ultron, Kang,
-        the Masters of Evil and more over three decades of epic action!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1991\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1991/avengers_1963_-_1996?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1963,\"endYear\":1996,\"rating\":\"\",\"type\":\"ongoing\",\"modified\":\"2013-05-21T13:10:43-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/10/519baa6d1890a\",\"extension\":\"jpg\"},\"creators\":{\"available\":287,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2289\",\"name\":\"Alexandrov\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2293\",\"name\":\"Fredericks\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2253\",\"name\":\"Garvey\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1186\",\"name\":\"Jack
-        Abel\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1212\",\"name\":\"Dan
-        Adkins\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1836\",\"name\":\"Terry
-        Austin\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
-        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2299\",\"name\":\"Babcock\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2258\",\"name\":\"Lopez\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2328\",\"name\":\"N.j.q.\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1865\",\"name\":\"Diana
-        Albers\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2314\",\"name\":\"Bollers\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2284\",\"name\":\"Kossoff\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2330\",\"name\":\"Malibu\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2315\",\"name\":\"Marshall\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2331\",\"name\":\"Ramos\",\"role\":\"penciller
-        (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/314\",\"name\":\"Neal
-        Adams\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2148\",\"name\":\"Title\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2278\",\"name\":\"Paul
-        Abrams\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2234\",\"name\":\"Embellishers
-        Assembled\",\"role\":\"penciller\"}],\"returned\":20},\"characters\":{\"available\":95,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009521\",\"name\":\"
-        Hank Pym\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009144\",\"name\":\"A.I.M.\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010801\",\"name\":\"Ant-Man
-        (Scott Lang)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010784\",\"name\":\"Ares\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009165\",\"name\":\"Avengers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009170\",\"name\":\"Baron
-        Zemo (Heinrich Zemo)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009175\",\"name\":\"Beast\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009184\",\"name\":\"Black
-        Bolt\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009186\",\"name\":\"Black
-        Knight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009187\",\"name\":\"Black
-        Panther\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009189\",\"name\":\"Black
-        Widow\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
-        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010338\",\"name\":\"Captain
-        Marvel (Carol Danvers)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009243\",\"name\":\"Colossus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009255\",\"name\":\"Crystal\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009267\",\"name\":\"Dazzler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009270\",\"name\":\"Deathbird\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009281\",\"name\":\"Doctor
-        Doom\"}],\"returned\":20},\"stories\":{\"available\":837,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14435\",\"name\":\"Cover
-        #14435\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14436\",\"name\":\"The
-        Coming of the Avengers!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14441\",\"name\":\"Avengers
-        (1963) #10 cover\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14442\",\"name\":\"The
-        Avengers Break Up!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14443\",\"name\":\"\",\"type\":\"letters\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14444\",\"name\":\"The
-        One and Only \\\"Cap\\\"\",\"type\":\"pinup\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14445\",\"name\":\"Cover
-        #14445\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14446\",\"name\":\"Whatever
-        Gods There Be\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14447\",\"name\":\"Cover
-        #14447\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14448\",\"name\":\"Five
-        Dooms to Save Tomorrow\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14449\",\"name\":\"Cover
-        #14449\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14450\",\"name\":\"What
-        To Do Until The Sentinels Come\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14451\",\"name\":\"Cover
-        #14451\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14452\",\"name\":\"The
-        Sentinels are Alive and Well!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14453\",\"name\":\"Cover
-        #14453\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14454\",\"name\":\"With
-        A Bang And A Whimper\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14455\",\"name\":\"Cover
-        #14455\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14456\",\"name\":\"In
-        The Beginning Was The World Within\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14457\",\"name\":\"Cover
-        #14457\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14458\",\"name\":\"A
-        Traitor Stalks Among Us!\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":403,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6951\",\"name\":\"Avengers
-        (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22620\",\"name\":\"Avengers
-        (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7063\",\"name\":\"Avengers
-        (1963) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7174\",\"name\":\"Avengers
-        (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7285\",\"name\":\"Avengers
-        (1963) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7299\",\"name\":\"Avengers
-        (1963) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7310\",\"name\":\"Avengers
-        (1963) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7321\",\"name\":\"Avengers
-        (1963) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7332\",\"name\":\"Avengers
-        (1963) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7343\",\"name\":\"Avengers
-        (1963) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6953\",\"name\":\"Avengers
-        (1963) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6964\",\"name\":\"Avengers
-        (1963) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6975\",\"name\":\"Avengers
-        (1963) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6986\",\"name\":\"Avengers
-        (1963) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6997\",\"name\":\"Avengers
-        (1963) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7008\",\"name\":\"Avengers
-        (1963) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7019\",\"name\":\"Avengers
-        (1963) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7030\",\"name\":\"Avengers
-        (1963) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7041\",\"name\":\"Avengers
-        (1963) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7052\",\"name\":\"Avengers
-        (1963) #19\"}],\"returned\":20},\"events\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/116\",\"name\":\"Acts
-        of Vengeance!\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/239\",\"name\":\"Crossing\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/154\",\"name\":\"Onslaught\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/270\",\"name\":\"Secret
-        Wars\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/271\",\"name\":\"Secret
-        Wars II\"}],\"returned\":6},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3621\",\"name\":\"Avengers
-        (1996 - 1997)\"},\"previous\":null},{\"id\":354,\"title\":\"Avengers (1998
-        - 2004)\",\"description\":\"The Avengers return! Earth's Mightiest Heroes
+        (1951) #22\"}],\"returned\":20},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/2982/events\",\"items\":[],\"returned\":0},\"next\":null,\"previous\":null},{\"id\":354,\"title\":\"Avengers
+        (1998 - 2004)\",\"description\":\"The Avengers return! Earth's Mightiest Heroes
         reunite with their biggest guns at the forefront to take on familiar enemies
         and new threats alike! Featuring the work of Kurt Busiek, George Perez and
         other quintessential Avengers creators!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/354\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/354/avengers_1998_-_2004?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1998,\"endYear\":2004,\"rating\":\"T+\",\"type\":\"ongoing\",\"modified\":\"2013-03-01T13:18:46-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/00/5130f06bd981b\",\"extension\":\"jpg\"},\"creators\":{\"available\":91,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/354/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6694\",\"name\":\"Wes
@@ -921,8 +859,74 @@ http_interactions:
         Disassembled\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/37\",\"name\":\"Maximum
         Security\"}],\"returned\":2},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/753\",\"name\":\"New
         Avengers (2004 - 2010)\"},\"previous\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3621\",\"name\":\"Avengers
-        (1996 - 1997)\"}},{\"id\":15281,\"title\":\"Avengers 1: The Coming of the
-        Avengers! (2011 - 2012)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15281\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/15281/avengers_1_the_coming_of_the_avengers_2011_-_2012?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2011,\"endYear\":2012,\"rating\":\"\",\"type\":\"\",\"modified\":\"2012-01-25T09:40:51-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/15281/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11562\",\"name\":\"Jean-Francois
+        (1996 - 1997)\"}},{\"id\":1991,\"title\":\"Avengers (1963 - 1996)\",\"description\":\"Avengers
+        Assemble! Iron Man, Thor, Captain America and the rest of Earth's Mightiest
+        Heroes unite to stand against the threats none can face alone! See the Avengers
+        go up against Ultron, Kang, the Masters of Evil and more over three decades
+        of epic action!\",\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1991\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1991/avengers_1963_-_1996?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":1963,\"endYear\":1996,\"rating\":\"\",\"type\":\"ongoing\",\"modified\":\"2013-05-21T13:10:43-0400\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/10/519baa6d1890a\",\"extension\":\"jpg\"},\"creators\":{\"available\":287,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2289\",\"name\":\"Alexandrov\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2293\",\"name\":\"Fredericks\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2253\",\"name\":\"Garvey\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1186\",\"name\":\"Jack
+        Abel\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1212\",\"name\":\"Dan
+        Adkins\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1836\",\"name\":\"Terry
+        Austin\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/263\",\"name\":\"Dick
+        Ayers\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2299\",\"name\":\"Babcock\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2258\",\"name\":\"Lopez\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2328\",\"name\":\"N.j.q.\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1865\",\"name\":\"Diana
+        Albers\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2314\",\"name\":\"Bollers\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2284\",\"name\":\"Kossoff\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2330\",\"name\":\"Malibu\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2315\",\"name\":\"Marshall\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2331\",\"name\":\"Ramos\",\"role\":\"penciller
+        (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/314\",\"name\":\"Neal
+        Adams\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2148\",\"name\":\"Title\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2278\",\"name\":\"Paul
+        Abrams\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2234\",\"name\":\"Embellishers
+        Assembled\",\"role\":\"penciller\"}],\"returned\":20},\"characters\":{\"available\":95,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009521\",\"name\":\"
+        Hank Pym\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009144\",\"name\":\"A.I.M.\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010801\",\"name\":\"Ant-Man
+        (Scott Lang)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010784\",\"name\":\"Ares\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009165\",\"name\":\"Avengers\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009170\",\"name\":\"Baron
+        Zemo (Heinrich Zemo)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009175\",\"name\":\"Beast\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009184\",\"name\":\"Black
+        Bolt\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009186\",\"name\":\"Black
+        Knight\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009187\",\"name\":\"Black
+        Panther\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009189\",\"name\":\"Black
+        Widow\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009220\",\"name\":\"Captain
+        America\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1010338\",\"name\":\"Captain
+        Marvel (Carol Danvers)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009243\",\"name\":\"Colossus\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009255\",\"name\":\"Crystal\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009257\",\"name\":\"Cyclops\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009267\",\"name\":\"Dazzler\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009270\",\"name\":\"Deathbird\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009281\",\"name\":\"Doctor
+        Doom\"}],\"returned\":20},\"stories\":{\"available\":837,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14435\",\"name\":\"Cover
+        #14435\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14436\",\"name\":\"The
+        Coming of the Avengers!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14441\",\"name\":\"Avengers
+        (1963) #10 cover\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14442\",\"name\":\"The
+        Avengers Break Up!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14443\",\"name\":\"\",\"type\":\"letters\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14444\",\"name\":\"The
+        One and Only \\\"Cap\\\"\",\"type\":\"pinup\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14445\",\"name\":\"Cover
+        #14445\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14446\",\"name\":\"Whatever
+        Gods There Be\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14447\",\"name\":\"Cover
+        #14447\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14448\",\"name\":\"Five
+        Dooms to Save Tomorrow\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14449\",\"name\":\"Cover
+        #14449\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14450\",\"name\":\"What
+        To Do Until The Sentinels Come\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14451\",\"name\":\"Cover
+        #14451\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14452\",\"name\":\"The
+        Sentinels are Alive and Well!\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14453\",\"name\":\"Cover
+        #14453\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14454\",\"name\":\"With
+        A Bang And A Whimper\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14455\",\"name\":\"Cover
+        #14455\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14456\",\"name\":\"In
+        The Beginning Was The World Within\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14457\",\"name\":\"Cover
+        #14457\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/14458\",\"name\":\"A
+        Traitor Stalks Among Us!\",\"type\":\"interiorStory\"}],\"returned\":20},\"comics\":{\"available\":403,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/comics\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/22620\",\"name\":\"Avengers
+        (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6951\",\"name\":\"Avengers
+        (1963) #1\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7063\",\"name\":\"Avengers
+        (1963) #2\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7174\",\"name\":\"Avengers
+        (1963) #3\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7285\",\"name\":\"Avengers
+        (1963) #4\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7299\",\"name\":\"Avengers
+        (1963) #5\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7310\",\"name\":\"Avengers
+        (1963) #6\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7321\",\"name\":\"Avengers
+        (1963) #7\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7332\",\"name\":\"Avengers
+        (1963) #8\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7343\",\"name\":\"Avengers
+        (1963) #9\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6953\",\"name\":\"Avengers
+        (1963) #10\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6964\",\"name\":\"Avengers
+        (1963) #11\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6975\",\"name\":\"Avengers
+        (1963) #12\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6986\",\"name\":\"Avengers
+        (1963) #13\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/6997\",\"name\":\"Avengers
+        (1963) #14\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7008\",\"name\":\"Avengers
+        (1963) #15\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7019\",\"name\":\"Avengers
+        (1963) #16\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7030\",\"name\":\"Avengers
+        (1963) #17\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7041\",\"name\":\"Avengers
+        (1963) #18\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/7052\",\"name\":\"Avengers
+        (1963) #19\"}],\"returned\":20},\"events\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1991/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/116\",\"name\":\"Acts
+        of Vengeance!\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/239\",\"name\":\"Crossing\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/154\",\"name\":\"Onslaught\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/270\",\"name\":\"Secret
+        Wars\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/271\",\"name\":\"Secret
+        Wars II\"}],\"returned\":6},\"next\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3621\",\"name\":\"Avengers
+        (1996 - 1997)\"},\"previous\":null},{\"id\":15281,\"title\":\"Avengers 1:
+        The Coming of the Avengers! (2011 - 2012)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/15281\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/15281/avengers_1_the_coming_of_the_avengers_2011_-_2012?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2011,\"endYear\":2012,\"rating\":\"\",\"type\":\"\",\"modified\":\"2012-01-25T09:40:51-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"creators\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/15281/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/11562\",\"name\":\"Jean-Francois
         Beaulieu\",\"role\":\"Colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/196\",\"name\":\"Jack
         Kirby\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/30\",\"name\":\"Stan
         Lee\",\"role\":\"writer\"}],\"returned\":3},\"characters\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/15281/characters\",\"items\":[],\"returned\":0},\"stories\":{\"available\":4,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/15281/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/93134\",\"name\":\"Cover
@@ -1000,7 +1004,7 @@ http_interactions:
         Attacks\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/246\",\"name\":\"Evolutionary
         War\"}],\"returned\":3},\"next\":null,\"previous\":null},{\"id\":1737,\"title\":\"Avengers
         Assemble Vol. 3 (2006)\",\"description\":null,\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/1737\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/series/1737/avengers_assemble_vol_3_2006?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"startYear\":2006,\"endYear\":2006,\"rating\":\"RATED
-        T+\",\"type\":\"collection\",\"modified\":\"1969-12-31T19:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/60/4bc5d7ead7c08\",\"extension\":\"jpg\"},\"creators\":{\"available\":44,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1737/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6694\",\"name\":\"Wes
+        T+\",\"type\":\"collection\",\"modified\":\"-0001-11-30T00:00:00-0500\",\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/f/60/4bc5d7ead7c08\",\"extension\":\"jpg\"},\"creators\":{\"available\":44,\"collectionURI\":\"http://gateway.marvel.com/v1/public/series/1737/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/807\",\"name\":\"Comicraft\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6694\",\"name\":\"Wes
         Abbot\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/5743\",\"name\":\"Jon
         Costa\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/3603\",\"name\":\"Albert
         Deschesne\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/4549\",\"name\":\"Oscar

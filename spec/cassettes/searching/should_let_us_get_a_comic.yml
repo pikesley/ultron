@@ -9,6 +9,8 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      User-Agent:
+      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
@@ -21,7 +23,7 @@ http_interactions:
       Content-Length:
       - '5563'
       Date:
-      - Sat, 15 Feb 2014 13:59:57 GMT
+      - Sun, 16 Feb 2014 21:09:34 GMT
       Connection:
       - keep-alive
     body:
