@@ -24,7 +24,7 @@ module Ultron
       end
     end
 
-    it 'should throw an Ultron exception for something internal to Ultron', :vcr do
+    it 'should throw an Ultron exception when we do something dumb', :vcr do
       begin
         comics = Comics.where offset: 1000000
       rescue UltronException => e
