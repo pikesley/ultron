@@ -19,8 +19,6 @@ To actually use it you need an API key and secret which you can get from [here](
 
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
-    
-This all got a lot more elegant after chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
 
 I've made a [little toy app](https://github.com/pikesley/powerman) which uses this gem to explore the data.
 
@@ -103,3 +101,5 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
         e.status.should == 'The search returned no results'
       end
     end
+
+This all got a lot more elegant after a chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
