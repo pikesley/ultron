@@ -31,7 +31,7 @@ module Ultron
     def self.response url
       response = Ultron::Connection.perform url
       case response['code'].to_s
-        when /^4/
+        when /^4/, /^5/
           raise MarvelException.new response
         when 'ResourceNotFound'
           raise UltronException.new 'Resource does not exist. Check %s' % Config.instance.config.api_docs
