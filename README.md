@@ -96,14 +96,14 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       end
     end
     
-### Raise a custom exception when no results are found
+### Raise a custom exception when we do something dumb
 
-    it 'should throw an Ultron exception for something internal to Ultron', :vcr do
+    it 'should throw a Resource Not Found exception when we search for something nonsensical', :vcr do
       begin
-        comics = Comics.where offset: 1000000
+        characters = Characters.by_creator 186 # characters by creator is a nonsense concept in the Marvel API
       rescue UltronException => e
-        e.status.should == 'The search returned no results'
+        e.status.should == 'Resource does not exist. Check http://developer.marvel.com/docs'
       end
     end
-
+    
 This all got a lot more elegant after a chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
