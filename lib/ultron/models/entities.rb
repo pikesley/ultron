@@ -59,7 +59,7 @@ module Ultron
 
     # instance methods
 
-    attr_reader :metadata
+    attr_reader :metadata, :url
 
     def initialize data, url
       @results_set = data['results']
@@ -82,8 +82,8 @@ module Ultron
     end
 
     def sample
-      sample_params = '&offset=%d&limit=1' % random_offset
-      full_url = '%s%s' % [@url, sample_params]
+      sample_params = 'offset=%d&limit=1&' % random_offset
+      full_url = self.class.get_url @url.path, '%s%s' % [@url.query, sample_params]
       response = Ultron::Connection.perform full_url
       self.class.new(response['data'], full_url).first
     end
