@@ -14,8 +14,12 @@ Ruby bindings for the [Marvel Comics API](http://developer.marvel.com/)
     ultron
     bundle
     rake
+    
+Or just
 
-To actually use it you need an API key and secret which you can get from [here](https://developer.marvel.com/signup), put them into `.env` like this
+    gem install ultron
+
+To actually use it you need an API keypair which you can get from [here](https://developer.marvel.com/signup), put them into `.env` like this
 
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
