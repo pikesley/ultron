@@ -83,7 +83,7 @@ module Ultron
 
     def sample
       sample_params = 'offset=%d&limit=1&' % random_offset
-      full_url = self.class.get_url @url.path, '%s%s' % [sample_params, @url.query]
+      full_url = self.class.get_url @url.path, '%s%s' % [@url.query, sample_params]
       response = Ultron::Connection.perform full_url
       self.class.new(response['data'], full_url).first
     end
