@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Ultron by pikesley</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Ultron</h1>
+        <h2>Ruby bindings for the Marvel Comics API</h2>
+        <a href="https://github.com/pikesley/ultron" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p><a href="https://travis-ci.org/pikesley/ultron"><img src="http://img.shields.io/travis/pikesley/ultron.svg" alt="Build Status"></a>
+<a href="https://gemnasium.com/pikesley/ultron"><img src="http://img.shields.io/gemnasium/pikesley/ultron.svg" alt="Dependency Status"></a>
+<a href="https://coveralls.io/r/pikesley/ultron"><img src="http://img.shields.io/coveralls/pikesley/ultron.svg" alt="Coverage Status"></a>
+<a href="https://codeclimate.com/github/pikesley/ultron"><img src="http://img.shields.io/codeclimate/github/pikesley/ultron.svg" alt="Code Climate"></a>
+<a href="https://rubygems.org/gems/ultron"><img src="http://img.shields.io/gem/v/ultron.svg" alt="Gem Version"></a>
+<a href="http://pikesley.mit-license.org"><img src="http://img.shields.io/:license-mit-blue.svg" alt="License"></a>
+<a href="https://github.com/pikesley/badger"><img src="http://img.shields.io/:badges-7/7-ff6799.svg" alt="Badges"></a></p>
+
+<h1>
+<a name="ultron" class="anchor" href="#ultron"><span class="octicon octicon-link"></span></a>Ultron</h1>
+
+<p>Ruby bindings for the <a href="http://developer.marvel.com/">Marvel Comics API</a></p>
+
+<pre><code>git clone https://github.com/pikesley/ultron
+ultron
+bundle
+rake
+</code></pre>
+
+<p>Or just</p>
+
+<pre><code>gem install ultron
+</code></pre>
+
+<p>To actually use it you need an API keypair which you can get from <a href="https://developer.marvel.com/signup">here</a>, put them into <code>.env</code> like this</p>
+
+<pre><code>PUBLIC_KEY: this_r_public_key
+PRIVATE_KEY: this_one_r_private_key
+</code></pre>
+
+<p>I've made a <a href="https://github.com/pikesley/powerman">little toy app</a> which uses this gem to explore the data.</p>
+
+<h2>
+<a name="api" class="anchor" href="#api"><span class="octicon octicon-link"></span></a>API</h2>
+
+<p>I've tried to follow the <a href="http://developer.marvel.com/docs#!/public/">Marvel API</a> as closely as possible. It's probably best illustrated with some examples from the <a href="https://github.com/pikesley/ultron/tree/master/spec/ultron">specs</a>:</p>
+
+<h3>
+<a name="get-a-thing-by-its-id" class="anchor" href="#get-a-thing-by-its-id"><span class="octicon octicon-link"></span></a>Get a thing by its ID</h3>
+
+<pre><code>it 'should find a comic', :vcr do
+  comic = Comics.find 12518
+  comic.title.should == 'Uncanny X-Men (1963) #67'
+end
+</code></pre>
+
+<h3>
+<a name="get-a-set-of-things-filtered-by-some-other-thing" class="anchor" href="#get-a-set-of-things-filtered-by-some-other-thing"><span class="octicon octicon-link"></span></a>Get a set of things filtered by some other thing</h3>
+
+<pre><code>it 'should find a list of comics featuring the character', :vcr do
+  character = Characters.find 1009610
+  character.name.should == 'Spider-Man'
+  comics = Comics.by_character 1009610
+  comics.first.title.should == 'Superior Spider-Man (2013) #22'
+  comics.class.should == Comics
+  comics.count.should == 20
+end
+</code></pre>
+
+<h3>
+<a name="get-a-set-of-things-using-query-string-parameters" class="anchor" href="#get-a-set-of-things-using-query-string-parameters"><span class="octicon octicon-link"></span></a>Get a set of things using query-string parameters</h3>
+
+<pre><code>it 'should let us search with parameters', :vcr do
+  comics = Comics.where sharedAppearances: '1009351,1009718' # Hulk and Wolverine
+  comics[7].title.should == 'Deadpool (2008) #37'
+end
+</code></pre>
+
+<h3>
+<a name="get-a-set-of-things-using-multiple-query-string-parameters" class="anchor" href="#get-a-set-of-things-using-multiple-query-string-parameters"><span class="octicon octicon-link"></span></a>Get a set of things using multiple query-string parameters</h3>
+
+<pre><code>it 'should let us search with multiple parameters', :vcr do
+  comics = Comics.where sharedAppearances: '1009610,1009718', events: 302 # Spider-Man and Wolverine, Fear Itself
+  comics.first.title.should == 'Fear Itself (2010) #7'
+end
+</code></pre>
+
+<h3>
+<a name="get-a-set-of-things-filtered-by-another-thing-and-with-a-query-string" class="anchor" href="#get-a-set-of-things-filtered-by-another-thing-and-with-a-query-string"><span class="octicon octicon-link"></span></a>Get a set of things filtered by another thing and with a query-string</h3>
+
+<pre><code>it 'should let us get comics by a creator *with params*', :vcr do
+  comics = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+  comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
+end
+</code></pre>
+
+<h3>
+<a name="get-a-random-thing-from-a-search" class="anchor" href="#get-a-random-thing-from-a-search"><span class="octicon octicon-link"></span></a>Get a random thing from a search</h3>
+
+<pre><code>  it 'should give us a random comic', :vcr do
+    set = Comics.by_character 1009610
+    set.stub(:random_offset).and_return(512)
+    set.sample.title.should == 'Amazing Spider-Man (1999) #590'
+  end
+
+  it 'should give us a random comic for a more complex search', :vcr do
+    set = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
+    set.stub(:random_offset).and_return(99)
+    set.sample.title.should == 'Dazzler (1981) #19'
+  end
+</code></pre>
+
+<h2>
+<a name="exceptions" class="anchor" href="#exceptions"><span class="octicon octicon-link"></span></a>Exceptions</h2>
+
+<h3>
+<a name="catch-and-re-raise-a-404" class="anchor" href="#catch-and-re-raise-a-404"><span class="octicon octicon-link"></span></a>Catch and re-raise a 404</h3>
+
+<pre><code>it 'should throw a 404 (wrapped in a Marvel exception) on a 404', :vcr do
+  begin
+    comic = Comics.find 1000000 # there are not a million comics
+  rescue MarvelException =&gt; e
+    e.code.should == 404
+    e.status.should == "We couldn't find that comic_issue"
+  end
+end
+</code></pre>
+
+<h3>
+<a name="raise-a-custom-exception-when-we-do-something-dumb" class="anchor" href="#raise-a-custom-exception-when-we-do-something-dumb"><span class="octicon octicon-link"></span></a>Raise a custom exception when we do something dumb</h3>
+
+<pre><code>it 'should throw a Resource Not Found exception when we search for something nonsensical', :vcr do
+  begin
+    characters = Characters.by_creator 186 # characters by creator is a nonsense concept in the Marvel API
+  rescue UltronException =&gt; e
+    e.status.should == 'Resource does not exist. Check http://developer.marvel.com/docs'
+  end
+end
+</code></pre>
+
+<p>This all got a lot more elegant after a chat over a fry-up with <a href="https://github.com/floppy" class="user-mention">@floppy</a> at the always-superb <a href="https://plus.google.com/100027883675109761806/about?gl=uk&amp;hl=en">First-Step Cafe</a> in Shoreditch.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/pikesley/ultron/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/pikesley/ultron/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/pikesley/ultron"></a> is maintained by <a href="https://github.com/pikesley">pikesley</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48119854-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
