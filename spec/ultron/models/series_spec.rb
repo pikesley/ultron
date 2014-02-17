@@ -11,6 +11,19 @@ module Ultron
       series.count.should == 20
     end
 
+    it 'should give us a larger set of series', :vcr do
+      series = Series.get_and_with limit: 50
+      series.count.should == 50
+    end
+
+    it 'should not accept any old method', :vcr do
+      begin
+        series = Series.derp
+      rescue Exception => e
+        e.class.should == NoMethodError
+      end
+    end
+
     after :each do
       Timecop.return
     end
