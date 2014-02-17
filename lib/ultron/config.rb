@@ -8,10 +8,15 @@ module Ultron
 
     def reset! # testing a singleton is hard
       @config = OpenStruct.new fetch_yaml 'ultron'
+      @searches = OpenStruct.new fetch_yaml 'searches'
     end
 
     def config
       @config
+    end
+
+    def searches
+      @searches
     end
 
     def root_url

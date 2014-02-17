@@ -41,6 +41,28 @@ module Ultron
       comics.count.should == 50
     end
 
+    context 'pre-baked searches' do
+      it 'should give us just regular comics', :vcr do
+        comics = Comics.vanilla_comics
+        comics.first.id.should == 49241
+        comics.first.title.should == 'Wolverine (2014) #5'
+        comics.first.issueNumber.should == 5
+      end
+
+      it 'should give us regular comics filtered by character', :vcr do
+        comics = Comics.by_character_and_vanilla_comics 1009685
+        comics.first.title.should == 'AGE OF ULTRON (2013) #1'
+      end
+
+      it 'should barf on an unknown search', :vcr do
+        begin
+          comics = Comics.fake_search
+        rescue Exception => e
+          e.class.should == NoMethodError
+        end
+      end
+    end
+
     after :each do
       Timecop.return
     end
