@@ -12,6 +12,9 @@ module Ultron
           when 'get'
             true # just so this method actually exists
 
+          when 'sample'
+            true
+
           when 'find'
             path = '%s/%s' % [path, args.shift]
 
@@ -31,6 +34,8 @@ module Ultron
       response = self.response url
 
       set = self.new response['data'], url
+
+      return set.sample if mname == 'sample'
       mname == 'find' ? set.first : set
     end
 
