@@ -29,6 +29,10 @@ module Ultron
         set.stub(:random_offset).and_return(100)
         set.sample.title.should == 'Dazzler (1981) #19'
       end
+
+      it 'should support sample as a class method', :vcr do
+        pending 'I have no idea how to test this. Works, though'
+      end
     end
 
     after :each do

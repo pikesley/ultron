@@ -12,6 +12,9 @@ module Ultron
           when 'get'
             true # just so this method actually exists
 
+          when 'sample'
+            true
+
           when 'find'
             path = '%s/%s' % [path, args.shift]
 
@@ -20,6 +23,9 @@ module Ultron
 
           when 'with', 'where'
             query = self.send(:by_params, args.shift)
+
+          when 'vanilla_comics'
+            query = self.send(:by_params, format: 'comic', formatType: 'comic', noVariants: true)
 
           else
             raise NoMethodError
@@ -31,6 +37,8 @@ module Ultron
       response = self.response url
 
       set = self.new response['data'], url
+
+      return set.sample if mname == 'sample'
       mname == 'find' ? set.first : set
     end
 
