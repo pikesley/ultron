@@ -82,6 +82,21 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
         set.stub(:random_offset).and_return(99)
         set.sample.title.should == 'Dazzler (1981) #19'
       end
+      
+### Pre-baked custom searches
+
+There's a lot of noise in the data, and I found myself applying the same filters again and again. So:
+
+    it 'should give us regular comics filtered by character', :vcr do
+      comics = Comics.by_character_and_vanilla_comics 1009685
+      comics.first.title.should == 'AGE OF ULTRON (2013) #1'
+    end
+    
+This applies the following search params:
+
+    format: 'comic', formatType: 'comic', noVariants: true
+    
+which purges all sorts of hardbacks and reprints and so on from the results.
     
 ## Exceptions
 
