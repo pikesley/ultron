@@ -69,6 +69,12 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
     
+### Get a random thing
+
+Something like this works, but it's proving very difficult to test it:
+
+    Characters.sample
+    
 ### Get a random thing from a search
 
       it 'should give us a random comic', :vcr do
