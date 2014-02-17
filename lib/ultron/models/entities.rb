@@ -9,6 +9,9 @@ module Ultron
 
       mname.split(/_and_/).each do |part|
         case part
+          when 'get'
+            true # just so this method actually exists
+
           when 'find'
             path = '%s/%s' % [path, args.shift]
 
@@ -17,6 +20,10 @@ module Ultron
 
           when 'with', 'where'
             query = self.send(:by_params, args.shift)
+
+          else
+            raise NoMethodError
+
         end
       end
 
