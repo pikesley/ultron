@@ -130,6 +130,24 @@ end
   end
 </code></pre>
 
+<h3>
+<a name="pre-baked-custom-searches" class="anchor" href="#pre-baked-custom-searches"><span class="octicon octicon-link"></span></a>Pre-baked custom searches</h3>
+
+<p>There's a lot of noise in the data, and I found myself applying the same filters again and again. So:</p>
+
+<pre><code>it 'should give us regular comics filtered by character', :vcr do
+  comics = Comics.by_character_and_vanilla_comics 1009685
+  comics.first.title.should == 'AGE OF ULTRON (2013) #1'
+end
+</code></pre>
+
+<p>This applies the following search params:</p>
+
+<pre><code>format: 'comic', formatType: 'comic', noVariants: true
+</code></pre>
+
+<p>which purges all sorts of hardbacks and reprints and so on from the results.</p>
+
 <h2>
 <a name="exceptions" class="anchor" href="#exceptions"><span class="octicon octicon-link"></span></a>Exceptions</h2>
 
