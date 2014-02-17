@@ -128,3 +128,5 @@ which purges all sorts of hardbacks and reprints and so on from the results.
     end
     
 This all got a lot more elegant after a chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
+
+And here's a [Gource video](https://www.youtube.com/watch?v=JYUA2y74ZlE) of the project as of 2014-02-17.
