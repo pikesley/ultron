@@ -24,9 +24,8 @@ module Ultron
           when 'with', 'where'
             query = self.send(:by_params, args.shift)
 
-          when /(.*)_(.*)/
-            params = Config.instance.searches[$2][$1]
-            query = self.send(:by_params, params)
+          when 'vanilla_comics'
+            query = self.send(:by_params, format: 'comic', formatType: 'comic', noVariants: true)
 
           else
             raise NoMethodError
