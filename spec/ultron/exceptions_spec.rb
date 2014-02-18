@@ -40,6 +40,14 @@ module Ultron
       end
     end
 
+    it 'should throw a Resource Throttled Exception when we hit our limit', :vcr do
+      begin
+        events = Events.get
+      rescue UltronException => e
+        e.status.should == 'You have exceeded your rate limit. Please try again later'
+      end
+    end
+
     after :each do
       Timecop.return
     end

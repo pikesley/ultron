@@ -49,6 +49,8 @@ module Ultron
           raise MarvelException.new response
         when 'ResourceNotFound'
           raise UltronException.new 'Resource does not exist. Check %s' % Config.instance.config.api_docs
+        when 'RequestThrottled'
+          raise UltronException.new 'You have exceeded your rate limit. Please try again later'
       end
 
       raise UltronException.new 'The search returned no results' unless response['data']['results'].any?
