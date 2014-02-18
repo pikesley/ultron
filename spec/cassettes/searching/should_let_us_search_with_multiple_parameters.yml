@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/comics?apikey=<PUBLIC_KEY>&events=302&hash=a304d29c7e65217654f6ddd18daf2b3c&sharedAppearances=1009610,1009718&ts=1392317244
+    uri: http://gateway.marvel.com/v1/public/comics?apikey=<PUBLIC_KEY>&events=302&hash=76ea33f152cc264d192e39c2648392e7&sharedAppearances=1009610,1009718&ts=1392317244
     body:
       encoding: US-ASCII
       string: ''
@@ -10,27 +10,27 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
+      - 'Ultron v0.1.9: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
       message: OK
     headers:
       Etag:
-      - 0ff9db7bfa80a63cce7b024b6665eeb98d5c6632
+      - af9bc2307bed4215b698ea81cd2a69d4e48583c8
       Content-Type:
       - application/json
       Content-Length:
       - '25098'
       Date:
-      - Sun, 16 Feb 2014 21:09:27 GMT
+      - Tue, 18 Feb 2014 20:56:17 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6IjBmZjlkYjdiZmE4
-        MGE2M2NjZTdiMDI0YjY2NjVlZWI5OGQ1YzY2MzIiLCJkYXRhIjp7Im9mZnNl
+        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6ImFmOWJjMjMwN2Jl
+        ZDQyMTViNjk4ZWE4MWNkMmE2OWQ0ZTQ4NTgzYzgiLCJkYXRhIjp7Im9mZnNl
         dCI6MCwibGltaXQiOjIwLCJ0b3RhbCI6NCwiY291bnQiOjQsInJlc3VsdHMi
         Olt7ImlkIjozODAyOCwiZGlnaXRhbElkIjoyNDM0MywidGl0bGUiOiJGZWFy
         IEl0c2VsZiAoMjAxMCkgIzciLCJpc3N1ZU51bWJlciI6NywidmFyaWFudERl
@@ -481,21 +481,21 @@ http_interactions:
         bC5jb20vdjEvcHVibGljL2NvbWljcy80MDA5MCIsIm5hbWUiOiJGZWFyIEl0
         c2VsZiAoMjAxMCkgIzEgKDJuZCBQcmludGluZyBWYXJpYW50KSJ9LHsicmVz
         b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jb21pY3MvMzg5NjIiLCJuYW1lIjoiRmVhciBJdHNlbGYgKDIwMTApICMx
-        IChCbGFuayBDb3ZlciBWYXJpYW50KSJ9LHsicmVzb3VyY2VVUkkiOiJodHRw
-        Oi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvMzg5NzUi
-        LCJuYW1lIjoiRmVhciBJdHNlbGYgKDIwMTApICMxIChGZiA1MHRoIEFubml2
-        ZXJzYXJ5IFZhcmlhbnQpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8zOTc0NCIsIm5hbWUi
-        OiJGZWFyIEl0c2VsZiAoMjAxMCkgIzEgKEFkdmFuY2VkIFNjcmVlbmluZyBW
-        YXJpYW50KSJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvMzg5MjYiLCJuYW1lIjoiRmVhciBJ
-        dHNlbGYgKDIwMTApICMxIChJbW1vbWVuIFZhcmlhbnQpIn0seyJyZXNvdXJj
-        ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Nv
-        bWljcy8zOTI1MSIsIm5hbWUiOiJGZWFyIEl0c2VsZiAoMjAxMCkgIzEgKENv
-        bWljc3BybyBWYXJpYW50KSJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvMzg5MjMiLCJuYW1l
-        IjoiRmVhciBJdHNlbGYgKDIwMTApICMxIChWYXJpYW50IEIpIn1dLCJjb2xs
+        Yy9jb21pY3MvMzg5MjMiLCJuYW1lIjoiRmVhciBJdHNlbGYgKDIwMTApICMx
+        IChWYXJpYW50IEIpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
+        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8zODk2MiIsIm5hbWUiOiJG
+        ZWFyIEl0c2VsZiAoMjAxMCkgIzEgKEJsYW5rIENvdmVyIFZhcmlhbnQpIn0s
+        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
+        cHVibGljL2NvbWljcy8zODk3NSIsIm5hbWUiOiJGZWFyIEl0c2VsZiAoMjAx
+        MCkgIzEgKEZmIDUwdGggQW5uaXZlcnNhcnkgVmFyaWFudCkifSx7InJlc291
+        cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMv
+        Y29taWNzLzM5NzQ0IiwibmFtZSI6IkZlYXIgSXRzZWxmICgyMDEwKSAjMSAo
+        QWR2YW5jZWQgU2NyZWVuaW5nIFZhcmlhbnQpIn0seyJyZXNvdXJjZVVSSSI6
+        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy8z
+        ODkyNiIsIm5hbWUiOiJGZWFyIEl0c2VsZiAoMjAxMCkgIzEgKEltbW9tZW4g
+        VmFyaWFudCkifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
+        dmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzM5MjUxIiwibmFtZSI6IkZlYXIg
+        SXRzZWxmICgyMDEwKSAjMSAoQ29taWNzcHJvIFZhcmlhbnQpIn1dLCJjb2xs
         ZWN0aW9ucyI6W10sImNvbGxlY3RlZElzc3VlcyI6W10sImRhdGVzIjpbeyJ0
         eXBlIjoib25zYWxlRGF0ZSIsImRhdGUiOiIyMDExLTA0LTA2VDAwOjAwOjAw
         LTA0MDAifSx7InR5cGUiOiJmb2NEYXRlIiwiZGF0ZSI6IjIwMTEtMDMtMjNU
