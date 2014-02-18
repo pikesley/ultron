@@ -1,11 +1,6 @@
 language: ruby
 rvm:
 - 2.1.0
-env:
-  global:
-    secure: "OgD1k370C6KqoGgzCq4L/6unhS166E/GN4UbNhNXQUnEzjvIhK2KZ4Db/CbCDanimhtr6Ch1RlySawYYby/Szm22w4l+cl8k9f78xjvX0jDe6eZ3sMPHXmfHu1DSKKc8ZpZVyzdxLnHv5dLPPPQaLY2wL7nOoCfWxjcsLBX2WpA="
-    secure: "LsOT4xb7EwiGyFslR4CF/TYzKv5t75AcbQggmFTGVWY4d9sB9IkV7SKUje5/iR8S9APL3lL20ge4LyjPFaUAzKs386tP9I9+osoef3xkZM1moKn5yxrHM6sh1n8py9D+JpS+cSQKPhbxIQmJW8khtHHN5uRc0PVQ/RlcnVl8DnM="
-
 deploy:
   provider: rubygems
   api_key:
@@ -14,3 +9,7 @@ deploy:
   on:
     tags: true
     repo: pikesley/ultron
+env:
+  global:
+  - secure: Mu9oEVFn+MJCSciSwWySJtlCqbU6dUKuxfOVbUNe98gvyr3BiMpEjoWuegWnUuKCBTsIisDEhL11RqyHIv2MtSYD3yaqmK9f3E2qkCySoKSeE6svcvZwD8VsXjjLZOk+3qwMOvmhDRfEXX5/VMU9zs7l46iC4GeIkYUJAUtNexg=
+  - secure: eWJVmz4BP9tkWMuvMXBbMqTOHSCCjQbV1mT6yXG/6/1VM5NrLcn18w6hlyplToVu/NXBlV2MmqVIACnza0+1wJ1m3ComU9KPBCs3nkOKCSvZLHU3T+9hntfGKhclzv/5g2zqjVZ6xlmH9OaAtyC1uZUkOxrWi0DAThOsXgZwJ6s=
