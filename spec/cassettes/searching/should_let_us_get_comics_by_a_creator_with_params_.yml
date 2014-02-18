@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/creators/214/comics?apikey=<PUBLIC_KEY>&dateRange=1980-01-01,1989-12-31&hash=a304d29c7e65217654f6ddd18daf2b3c&ts=1392317244
+    uri: http://gateway.marvel.com/v1/public/creators/214/comics?apikey=<PUBLIC_KEY>&dateRange=1980-01-01,1989-12-31&hash=76ea33f152cc264d192e39c2648392e7&ts=1392317244
     body:
       encoding: US-ASCII
       string: ''
@@ -10,27 +10,27 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - 'Ultron v0.1.8: https://rubygems.org/gems/ultron'
+      - 'Ultron v0.1.9: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
       message: OK
     headers:
       Etag:
-      - 2393f260498caacc07a5fd47763c86b012ba69e5
+      - a8a5eb0a26e40af7cbc369640711f5c82c916c8a
       Content-Type:
       - application/json
       Content-Length:
-      - '58162'
+      - '58134'
       Date:
-      - Mon, 17 Feb 2014 20:53:22 GMT
+      - Tue, 18 Feb 2014 20:56:20 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"2393f260498caacc07a5fd47763c86b012ba69e5\",\"data\":{\"offset\":0,\"limit\":20,\"total\":159,\"count\":20,\"results\":[{\"id\":8268,\"digitalId\":0,\"title\":\"Daredevil
-        (1963) #275\",\"issueNumber\":275,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8268\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8268/daredevil_1963_275?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-12-20T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/e0/5125010ed3f94\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8268/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+      string: "{\"code\":200,\"status\":\"Ok\",\"etag\":\"a8a5eb0a26e40af7cbc369640711f5c82c916c8a\",\"data\":{\"offset\":0,\"limit\":20,\"total\":159,\"count\":20,\"results\":[{\"id\":8268,\"digitalId\":0,\"title\":\"Daredevil
+        (1963) #275\",\"issueNumber\":275,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8268\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8268/daredevil_1963_275?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-12-20T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/2/e0/5125010ed3f94\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8268/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -40,8 +40,8 @@ http_interactions:
         #16111\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16112\",\"name\":\"False
         Man\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8268/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/116\",\"name\":\"Acts
         of Vengeance!\"}],\"returned\":1}},{\"id\":8267,\"digitalId\":0,\"title\":\"Daredevil
-        (1963) #274\",\"issueNumber\":274,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8267\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8267/daredevil_1963_274?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8267/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963) #274\",\"issueNumber\":274,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8267\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8267/daredevil_1963_274?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8267/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -51,7 +51,7 @@ http_interactions:
         Inhumans Strike\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16110\",\"name\":\"Bombs
         & Lemonade\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8267/events\",\"items\":[],\"returned\":0}},{\"id\":8266,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #273\",\"issueNumber\":273,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:10:53-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8266\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8266/daredevil_1963_273?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-11-20T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/b0/50ad270b7bfbd\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/b0/50ad270b7bfbd\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8266/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-11-20T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/b0/50ad270b7bfbd\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/b0/50ad270b7bfbd\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8266/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -61,7 +61,7 @@ http_interactions:
         #16107\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16108\",\"name\":\"The
         Billion Dollar Ashtray\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8266/events\",\"items\":[],\"returned\":0}},{\"id\":8265,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #272\",\"issueNumber\":272,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:19:43-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8265\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8265/daredevil_1963_272?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-11-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/c0/50ad2922ddd3c\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/c0/50ad2922ddd3c\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8265/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-11-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/c0/50ad2922ddd3c\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/c0/50ad2922ddd3c\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8265/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -70,7 +70,7 @@ http_interactions:
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8265/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8265/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16105\",\"name\":\"Cover
         #16105\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16106\",\"name\":\"Liberation\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8265/events\",\"items\":[],\"returned\":0}},{\"id\":8264,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #271\",\"issueNumber\":271,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-27T15:35:34-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8264\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8264/daredevil_1963_271?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-10-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/50b523e880414\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/50b523e880414\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8264/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-10-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/50b523e880414\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/0/03/50b523e880414\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8264/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -79,7 +79,7 @@ http_interactions:
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8264/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8264/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16103\",\"name\":\"Cover
         #16103\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16104\",\"name\":\"Genetrix\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8264/events\",\"items\":[],\"returned\":0}},{\"id\":8263,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #270\",\"issueNumber\":270,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:29:02-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8263\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8263/daredevil_1963_270?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-09-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/30/50ad2b5762574\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/30/50ad2b5762574\",\"extension\":\"jpg\"},{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/60/5053d7af5c8cc\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8263/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-09-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/30/50ad2b5762574\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/30/50ad2b5762574\",\"extension\":\"jpg\"},{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/c/60/5053d7af5c8cc\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8263/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -88,7 +88,7 @@ http_interactions:
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8263/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009190\",\"name\":\"Blackheart\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"}],\"returned\":3},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8263/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16101\",\"name\":\"Introducing--The
         Macabre Menace of Blackheart !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16102\",\"name\":\"Blackheart!\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8263/events\",\"items\":[],\"returned\":0}},{\"id\":8261,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #269\",\"issueNumber\":269,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:31:49-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8261\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8261/daredevil_1963_269?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-08-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/f0/50ad2bfd7eb71\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/f0/50ad2bfd7eb71\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8261/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-08-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/f0/50ad2bfd7eb71\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/e/f0/50ad2bfd7eb71\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8261/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -121,7 +121,7 @@ http_interactions:
         Springer\",\"role\":\"penciller\"}],\"returned\":10},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12050/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"}],\"returned\":1},\"stories\":{\"available\":3,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12050/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21882\",\"name\":\"Cover
         #21882\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21883\",\"name\":\"Chains\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21884\",\"name\":\"Web-Zingers\",\"type\":\"letters\"}],\"returned\":3},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12050/events\",\"items\":[],\"returned\":0}},{\"id\":8259,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #267\",\"issueNumber\":267,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:37:49-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8259\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8259/daredevil_1963_267?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-06-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/80/50ad2d5dacade\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/80/50ad2d5dacade\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8259/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-06-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/80/50ad2d5dacade\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/80/50ad2d5dacade\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8259/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -130,7 +130,7 @@ http_interactions:
         Wright\",\"role\":\"colorist\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8259/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8259/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16093\",\"name\":\"Cover
         #16093\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16094\",\"name\":\"Cremains\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8259/events\",\"items\":[],\"returned\":0}},{\"id\":8258,\"digitalId\":0,\"title\":\"Daredevil
         (1963) #266\",\"issueNumber\":266,\"variantDescription\":\"\",\"description\":null,\"modified\":\"2012-11-21T14:19:11-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8258\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8258/daredevil_1963_266?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-05-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/e0/50ad29044f8a1\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/e0/50ad29044f8a1\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8258/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-05-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/e0/50ad29044f8a1\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/5/e0/50ad29044f8a1\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8258/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -139,7 +139,7 @@ http_interactions:
         Wright\",\"role\":\"colorist\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8258/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8258/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16091\",\"name\":\"The
         Devil You Say !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16092\",\"name\":\"A
         Beer With The Devil\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8258/events\",\"items\":[],\"returned\":0}},{\"id\":8257,\"digitalId\":13821,\"title\":\"Daredevil
-        (1963) #265\",\"issueNumber\":265,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8257\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8257/daredevil_1963_265?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=13821&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963) #265\",\"issueNumber\":265,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8257\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8257/daredevil_1963_265?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=13821&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
         (1963 - 1998)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-04-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1961-01-01T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2010-02-16T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/f0/4ba96c85577bc\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/f0/4ba96c85577bc\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8257/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
@@ -149,9 +149,9 @@ http_interactions:
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8257/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8257/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16089\",\"name\":\"Cover
         #16089\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16090\",\"name\":\"We
         Again Beheld The Stars\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8257/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"}],\"returned\":1}},{\"id\":8255,\"digitalId\":1699,\"title\":\"Daredevil
-        (1963) #263\",\"issueNumber\":263,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8255\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8255/daredevil_1963_263?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1699&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963) #263\",\"issueNumber\":263,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8255\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8255/daredevil_1963_263?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1699&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
         (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
-        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-02-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/90/4bc4797f31541\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/90/4bc4797f31541\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8255/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-02-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/90/4bc4797f31541\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/3/90/4bc4797f31541\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8255/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -160,9 +160,9 @@ http_interactions:
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8255/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8255/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16085\",\"name\":\"By
         Demons Driven !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16086\",\"name\":\"In
         Bitterness Not Far From Death...\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8255/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"}],\"returned\":1}},{\"id\":8254,\"digitalId\":1698,\"title\":\"Daredevil
-        (1963) #262\",\"issueNumber\":262,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8254\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8254/daredevil_1963_262?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1698&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963) #262\",\"issueNumber\":262,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8254\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8254/daredevil_1963_262?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1698&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
         (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
-        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-01-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/10/4bc479846714e\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/10/4bc479846714e\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1989-01-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/10/4bc479846714e\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/4/10/4bc479846714e\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -170,20 +170,9 @@ http_interactions:
         Scheele\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/397\",\"name\":\"Al
         Williamson\",\"role\":\"inker\"}],\"returned\":6},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16083\",\"name\":\"Never
         Disturb a Demon !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16084\",\"name\":\"...I
-        Found Me In A Gloomy Wood Astray...\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"}],\"returned\":1}},{\"id\":8253,\"digitalId\":1697,\"title\":\"Daredevil
-        (1963) #261\",\"issueNumber\":261,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8253\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8253/daredevil_1963_261?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1697&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
-        (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
-        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/7/e0/4bc47989b8e97\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/7/e0/4bc47989b8e97\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
-        Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
-        Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
-        Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
-        Rosen\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/397\",\"name\":\"Al
-        Williamson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2364\",\"name\":\"Greg
-        Wright\",\"role\":\"colorist\"}],\"returned\":6},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
-        Torch\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16081\",\"name\":\"Cover
-        #16081\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16082\",\"name\":\"Meltdown\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/events\",\"items\":[],\"returned\":0}},{\"id\":19817,\"digitalId\":0,\"title\":\"Marvel
-        Fanfare (1982) #41\",\"issueNumber\":41,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/19817\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/19817/marvel_fanfare_1982_41?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3719\",\"name\":\"Marvel
-        Fanfare (1982 - 1992)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.95}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":11,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/19817/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6613\",\"name\":\"Beatty\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6614\",\"name\":\"Butler\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1232\",\"name\":\"Jerry
+        Found Me In A Gloomy Wood Astray...\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8254/events\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/events/252\",\"name\":\"Inferno\"}],\"returned\":1}},{\"id\":19817,\"digitalId\":0,\"title\":\"Marvel
+        Fanfare (1982) #41\",\"issueNumber\":41,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/19817\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/19817/marvel_fanfare_1982_41?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/3719\",\"name\":\"Marvel
+        Fanfare (1982 - 1992)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.95}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":11,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/19817/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6613\",\"name\":\"Beatty\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/6614\",\"name\":\"Butler\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1232\",\"name\":\"Jerry
         Ordway\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1240\",\"name\":\"Joe
         Sinnott\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/293\",\"name\":\"Dave
@@ -200,10 +189,21 @@ http_interactions:
         Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009515\",\"name\":\"Punisher\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009664\",\"name\":\"Thor\"}],\"returned\":8},\"stories\":{\"available\":16,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/19817/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42321\",\"name\":\"Cover
         #42321\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42322\",\"name\":\"\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42323\",\"name\":\"...Perchance
         to Dream\",\"type\":\"interiorStory\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42324\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42325\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42326\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42327\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42328\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42329\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42330\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42331\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42332\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42333\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42334\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42335\",\"name\":\"pin-up\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/42336\",\"name\":\"back
-        cover\",\"type\":\"\"}],\"returned\":16},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/19817/events\",\"items\":[],\"returned\":0}},{\"id\":8252,\"digitalId\":1696,\"title\":\"Daredevil
-        (1963) #260\",\"issueNumber\":260,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":52,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8252\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8252/daredevil_1963_260?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1696&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        cover\",\"type\":\"\"}],\"returned\":16},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/19817/events\",\"items\":[],\"returned\":0}},{\"id\":8253,\"digitalId\":1697,\"title\":\"Daredevil
+        (1963) #261\",\"issueNumber\":261,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8253\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8253/daredevil_1963_261?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1697&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
         (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
-        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-11-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.5}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bc3816b1974c\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bc3816b1974c\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8252/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-12-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/7/e0/4bc47989b8e97\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/7/e0/4bc47989b8e97\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
+        Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
+        Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
+        Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
+        Rosen\",\"role\":\"letterer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/397\",\"name\":\"Al
+        Williamson\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2364\",\"name\":\"Greg
+        Wright\",\"role\":\"colorist\"}],\"returned\":6},\"characters\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009262\",\"name\":\"Daredevil\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009356\",\"name\":\"Human
+        Torch\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16081\",\"name\":\"Cover
+        #16081\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16082\",\"name\":\"Meltdown\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8253/events\",\"items\":[],\"returned\":0}},{\"id\":8252,\"digitalId\":1696,\"title\":\"Daredevil
+        (1963) #260\",\"issueNumber\":260,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":52,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8252\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8252/daredevil_1963_260?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1696&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
+        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-11-10T00:00:00-0500\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.5}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bc3816b1974c\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bc3816b1974c\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8252/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
         Romita JR.\",\"role\":\"penciller (cover)\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1759\",\"name\":\"Joe
@@ -213,9 +213,9 @@ http_interactions:
         Mary\"}],\"returned\":2},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8252/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16079\",\"name\":\"The
         Final Triumph of Typhoid Mary !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16080\",\"name\":\"Vital
         Signs\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8252/events\",\"items\":[],\"returned\":0}},{\"id\":8250,\"digitalId\":1695,\"title\":\"Daredevil
-        (1963) #259\",\"issueNumber\":259,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8250\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8250/daredevil_1963_259?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1695&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
+        (1963) #259\",\"issueNumber\":259,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/8250\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/8250/daredevil_1963_259?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=1695&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2002\",\"name\":\"Daredevil
         (1963 - 1998)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/1122\",\"name\":\"Daredevil
-        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-10-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bc4798f136db\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bc4798f136db\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8250/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2069\",\"name\":\"Janet
+        Vol. 6: Lowlife (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-10-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2007-11-13T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":0.75}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bc4798f136db\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bc4798f136db\",\"extension\":\"jpg\"}],\"creators\":{\"available\":6,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8250/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2069\",\"name\":\"Janet
         Jackson\",\"role\":\"colorist\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1282\",\"name\":\"Ralph
         Macchio\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/215\",\"name\":\"Ann
         Nocenti\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/214\",\"name\":\"John
@@ -225,9 +225,9 @@ http_interactions:
         Mary\"}],\"returned\":4},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8250/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16075\",\"name\":\"Go
         Get 'Im Boys !\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/16076\",\"name\":\"The
         Children Are Watching You\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/8250/events\",\"items\":[],\"returned\":0}},{\"id\":10108,\"digitalId\":6339,\"title\":\"Marvel
-        Comics Presents (1988) #3\",\"issueNumber\":3,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10108\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/10108/marvel_comics_presents_1988_3?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=6339&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2039\",\"name\":\"Marvel
+        Comics Presents (1988) #3\",\"issueNumber\":3,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/10108\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/10108/marvel_comics_presents_1988_3?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"},{\"type\":\"reader\",\"url\":\"http://marvel.com/digitalcomics/view.htm?iid=6339&utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2039\",\"name\":\"Marvel
         Comics Presents (1988 - 1995)\"},\"variants\":[],\"collections\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/2141\",\"name\":\"Marvel
-        Comics Presents: Wolverine  Vol. 1 (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-09-30T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2008-09-17T00:00:00-0400\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.25}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bb68ac567144\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bb68ac567144\",\"extension\":\"jpg\"}],\"creators\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/10108/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1612\",\"name\":\"John
+        Comics Presents: Wolverine  Vol. 1 (Trade Paperback)\"}],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-09-30T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"},{\"type\":\"unlimitedDate\",\"date\":\"2008-09-17T00:00:00-0400\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1.25}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bb68ac567144\",\"extension\":\"jpg\"},\"images\":[{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bb68ac567144\",\"extension\":\"jpg\"}],\"creators\":{\"available\":18,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/10108/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1612\",\"name\":\"John
         Buscema\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1301\",\"name\":\"Tom
         Grindberg\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/959\",\"name\":\"Tom
         Sutton\",\"role\":\"penciller\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/44\",\"name\":\"Chris
@@ -252,8 +252,8 @@ http_interactions:
         [Crossing Lines]\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/23255\",\"name\":\"The
         Measure of A Man\",\"type\":\"\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/23256\",\"name\":\"back
         cover\",\"type\":\"\"}],\"returned\":6},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/10108/events\",\"items\":[],\"returned\":0}},{\"id\":12039,\"digitalId\":0,\"title\":\"Web
-        of Spider-Man (1985) #42\",\"issueNumber\":42,\"variantDescription\":\"\",\"description\":null,\"modified\":\"-0001-11-30T00:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12039\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/12039/web_of_spider-man_1985_42?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2092\",\"name\":\"Web
-        of Spider-Man (1985 - 1995)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-09-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"-0001-11-30T00:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":8,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12039/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
+        of Spider-Man (1985) #42\",\"issueNumber\":42,\"variantDescription\":\"\",\"description\":null,\"modified\":\"1969-12-31T19:00:00-0500\",\"isbn\":\"\",\"upc\":\"\",\"diamondCode\":\"\",\"ean\":\"\",\"issn\":\"\",\"format\":\"Comic\",\"pageCount\":36,\"textObjects\":[],\"resourceURI\":\"http://gateway.marvel.com/v1/public/comics/12039\",\"urls\":[{\"type\":\"detail\",\"url\":\"http://marvel.com/comics/issue/12039/web_of_spider-man_1985_42?utm_campaign=apiRef&utm_source=<PUBLIC_KEY>\"}],\"series\":{\"resourceURI\":\"http://gateway.marvel.com/v1/public/series/2092\",\"name\":\"Web
+        of Spider-Man (1985 - 1995)\"},\"variants\":[],\"collections\":[],\"collectedIssues\":[],\"dates\":[{\"type\":\"onsaleDate\",\"date\":\"1988-09-10T00:00:00-0400\"},{\"type\":\"focDate\",\"date\":\"1969-12-31T19:00:00-0500\"}],\"prices\":[{\"type\":\"printPrice\",\"price\":1}],\"thumbnail\":{\"path\":\"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available\",\"extension\":\"jpg\"},\"images\":[],\"creators\":{\"available\":8,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12039/creators\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/121\",\"name\":\"Peter
         David\",\"role\":\"writer\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/9565\",\"name\":\"Tom
         DeFalco\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1833\",\"name\":\"Jim
         Salicrup\",\"role\":\"editor\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/2069\",\"name\":\"Janet
@@ -263,1564 +263,6 @@ http_interactions:
         Williams\",\"role\":\"inker\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/creators/1164\",\"name\":\"Alex
         Saviuk\",\"role\":\"penciller (cover)\"}],\"returned\":8},\"characters\":{\"available\":1,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12039/characters\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/characters/1009610\",\"name\":\"Spider-Man\"}],\"returned\":1},\"stories\":{\"available\":2,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12039/stories\",\"items\":[{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21851\",\"name\":\"Cover
         #21851\",\"type\":\"cover\"},{\"resourceURI\":\"http://gateway.marvel.com/v1/public/stories/21852\",\"name\":\"Pressure!\",\"type\":\"interiorStory\"}],\"returned\":2},\"events\":{\"available\":0,\"collectionURI\":\"http://gateway.marvel.com/v1/public/comics/12039/events\",\"items\":[],\"returned\":0}}]}}"
-    http_version: 
-  recorded_at: Thu, 13 Feb 2014 18:47:24 GMT
-- request:
-    method: get
-    uri: http://gateway.marvel.com/v1/public/creators/214/comics?apikey=<PUBLIC_KEY>&hash=a304d29c7e65217654f6ddd18daf2b3c&ts=1392317244
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept:
-      - application/json
-      User-Agent:
-      - 'Ultron v0.1.8: https://rubygems.org/gems/ultron'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Etag:
-      - 2f025ef3ad82e207c9abcc1303edaa9187a90d42
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '69196'
-      Date:
-      - Mon, 17 Feb 2014 20:53:26 GMT
-      Connection:
-      - keep-alive
-    body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6IjJmMDI1ZWYzYWQ4
-        MmUyMDdjOWFiY2MxMzAzZWRhYTkxODdhOTBkNDIiLCJkYXRhIjp7Im9mZnNl
-        dCI6MCwibGltaXQiOjIwLCJ0b3RhbCI6MTIzNywiY291bnQiOjIwLCJyZXN1
-        bHRzIjpbeyJpZCI6NDc3NDksImRpZ2l0YWxJZCI6MCwidGl0bGUiOiJYLU1l
-        bjogUGhhbGFueCBDb3ZlbmFudCAoSGFyZGNvdmVyKSIsImlzc3VlTnVtYmVy
-        IjowLCJ2YXJpYW50RGVzY3JpcHRpb24iOiIiLCJkZXNjcmlwdGlvbiI6IlRo
-        ZSB0ZWNobm8tb3JnYW5pYyBuaWdodG1hcmUga25vd24gYXMgdGhlIFBoYWxh
-        bnggaGFzIHJpc2VuISBQb3dlcmZ1bCBhbnRpLW11dGFudCBiaWdvdHMgaGF2
-        ZSBjcmVhdGVkIHRoZSB1bHRpbWF0ZSB3ZWFwb24gZnJvbSB0aGUgYXNoZXMg
-        b2YgdGhlIGRlY2Vhc2VkIGFsaWVuIFdhcmxvY2s6IGEgY29sZCwgdmljaW91
-        cyBhbmQgdW5zdG9wcGFibGUgZm9lIHRoYXQgYWJzb3JicyBhbGwgaW4gaXRz
-        IHBhdGguIEJ1dCB0aGVzZSBQaGFsYW54IGFyZSBmYXIgbW9yZSB0aGFuIHRo
-        ZWlyIGNyZWF0b3JzIGJhcmdhaW5lZCBmb3Ig4oCUIGFuZCB0aGV5IHBsYW4g
-        dG8gc3VtbW9uIHRoZWlyIHBhcmVudCByYWNlIHRvIG92ZXJ0YWtlIEVhcnRo
-        ISBXaGVuIHRoZSBQaGFsYW54IHRha2Ugb3V0IHRoZSBYLU1lbiwgdGhlIHJl
-        bWFpbmluZyBtZW1iZXJzIG11c3Qgc3BsaXQgaW50byB0aHJlZSB0ZWFtczog
-        dG8gc2F2ZSB5b3VuZyBtdXRhbnRzIGZyb20gdGhlIFBoYWxhbnjigJlzIGNs
-        dXRjaGVzLCB0byBwcmV2ZW50IHRoZWlyIGZvZXMgZnJvbSBjb250YWN0aW5n
-        IHRoZWlyIGhvbWV3b3JsZCBhbmQgdG8gcmVzY3VlIHRoZSBYLU1lbiEgQnV0
-        IGV2ZW4gd2l0aCB0aGUgYWlkIG9mIHRoZSByb2d1ZSBQaGFsYW54IHVuaXQg
-        RG91Z2xvY2ssIGNhbiB0aGVzZSByYWd0YWcgZ3JvdXBzIHN1Y2NlZWQ/IENv
-        bGxlY3RpbmcgVU5DQU5OWSBYLU1FTiAoMTk2MykgIzMwNiwgIzMxMS0zMTQg
-        YW5kICMzMTYtMzE3OyBFWENBTElCVVIgKDE5ODgpICM3OC04MjsgWC1NRU4g
-        KDE5OTEpICMzNi0zNzsgWC1GQUNUT1IgKDE5ODYpICMxMDY7IFgtRk9SQ0Ug
-        KDE5OTEpICMzODsgV09MVkVSSU5FICgxOTg4KSAjODU7IGFuZCBDQUJMRSAo
-        MTk5MykgIzE2LiIsIm1vZGlmaWVkIjoiMjAxNC0wMS0yOVQxMzo0MzoyMi0w
-        NTAwIiwiaXNibiI6Ijk3OC0wLTc4NTEtODU0OS05IiwidXBjIjoiIiwiZGlh
-        bW9uZENvZGUiOiJTRVAxMzA3OTIiLCJlYW4iOiI5NzgwNzg1IDE4NTQ5OSA1
-        NzUwMCIsImlzc24iOiIiLCJmb3JtYXQiOiJIYXJkY292ZXIiLCJwYWdlQ291
-        bnQiOjU1MiwidGV4dE9iamVjdHMiOlt7InR5cGUiOiJpc3N1ZV9zb2xpY2l0
-        X3RleHQiLCJsYW5ndWFnZSI6ImVuLXVzIiwidGV4dCI6IlRoZSB0ZWNobm8t
-        b3JnYW5pYyBuaWdodG1hcmUga25vd24gYXMgdGhlIFBoYWxhbnggaGFzIHJp
-        c2VuISBQb3dlcmZ1bCBhbnRpLW11dGFudCBiaWdvdHMgaGF2ZSBjcmVhdGVk
-        IHRoZSB1bHRpbWF0ZSB3ZWFwb24gZnJvbSB0aGUgYXNoZXMgb2YgdGhlIGRl
-        Y2Vhc2VkIGFsaWVuIFdhcmxvY2s6IGEgY29sZCwgdmljaW91cyBhbmQgdW5z
-        dG9wcGFibGUgZm9lIHRoYXQgYWJzb3JicyBhbGwgaW4gaXRzIHBhdGguIEJ1
-        dCB0aGVzZSBQaGFsYW54IGFyZSBmYXIgbW9yZSB0aGFuIHRoZWlyIGNyZWF0
-        b3JzIGJhcmdhaW5lZCBmb3Ig4oCUIGFuZCB0aGV5IHBsYW4gdG8gc3VtbW9u
-        IHRoZWlyIHBhcmVudCByYWNlIHRvIG92ZXJ0YWtlIEVhcnRoISBXaGVuIHRo
-        ZSBQaGFsYW54IHRha2Ugb3V0IHRoZSBYLU1lbiwgdGhlIHJlbWFpbmluZyBt
-        ZW1iZXJzIG11c3Qgc3BsaXQgaW50byB0aHJlZSB0ZWFtczogdG8gc2F2ZSB5
-        b3VuZyBtdXRhbnRzIGZyb20gdGhlIFBoYWxhbnjigJlzIGNsdXRjaGVzLCB0
-        byBwcmV2ZW50IHRoZWlyIGZvZXMgZnJvbSBjb250YWN0aW5nIHRoZWlyIGhv
-        bWV3b3JsZCBhbmQgdG8gcmVzY3VlIHRoZSBYLU1lbiEgQnV0IGV2ZW4gd2l0
-        aCB0aGUgYWlkIG9mIHRoZSByb2d1ZSBQaGFsYW54IHVuaXQgRG91Z2xvY2ss
-        IGNhbiB0aGVzZSByYWd0YWcgZ3JvdXBzIHN1Y2NlZWQ/IENvbGxlY3Rpbmcg
-        VU5DQU5OWSBYLU1FTiAoMTk2MykgIzMwNiwgIzMxMS0zMTQgYW5kICMzMTYt
-        MzE3OyBFWENBTElCVVIgKDE5ODgpICM3OC04MjsgWC1NRU4gKDE5OTEpICMz
-        Ni0zNzsgWC1GQUNUT1IgKDE5ODYpICMxMDY7IFgtRk9SQ0UgKDE5OTEpICMz
-        ODsgV09MVkVSSU5FICgxOTg4KSAjODU7IGFuZCBDQUJMRSAoMTk5MykgIzE2
-        LiJ9XSwicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9jb21pY3MvNDc3NDkiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0
-        YWlsIiwidXJsIjoiaHR0cDovL21hcnZlbC5jb20vY29taWNzL2NvbGxlY3Rp
-        b24vNDc3NDkveC1tZW5fcGhhbGFueF9jb3ZlbmFudF9oYXJkY292ZXI/dXRt
-        X2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJMSUNfS0VZPiJ9XSwi
-        c2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvc2VyaWVzLzE4MDMzIiwibmFtZSI6IlgtTWVuOiBQ
-        aGFsYW54IENvdmVuYW50ICgyMDE0KSJ9LCJ2YXJpYW50cyI6W10sImNvbGxl
-        Y3Rpb25zIjpbXSwiY29sbGVjdGVkSXNzdWVzIjpbXSwiZGF0ZXMiOlt7InR5
-        cGUiOiJvbnNhbGVEYXRlIiwiZGF0ZSI6IjIwMTQtMDItMDVUMDA6MDA6MDAt
-        MDUwMCJ9LHsidHlwZSI6ImZvY0RhdGUiLCJkYXRlIjoiMjAxMy0xMi0xN1Qw
-        MDowMDowMC0wNTAwIn1dLCJwcmljZXMiOlt7InR5cGUiOiJwcmludFByaWNl
-        IiwicHJpY2UiOjc1fV0sInRodW1ibmFpbCI6eyJwYXRoIjoiaHR0cDovL2ku
-        YW5uaWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcvOS9jMC81MmU5NGEzZDY0
-        OGJmIiwiZXh0ZW5zaW9uIjoianBnIn0sImltYWdlcyI6W3sicGF0aCI6Imh0
-        dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzkvYzAvNTJl
-        OTRhM2Q2NDhiZiIsImV4dGVuc2lvbiI6ImpwZyJ9XSwiY3JlYXRvcnMiOnsi
-        YXZhaWxhYmxlIjoxNiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80Nzc0OS9jcmVhdG9ycyIs
-        Iml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzgwMTgiLCJuYW1lIjoiQW1hbmRh
-        IENvbm5lciIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0
-        cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMzY3
-        MSIsIm5hbWUiOiJDaHJpcyBDb29wZXIiLCJyb2xlIjoid3JpdGVyIn0seyJy
-        ZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NyZWF0b3JzLzY4MiIsIm5hbWUiOiJUb2RkIERlemFnbyIsInJvbGUi
-        OiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvNDIiLCJuYW1lIjoiTGFycnkg
-        SGFtYSIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMzYzNyIs
-        Im5hbWUiOiJTY290dCBMb2JkZWxsIiwicm9sZSI6IndyaXRlciJ9LHsicmVz
-        b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jcmVhdG9ycy8zNTYiLCJuYW1lIjoiUm9nZXIgQ3J1eiIsInJvbGUiOiJh
-        cnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMzU0IiwibmFtZSI6IlRvbnkgRGFu
-        aWVsIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMzAyIiwi
-        bmFtZSI6IkphbiBEdXVyc2VtYSIsInJvbGUiOiJhcnRpc3QifSx7InJlc291
-        cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMv
-        Y3JlYXRvcnMvMzc0IiwibmFtZSI6IlN0ZXZlIEVwdGluZyIsInJvbGUiOiJh
-        cnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTc1IiwibmFtZSI6IkFuZHkgS3Vi
-        ZXJ0Iiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8xMjQ4Iiwi
-        bmFtZSI6IktlbiBMYXNobGV5Iiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3Vy
-        Y2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9j
-        cmVhdG9ycy8xMjIyIiwibmFtZSI6IkpvZSBNYWR1cmVpcmEiLCJyb2xlIjoi
-        YXJ0aXN0In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzIxNCIsIm5hbWUiOiJKb2huIFJv
-        bWl0YSBKUi4iLCJyb2xlIjoiYXJ0aXN0In0seyJyZXNvdXJjZVVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzM2
-        NzQiLCJuYW1lIjoiSm9obiBSb3lsZSIsInJvbGUiOiJhcnRpc3QifSx7InJl
-        c291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
-        aWMvY3JlYXRvcnMvODk5MSIsIm5hbWUiOiJMZWUgV2Vla3MiLCJyb2xlIjoi
-        YXJ0aXN0In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzI4NzkiLCJuYW1lIjoiQWRhbSBL
-        dWJlcnQiLCJyb2xlIjoicGVuY2lsbGVyIChjb3ZlcikifV0sInJldHVybmVk
-        IjoxNn0sImNoYXJhY3RlcnMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9u
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29t
-        aWNzLzQ3NzQ5L2NoYXJhY3RlcnMiLCJpdGVtcyI6W10sInJldHVybmVkIjow
-        fSwic3RvcmllcyI6eyJhdmFpbGFibGUiOjIsImNvbGxlY3Rpb25VUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc3
-        NDkvc3RvcmllcyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTA3Nzc3Iiwi
-        bmFtZSI6ImNvdmVyIGZyb20gWC1NZW46IFBoYWxhbnggQ292ZW5hbnQgKDIw
-        MTQpIiwidHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTA3Nzc4Iiwi
-        bmFtZSI6InN0b3J5IGZyb20gWC1NZW46IFBoYWxhbnggQ292ZW5hbnQgKDIw
-        MTQpIiwidHlwZSI6ImludGVyaW9yU3RvcnkifV0sInJldHVybmVkIjoyfSwi
-        ZXZlbnRzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6
-        Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80Nzc0OS9l
-        dmVudHMiLCJpdGVtcyI6W10sInJldHVybmVkIjowfX0seyJpZCI6NDc3MDYs
-        ImRpZ2l0YWxJZCI6MCwidGl0bGUiOiJTcGlkZXItTWFuOiBUaGUgR2F0aGVy
-        aW5nIG9mIEZpdmUgKFRyYWRlIFBhcGVyYmFjaykiLCJpc3N1ZU51bWJlciI6
-        MCwidmFyaWFudERlc2NyaXB0aW9uIjoiIiwiZGVzY3JpcHRpb24iOiJQb3dl
-        ci4gSW1tb3J0YWxpdHkuIFdpc2RvbS4gTWFkbmVzcy4gRGVhdGguIEFsbCB0
-        aG9zZSB3aG8gcGFydGFrZSBpbiB0aGUgbXlzdGVyaW91cyBHYXRoZXJpbmcg
-        b2YgRml2ZSB3aWxsIGdhaW4gb25lIG9mIHRoZXNlIG15c3RpY2FsIGdpZnRz
-        IOKAlCBidXQgd2hpY2hldmVyIG9uZSB0aGUgR3JlZW4gR29ibGluIGdldHMs
-        IFNwaWRlci1NYW7igJlzIGluIGZvciB0aGUgZmlnaHQgb2YgaGlzIGxpZmUh
-        IFdoYXQgcGFydCBkbyBNYWRhbWUgV2ViLCBNb2x0ZW4gTWFuIGFuZCB0aGUg
-        U2NyaWVycyBwbGF5IGluIE5vcm1hbiBPc2Jvcm7igJlzIHNpbmlzdGVyIG1h
-        Y2hpbmF0aW9ucz8gV2hpY2ggb2YgU3BpZGVyLU1hbuKAmXMgbG92ZWQgb25l
-        cyBoYXMgcmlzZW4gZnJvbSB0aGUgZ3JhdmUsIGFuZCBob3cgZG9lcyBoZXIg
-        cmV0dXJuIHNwZWxsIGRvb20gZm9yIGh1bWFuaXR5PyBBbmQgYWZ0ZXIgYWxs
-        IHRoaXMsIHdpbGwgUGV0ZXIgUGFya2VyIGhhbmcgdXAgdGhlIHdlYnMgZm9y
-        IGdvb2Q/IFRoZSBhbnN3ZXJzIHdpbGwgc2hvY2sgeW91IGFzIGEgbG9uZy1y
-        dW5uaW5nIGVyYSBvZiBTcGlkZXkgaGlzdG9yeSBjb21lcyB0byBhbiBlbmQh
-        IFBsdXM6IGEgY29sbGVjdGlvbiBvZiBTcGlkZXItTWFuIGFydCBmcm9tIHRo
-        ZSBpbmR1c3RyeeKAmXMgZ3JlYXRlc3QgdGFsZW50cyEgQ29sbGVjdGluZyBB
-        TUFaSU5HIFNQSURFUi1NQU4gKDE5NjMpICM0NDAtNDQxLCBTUElERVItTUFO
-        ICgxOTkwKSAjOTYtOTgsIFNFTlNBVElPTkFMIFNQSURFUi1NQU4gKDE5OTYp
-        ICMzMi0zMywgU1BFQ1RBQ1VMQVIgU1BJREVSLU1BTiAoMTk3NikgIzI2Mi0y
-        NjMgYW5kIExFR0FDWSBPRiBTUElERVItTUFOLiIsIm1vZGlmaWVkIjoiMjAx
-        My0xMi0xNlQxNDo1OTozNC0wNTAwIiwiaXNibiI6Ijk3OC0wLTc4NTEtODUy
-        OS0xIiwidXBjIjoiIiwiZGlhbW9uZENvZGUiOiJTRVAxMzA4MTMiLCJlYW4i
-        OiI5NzgwNzg1IDE4NTI5MSA1Mjk5OSIsImlzc24iOiIiLCJmb3JtYXQiOiJU
-        cmFkZSBQYXBlcmJhY2siLCJwYWdlQ291bnQiOjIzMiwidGV4dE9iamVjdHMi
-        Olt7InR5cGUiOiJpc3N1ZV9zb2xpY2l0X3RleHQiLCJsYW5ndWFnZSI6ImVu
-        LXVzIiwidGV4dCI6IlBvd2VyLiBJbW1vcnRhbGl0eS4gV2lzZG9tLiBNYWRu
-        ZXNzLiBEZWF0aC4gQWxsIHRob3NlIHdobyBwYXJ0YWtlIGluIHRoZSBteXN0
-        ZXJpb3VzIEdhdGhlcmluZyBvZiBGaXZlIHdpbGwgZ2FpbiBvbmUgb2YgdGhl
-        c2UgbXlzdGljYWwgZ2lmdHMg4oCUIGJ1dCB3aGljaGV2ZXIgb25lIHRoZSBH
-        cmVlbiBHb2JsaW4gZ2V0cywgU3BpZGVyLU1hbuKAmXMgaW4gZm9yIHRoZSBm
-        aWdodCBvZiBoaXMgbGlmZSEgV2hhdCBwYXJ0IGRvIE1hZGFtZSBXZWIsIE1v
-        bHRlbiBNYW4gYW5kIHRoZSBTY3JpZXJzIHBsYXkgaW4gTm9ybWFuIE9zYm9y
-        buKAmXMgc2luaXN0ZXIgbWFjaGluYXRpb25zPyBXaGljaCBvZiBTcGlkZXIt
-        TWFu4oCZcyBsb3ZlZCBvbmVzIGhhcyByaXNlbiBmcm9tIHRoZSBncmF2ZSwg
-        YW5kIGhvdyBkb2VzIGhlciByZXR1cm4gc3BlbGwgZG9vbSBmb3IgaHVtYW5p
-        dHk/IEFuZCBhZnRlciBhbGwgdGhpcywgd2lsbCBQZXRlciBQYXJrZXIgaGFu
-        ZyB1cCB0aGUgd2VicyBmb3IgZ29vZD8gVGhlIGFuc3dlcnMgd2lsbCBzaG9j
-        ayB5b3UgYXMgYSBsb25nLXJ1bm5pbmcgZXJhIG9mIFNwaWRleSBoaXN0b3J5
-        IGNvbWVzIHRvIGFuIGVuZCEgUGx1czogYSBjb2xsZWN0aW9uIG9mIFNwaWRl
-        ci1NYW4gYXJ0IGZyb20gdGhlIGluZHVzdHJ54oCZcyBncmVhdGVzdCB0YWxl
-        bnRzISBDb2xsZWN0aW5nIEFNQVpJTkcgU1BJREVSLU1BTiAoMTk2MykgIzQ0
-        MC00NDEsIFNQSURFUi1NQU4gKDE5OTApICM5Ni05OCwgU0VOU0FUSU9OQUwg
-        U1BJREVSLU1BTiAoMTk5NikgIzMyLTMzLCBTUEVDVEFDVUxBUiBTUElERVIt
-        TUFOICgxOTc2KSAjMjYyLTI2MyBhbmQgTEVHQUNZIE9GIFNQSURFUi1NQU4u
-        In1dLCJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NvbWljcy80NzcwNiIsInVybHMiOlt7InR5cGUiOiJkZXRh
-        aWwiLCJ1cmwiOiJodHRwOi8vbWFydmVsLmNvbS9jb21pY3MvY29sbGVjdGlv
-        bi80NzcwNi9zcGlkZXItbWFuX3RoZV9nYXRoZXJpbmdfb2ZfZml2ZV90cmFk
-        ZV9wYXBlcmJhY2s/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQ
-        VUJMSUNfS0VZPiJ9XSwic2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc2VyaWVzLzE4MDA0Iiwi
-        bmFtZSI6IlNwaWRlci1NYW46IFRoZSBHYXRoZXJpbmcgb2YgRml2ZSAoMjAx
-        MykifSwidmFyaWFudHMiOltdLCJjb2xsZWN0aW9ucyI6W10sImNvbGxlY3Rl
-        ZElzc3VlcyI6W10sImRhdGVzIjpbeyJ0eXBlIjoib25zYWxlRGF0ZSIsImRh
-        dGUiOiIyMDEzLTEyLTE4VDAwOjAwOjAwLTA1MDAifSx7InR5cGUiOiJmb2NE
-        YXRlIiwiZGF0ZSI6IjIwMTMtMTItMDNUMDA6MDA6MDAtMDUwMCJ9XSwicHJp
-        Y2VzIjpbeyJ0eXBlIjoicHJpbnRQcmljZSIsInByaWNlIjoyOS45OX1dLCJ0
-        aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9wcm9k
-        L21hcnZlbC9pL21nLzkvMjAvNTJhZjUwYmI4N2IyNyIsImV4dGVuc2lvbiI6
-        ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5paGlsLnVz
-        L3UvcHJvZC9tYXJ2ZWwvaS9tZy85LzIwLzUyYWY1MGJiODdiMjciLCJleHRl
-        bnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6OCwiY29s
-        bGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzcwNi9jcmVhdG9ycyIsIml0ZW1zIjpbeyJyZXNvdXJj
-        ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Ny
-        ZWF0b3JzLzUwNiIsIm5hbWUiOiJKb2UgQmVubmV0dCIsInJvbGUiOiJhcnRp
-        c3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvY3JlYXRvcnMvNDcxNCIsIm5hbWUiOiJOb3JtYW4gRmVs
-        Y2hlIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8zOTQwIiwi
-        bmFtZSI6IlJhZmFlbCBLYXlhbmFuIiwicm9sZSI6ImFydGlzdCJ9LHsicmVz
-        b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBSb21pdGEgSlIuIiwicm9s
-        ZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5t
-        YXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMzM4IiwibmFtZSI6Ikx1
-        a2UgUm9zcyIsInJvbGUiOiJhcnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0
-        cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTgy
-        NyIsIm5hbWUiOiJKb2huIEJ5cm5lIiwicm9sZSI6InBlbmNpbGxlciAoY292
-        ZXIpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5j
-        b20vdjEvcHVibGljL2NyZWF0b3JzLzY4MiIsIm5hbWUiOiJUb2RkIERlemFn
-        byIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTI4NiIsIm5h
-        bWUiOiJIb3dhcmQgTWFja2llIiwicm9sZSI6IndyaXRlciJ9XSwicmV0dXJu
-        ZWQiOjh9LCJjaGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlv
-        blVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Nv
-        bWljcy80NzcwNi9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6
-        MH0sInN0b3JpZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3
-        NzA2L3N0b3JpZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzY4NiIs
-        Im5hbWUiOiJjb3ZlciBmcm9tIFNwaWRlci1NYW46IFRoZSBHYXRoZXJpbmcg
-        b2YgRml2ZSAoMjAxMykiLCJ0eXBlIjoiY292ZXIifSx7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rvcmll
-        cy8xMDc2ODciLCJuYW1lIjoic3RvcnkgZnJvbSBTcGlkZXItTWFuOiBUaGUg
-        R2F0aGVyaW5nIG9mIEZpdmUgKDIwMTMpIiwidHlwZSI6ImludGVyaW9yU3Rv
-        cnkifV0sInJldHVybmVkIjoyfSwiZXZlbnRzIjp7ImF2YWlsYWJsZSI6MCwi
-        Y29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL2NvbWljcy80NzcwNi9ldmVudHMiLCJpdGVtcyI6W10sInJldHVy
-        bmVkIjowfX0seyJpZCI6NDc3MjYsImRpZ2l0YWxJZCI6MCwidGl0bGUiOiJB
-        dmVuZ2VyczogQWJzb2x1dGUgVmlzaW9uIChUcmFkZSBQYXBlcmJhY2spIiwi
-        aXNzdWVOdW1iZXIiOjAsInZhcmlhbnREZXNjcmlwdGlvbiI6IiIsImRlc2Ny
-        aXB0aW9uIjoiVGhlIHVsdGltYXRlIFZpc2lvbiBzdG9yeSBiZWdpbnMgd2l0
-        aCBjYXRhc3Ryb3BoZSwgYXMgdGhlIGFuZHJvaWQgQXZlbmdlciBpcyBsYWlk
-        IGxvdyBieSZoZWxsaXA7dGhlIEJhcnJpZXIhIEJ1dCBpZiBpdCBkb2VzbiYj
-        Mzk7dCBraWxsIGhpbSwgd2lsbCBoaXMgZXhwZXJpZW5jZSBvbmx5IG1ha2Ug
-        aGltIHN0cm9uZ2VyPyBBbmQgYXJlIEVhcnRoJiMzOTtzIE1pZ2h0aWVzdCBw
-        cmVwYXJlZCBmb3IgdGhlIGFuc3dlcj8gVGhlIG9sZCBvcmRlciBjaGFuZ2V0
-        aCBvbmNlIGFnYWluIGFzIHRoZSBBdmVuZ2VycyB3ZWxjb21lIGFib2FyZCBT
-        dGFyZm94IGFuZCBhIG5ldyBDYXB0YWluIE1hcnZlbCAmbWRhc2g7IGJ1dCBk
-        b2VzIHRoYXQgbGVhdmUgYW55IHJvb20gZm9yIFNwaWRlci1NYW4/IEFuZCBp
-        dCYjMzk7cyBndWVzdCBzdGFycyBnYWxvcmUgYXMgdGhlIEZhbnRhc3RpYyBG
-        b3VyIG1vdmUgaW4gdG8gdGhlIG1hbnNpb24sIHRoZSBnaG9zdCBvZiBTcGlk
-        ZXItV29tYW4gaGF1bnRzIHRoZSB0ZWFtLCBhbmQgRHIuIFN0cmFuZ2UgbWFr
-        ZXMgYSBob3VzZSBjYWxsIHNlZWtpbmcgU2NhcmxldCBXaXRjaCYjMzk7cyBh
-        aWQgZGVhbGluZyB3aXRoIERyYWN1bGEsIGxvcmQgb2YgdGhlIHZhbXBpcmVz
-        ISBXcml0ZXIgUm9nZXIgU3Rlcm4mIzM5O3MgYWNjbGFpbWVkIEF2ZW5nZXJz
-        IHJ1biBraWNrcyBpbnRvIGhpZ2ggZ2VhciEgQ29sbGVjdGluZyBBVkVOR0VS
-        UyAoMTk2MykgIzIzMS0yNDEgYW5kIEFOTlVBTCAjMTEtMTIsIEFNQVpJTkcg
-        U1BJREVSLU1BTiBBTk5VQUwgIzE2LCBGQU5UQVNUSUMgRk9VUiAoMTk2MSkg
-        IzI1NiwgYW5kIERPQ1RPUiBTVFJBTkdFICgxOTc0KSAjNjAuIiwibW9kaWZp
-        ZWQiOiIyMDEzLTExLTIyVDE2OjMwOjI3LTA1MDAiLCJpc2JuIjoiOTc4LTAt
-        Nzg1MS04NTM0LTUiLCJ1cGMiOiIiLCJkaWFtb25kQ29kZSI6IlNFUDEzMDgx
-        NiIsImVhbiI6Ijk3ODA3ODUgMTg1MzQ1IDUzOTk5IiwiaXNzbiI6IiIsImZv
-        cm1hdCI6IlRyYWRlIFBhcGVyYmFjayIsInBhZ2VDb3VudCI6NDMyLCJ0ZXh0
-        T2JqZWN0cyI6W3sidHlwZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIsImxhbmd1
-        YWdlIjoiZW4tdXMiLCJ0ZXh0IjoiVGhlIHVsdGltYXRlIFZpc2lvbiBzdG9y
-        eSBiZWdpbnMgd2l0aCBjYXRhc3Ryb3BoZSwgYXMgdGhlIGFuZHJvaWQgQXZl
-        bmdlciBpcyBsYWlkIGxvdyBieSZoZWxsaXA7dGhlIEJhcnJpZXIhIEJ1dCBp
-        ZiBpdCBkb2VzbiYjMzk7dCBraWxsIGhpbSwgd2lsbCBoaXMgZXhwZXJpZW5j
-        ZSBvbmx5IG1ha2UgaGltIHN0cm9uZ2VyPyBBbmQgYXJlIEVhcnRoJiMzOTtz
-        IE1pZ2h0aWVzdCBwcmVwYXJlZCBmb3IgdGhlIGFuc3dlcj8gVGhlIG9sZCBv
-        cmRlciBjaGFuZ2V0aCBvbmNlIGFnYWluIGFzIHRoZSBBdmVuZ2VycyB3ZWxj
-        b21lIGFib2FyZCBTdGFyZm94IGFuZCBhIG5ldyBDYXB0YWluIE1hcnZlbCAm
-        bWRhc2g7IGJ1dCBkb2VzIHRoYXQgbGVhdmUgYW55IHJvb20gZm9yIFNwaWRl
-        ci1NYW4/IEFuZCBpdCYjMzk7cyBndWVzdCBzdGFycyBnYWxvcmUgYXMgdGhl
-        IEZhbnRhc3RpYyBGb3VyIG1vdmUgaW4gdG8gdGhlIG1hbnNpb24sIHRoZSBn
-        aG9zdCBvZiBTcGlkZXItV29tYW4gaGF1bnRzIHRoZSB0ZWFtLCBhbmQgRHIu
-        IFN0cmFuZ2UgbWFrZXMgYSBob3VzZSBjYWxsIHNlZWtpbmcgU2NhcmxldCBX
-        aXRjaCYjMzk7cyBhaWQgZGVhbGluZyB3aXRoIERyYWN1bGEsIGxvcmQgb2Yg
-        dGhlIHZhbXBpcmVzISBXcml0ZXIgUm9nZXIgU3Rlcm4mIzM5O3MgYWNjbGFp
-        bWVkIEF2ZW5nZXJzIHJ1biBraWNrcyBpbnRvIGhpZ2ggZ2VhciEgQ29sbGVj
-        dGluZyBBVkVOR0VSUyAoMTk2MykgIzIzMS0yNDEgYW5kIEFOTlVBTCAjMTEt
-        MTIsIEFNQVpJTkcgU1BJREVSLU1BTiBBTk5VQUwgIzE2LCBGQU5UQVNUSUMg
-        Rk9VUiAoMTk2MSkgIzI1NiwgYW5kIERPQ1RPUiBTVFJBTkdFICgxOTc0KSAj
-        NjAuIn1dLCJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5j
-        b20vdjEvcHVibGljL2NvbWljcy80NzcyNiIsInVybHMiOlt7InR5cGUiOiJk
-        ZXRhaWwiLCJ1cmwiOiJodHRwOi8vbWFydmVsLmNvbS9jb21pY3MvY29sbGVj
-        dGlvbi80NzcyNi9hdmVuZ2Vyc19hYnNvbHV0ZV92aXNpb25fdHJhZGVfcGFw
-        ZXJiYWNrP3V0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElD
-        X0tFWT4ifV0sInNlcmllcyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3Nlcmllcy8xODAxNSIsIm5hbWUi
-        OiJBdmVuZ2VyczogQWJzb2x1dGUgVmlzaW9uICgyMDEzKSJ9LCJ2YXJpYW50
-        cyI6W10sImNvbGxlY3Rpb25zIjpbXSwiY29sbGVjdGVkSXNzdWVzIjpbXSwi
-        ZGF0ZXMiOlt7InR5cGUiOiJvbnNhbGVEYXRlIiwiZGF0ZSI6IjIwMTMtMTEt
-        MjdUMDA6MDA6MDAtMDUwMCJ9LHsidHlwZSI6ImZvY0RhdGUiLCJkYXRlIjoi
-        MjAxMy0xMS0xMlQwMDowMDowMC0wNTAwIn1dLCJwcmljZXMiOlt7InR5cGUi
-        OiJwcmludFByaWNlIiwicHJpY2UiOjM5Ljk5fV0sInRodW1ibmFpbCI6eyJw
-        YXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcv
-        Mi8wNC81MjhmYmQ3OWRkNmJmIiwiZXh0ZW5zaW9uIjoianBnIn0sImltYWdl
-        cyI6W3sicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZl
-        bC9pL21nLzIvMDQvNTI4ZmJkNzlkZDZiZiIsImV4dGVuc2lvbiI6ImpwZyJ9
-        XSwiY3JlYXRvcnMiOnsiYXZhaWxhYmxlIjo5LCJjb2xsZWN0aW9uVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3
-        NzI2L2NyZWF0b3JzIiwiaXRlbXMiOlt7InJlc291cmNlVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTM5NCIs
-        Im5hbWUiOiJCb2IgQnVkaWFuc2t5Iiwicm9sZSI6ImFydGlzdCJ9LHsicmVz
-        b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jcmVhdG9ycy8xMzI2IiwibmFtZSI6IkRhbiBHcmVlbiIsInJvbGUiOiJh
-        cnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMjY5NyIsIm5hbWUiOiJCdXRjaCBH
-        dWljZSIsInJvbGUiOiJhcnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMjE0Iiwi
-        bmFtZSI6IkpvaG4gUm9taXRhIEpSLiIsInJvbGUiOiJhcnRpc3QifSx7InJl
-        c291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
-        aWMvY3JlYXRvcnMvMTgyNyIsIm5hbWUiOiJKb2huIEJ5cm5lIiwicm9sZSI6
-        IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy82OTg2IiwibmFtZSI6IkouIE0u
-        IERlTWF0dGVpcyIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMv
-        MjE1IiwibmFtZSI6IkFubiBOb2NlbnRpIiwicm9sZSI6IndyaXRlciJ9LHsi
-        cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
-        YmxpYy9jcmVhdG9ycy85NTgiLCJuYW1lIjoiUm9nZXIgU3Rlcm4iLCJyb2xl
-        Ijoid3JpdGVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1h
-        cnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzQzNSIsIm5hbWUiOiJBbCBN
-        aWxncm9tIiwicm9sZSI6InBlbmNpbGxlciAoY292ZXIpIn1dLCJyZXR1cm5l
-        ZCI6OX0sImNoYXJhY3RlcnMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9u
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29t
-        aWNzLzQ3NzI2L2NoYXJhY3RlcnMiLCJpdGVtcyI6W10sInJldHVybmVkIjow
-        fSwic3RvcmllcyI6eyJhdmFpbGFibGUiOjIsImNvbGxlY3Rpb25VUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc3
-        MjYvc3RvcmllcyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTA3NzI2Iiwi
-        bmFtZSI6ImNvdmVyIGZyb20gQXZlbmdlcnM6IEFic29sdXRlIFZpc2lvbiAo
-        MjAxMykiLCJ0eXBlIjoiY292ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rvcmllcy8xMDc3Mjci
-        LCJuYW1lIjoic3RvcnkgZnJvbSBBdmVuZ2VyczogQWJzb2x1dGUgVmlzaW9u
-        ICgyMDEzKSIsInR5cGUiOiJpbnRlcmlvclN0b3J5In1dLCJyZXR1cm5lZCI6
-        Mn0sImV2ZW50cyI6eyJhdmFpbGFibGUiOjAsImNvbGxlY3Rpb25VUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc3
-        MjYvZXZlbnRzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH19LHsiaWQiOjQ3
-        NjUxLCJkaWdpdGFsSWQiOjAsInRpdGxlIjoiU3BpZGVyLU1hbjogTWFyayBv
-        ZiB0aGUgVGFyYW50dWxhIChUcmFkZSBQYXBlcmJhY2spIiwiaXNzdWVOdW1i
-        ZXIiOjAsInZhcmlhbnREZXNjcmlwdGlvbiI6IiIsImRlc2NyaXB0aW9uIjoi
-        RmFuLWZhdm9yaXRlIGNyZWF0b3JzIFJvZ2VyIFN0ZXJuIGFuZCBKb2huIFJv
-        bWl0YSBKci4gc3BpbiBzb21lIG9mIHRoZWlyIG1vc3Qgc3RhcnRsaW5nIFNw
-        aWRleSBzdG9yaWVzISBXaGVuIG9uZSBvZiBNYXJ2ZWzigJlzIG1vc3QgdGVy
-        cmlmeWluZyB0YWctdGVhbXMgY2hhbGxlbmdlcyB0aGUgd2FsbC1jcmF3bGVy
-        LCBpdOKAmXMgU3BpZGV5IHZzLiBDb2JyYSBhbmQgTXIuIEh5ZGUgaW4gYSBn
-        cnVlbGluZyBncnVkZ2UgbWF0Y2ggb2YgZXBpYyBwcm9wb3J0aW9ucyEgVGhl
-        biwgU3BpZGVyLU1hbiBpbnZlc3RpZ2F0ZXMgdGhlIHNpbmlzdGVyIEJyYW5k
-        IENvcnBvcmF0aW9uLCBhbmQgZmluZHMgaGltc2VsZiBjYXVnaHQgYmV0d2Vl
-        biB0aGUgd2lseSBXaWxsIE/igJkgdGhlIFdpc3AgYW5kIGFyYWNobmlkIGFz
-        c2Fzc2luIHRoZSBUYXJhbnR1bGEg4oCUIGFuZCBvbmUgb2YgdGhvc2UgdHdv
-        IHZpbGxhaW5zIHdvbuKAmXQgc3Vydml2ZSBCcmFuZOKAmXMgbWFjaGluYXRp
-        b25zISBDYW4gU3BpZGV5IHNhdmUgdGhlIGRheSBhbmQgc2h1dCBkb3duIHRo
-        ZSBjb3JydXB0IGNvcnBvcmF0aW9uIOKAlCBvciB3aWxsIGhlIGJhcmVseSBi
-        ZSBhYmxlIHRvIGVzY2FwZSB3aXRoIGhpcyBza2luIGludGFjdD8gUGx1czog
-        YSBzb3VsLXNlYXJjaGluZyByZXRyb3NwZWN0aXZlIHN0YXJyaW5nIHRoZSBz
-        dHVwZW5kb3VzIFN0aWx0LU1hbiEgQW5kIHRoZSBkZWJ1dCBvZiBNb25pY2Eg
-        UmFtYmVhdSwgdGhlIHNlY29uZCBDYXB0YWluIE1hcnZlbCwgaW4gYSBzY2lu
-        dGlsbGF0aW5nIHNhZ2EgZ3Vlc3Qtc3RhcnJpbmcgdGhlIEF2ZW5nZXJzISBJ
-        dOKAmXMgbWF5aGVtLCBtb25zdGVycywgbXV0YXRpb25zIGFuZCBteXN0ZXJp
-        ZXMhIENvbGxlY3RpbmcgQU1BWklORyBTUElERVItTUFOICgxOTYzKSAjMjMx
-        LTIzNyBhbmQgQU5OVUFMICMxNi4iLCJtb2RpZmllZCI6IjIwMTMtMTEtMjJU
-        MTY6MzA6MjctMDUwMCIsImlzYm4iOiI5NzgtMC03ODUxLTg1MTAtOSIsInVw
-        YyI6IiIsImRpYW1vbmRDb2RlIjoiU0VQMTMwODE0IiwiZWFuIjoiOTc4MDc4
-        NSAxODUxMDkgNTI5OTkiLCJpc3NuIjoiIiwiZm9ybWF0IjoiVHJhZGUgUGFw
-        ZXJiYWNrIiwicGFnZUNvdW50IjoyMTYsInRleHRPYmplY3RzIjpbeyJ0eXBl
-        IjoiaXNzdWVfc29saWNpdF90ZXh0IiwibGFuZ3VhZ2UiOiJlbi11cyIsInRl
-        eHQiOiJGYW4tZmF2b3JpdGUgY3JlYXRvcnMgUm9nZXIgU3Rlcm4gYW5kIEpv
-        aG4gUm9taXRhIEpyLiBzcGluIHNvbWUgb2YgdGhlaXIgbW9zdCBzdGFydGxp
-        bmcgU3BpZGV5IHN0b3JpZXMhIFdoZW4gb25lIG9mIE1hcnZlbOKAmXMgbW9z
-        dCB0ZXJyaWZ5aW5nIHRhZy10ZWFtcyBjaGFsbGVuZ2VzIHRoZSB3YWxsLWNy
-        YXdsZXIsIGl04oCZcyBTcGlkZXkgdnMuIENvYnJhIGFuZCBNci4gSHlkZSBp
-        biBhIGdydWVsaW5nIGdydWRnZSBtYXRjaCBvZiBlcGljIHByb3BvcnRpb25z
-        ISBUaGVuLCBTcGlkZXItTWFuIGludmVzdGlnYXRlcyB0aGUgc2luaXN0ZXIg
-        QnJhbmQgQ29ycG9yYXRpb24sIGFuZCBmaW5kcyBoaW1zZWxmIGNhdWdodCBi
-        ZXR3ZWVuIHRoZSB3aWx5IFdpbGwgT+KAmSB0aGUgV2lzcCBhbmQgYXJhY2hu
-        aWQgYXNzYXNzaW4gdGhlIFRhcmFudHVsYSDigJQgYW5kIG9uZSBvZiB0aG9z
-        ZSB0d28gdmlsbGFpbnMgd29u4oCZdCBzdXJ2aXZlIEJyYW5k4oCZcyBtYWNo
-        aW5hdGlvbnMhIENhbiBTcGlkZXkgc2F2ZSB0aGUgZGF5IGFuZCBzaHV0IGRv
-        d24gdGhlIGNvcnJ1cHQgY29ycG9yYXRpb24g4oCUIG9yIHdpbGwgaGUgYmFy
-        ZWx5IGJlIGFibGUgdG8gZXNjYXBlIHdpdGggaGlzIHNraW4gaW50YWN0PyBQ
-        bHVzOiBhIHNvdWwtc2VhcmNoaW5nIHJldHJvc3BlY3RpdmUgc3RhcnJpbmcg
-        dGhlIHN0dXBlbmRvdXMgU3RpbHQtTWFuISBBbmQgdGhlIGRlYnV0IG9mIE1v
-        bmljYSBSYW1iZWF1LCB0aGUgc2Vjb25kIENhcHRhaW4gTWFydmVsLCBpbiBh
-        IHNjaW50aWxsYXRpbmcgc2FnYSBndWVzdC1zdGFycmluZyB0aGUgQXZlbmdl
-        cnMhIEl04oCZcyBtYXloZW0sIG1vbnN0ZXJzLCBtdXRhdGlvbnMgYW5kIG15
-        c3RlcmllcyEgQ29sbGVjdGluZyBBTUFaSU5HIFNQSURFUi1NQU4gKDE5NjMp
-        ICMyMzEtMjM3IGFuZCBBTk5VQUwgIzE2LiJ9XSwicmVzb3VyY2VVUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc2
-        NTEiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoiaHR0cDovL21h
-        cnZlbC5jb20vY29taWNzL2NvbGxlY3Rpb24vNDc2NTEvc3BpZGVyLW1hbl9t
-        YXJrX29mX3RoZV90YXJhbnR1bGFfdHJhZGVfcGFwZXJiYWNrP3V0bV9jYW1w
-        YWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElDX0tFWT4ifV0sInNlcmll
-        cyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL3Nlcmllcy8xNzk4MCIsIm5hbWUiOiJTcGlkZXItTWFuOiBN
-        YXJrIG9mIHRoZSBUYXJhbnR1bGEgKDIwMTMpIn0sInZhcmlhbnRzIjpbXSwi
-        Y29sbGVjdGlvbnMiOltdLCJjb2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6
-        W3sidHlwZSI6Im9uc2FsZURhdGUiLCJkYXRlIjoiMjAxMy0xMS0yN1QwMDow
-        MDowMC0wNTAwIn0seyJ0eXBlIjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTEx
-        LTEyVDAwOjAwOjAwLTA1MDAifV0sInByaWNlcyI6W3sidHlwZSI6InByaW50
-        UHJpY2UiLCJwcmljZSI6MjkuOTl9XSwidGh1bWJuYWlsIjp7InBhdGgiOiJo
-        dHRwOi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy85L2YwLzUy
-        OGZjOWQyYjljNTQiLCJleHRlbnNpb24iOiJqcGcifSwiaW1hZ2VzIjpbeyJw
-        YXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcv
-        OS9mMC81MjhmYzlkMmI5YzU0IiwiZXh0ZW5zaW9uIjoianBnIn1dLCJjcmVh
-        dG9ycyI6eyJhdmFpbGFibGUiOjMsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc2NTEvY3Jl
-        YXRvcnMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdh
-        eS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yNjAiLCJuYW1lIjoi
-        Qm9iIEhhbGwiLCJyb2xlIjoiYXJ0aXN0In0seyJyZXNvdXJjZVVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzIx
-        NCIsIm5hbWUiOiJKb2huIFJvbWl0YSBKUi4iLCJyb2xlIjoicGVuY2lsbGVy
-        IChjb3ZlcikifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvOTU4IiwibmFtZSI6IlJvZ2Vy
-        IFN0ZXJuIiwicm9sZSI6IndyaXRlciJ9XSwicmV0dXJuZWQiOjN9LCJjaGFy
-        YWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6
-        Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY1MS9j
-        aGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMi
-        OnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NjUxL3N0b3JpZXMi
-        LCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzU4MiIsIm5hbWUiOiJjb3Zl
-        ciBmcm9tIFNwaWRlci1NYW46IE1hcmsgb2YgdGhlIFRhcmFudHVsYSAoMjAx
-        MykiLCJ0eXBlIjoiY292ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rvcmllcy8xMDc1ODMiLCJu
-        YW1lIjoic3RvcnkgZnJvbSBTcGlkZXItTWFuOiBNYXJrIG9mIHRoZSBUYXJh
-        bnR1bGEgKDIwMTMpIiwidHlwZSI6ImludGVyaW9yU3RvcnkifV0sInJldHVy
-        bmVkIjoyfSwiZXZlbnRzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWlj
-        cy80NzY1MS9ldmVudHMiLCJpdGVtcyI6W10sInJldHVybmVkIjowfX0seyJp
-        ZCI6NDc2NzMsImRpZ2l0YWxJZCI6MCwidGl0bGUiOiJLaWNrLUFzcyAzICgy
-        MDEzKSAjNSAoSnJqciBTa2V0Y2ggVmFyaWFudCkiLCJpc3N1ZU51bWJlciI6
-        NSwidmFyaWFudERlc2NyaXB0aW9uIjoiSnJqciBTa2V0Y2ggVmFyaWFudCIs
-        ImRlc2NyaXB0aW9uIjoiQXQgbG9uZyBsYXN0LCB0aGUgZWFydGgtc2hhdHRl
-        cmluZyBldmVudCBkZXN0aW5lZCB0byB0ZWFyIGFwYXJ0IHRoZSBLaWNrLUFz
-        cyB1bml2ZXJzZSBmb3JldmVyOiBEYXZlIGdldHMgYSBnaXJsZnJpZW5kISBB
-        bHNvLCBhIG5ldyB2aWdpbGFudGUgdGVhbSBrbm93biBvbmx5IGJ5IHRoZWly
-        IFNrdWxsIGFuZCBCb25lcyBtYXNrcyBtYWtlcyBpdHMgcHJlc2VuY2Uga25v
-        d24uIiwibW9kaWZpZWQiOiIyMDEzLTExLTE4VDE0OjQ5OjM0LTA1MDAiLCJp
-        c2JuIjoiIiwidXBjIjo3NTk2MDYwNzkzNzcwMDUzMCwiZGlhbW9uZENvZGUi
-        OiJBVUcxMzA4NjIiLCJlYW4iOiIiLCJpc3NuIjoiIiwiZm9ybWF0IjoiQ29t
-        aWMiLCJwYWdlQ291bnQiOjMyLCJ0ZXh0T2JqZWN0cyI6W3sidHlwZSI6Imlz
-        c3VlX3NvbGljaXRfdGV4dCIsImxhbmd1YWdlIjoiZW4tdXMiLCJ0ZXh0Ijoi
-        QXQgbG9uZyBsYXN0LCB0aGUgZWFydGgtc2hhdHRlcmluZyBldmVudCBkZXN0
-        aW5lZCB0byB0ZWFyIGFwYXJ0IHRoZSBLaWNrLUFzcyB1bml2ZXJzZSBmb3Jl
-        dmVyOiBEYXZlIGdldHMgYSBnaXJsZnJpZW5kISBBbHNvLCBhIG5ldyB2aWdp
-        bGFudGUgdGVhbSBrbm93biBvbmx5IGJ5IHRoZWlyIFNrdWxsIGFuZCBCb25l
-        cyBtYXNrcyBtYWtlcyBpdHMgcHJlc2VuY2Uga25vd24uIn1dLCJyZXNvdXJj
-        ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Nv
-        bWljcy80NzY3MyIsInVybHMiOlt7InR5cGUiOiJkZXRhaWwiLCJ1cmwiOiJo
-        dHRwOi8vbWFydmVsLmNvbS9jb21pY3MvaXNzdWUvNDc2NzMva2ljay1hc3Nf
-        M18yMDEzXzVfanJqcl9za2V0Y2hfdmFyaWFudC9qcmpyX3NrZXRjaF92YXJp
-        YW50P3V0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElDX0tF
-        WT4ifV0sInNlcmllcyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL3Nlcmllcy8xNzk0NiIsIm5hbWUiOiJL
-        aWNrLUFzcyAzICgyMDEzIC0gUHJlc2VudCkifSwidmFyaWFudHMiOlt7InJl
-        c291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
-        aWMvY29taWNzLzQ3NTMwIiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMpICM1
-        In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NvbWljcy81MDEyOCIsIm5hbWUiOiJLaWNrLUFzcyAzICgy
-        MDEzKSAjNSAoQm9uZCBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJj
-        b2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURh
-        dGUiLCJkYXRlIjoiMjAxMy0xMS0yN1QwMDowMDowMC0wNTAwIn0seyJ0eXBl
-        IjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTExLTEzVDAwOjAwOjAwLTA1MDAi
-        fV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45
-        OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMv
-        dS9wcm9kL21hcnZlbC9pL21nL2IvNDAvaW1hZ2Vfbm90X2F2YWlsYWJsZSIs
-        ImV4dGVuc2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8v
-        aS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy85L2YwLzUyOGE2ZTky
-        YjdmNmMiLCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWls
-        YWJsZSI6MywiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3My9jcmVhdG9ycyIsIml0ZW1z
-        IjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NyZWF0b3JzLzQ1OTYiLCJuYW1lIjoiSmVubmlmZXIgTGVl
-        Iiwicm9sZSI6ImVkaXRvciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy84OCIsIm5hbWUi
-        OiJNYXJrIE1pbGxhciIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRv
-        cnMvMjE0IiwibmFtZSI6IkpvaG4gUm9taXRhIEpSLiIsInJvbGUiOiJhcnRp
-        c3QifV0sInJldHVybmVkIjozfSwiY2hhcmFjdGVycyI6eyJhdmFpbGFibGUi
-        OjAsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9jb21pY3MvNDc2NzMvY2hhcmFjdGVycyIsIml0ZW1zIjpb
-        XSwicmV0dXJuZWQiOjB9LCJzdG9yaWVzIjp7ImF2YWlsYWJsZSI6MSwiY29s
-        bGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzY3My9zdG9yaWVzIiwiaXRlbXMiOlt7InJlc291cmNl
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rv
-        cmllcy8xMDc2MjciLCJuYW1lIjoic3RvcnkgZnJvbSBLaWNrLUFzcyAzICgy
-        MDEzKSAjNSAoSlJKUiBTS0VUQ0ggVkFSSUFOVCkiLCJ0eXBlIjoiaW50ZXJp
-        b3JTdG9yeSJ9XSwicmV0dXJuZWQiOjF9LCJldmVudHMiOnsiYXZhaWxhYmxl
-        IjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvY29taWNzLzQ3NjczL2V2ZW50cyIsIml0ZW1zIjpbXSwi
-        cmV0dXJuZWQiOjB9fSx7ImlkIjo1MDEyOCwiZGlnaXRhbElkIjowLCJ0aXRs
-        ZSI6IktpY2stQXNzIDMgKDIwMTMpICM1IChCb25kIFZhcmlhbnQpIiwiaXNz
-        dWVOdW1iZXIiOjUsInZhcmlhbnREZXNjcmlwdGlvbiI6IkJvbmQgVmFyaWFu
-        dCIsImRlc2NyaXB0aW9uIjoiQXQgbG9uZyBsYXN0LCB0aGUgZWFydGgtc2hh
-        dHRlcmluZyBldmVudCBkZXN0aW5lZCB0byB0ZWFyIGFwYXJ0IHRoZSBLaWNr
-        LUFzcyB1bml2ZXJzZSBmb3JldmVyOiBEYXZlIGdldHMgYSBnaXJsZnJpZW5k
-        ISBBbHNvLCBhIG5ldyB2aWdpbGFudGUgdGVhbSBrbm93biBvbmx5IGJ5IHRo
-        ZWlyIFNrdWxsIGFuZCBCb25lcyBtYXNrcyBtYWtlcyBpdHMgcHJlc2VuY2Ug
-        a25vaHR0cDovL2dhbGFjdHVzLm1hcnZlbC5jb20vYWRtaW4vaXNzdWVzL3Zp
-        ZXcvNTAxMjgvdmlldzp0ZXh0X29iamVjdHN3bi4iLCJtb2RpZmllZCI6IjIw
-        MTMtMTEtMThUMTQ6NDI6MzgtMDUwMCIsImlzYm4iOiIiLCJ1cGMiOjc1OTYw
-        NjA3OTM3NzAwNTMwLCJkaWFtb25kQ29kZSI6IkFVRzEzODMzNSIsImVhbiI6
-        IiIsImlzc24iOiIiLCJmb3JtYXQiOiJDb21pYyIsInBhZ2VDb3VudCI6MzIs
-        InRleHRPYmplY3RzIjpbeyJ0eXBlIjoiaXNzdWVfc29saWNpdF90ZXh0Iiwi
-        bGFuZ3VhZ2UiOiJlbi11cyIsInRleHQiOiJBdCBsb25nIGxhc3QsIHRoZSBl
-        YXJ0aC1zaGF0dGVyaW5nIGV2ZW50IGRlc3RpbmVkIHRvIHRlYXIgYXBhcnQg
-        dGhlIEtpY2stQXNzIHVuaXZlcnNlIGZvcmV2ZXI6IERhdmUgZ2V0cyBhIGdp
-        cmxmcmllbmQhIEFsc28sIGEgbmV3IHZpZ2lsYW50ZSB0ZWFtIGtub3duIG9u
-        bHkgYnkgdGhlaXIgU2t1bGwgYW5kIEJvbmVzIG1hc2tzIG1ha2VzIGl0cyBw
-        cmVzZW5jZSBrbm9odHRwOi8vZ2FsYWN0dXMubWFydmVsLmNvbS9hZG1pbi9p
-        c3N1ZXMvdmlldy81MDEyOC92aWV3OnRleHRfb2JqZWN0c3duLiJ9XSwicmVz
-        b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jb21pY3MvNTAxMjgiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJs
-        IjoiaHR0cDovL21hcnZlbC5jb20vY29taWNzL2lzc3VlLzUwMTI4L2tpY2st
-        YXNzXzNfMjAxM181X2JvbmRfdmFyaWFudC9ib25kX3ZhcmlhbnQ/dXRtX2Nh
-        bXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJMSUNfS0VZPiJ9XSwic2Vy
-        aWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvc2VyaWVzLzE3OTQ2IiwibmFtZSI6IktpY2stQXNzIDMg
-        KDIwMTMgLSBQcmVzZW50KSJ9LCJ2YXJpYW50cyI6W3sicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3Mv
-        NDc1MzAiLCJuYW1lIjoiS2ljay1Bc3MgMyAoMjAxMykgIzUifSx7InJlc291
-        cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMv
-        Y29taWNzLzQ3NjczIiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMpICM1IChK
-        cmpyIFNrZXRjaCBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJjb2xs
-        ZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURhdGUi
-        LCJkYXRlIjoiMjAxMy0xMS0yN1QwMDowMDowMC0wNTAwIn0seyJ0eXBlIjoi
-        Zm9jRGF0ZSIsImRhdGUiOiIyMDEzLTExLTEzVDAwOjAwOjAwLTA1MDAifV0s
-        InByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45OX1d
-        LCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9w
-        cm9kL21hcnZlbC9pL21nLzMvZDAvNTI4YTZiNjQ1NTNmNyIsImV4dGVuc2lv
-        biI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5paGls
-        LnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy8zL2QwLzUyOGE2YjY0NTUzZjciLCJl
-        eHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6Miwi
-        Y29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL2NvbWljcy81MDEyOC9jcmVhdG9ycyIsIml0ZW1zIjpbeyJyZXNv
-        dXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFyIiwicm9sZSI6Indy
-        aXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwu
-        Y29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBSb21p
-        dGEgSlIuIiwicm9sZSI6ImFydGlzdCJ9XSwicmV0dXJuZWQiOjJ9LCJjaGFy
-        YWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6
-        Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy81MDEyOC9j
-        aGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMi
-        OnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzUwMTI4L3N0b3JpZXMi
-        LCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzExMjI5MyIsIm5hbWUiOiJjb3Zl
-        ciBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICM1IChCT05EIFZBUklBTlQpIiwi
-        dHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTEyMjk0IiwibmFtZSI6
-        InN0b3J5IGZyb20gS2ljay1Bc3MgMyAoMjAxMykgIzUgKEJPTkQgVkFSSUFO
-        VCkiLCJ0eXBlIjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJuZWQiOjJ9LCJl
-        dmVudHMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDov
-        L2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzUwMTI4L2V2
-        ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7ImlkIjo0NTk2NSwi
-        ZGlnaXRhbElkIjowLCJ0aXRsZSI6IkNhcHRhaW4gQW1lcmljYSBWb2wuIDI6
-        IENhc3Rhd2F5IEluIERpbWVuc2lvbiBaIEJvb2sgVHdvIChIYXJkY292ZXIp
-        IiwiaXNzdWVOdW1iZXIiOjAsInZhcmlhbnREZXNjcmlwdGlvbiI6IiIsImRl
-        c2NyaXB0aW9uIjoiVGhlIG9kZCBzYWdhIG9mIERpbWVuc2lvbiBaIGNvbnRp
-        bnVlcywgd2l0aCB0aGUgc2hvY2tpbmcgZmF0ZSBvZiBTdGV2ZSBSb2dlcnMg
-        cmV2ZWFsZWQ6IExvbmcgbGl2ZSBDYXB0YWluIFpvbGEgw6LigqzigJ0gbWFz
-        dGVyIG9mIGxpZXMsIGluanVzdGljZSBhbmQgdGhlIERpbWVuc2lvbiBaIHdh
-        eSEgQnV0IGV2ZW4gYXMgQXJuaW0gWm9sYSBnZXRzIGV2ZXJ5dGhpbmcgaGUg
-        d2FudHMsIGEgdHJhaXRvciBzdHJpa2VzLiBJYW7DouKCrOKEonMgZmF0ZSBp
-        cyBkZWNpZGVkIGFzIFpvbGHDouKCrOKEonMgbWFzdGVyIHBsYW4gaXMgcmV2
-        ZWFsZWQsIGFuZCBTdGV2ZSBSb2dlcnMgaGFzIGp1c3Qgb25lIGNoYW5jZSB0
-        byBzZXQgYWxsIG9mIHRoaXMgcmlnaHQuIEJyb2tlbiwgYmVhdGVuIGFuZCBu
-        ZWFyIGRlYWQsIGhlIG11c3QgZGVmZWF0IFpvbGEgw6LigqzigJ0gb3IgYWxs
-        IGlzIGxvc3QhIEFuZCB3aXRoIHRoZSBvbmx5IHdheSBiYWNrIHRvIEVhcnRo
-        IHNsb3dseSBjbG9zaW5nIGZvcmV2ZXIsIENhcHRhaW4gQW1lcmljYSBtdXN0
-        IG1ha2UgdGhlIGhhcmRlc3QgZGVjaXNpb24gb2YgaGlzIGxpZmUuIFBsdXM6
-        IEEgY2hhcmFjdGVyIHlvdSBuZXZlciBleHBlY3RlZCByZWVtZXJnZXMgZnJv
-        bSB0aGUgcGFzdCwgYW5kIFpvbGEgdGFyZ2V0cyBodW1hbml0eSBzcXVhcmVs
-        eSBpbiBoaXMgY3Jvc3NoYWlycy4gVGhlIGZpbmFsIGRheXMgb2YgRGltZW5z
-        aW9uIFogYXJlIGhlcmUgw6LigqzigJ0gYW5kIGlmIFN0ZXZlIFJvZ2VycyBl
-        c2NhcGVzIGludGFjdCwgaGUgd2lsbCBuZXZlciBiZSB0aGUgc2FtZSBhZ2Fp
-        bi4gQ29sbGVjdGluZyBDQVBUQUlOIEFNRVJJQ0EgKDIwMTIpICM2LTEwLiIs
-        Im1vZGlmaWVkIjoiMjAxMy0xMS0yMlQxNTowOTo0Mi0wNTAwIiwiaXNibiI6
-        Ijk3OC0wLTc4NTEtNjgyNy0wIiwidXBjIjoiIiwiZGlhbW9uZENvZGUiOiJB
-        VUcxMzA4NzgiLCJlYW4iOiI5NzgwNzg1IDE2ODI3MCA1MjQ5OSIsImlzc24i
-        OiIiLCJmb3JtYXQiOiJIYXJkY292ZXIiLCJwYWdlQ291bnQiOjEzNiwidGV4
-        dE9iamVjdHMiOlt7InR5cGUiOiJpc3N1ZV9zb2xpY2l0X3RleHQiLCJsYW5n
-        dWFnZSI6ImVuLXVzIiwidGV4dCI6IlRoZSBvZGQgc2FnYSBvZiBEaW1lbnNp
-        b24gWiBjb250aW51ZXMsIHdpdGggdGhlIHNob2NraW5nIGZhdGUgb2YgU3Rl
-        dmUgUm9nZXJzIHJldmVhbGVkOiBMb25nIGxpdmUgQ2FwdGFpbiBab2xhIOKA
-        lCBtYXN0ZXIgb2YgbGllcywgaW5qdXN0aWNlIGFuZCB0aGUgRGltZW5zaW9u
-        IFogd2F5ISBCdXQgZXZlbiBhcyBBcm5pbSBab2xhIGdldHMgZXZlcnl0aGlu
-        ZyBoZSB3YW50cywgYSB0cmFpdG9yIHN0cmlrZXMuIElhbuKAmXMgZmF0ZSBp
-        cyBkZWNpZGVkIGFzIFpvbGHigJlzIG1hc3RlciBwbGFuIGlzIHJldmVhbGVk
-        LCBhbmQgU3RldmUgUm9nZXJzIGhhcyBqdXN0IG9uZSBjaGFuY2UgdG8gc2V0
-        IGFsbCBvZiB0aGlzIHJpZ2h0LiBCcm9rZW4sIGJlYXRlbiBhbmQgbmVhciBk
-        ZWFkLCBoZSBtdXN0IGRlZmVhdCBab2xhIOKAlCBvciBhbGwgaXMgbG9zdCEg
-        QW5kIHdpdGggdGhlIG9ubHkgd2F5IGJhY2sgdG8gRWFydGggc2xvd2x5IGNs
-        b3NpbmcgZm9yZXZlciwgQ2FwdGFpbiBBbWVyaWNhIG11c3QgbWFrZSB0aGUg
-        aGFyZGVzdCBkZWNpc2lvbiBvZiBoaXMgbGlmZS4gUGx1czogQSBjaGFyYWN0
-        ZXIgeW91IG5ldmVyIGV4cGVjdGVkIHJlZW1lcmdlcyBmcm9tIHRoZSBwYXN0
-        LCBhbmQgWm9sYSB0YXJnZXRzIGh1bWFuaXR5IHNxdWFyZWx5IGluIGhpcyBj
-        cm9zc2hhaXJzLiBUaGUgZmluYWwgZGF5cyBvZiBEaW1lbnNpb24gWiBhcmUg
-        aGVyZSDigJQgYW5kIGlmIFN0ZXZlIFJvZ2VycyBlc2NhcGVzIGludGFjdCwg
-        aGUgd2lsbCBuZXZlciBiZSB0aGUgc2FtZSBhZ2Fpbi4gQ29sbGVjdGluZyBD
-        QVBUQUlOIEFNRVJJQ0EgKDIwMTIpICM2LTEwLiJ9XSwicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3Mv
-        NDU5NjUiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoiaHR0cDov
-        L21hcnZlbC5jb20vY29taWNzL2NvbGxlY3Rpb24vNDU5NjUvY2FwdGFpbl9h
-        bWVyaWNhX3ZvbF8yX2Nhc3Rhd2F5X2luX2RpbWVuc2lvbl96X2Jvb2tfdHdv
-        X2hhcmRjb3Zlcj91dG1fY2FtcGFpZ249YXBpUmVmJnV0bV9zb3VyY2U9PFBV
-        QkxJQ19LRVk+In0seyJ0eXBlIjoicHVyY2hhc2UiLCJ1cmwiOiJodHRwOi8v
-        Y29taWNzdG9yZS5tYXJ2ZWwuY29tL0NhcHRhaW4tQW1lcmljYS1Wb2wtMi1D
-        YXN0YXdheS1Jbi1EaW1lbnNpb24tWi1Cb29rLVR3by0wL2RpZ2l0YWwtY29t
-        aWMvMzIyNDA/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJM
-        SUNfS0VZPiJ9XSwic2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc2VyaWVzLzE3MzM5IiwibmFt
-        ZSI6IkNhcHRhaW4gQW1lcmljYSBWb2wuIDI6IENhc3Rhd2F5IEluIERpbWVu
-        c2lvbiBaIEJvb2sgVHdvICgyMDEzKSJ9LCJ2YXJpYW50cyI6W10sImNvbGxl
-        Y3Rpb25zIjpbXSwiY29sbGVjdGVkSXNzdWVzIjpbXSwiZGF0ZXMiOlt7InR5
-        cGUiOiJvbnNhbGVEYXRlIiwiZGF0ZSI6IjIwMTMtMTEtMjdUMDA6MDA6MDAt
-        MDUwMCJ9LHsidHlwZSI6ImZvY0RhdGUiLCJkYXRlIjoiMjAxMy0xMS0xMlQw
-        MDowMDowMC0wNTAwIn1dLCJwcmljZXMiOlt7InR5cGUiOiJwcmludFByaWNl
-        IiwicHJpY2UiOjI0Ljk5fV0sInRodW1ibmFpbCI6eyJwYXRoIjoiaHR0cDov
-        L2kuYW5uaWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcvOC9kMC81MjE0Y2Mx
-        MmRkNWE5IiwiZXh0ZW5zaW9uIjoianBnIn0sImltYWdlcyI6W3sicGF0aCI6
-        Imh0dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzgvZDAv
-        NTIxNGNjMTJkZDVhOSIsImV4dGVuc2lvbiI6ImpwZyJ9XSwiY3JlYXRvcnMi
-        OnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ1OTY1L2NyZWF0b3Jz
-        IiwiaXRlbXMiOlt7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTE4MzUiLCJuYW1lIjoiUmlj
-        ayBSZW1lbmRlciIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMv
-        MjE0IiwibmFtZSI6IkpvaG4gUm9taXRhIEpSLiIsInJvbGUiOiJwZW5jaWxs
-        ZXIgKGNvdmVyKSJ9XSwicmV0dXJuZWQiOjJ9LCJjaGFyYWN0ZXJzIjp7ImF2
-        YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1h
-        cnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NTk2NS9jaGFyYWN0ZXJzIiwi
-        aXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMiOnsiYXZhaWxhYmxl
-        IjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvY29taWNzLzQ1OTY1L3N0b3JpZXMiLCJpdGVtcyI6W3si
-        cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
-        YmxpYy9zdG9yaWVzLzEwMzQ0OCIsIm5hbWUiOiJjb3ZlciBmcm9tIENhcHRh
-        aW4gQW1lcmljYSAoMjAxMykiLCJ0eXBlIjoiY292ZXIifSx7InJlc291cmNl
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rv
-        cmllcy8xMDM0NDkiLCJuYW1lIjoic3RvcnkgZnJvbSBDYXB0YWluIEFtZXJp
-        Y2EgKDIwMTMpIiwidHlwZSI6ImludGVyaW9yU3RvcnkifV0sInJldHVybmVk
-        IjoyfSwiZXZlbnRzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80
-        NTk2NS9ldmVudHMiLCJpdGVtcyI6W10sInJldHVybmVkIjowfX0seyJpZCI6
-        NDc1MzAsImRpZ2l0YWxJZCI6MCwidGl0bGUiOiJLaWNrLUFzcyAzICgyMDEz
-        KSAjNSIsImlzc3VlTnVtYmVyIjo1LCJ2YXJpYW50RGVzY3JpcHRpb24iOiIi
-        LCJkZXNjcmlwdGlvbiI6IkF0IGxvbmcgbGFzdCwgdGhlIGVhcnRoLXNoYXR0
-        ZXJpbmcgZXZlbnQgZGVzdGluZWQgdG8gdGVhciBhcGFydCB0aGUgS2ljay1B
-        c3MgdW5pdmVyc2UgZm9yZXZlcjogRGF2ZSBnZXRzIGEgZ2lybGZyaWVuZCEg
-        QWxzbywgYSBuZXcgdmlnaWxhbnRlIHRlYW0ga25vd24gb25seSBieSB0aGVp
-        ciBTa3VsbCBhbmQgQm9uZXMgbWFza3MgbWFrZXMgaXRzIHByZXNlbmNlIGtu
-        b3duLiIsIm1vZGlmaWVkIjoiMjAxMy0xMS0xNFQxNjoxMDoyMC0wNTAwIiwi
-        aXNibiI6IiIsInVwYyI6NzU5NjA2MDc5Mzc3MDA1MTAsImRpYW1vbmRDb2Rl
-        IjoiQVVHMTMwODYxIiwiZWFuIjoiIiwiaXNzbiI6IiIsImZvcm1hdCI6IkNv
-        bWljIiwicGFnZUNvdW50IjozMiwidGV4dE9iamVjdHMiOlt7InR5cGUiOiJp
-        c3N1ZV9zb2xpY2l0X3RleHQiLCJsYW5ndWFnZSI6ImVuLXVzIiwidGV4dCI6
-        IkF0IGxvbmcgbGFzdCwgdGhlIGVhcnRoLXNoYXR0ZXJpbmcgZXZlbnQgZGVz
-        dGluZWQgdG8gdGVhciBhcGFydCB0aGUgS2ljay1Bc3MgdW5pdmVyc2UgZm9y
-        ZXZlcjogRGF2ZSBnZXRzIGEgZ2lybGZyaWVuZCEgQWxzbywgYSBuZXcgdmln
-        aWxhbnRlIHRlYW0ga25vd24gb25seSBieSB0aGVpciBTa3VsbCBhbmQgQm9u
-        ZXMgbWFza3MgbWFrZXMgaXRzIHByZXNlbmNlIGtub3duLiJ9XSwicmVzb3Vy
-        Y2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9j
-        b21pY3MvNDc1MzAiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoi
-        aHR0cDovL21hcnZlbC5jb20vY29taWNzL2lzc3VlLzQ3NTMwL2tpY2stYXNz
-        XzNfMjAxM181P3V0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVC
-        TElDX0tFWT4ifV0sInNlcmllcyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3Nlcmllcy8xNzk0NiIsIm5h
-        bWUiOiJLaWNrLUFzcyAzICgyMDEzIC0gUHJlc2VudCkifSwidmFyaWFudHMi
-        Olt7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzUwMTI4IiwibmFtZSI6IktpY2stQXNzIDMgKDIw
-        MTMpICM1IChCb25kIFZhcmlhbnQpIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6
-        Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3MyIs
-        Im5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAjNSAoSnJqciBTa2V0Y2ggVmFy
-        aWFudCkifV0sImNvbGxlY3Rpb25zIjpbXSwiY29sbGVjdGVkSXNzdWVzIjpb
-        XSwiZGF0ZXMiOlt7InR5cGUiOiJvbnNhbGVEYXRlIiwiZGF0ZSI6IjIwMTMt
-        MTEtMjdUMDA6MDA6MDAtMDUwMCJ9LHsidHlwZSI6ImZvY0RhdGUiLCJkYXRl
-        IjoiMjAxMy0xMS0xM1QwMDowMDowMC0wNTAwIn1dLCJwcmljZXMiOlt7InR5
-        cGUiOiJwcmludFByaWNlIiwicHJpY2UiOjIuOTl9XSwidGh1bWJuYWlsIjp7
-        InBhdGgiOiJodHRwOi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9t
-        Zy81L2QwLzUyODUzYWI0NjFlMGIiLCJleHRlbnNpb24iOiJqcGcifSwiaW1h
-        Z2VzIjpbeyJwYXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2QvbWFy
-        dmVsL2kvbWcvNS9kMC81Mjg1M2FiNDYxZTBiIiwiZXh0ZW5zaW9uIjoianBn
-        In0seyJwYXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2QvbWFydmVs
-        L2kvbWcvMi8xMC81MjE0ZDExMWIxNWMyIiwiZXh0ZW5zaW9uIjoianBnIn1d
-        LCJjcmVhdG9ycyI6eyJhdmFpbGFibGUiOjIsImNvbGxlY3Rpb25VUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc1
-        MzAvY3JlYXRvcnMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy84OCIsIm5h
-        bWUiOiJNYXJrIE1pbGxhciIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNl
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3Jl
-        YXRvcnMvMjE0IiwibmFtZSI6IkpvaG4gUm9taXRhIEpSLiIsInJvbGUiOiJw
-        ZW5jaWxsZXIgKGNvdmVyKSJ9XSwicmV0dXJuZWQiOjJ9LCJjaGFyYWN0ZXJz
-        Ijp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzUzMC9jaGFyYWN0
-        ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMiOnsiYXZh
-        aWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NTMwL3N0b3JpZXMiLCJpdGVt
-        cyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9zdG9yaWVzLzEwNzM0NCIsIm5hbWUiOiJjb3ZlciBmcm9t
-        IEtpY2stQXNzIDMgKDIwMTMpICM1IiwidHlwZSI6ImNvdmVyIn0seyJyZXNv
-        dXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L3N0b3JpZXMvMTA3MzQ1IiwibmFtZSI6InN0b3J5IGZyb20gS2ljay1Bc3Mg
-        MyAoMjAxMykgIzUiLCJ0eXBlIjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJu
-        ZWQiOjJ9LCJldmVudHMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzQ3NTMwL2V2ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7Imlk
-        Ijo0NzkwNCwiZGlnaXRhbElkIjowLCJ0aXRsZSI6Ik1hcnZlbCBGaXJzdHM6
-        IFRoZSAxOTgwcyAoVHJhZGUgUGFwZXJiYWNrKSIsImlzc3VlTnVtYmVyIjow
-        LCJ2YXJpYW50RGVzY3JpcHRpb24iOiIiLCJkZXNjcmlwdGlvbiI6IlJvbGwg
-        dXAgeW91ciBqYWNrZXQgc2xlZXZlcywgYW5kIGR1c3Qgb2ZmIHlvdXIgUnVi
-        aWvigJlzIEN1YmUgYXMgTWFydmVsIGhlYWRzIGJhY2sgdG8gdGhlIGVpZ2h0
-        aWVzISBGcm9tIEFscGhhIEZsaWdodCB0byBaYWJ1LCBoZXJvZXMgb2xkIGFu
-        ZCBuZXcgZ3JhYiB0aGUgc3BvdGxpZ2h0IGluIHRoZWlyIG93biB0aXRsZXMg
-        aW4gdGhpcyBmaXJzdCBjbGFzc2ljIGNvbGxlY3Rpb24gb2YgdGhlIGRlY2Fk
-        ZeKAmXMgbW9zdCBkYXp6bGluZyBkZWJ1dHMhIEFsbCB5b3VyIGZhdm9yaXRl
-        cyBhcmUgaGVyZSDigJQgaW5jbHVkaW5nIERvbWluaWMgRm9ydHVuZSwgQ2Fw
-        dGFpbiBVbml2ZXJzZSBhbmQgdGhlIE5ldyBNdXRhbnRzIOKAlCBwbHVzIE1h
-        cnZlbOKAmXMgZmlyc3Qg4oCcZXZlbnTigJ0gbWluaXNlcmllcyEgQ29sbGVj
-        dGluZyBtYXRlcmlhbCBmcm9tIEhVTEsgKDE5NzgpICMyMSwgTUFSVkVMIFNQ
-        T1RMSUdIVCAoMTk3OSkgIzksIERBWlpMRVIgIzEsIG1hdGVyaWFsIGZyb20g
-        S0EtWkFSIFRIRSBTQVZBR0UgIzExLCBNQVJWRUwgU1VQRVIgSEVSTyBDT05U
-        RVNUIE9GIENIQU1QSU9OUyAjMSwgSEVSQ1VMRVMgKDE5ODIpICMxLCBXT0xW
-        RVJJTkUgKDE5ODIpICMxLCBWSVNJT04gQU5EIFRIRSBTQ0FSTEVUIFdJVENI
-        ICgxOTgyKSAjMSwgTUFSVkVMIEdSQVBISUMgTk9WRUwgIzQsIFNBR0EgT0Yg
-        Q1JZU1RBUjogQ1JZU1RBTCBXQVJSSU9SICMxLCBBTFBIQSBGTElHSFQgKDE5
-        ODMpICMxLCBIQVdLRVlFICgxOTgzKSAjMSwgQ0xPQUsgQU5EIERBR0dFUiAo
-        MTk4MykgIzEsIEZBTENPTiAjMSwgTUFHSUsgKDE5ODMpICMxLCBKQUNLIE9G
-        IEhFQVJUUyAjMSBhbmQgUE9XRVIgUEFDSyAoMTk4NCkgIzEuIiwibW9kaWZp
-        ZWQiOiIyMDEzLTExLTA0VDE2OjAyOjQxLTA1MDAiLCJpc2JuIjoiOTc4LTAt
-        Nzg1MS04NTQ1LTEiLCJ1cGMiOiIiLCJkaWFtb25kQ29kZSI6IkFVRzEzMDg5
-        NCIsImVhbiI6Ijk3ODA3ODUgMTg1NDUxIDUzOTk5IiwiaXNzbiI6IiIsImZv
-        cm1hdCI6IlRyYWRlIFBhcGVyYmFjayIsInBhZ2VDb3VudCI6NDcyLCJ0ZXh0
-        T2JqZWN0cyI6W3sidHlwZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIsImxhbmd1
-        YWdlIjoiZW4tdXMiLCJ0ZXh0IjoiUm9sbCB1cCB5b3VyIGphY2tldCBzbGVl
-        dmVzLCBhbmQgZHVzdCBvZmYgeW91ciBSdWJpa+KAmXMgQ3ViZSBhcyBNYXJ2
-        ZWwgaGVhZHMgYmFjayB0byB0aGUgZWlnaHRpZXMhIEZyb20gQWxwaGEgRmxp
-        Z2h0IHRvIFphYnUsIGhlcm9lcyBvbGQgYW5kIG5ldyBncmFiIHRoZSBzcG90
-        bGlnaHQgaW4gdGhlaXIgb3duIHRpdGxlcyBpbiB0aGlzIGZpcnN0IGNsYXNz
-        aWMgY29sbGVjdGlvbiBvZiB0aGUgZGVjYWRl4oCZcyBtb3N0IGRhenpsaW5n
-        IGRlYnV0cyEgQWxsIHlvdXIgZmF2b3JpdGVzIGFyZSBoZXJlIOKAlCBpbmNs
-        dWRpbmcgRG9taW5pYyBGb3J0dW5lLCBDYXB0YWluIFVuaXZlcnNlIGFuZCB0
-        aGUgTmV3IE11dGFudHMg4oCUIHBsdXMgTWFydmVs4oCZcyBmaXJzdCDigJxl
-        dmVudOKAnSBtaW5pc2VyaWVzISBDb2xsZWN0aW5nIG1hdGVyaWFsIGZyb20g
-        SFVMSyAoMTk3OCkgIzIxLCBNQVJWRUwgU1BPVExJR0hUICgxOTc5KSAjOSwg
-        REFaWkxFUiAjMSwgbWF0ZXJpYWwgZnJvbSBLQS1aQVIgVEhFIFNBVkFHRSAj
-        MTEsIE1BUlZFTCBTVVBFUiBIRVJPIENPTlRFU1QgT0YgQ0hBTVBJT05TICMx
-        LCBIRVJDVUxFUyAoMTk4MikgIzEsIFdPTFZFUklORSAoMTk4MikgIzEsIFZJ
-        U0lPTiBBTkQgVEhFIFNDQVJMRVQgV0lUQ0ggKDE5ODIpICMxLCBNQVJWRUwg
-        R1JBUEhJQyBOT1ZFTCAjNCwgU0FHQSBPRiBDUllTVEFSOiBDUllTVEFMIFdB
-        UlJJT1IgIzEsIEFMUEhBIEZMSUdIVCAoMTk4MykgIzEsIEhBV0tFWUUgKDE5
-        ODMpICMxLCBDTE9BSyBBTkQgREFHR0VSICgxOTgzKSAjMSwgRkFMQ09OICMx
-        LCBNQUdJSyAoMTk4MykgIzEsIEpBQ0sgT0YgSEVBUlRTICMxIGFuZCBQT1dF
-        UiBQQUNLICgxOTg0KSAjMS4ifV0sInJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3OTA0IiwidXJs
-        cyI6W3sidHlwZSI6ImRldGFpbCIsInVybCI6Imh0dHA6Ly9tYXJ2ZWwuY29t
-        L2NvbWljcy9jb2xsZWN0aW9uLzQ3OTA0L21hcnZlbF9maXJzdHNfdGhlXzE5
-        ODBzX3RyYWRlX3BhcGVyYmFjaz91dG1fY2FtcGFpZ249YXBpUmVmJnV0bV9z
-        b3VyY2U9PFBVQkxJQ19LRVk+In1dLCJzZXJpZXMiOnsicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zZXJpZXMv
-        MTgwOTIiLCJuYW1lIjoiTWFydmVsIEZpcnN0czogVGhlIDE5ODBzICgyMDEz
-        KSJ9LCJ2YXJpYW50cyI6W10sImNvbGxlY3Rpb25zIjpbXSwiY29sbGVjdGVk
-        SXNzdWVzIjpbXSwiZGF0ZXMiOlt7InR5cGUiOiJvbnNhbGVEYXRlIiwiZGF0
-        ZSI6IjIwMTMtMTEtMDZUMDA6MDA6MDAtMDUwMCJ9LHsidHlwZSI6ImZvY0Rh
-        dGUiLCJkYXRlIjoiMjAxMy0xMC0yMlQwMDowMDowMC0wNDAwIn1dLCJwcmlj
-        ZXMiOlt7InR5cGUiOiJwcmludFByaWNlIiwicHJpY2UiOjM5Ljk5fV0sInRo
-        dW1ibmFpbCI6eyJwYXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2Qv
-        bWFydmVsL2kvbWcvNi84MC81Mjc4MDdlZGIxOGE1IiwiZXh0ZW5zaW9uIjoi
-        anBnIn0sImltYWdlcyI6W3sicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMv
-        dS9wcm9kL21hcnZlbC9pL21nLzYvODAvNTI3ODA3ZWRiMThhNSIsImV4dGVu
-        c2lvbiI6ImpwZyJ9XSwiY3JlYXRvcnMiOnsiYXZhaWxhYmxlIjoyMywiY29s
-        bGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzkwNC9jcmVhdG9ycyIsIml0ZW1zIjpbeyJyZXNvdXJj
-        ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Ny
-        ZWF0b3JzLzExNDAxIiwibmFtZSI6InZhcmlvdXMiLCJyb2xlIjoicGVuY2ls
-        bGVyIChjb3ZlcikifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTI3NyIsIm5hbWUiOiJC
-        cmV0IEJsZXZpbnMiLCJyb2xlIjoiYXJ0aXN0In0seyJyZXNvdXJjZVVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3Jz
-        LzEyOTgiLCJuYW1lIjoiSnVuZSBCcmlnbWFuIiwicm9sZSI6ImFydGlzdCJ9
-        LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3Yx
-        L3B1YmxpYy9jcmVhdG9ycy8xNjEyIiwibmFtZSI6IkpvaG4gQnVzY2VtYSIs
-        InJvbGUiOiJhcnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvODA4IiwibmFtZSI6
-        Ikhvd2FyZCBDaGF5a2luIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VV
-        UkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVh
-        dG9ycy8zMiIsIm5hbWUiOiJTdGV2ZSBEaXRrbyIsInJvbGUiOiJhcnRpc3Qi
-        fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY3JlYXRvcnMvNTgxNiIsIm5hbWUiOiJHZW9yZ2UgRnJlZW1h
-        biIsInJvbGUiOiJhcnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTQ4IiwibmFt
-        ZSI6IkdpbCBLYW5lIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9y
-        cy8xMjUyIiwibmFtZSI6IlJpY2sgTGVvbmFyZGkiLCJyb2xlIjoiYXJ0aXN0
-        In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NyZWF0b3JzLzgxMjUiLCJuYW1lIjoiQm9iIE1jTGVvZCIs
-        InJvbGUiOiJhcnRpc3QifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvMTciLCJuYW1lIjoi
-        RnJhbmsgTWlsbGVyIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9y
-        cy8xODI3IiwibmFtZSI6IkpvaG4gQnlybmUiLCJyb2xlIjoid3JpdGVyIn0s
-        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL2NyZWF0b3JzLzQ0IiwibmFtZSI6IkNocmlzIENsYXJlbW9udCIs
-        InJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvOTU2NSIsIm5hbWUi
-        OiJUb20gRGVGYWxjbyIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRv
-        cnMvMTI5NyIsIm5hbWUiOiJKbyBEdWZmeSIsInJvbGUiOiJ3cml0ZXIifSx7
-        InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9w
-        dWJsaWMvY3JlYXRvcnMvMTI5MyIsIm5hbWUiOiJTdGV2ZW4gR3JhbnQiLCJy
-        b2xlIjoid3JpdGVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzI1OSIsIm5hbWUiOiJN
-        YXJrIEdydWVud2FsZCIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRv
-        cnMvNTIiLCJuYW1lIjoiQnJ1Y2UgSm9uZXMiLCJyb2xlIjoid3JpdGVyIn0s
-        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL2NyZWF0b3JzLzEyNDciLCJuYW1lIjoiQm9iIExheXRvbiIsInJv
-        bGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMvOTY2IiwibmFtZSI6IkJp
-        bGwgTWFudGxvIiwicm9sZSI6IndyaXRlciJ9XSwicmV0dXJuZWQiOjIwfSwi
-        Y2hhcmFjdGVycyI6eyJhdmFpbGFibGUiOjAsImNvbGxlY3Rpb25VUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc5
-        MDQvY2hhcmFjdGVycyIsIml0ZW1zIjpbXSwicmV0dXJuZWQiOjB9LCJzdG9y
-        aWVzIjp7ImF2YWlsYWJsZSI6MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzkwNC9zdG9y
-        aWVzIiwiaXRlbXMiOlt7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvc3Rvcmllcy8xMDgwNTUiLCJuYW1lIjoi
-        Y292ZXIgZnJvbSBNYXJ2ZWwgRmlyc3RzOiBUaGUgMTk4MHMgKDIwMTMpIiwi
-        dHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTA4MDU2IiwibmFtZSI6
-        InN0b3J5IGZyb20gTWFydmVsIEZpcnN0czogVGhlIDE5ODBzICgyMDEzKSIs
-        InR5cGUiOiJpbnRlcmlvclN0b3J5In1dLCJyZXR1cm5lZCI6Mn0sImV2ZW50
-        cyI6eyJhdmFpbGFibGUiOjAsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc5MDQvZXZlbnRz
-        IiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH19LHsiaWQiOjQ3NTI5LCJkaWdp
-        dGFsSWQiOjAsInRpdGxlIjoiS2ljay1Bc3MgMyAoMjAxMykgIzQiLCJpc3N1
-        ZU51bWJlciI6NCwidmFyaWFudERlc2NyaXB0aW9uIjoiIiwiZGVzY3JpcHRp
-        b24iOiJEaXNzZW5zaW9uIGluIHRoZSByYW5rcyEgS2ljay1Bc3MgaGFzIGhh
-        ZCBpdCB1cCB0byBIRVJFIHdpdGggdGhlIG5ld2VzdCAoYW5kIGxhemllc3Qp
-        IG1lbWJlciBvZiBKdXN0aWNlIEZvcmV2ZXIuIEJ1dCB3aGVuIGhlIGZpbmFs
-        bHkgdGFrZXMgYSBzdGFuZCZoZWxsaXA7d2lsbCB0aGUgcmVzdCBvZiB0aGUg
-        dGVhbSBiYWNrIGhpbSB1cD8gQWxzbywgdGhlIHN1cGVyLXZpbGxhaW4gZm9y
-        bWVybHkga25vd24gYXMgUmVkIE1pc3QgZmFjZXMgYW4gZWR1Y2F0aW9uIGZy
-        b20gdGhlIG1vc3QgdGVycmlmeWluZyBjcmltZSBib3NzIGluIHRoZSBHZW5v
-        dmVzZSBmYW1pbHkuIiwibW9kaWZpZWQiOiIyMDEzLTEwLTIyVDE2OjUwOjUy
-        LTA0MDAiLCJpc2JuIjoiIiwidXBjIjo3NTk2MDYwNzkzNzcwMDQyMCwiZGlh
-        bW9uZENvZGUiOiJKVUwxMzA2OTMiLCJlYW4iOiIiLCJpc3NuIjoiIiwiZm9y
-        bWF0IjoiQ29taWMiLCJwYWdlQ291bnQiOjMyLCJ0ZXh0T2JqZWN0cyI6W3si
-        dHlwZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIsImxhbmd1YWdlIjoiZW4tdXMi
-        LCJ0ZXh0IjoiRGlzc2Vuc2lvbiBpbiB0aGUgcmFua3MhIEtpY2stQXNzIGhh
-        cyBoYWQgaXQgdXAgdG8gSEVSRSB3aXRoIHRoZSBuZXdlc3QgKGFuZCBsYXpp
-        ZXN0KSBtZW1iZXIgb2YgSnVzdGljZSBGb3JldmVyLiBCdXQgd2hlbiBoZSBm
-        aW5hbGx5IHRha2VzIGEgc3RhbmQmaGVsbGlwO3dpbGwgdGhlIHJlc3Qgb2Yg
-        dGhlIHRlYW0gYmFjayBoaW0gdXA/IEFsc28sIHRoZSBzdXBlci12aWxsYWlu
-        IGZvcm1lcmx5IGtub3duIGFzIFJlZCBNaXN0IGZhY2VzIGFuIGVkdWNhdGlv
-        biBmcm9tIHRoZSBtb3N0IHRlcnJpZnlpbmcgY3JpbWUgYm9zcyBpbiB0aGUg
-        R2Vub3Zlc2UgZmFtaWx5LiJ9XSwicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc1MjkiLCJ1cmxz
-        IjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoiaHR0cDovL21hcnZlbC5jb20v
-        Y29taWNzL2lzc3VlLzQ3NTI5L2tpY2stYXNzXzNfMjAxM180P3V0bV9jYW1w
-        YWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElDX0tFWT4ifV0sInNlcmll
-        cyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL3Nlcmllcy8xNzk0NiIsIm5hbWUiOiJLaWNrLUFzcyAzICgy
-        MDEzIC0gUHJlc2VudCkifSwidmFyaWFudHMiOlt7InJlc291cmNlVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3
-        NjcyIiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMpICM0IChKcmpyIFNrZXRj
-        aCBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJjb2xsZWN0ZWRJc3N1
-        ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURhdGUiLCJkYXRlIjoi
-        MjAxMy0xMC0zMFQwMDowMDowMC0wNDAwIn0seyJ0eXBlIjoiZm9jRGF0ZSIs
-        ImRhdGUiOiIyMDEzLTEwLTE2VDAwOjAwOjAwLTA0MDAifV0sInByaWNlcyI6
-        W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45OX1dLCJ0aHVtYm5h
-        aWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZl
-        bC9pL21nLzIvZTAvNTI2NmU0MTAzZjVhMSIsImV4dGVuc2lvbiI6ImpwZyJ9
-        LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5paGlsLnVzL3UvcHJv
-        ZC9tYXJ2ZWwvaS9tZy8yL2UwLzUyNjZlNDEwM2Y1YTEiLCJleHRlbnNpb24i
-        OiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6MiwiY29sbGVjdGlv
-        blVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Nv
-        bWljcy80NzUyOS9jcmVhdG9ycyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3Jz
-        Lzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFyIiwicm9sZSI6IndyaXRlciJ9LHsi
-        cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
-        YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBSb21pdGEgSlIuIiwi
-        cm9sZSI6InBlbmNpbGxlciAoY292ZXIpIn1dLCJyZXR1cm5lZCI6Mn0sImNo
-        YXJhY3RlcnMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0
-        cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NTI5
-        L2NoYXJhY3RlcnMiLCJpdGVtcyI6W10sInJldHVybmVkIjowfSwic3Rvcmll
-        cyI6eyJhdmFpbGFibGUiOjIsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc1Mjkvc3Rvcmll
-        cyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1h
-        cnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTA3MzQyIiwibmFtZSI6ImNv
-        dmVyIGZyb20gS2ljay1Bc3MgMyAoMjAxMykgIzQiLCJ0eXBlIjoiY292ZXIi
-        fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvc3Rvcmllcy8xMDczNDMiLCJuYW1lIjoic3RvcnkgZnJvbSBL
-        aWNrLUFzcyAzICgyMDEzKSAjNCIsInR5cGUiOiJpbnRlcmlvclN0b3J5In1d
-        LCJyZXR1cm5lZCI6Mn0sImV2ZW50cyI6eyJhdmFpbGFibGUiOjAsImNvbGxl
-        Y3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jb21pY3MvNDc1MjkvZXZlbnRzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6
-        MH19LHsiaWQiOjQ3MzM0LCJkaWdpdGFsSWQiOjAsInRpdGxlIjoiVGhvciBW
-        cy4gVGhhbm9zIChUcmFkZSBQYXBlcmJhY2spIiwiaXNzdWVOdW1iZXIiOjAs
-        InZhcmlhbnREZXNjcmlwdGlvbiI6IiIsImRlc2NyaXB0aW9uIjoiSXQmIzM5
-        O3MgdGhlIEdvZCBvZiBUaHVuZGVyIHZzLiB0aGUgTWFkIFRpdGFuLCBhbmQg
-        dGhlIHN0YWtlcyBhcmUgaGlnaGVyIHRoYW4gZXZlciBhcyB3cml0ZXIgRGFu
-        IEp1cmdlbnMgaW50cm9kdWNlcyBwZXJpbG91cyBuZXcgdGhyZWF0cyB0byBi
-        b3RoIEFzZ2FyZCBhbmQgRWFydGghIFRoYW5vcyBoYXMgZ2F0aGVyZWQgYXJ0
-        aWZhY3RzIHRoYXQgdGhyZWF0ZW4gRWFydGgmIzM5O3MgdmVyeSBleGlzdGVu
-        Y2UsIGFuZCBoZSYjMzk7cyBnb3QgdGhlIGFsbC1wb3dlcmZ1bCBNYW5nb2cg
-        YXQgaGlzIHNpZGUhIEZvciBhbGwgaGlzIGdvZGx5IHN0cmVuZ3RoLCBjYW4g
-        ZXZlbiBUaG9yIHByZXZhaWwgYWdhaW5zdCB0aGUgbWlnaHQgb2YgdHdvIHN1
-        Y2ggcG93ZXJmdWwgY29zbWljIGZpZ3VyZXM/IFBsdXM6IFRob3IsIE9kaW4g
-        YW5kIHRoZSBTY2FybGV0IFdpdGNoIGJhdHRsZSBFbnJha3QgdGhlIEVuY2hh
-        bnRlciBpbiBhbm90aGVyIGRpbWVuc2lvbiwgd2hpbGUgTG9raSBnZXRzIHVw
-        IHRvIG1vcmUgb2YgaGlzIHVzdWFsIG1pc2NoaWVmISBJdCYjMzk7cyBoYW1t
-        ZXItdG9zc2luZywgdGh1bmRlcm91cyBhY3Rpb24ganVzdCB0aGUgd2F5IHlv
-        dSBsaWtlIGl0ISBDb2xsZWN0aW5nIFRIT1IgKDE5OTgpICMxOC0yNSBhbmQg
-        QU5OVUFMIDIwMDAuIiwibW9kaWZpZWQiOiIyMDEzLTEwLTI1VDE1OjAxOjU5
-        LTA0MDAiLCJpc2JuIjoiOTc4LTAtNzg1MS04NDY1LTIiLCJ1cGMiOiIiLCJk
-        aWFtb25kQ29kZSI6IkFVRzEzMDg3NCIsImVhbiI6Ijk3ODA3ODUgMTg0NjUy
-        IDUyNDk5IiwiaXNzbiI6IiIsImZvcm1hdCI6IlRyYWRlIFBhcGVyYmFjayIs
-        InBhZ2VDb3VudCI6MjU2LCJ0ZXh0T2JqZWN0cyI6W3sidHlwZSI6Imlzc3Vl
-        X3NvbGljaXRfdGV4dCIsImxhbmd1YWdlIjoiZW4tdXMiLCJ0ZXh0IjoiSXQm
-        IzM5O3MgdGhlIEdvZCBvZiBUaHVuZGVyIHZzLiB0aGUgTWFkIFRpdGFuLCBh
-        bmQgdGhlIHN0YWtlcyBhcmUgaGlnaGVyIHRoYW4gZXZlciBhcyB3cml0ZXIg
-        RGFuIEp1cmdlbnMgaW50cm9kdWNlcyBwZXJpbG91cyBuZXcgdGhyZWF0cyB0
-        byBib3RoIEFzZ2FyZCBhbmQgRWFydGghIFRoYW5vcyBoYXMgZ2F0aGVyZWQg
-        YXJ0aWZhY3RzIHRoYXQgdGhyZWF0ZW4gRWFydGgmIzM5O3MgdmVyeSBleGlz
-        dGVuY2UsIGFuZCBoZSYjMzk7cyBnb3QgdGhlIGFsbC1wb3dlcmZ1bCBNYW5n
-        b2cgYXQgaGlzIHNpZGUhIEZvciBhbGwgaGlzIGdvZGx5IHN0cmVuZ3RoLCBj
-        YW4gZXZlbiBUaG9yIHByZXZhaWwgYWdhaW5zdCB0aGUgbWlnaHQgb2YgdHdv
-        IHN1Y2ggcG93ZXJmdWwgY29zbWljIGZpZ3VyZXM/IFBsdXM6IFRob3IsIE9k
-        aW4gYW5kIHRoZSBTY2FybGV0IFdpdGNoIGJhdHRsZSBFbnJha3QgdGhlIEVu
-        Y2hhbnRlciBpbiBhbm90aGVyIGRpbWVuc2lvbiwgd2hpbGUgTG9raSBnZXRz
-        IHVwIHRvIG1vcmUgb2YgaGlzIHVzdWFsIG1pc2NoaWVmISBJdCYjMzk7cyBo
-        YW1tZXItdG9zc2luZywgdGh1bmRlcm91cyBhY3Rpb24ganVzdCB0aGUgd2F5
-        IHlvdSBsaWtlIGl0ISBDb2xsZWN0aW5nIFRIT1IgKDE5OTgpICMxOC0yNSBh
-        bmQgQU5OVUFMIDIwMDAuIn1dLCJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzMzNCIsInVybHMi
-        Olt7InR5cGUiOiJkZXRhaWwiLCJ1cmwiOiJodHRwOi8vbWFydmVsLmNvbS9j
-        b21pY3MvY29sbGVjdGlvbi80NzMzNC90aG9yX3ZzX3RoYW5vc190cmFkZV9w
-        YXBlcmJhY2s/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJM
-        SUNfS0VZPiJ9XSwic2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc2VyaWVzLzE3ODgwIiwibmFt
-        ZSI6IlRob3IgVnMuIFRoYW5vcyAoMjAxMykifSwidmFyaWFudHMiOltdLCJj
-        b2xsZWN0aW9ucyI6W10sImNvbGxlY3RlZElzc3VlcyI6W10sImRhdGVzIjpb
-        eyJ0eXBlIjoib25zYWxlRGF0ZSIsImRhdGUiOiIyMDEzLTEwLTMwVDAwOjAw
-        OjAwLTA0MDAifSx7InR5cGUiOiJmb2NEYXRlIiwiZGF0ZSI6IjIwMTMtMTAt
-        MTVUMDA6MDA6MDAtMDQwMCJ9XSwicHJpY2VzIjpbeyJ0eXBlIjoicHJpbnRQ
-        cmljZSIsInByaWNlIjoyNC45OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0
-        dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzYvYjAvNTI2
-        OTg4YmJiMDM2ZSIsImV4dGVuc2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBh
-        dGgiOiJodHRwOi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy82
-        L2IwLzUyNjk4OGJiYjAzNmUiLCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0
-        b3JzIjp7ImF2YWlsYWJsZSI6NSwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzMzNC9jcmVh
-        dG9ycyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzE1NSIsIm5hbWUiOiJE
-        YW4gSnVyZ2VucyIsInJvbGUiOiJ3cml0ZXIifSx7InJlc291cmNlVVJJIjoi
-        aHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRvcnMv
-        Mzk5NiIsIm5hbWUiOiJKb3NlIExhZHJvbm4iLCJyb2xlIjoiYXJ0aXN0In0s
-        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL2NyZWF0b3JzLzEyMzIiLCJuYW1lIjoiSmVycnkgT3Jkd2F5Iiwi
-        cm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdh
-        eS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy80MzQiLCJuYW1lIjoi
-        TWljaGFlbCBSeWFuIiwicm9sZSI6ImFydGlzdCJ9LHsicmVzb3VyY2VVUkki
-        OiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9y
-        cy8yMTQiLCJuYW1lIjoiSm9obiBSb21pdGEgSlIuIiwicm9sZSI6InBlbmNp
-        bGxlciAoY292ZXIpIn1dLCJyZXR1cm5lZCI6NX0sImNoYXJhY3RlcnMiOnsi
-        YXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3MzM0L2NoYXJhY3RlcnMi
-        LCJpdGVtcyI6W10sInJldHVybmVkIjowfSwic3RvcmllcyI6eyJhdmFpbGFi
-        bGUiOjIsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwu
-        Y29tL3YxL3B1YmxpYy9jb21pY3MvNDczMzQvc3RvcmllcyIsIml0ZW1zIjpb
-        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL3N0b3JpZXMvMTA2OTczIiwibmFtZSI6ImNvdmVyIGZyb20gVGhv
-        ciBWcy4gVGhhbm9zICgyMDEzKSIsInR5cGUiOiJjb3ZlciJ9LHsicmVzb3Vy
-        Y2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9z
-        dG9yaWVzLzEwNjk3NCIsIm5hbWUiOiJzdG9yeSBmcm9tIFRob3IgVnMuIFRo
-        YW5vcyAoMjAxMykiLCJ0eXBlIjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJu
-        ZWQiOjJ9LCJldmVudHMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzQ3MzM0L2V2ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7Imlk
-        Ijo0NzY3MiwiZGlnaXRhbElkIjowLCJ0aXRsZSI6IktpY2stQXNzIDMgKDIw
-        MTMpICM0IChKcmpyIFNrZXRjaCBWYXJpYW50KSIsImlzc3VlTnVtYmVyIjo0
-        LCJ2YXJpYW50RGVzY3JpcHRpb24iOiJKcmpyIFNrZXRjaCBWYXJpYW50Iiwi
-        ZGVzY3JpcHRpb24iOiJEaXNzZW5zaW9uIGluIHRoZSByYW5rcyEgS2ljay1B
-        c3MgaGFzIGhhZCBpdCB1cCB0byBIRVJFIHdpdGggdGhlIG5ld2VzdCAoYW5k
-        IGxhemllc3QpIG1lbWJlciBvZiBKdXN0aWNlIEZvcmV2ZXIuIEJ1dCB3aGVu
-        IGhlIGZpbmFsbHkgdGFrZXMgYSBzdGFuZCZoZWxsaXA7d2lsbCB0aGUgcmVz
-        dCBvZiB0aGUgdGVhbSBiYWNrIGhpbSB1cD8gQWxzbywgdGhlIHN1cGVyLXZp
-        bGxhaW4gZm9ybWVybHkga25vd24gYXMgUmVkIE1pc3QgZmFjZXMgYW4gZWR1
-        Y2F0aW9uIGZyb20gdGhlIG1vc3QgdGVycmlmeWluZyBjcmltZSBib3NzIGlu
-        IHRoZSBHZW5vdmVzZSBmYW1pbHkuIiwibW9kaWZpZWQiOiIyMDEzLTEwLTIy
-        VDE2OjU3OjM2LTA0MDAiLCJpc2JuIjoiIiwidXBjIjo3NTk2MDYwNzkzNzcw
-        MDQyMCwiZGlhbW9uZENvZGUiOiJKVUwxMzA2OTQiLCJlYW4iOiIiLCJpc3Nu
-        IjoiIiwiZm9ybWF0IjoiQ29taWMiLCJwYWdlQ291bnQiOjMyLCJ0ZXh0T2Jq
-        ZWN0cyI6W3sidHlwZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIsImxhbmd1YWdl
-        IjoiZW4tdXMiLCJ0ZXh0IjoiRGlzc2Vuc2lvbiBpbiB0aGUgcmFua3MhIEtp
-        Y2stQXNzIGhhcyBoYWQgaXQgdXAgdG8gSEVSRSB3aXRoIHRoZSBuZXdlc3Qg
-        KGFuZCBsYXppZXN0KSBtZW1iZXIgb2YgSnVzdGljZSBGb3JldmVyLiBCdXQg
-        d2hlbiBoZSBmaW5hbGx5IHRha2VzIGEgc3RhbmQmaGVsbGlwO3dpbGwgdGhl
-        IHJlc3Qgb2YgdGhlIHRlYW0gYmFjayBoaW0gdXA/IEFsc28sIHRoZSBzdXBl
-        ci12aWxsYWluIGZvcm1lcmx5IGtub3duIGFzIFJlZCBNaXN0IGZhY2VzIGFu
-        IGVkdWNhdGlvbiBmcm9tIHRoZSBtb3N0IHRlcnJpZnlpbmcgY3JpbWUgYm9z
-        cyBpbiB0aGUgR2Vub3Zlc2UgZmFtaWx5LiJ9XSwicmVzb3VyY2VVUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc2
-        NzIiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoiaHR0cDovL21h
-        cnZlbC5jb20vY29taWNzL2lzc3VlLzQ3NjcyL2tpY2stYXNzXzNfMjAxM180
-        X2pyanJfc2tldGNoX3ZhcmlhbnQvanJqcl9za2V0Y2hfdmFyaWFudD91dG1f
-        Y2FtcGFpZ249YXBpUmVmJnV0bV9zb3VyY2U9PFBVQkxJQ19LRVk+In1dLCJz
-        ZXJpZXMiOnsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwu
-        Y29tL3YxL3B1YmxpYy9zZXJpZXMvMTc5NDYiLCJuYW1lIjoiS2ljay1Bc3Mg
-        MyAoMjAxMyAtIFByZXNlbnQpIn0sInZhcmlhbnRzIjpbeyJyZXNvdXJjZVVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWlj
-        cy80NzUyOSIsIm5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAjNCJ9XSwiY29s
-        bGVjdGlvbnMiOltdLCJjb2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3si
-        dHlwZSI6Im9uc2FsZURhdGUiLCJkYXRlIjoiMjAxMy0xMC0zMFQwMDowMDow
-        MC0wNDAwIn0seyJ0eXBlIjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTEwLTE2
-        VDAwOjAwOjAwLTA0MDAifV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJp
-        Y2UiLCJwcmljZSI6Mi45OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6
-        Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzMvYTAvNTI2NmU1
-        YTI0ZTQ5MyIsImV4dGVuc2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgi
-        OiJodHRwOi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy8zL2Ew
-        LzUyNjZlNWEyNGU0OTMiLCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3Jz
-        Ijp7ImF2YWlsYWJsZSI6MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3Mi9jcmVhdG9y
-        cyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1h
-        cnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsg
-        TWlsbGFyIiwicm9sZSI6IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRw
-        Oi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQi
-        LCJuYW1lIjoiSm9obiBSb21pdGEgSlIuIiwicm9sZSI6ImFydGlzdCJ9XSwi
-        cmV0dXJuZWQiOjJ9LCJjaGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29s
-        bGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzY3Mi9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1
-        cm5lZCI6MH0sInN0b3JpZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9u
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29t
-        aWNzLzQ3NjcyL3N0b3JpZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJo
-        dHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEw
-        NzYyNCIsIm5hbWUiOiJjb3ZlciBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICM0
-        IChKUkpSIFNLRVRDSCBWQVJJQU5UKSIsInR5cGUiOiJjb3ZlciJ9LHsicmVz
-        b3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9zdG9yaWVzLzEwNzYyNSIsIm5hbWUiOiJzdG9yeSBmcm9tIEtpY2stQXNz
-        IDMgKDIwMTMpICM0IChKUkpSIFNLRVRDSCBWQVJJQU5UKSIsInR5cGUiOiJp
-        bnRlcmlvclN0b3J5In1dLCJyZXR1cm5lZCI6Mn0sImV2ZW50cyI6eyJhdmFp
-        bGFibGUiOjAsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc2NzIvZXZlbnRzIiwiaXRlbXMi
-        OltdLCJyZXR1cm5lZCI6MH19LHsiaWQiOjQ5OTgyLCJkaWdpdGFsSWQiOjAs
-        InRpdGxlIjoiVGhvcjogQ3Jvd24gb2YgRm9vbHMgKDIwMTMpICMxIiwiaXNz
-        dWVOdW1iZXIiOjEsInZhcmlhbnREZXNjcmlwdGlvbiI6IiIsImRlc2NyaXB0
-        aW9uIjoi4oCiIEpvaW4gVGhvciwgU2lmLCB0aGUgV2FycmlvcnMgVGhyZWUg
-        4oCTIGFuZCBldmVuIHRoYXQgc25lYWt5IHRyaWNrc3RlciBMb2tpIOKAkyBv
-        biBhbiBhbGwtbmV3LCBhbGwtQXNnYXJkaWFuIGFkdmVudHVyZSFcbuKAoiBX
-        aGF0IGRlZXAtYnVyaWVkIHNlY3JldHMgd2lsbCB0aGUgQ3Jvd24gb2YgRm9v
-        bHMgcmV2ZWFsIGFib3V0IFRob3LigJlzIGFsbGllc+KAlGFuZCBjYW4gdGhl
-        IGdvZCBvZiB0aHVuZGVyIHJlc2lzdCBoaXMgb3duIHRlbXB0YXRpb25zIHRv
-        IGZyZWUgaGlzIGZyaWVuZHM/XG7igKJQbHVzOiBBbHNvIHJlcHJpbnRpbmcg
-        dGhlIGZpcnN0IGFwcGVhcmFuY2Ugb2YgTWFsZWtpdGggdGhlIEFjY3Vyc2Vk
-        IVxuIiwibW9kaWZpZWQiOiIyMDEzLTEwLTMwVDE1OjAwOjA1LTA0MDAiLCJp
-        c2JuIjoiIiwidXBjIjo3NTk2MDYwNzk2NTEwMDAwMDAsImRpYW1vbmRDb2Rl
-        IjoiQVVHMTM4MTkwIiwiZWFuIjoiIiwiaXNzbiI6IiIsImZvcm1hdCI6IkNv
-        bWljIiwicGFnZUNvdW50Ijo0OCwidGV4dE9iamVjdHMiOlt7InR5cGUiOiJp
-        c3N1ZV9zb2xpY2l0X3RleHQiLCJsYW5ndWFnZSI6ImVuLXVzIiwidGV4dCI6
-        IsOi4oKswqIgSm9pbiBUaG9yLCBTaWYsIHRoZSBXYXJyaW9ycyBUaHJlZSDD
-        ouKCrOKAnCBhbmQgZXZlbiB0aGF0IHNuZWFreSB0cmlja3N0ZXIgTG9raSDD
-        ouKCrOKAnCBvbiBhbiBhbGwtbmV3LCBhbGwtQXNnYXJkaWFuIGFkdmVudHVy
-        ZSFcbsOi4oKswqIgV2hhdCBkZWVwLWJ1cmllZCBzZWNyZXRzIHdpbGwgdGhl
-        IENyb3duIG9mIEZvb2xzIHJldmVhbCBhYm91dCBUaG9yw6LigqzihKJzIGFs
-        bGllc8Oi4oKs4oCdYW5kIGNhbiB0aGUgZ29kIG9mIHRodW5kZXIgcmVzaXN0
-        IGhpcyBvd24gdGVtcHRhdGlvbnMgdG8gZnJlZSBoaXMgZnJpZW5kcz9cbsOi
-        4oKswqJQbHVzOiBBbHNvIHJlcHJpbnRpbmcgdGhlIGZpcnN0IGFwcGVhcmFu
-        Y2Ugb2YgTWFsZWtpdGggdGhlIEFjY3Vyc2VkIVxuIn1dLCJyZXNvdXJjZVVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWlj
-        cy80OTk4MiIsInVybHMiOlt7InR5cGUiOiJkZXRhaWwiLCJ1cmwiOiJodHRw
-        Oi8vbWFydmVsLmNvbS9jb21pY3MvaXNzdWUvNDk5ODIvdGhvcl9jcm93bl9v
-        Zl9mb29sc18yMDEzXzE/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNl
-        PTxQVUJMSUNfS0VZPiJ9LHsidHlwZSI6InB1cmNoYXNlIiwidXJsIjoiaHR0
-        cDovL2NvbWljc3RvcmUubWFydmVsLmNvbS9UaG9yLUNyb3duLW9mLUZvb2xz
-        LTEvZGlnaXRhbC1jb21pYy8zMjE4Mz91dG1fY2FtcGFpZ249YXBpUmVmJnV0
-        bV9zb3VyY2U9PFBVQkxJQ19LRVk+In1dLCJzZXJpZXMiOnsicmVzb3VyY2VV
-        UkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zZXJp
-        ZXMvMTg3ODEiLCJuYW1lIjoiVGhvcjogQ3Jvd24gb2YgRm9vbHMgKDIwMTMg
-        LSBQcmVzZW50KSJ9LCJ2YXJpYW50cyI6W10sImNvbGxlY3Rpb25zIjpbXSwi
-        Y29sbGVjdGVkSXNzdWVzIjpbXSwiZGF0ZXMiOlt7InR5cGUiOiJvbnNhbGVE
-        YXRlIiwiZGF0ZSI6IjIwMTMtMTAtMzBUMDA6MDA6MDAtMDQwMCJ9LHsidHlw
-        ZSI6ImZvY0RhdGUiLCJkYXRlIjoiMjAxMy0xMC0xNlQwMDowMDowMC0wNDAw
-        In1dLCJwcmljZXMiOlt7InR5cGUiOiJwcmludFByaWNlIiwicHJpY2UiOjMu
-        OTl9XSwidGh1bWJuYWlsIjp7InBhdGgiOiJodHRwOi8vaS5hbm5paGlsLnVz
-        L3UvcHJvZC9tYXJ2ZWwvaS9tZy82L2IwLzUyNjk2NjFjN2FkM2UiLCJleHRl
-        bnNpb24iOiJqcGcifSwiaW1hZ2VzIjpbeyJwYXRoIjoiaHR0cDovL2kuYW5u
-        aWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcvNi9iMC81MjY5NjYxYzdhZDNl
-        IiwiZXh0ZW5zaW9uIjoianBnIn1dLCJjcmVhdG9ycyI6eyJhdmFpbGFibGUi
-        OjMsImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9jb21pY3MvNDk5ODIvY3JlYXRvcnMiLCJpdGVtcyI6W3si
-        cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
-        YmxpYy9jcmVhdG9ycy84MTc0IiwibmFtZSI6IkJyeWFuIEouTC4gR2xhc3Mi
-        LCJyb2xlIjoid3JpdGVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzIxNCIsIm5hbWUi
-        OiJKb2huIFJvbWl0YSBKUi4iLCJyb2xlIjoicGVuY2lsbGVyIChjb3Zlciki
-        fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY3JlYXRvcnMvNDc0IiwibmFtZSI6IkFuZHJlYSBEaSBWaXRv
-        Iiwicm9sZSI6ImFydGlzdCJ9XSwicmV0dXJuZWQiOjN9LCJjaGFyYWN0ZXJz
-        Ijp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80OTk4Mi9jaGFyYWN0
-        ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMiOnsiYXZh
-        aWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ5OTgyL3N0b3JpZXMiLCJpdGVt
-        cyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9zdG9yaWVzLzExMjAwOCIsIm5hbWUiOiJjb3ZlciBmcm9t
-        IFRob3I6IENyb3duIG9mIEZvb2xzICgyMDEzKSAjMSAoSlJKUiBFTCBDQVBJ
-        VEFOIFZBUklBTlQpIiwidHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMv
-        MTEyMDA5IiwibmFtZSI6InN0b3J5IGZyb20gVGhvcjogQ3Jvd24gb2YgRm9v
-        bHMgKDIwMTMpICMxIChKUkpSIEVMIENBUElUQU4gVkFSSUFOVCkiLCJ0eXBl
-        IjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJuZWQiOjJ9LCJldmVudHMiOnsi
-        YXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ5OTgyL2V2ZW50cyIsIml0
-        ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7ImlkIjo0NzY3MSwiZGlnaXRhbElk
-        IjowLCJ0aXRsZSI6IktpY2stQXNzIDMgKDIwMTMpICMzIChKcmpyIFNrZXRj
-        aCBWYXJpYW50KSIsImlzc3VlTnVtYmVyIjozLCJ2YXJpYW50RGVzY3JpcHRp
-        b24iOiJKcmpyIFNrZXRjaCBWYXJpYW50IiwiZGVzY3JpcHRpb24iOm51bGws
-        Im1vZGlmaWVkIjoiMjAxMy0wOS0wNlQxMzoxMjowNi0wNDAwIiwiaXNibiI6
-        IiIsInVwYyI6NzU5NjA2MDc5Mzc3MDAzMjAsImRpYW1vbmRDb2RlIjoiTUFZ
-        MTMwNzA5IiwiZWFuIjoiIiwiaXNzbiI6IiIsImZvcm1hdCI6IkNvbWljIiwi
-        cGFnZUNvdW50IjozMiwidGV4dE9iamVjdHMiOltdLCJyZXNvdXJjZVVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80
-        NzY3MSIsInVybHMiOlt7InR5cGUiOiJkZXRhaWwiLCJ1cmwiOiJodHRwOi8v
-        bWFydmVsLmNvbS9jb21pY3MvaXNzdWUvNDc2NzEva2ljay1hc3NfM18yMDEz
-        XzNfanJqcl9za2V0Y2hfdmFyaWFudC9qcmpyX3NrZXRjaF92YXJpYW50P3V0
-        bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElDX0tFWT4ifV0s
-        InNlcmllcyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL3Nlcmllcy8xNzk0NiIsIm5hbWUiOiJLaWNrLUFz
-        cyAzICgyMDEzIC0gUHJlc2VudCkifSwidmFyaWFudHMiOlt7InJlc291cmNl
-        VVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29t
-        aWNzLzQ3NTI4IiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMpICMzIn0seyJy
-        ZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80OTAwMSIsIm5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAj
-        MyAoTWFjayBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJjb2xsZWN0
-        ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURhdGUiLCJk
-        YXRlIjoiMjAxMy0wOS0xMVQwMDowMDowMC0wNDAwIn0seyJ0eXBlIjoiZm9j
-        RGF0ZSIsImRhdGUiOiIyMDEzLTA4LTI4VDAwOjAwOjAwLTA0MDAifV0sInBy
-        aWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45OX1dLCJ0
-        aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9wcm9k
-        L21hcnZlbC9pL21nL2IvMTAvNTIyYTBiZTIwYWUxZiIsImV4dGVuc2lvbiI6
-        ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5paGlsLnVz
-        L3UvcHJvZC9tYXJ2ZWwvaS9tZy9iLzEwLzUyMmEwYmUyMGFlMWYiLCJleHRl
-        bnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6MiwiY29s
-        bGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzY3MS9jcmVhdG9ycyIsIml0ZW1zIjpbeyJyZXNvdXJj
-        ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Ny
-        ZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFyIiwicm9sZSI6IndyaXRl
-        ciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBSb21pdGEg
-        SlIuIiwicm9sZSI6ImFydGlzdCJ9XSwicmV0dXJuZWQiOjJ9LCJjaGFyYWN0
-        ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3MS9jaGFy
-        YWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3JpZXMiOnsi
-        YXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NjcxL3N0b3JpZXMiLCJp
-        dGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwu
-        Y29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzYyMiIsIm5hbWUiOiJjb3ZlciBm
-        cm9tIEtpY2stQXNzIDMgKDIwMTMpICMzIChKUkpSIFNLRVRDSCBWQVJJQU5U
-        KSIsInR5cGUiOiJjb3ZlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzYyMyIsIm5h
-        bWUiOiJzdG9yeSBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICMzIChKUkpSIFNL
-        RVRDSCBWQVJJQU5UKSIsInR5cGUiOiJpbnRlcmlvclN0b3J5In1dLCJyZXR1
-        cm5lZCI6Mn0sImV2ZW50cyI6eyJhdmFpbGFibGUiOjAsImNvbGxlY3Rpb25V
-        UkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21p
-        Y3MvNDc2NzEvZXZlbnRzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH19LHsi
-        aWQiOjQ3NTI4LCJkaWdpdGFsSWQiOjAsInRpdGxlIjoiS2ljay1Bc3MgMyAo
-        MjAxMykgIzMiLCJpc3N1ZU51bWJlciI6MywidmFyaWFudERlc2NyaXB0aW9u
-        IjoiIiwiZGVzY3JpcHRpb24iOm51bGwsIm1vZGlmaWVkIjoiMjAxMy0wOS0w
-        NlQxMzowNTowNS0wNDAwIiwiaXNibiI6IiIsInVwYyI6NzU5NjA2MDc5Mzc3
-        MDAzMDAsImRpYW1vbmRDb2RlIjoiTUFZMTMwNzA4IiwiZWFuIjoiIiwiaXNz
-        biI6IiIsImZvcm1hdCI6IkNvbWljIiwicGFnZUNvdW50IjozMiwidGV4dE9i
-        amVjdHMiOltdLCJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NvbWljcy80NzUyOCIsInVybHMiOlt7InR5cGUi
-        OiJkZXRhaWwiLCJ1cmwiOiJodHRwOi8vbWFydmVsLmNvbS9jb21pY3MvaXNz
-        dWUvNDc1Mjgva2ljay1hc3NfM18yMDEzXzM/dXRtX2NhbXBhaWduPWFwaVJl
-        ZiZ1dG1fc291cmNlPTxQVUJMSUNfS0VZPiJ9XSwic2VyaWVzIjp7InJlc291
-        cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMv
-        c2VyaWVzLzE3OTQ2IiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMgLSBQcmVz
-        ZW50KSJ9LCJ2YXJpYW50cyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvNDc2NzEiLCJuYW1l
-        IjoiS2ljay1Bc3MgMyAoMjAxMykgIzMgKEpyanIgU2tldGNoIFZhcmlhbnQp
-        In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NvbWljcy80OTAwMSIsIm5hbWUiOiJLaWNrLUFzcyAzICgy
-        MDEzKSAjMyAoTWFjayBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJj
-        b2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURh
-        dGUiLCJkYXRlIjoiMjAxMy0wOS0xMVQwMDowMDowMC0wNDAwIn0seyJ0eXBl
-        IjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTA4LTI4VDAwOjAwOjAwLTA0MDAi
-        fV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45
-        OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMv
-        dS9wcm9kL21hcnZlbC9pL21nLzcvMDAvNTIyYTA5ZjhkYTg5OCIsImV4dGVu
-        c2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5p
-        aGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy83LzAwLzUyMmEwOWY4ZGE4OTgi
-        LCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6
-        MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NvbWljcy80NzUyOC9jcmVhdG9ycyIsIml0ZW1zIjpbeyJy
-        ZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFyIiwicm9sZSI6
-        IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBS
-        b21pdGEgSlIuIiwicm9sZSI6ImFydGlzdCJ9XSwicmV0dXJuZWQiOjJ9LCJj
-        aGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzUy
-        OC9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3Jp
-        ZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NTI4L3N0b3Jp
-        ZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5t
-        YXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzM0MCIsIm5hbWUiOiJj
-        b3ZlciBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICMzIiwidHlwZSI6ImNvdmVy
-        In0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL3N0b3JpZXMvMTA3MzQxIiwibmFtZSI6InN0b3J5IGZyb20g
-        S2ljay1Bc3MgMyAoMjAxMykgIzMiLCJ0eXBlIjoiaW50ZXJpb3JTdG9yeSJ9
-        XSwicmV0dXJuZWQiOjJ9LCJldmVudHMiOnsiYXZhaWxhYmxlIjowLCJjb2xs
-        ZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
-        aWMvY29taWNzLzQ3NTI4L2V2ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJuZWQi
-        OjB9fSx7ImlkIjo0OTAwMSwiZGlnaXRhbElkIjowLCJ0aXRsZSI6IktpY2st
-        QXNzIDMgKDIwMTMpICMzIChNYWNrIFZhcmlhbnQpIiwiaXNzdWVOdW1iZXIi
-        OjMsInZhcmlhbnREZXNjcmlwdGlvbiI6Ik1hY2sgVmFyaWFudCIsImRlc2Ny
-        aXB0aW9uIjpudWxsLCJtb2RpZmllZCI6IjIwMTMtMDktMDZUMTM6MjI6MDgt
-        MDQwMCIsImlzYm4iOiIiLCJ1cGMiOjc1OTYwNjA3OTM3NzAwMzQwLCJkaWFt
-        b25kQ29kZSI6Ik1BWTEzODAxOSIsImVhbiI6IiIsImlzc24iOiIiLCJmb3Jt
-        YXQiOiJDb21pYyIsInBhZ2VDb3VudCI6MzIsInRleHRPYmplY3RzIjpbXSwi
-        cmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
-        YmxpYy9jb21pY3MvNDkwMDEiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwi
-        dXJsIjoiaHR0cDovL21hcnZlbC5jb20vY29taWNzL2lzc3VlLzQ5MDAxL2tp
-        Y2stYXNzXzNfMjAxM18zX21hY2tfdmFyaWFudC9tYWNrX3ZhcmlhbnQ/dXRt
-        X2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJMSUNfS0VZPiJ9XSwi
-        c2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvc2VyaWVzLzE3OTQ2IiwibmFtZSI6IktpY2stQXNz
-        IDMgKDIwMTMgLSBQcmVzZW50KSJ9LCJ2YXJpYW50cyI6W3sicmVzb3VyY2VV
-        UkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21p
-        Y3MvNDc1MjgiLCJuYW1lIjoiS2ljay1Bc3MgMyAoMjAxMykgIzMifSx7InJl
-        c291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
-        aWMvY29taWNzLzQ3NjcxIiwibmFtZSI6IktpY2stQXNzIDMgKDIwMTMpICMz
-        IChKcmpyIFNrZXRjaCBWYXJpYW50KSJ9XSwiY29sbGVjdGlvbnMiOltdLCJj
-        b2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6Im9uc2FsZURh
-        dGUiLCJkYXRlIjoiMjAxMy0wOS0xMVQwMDowMDowMC0wNDAwIn0seyJ0eXBl
-        IjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTA4LTI4VDAwOjAwOjAwLTA0MDAi
-        fV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJwcmljZSI6Mi45
-        OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMv
-        dS9wcm9kL21hcnZlbC9pL21nLzMvMDAvNTIyYTBkNTA1OWI3NSIsImV4dGVu
-        c2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRwOi8vaS5hbm5p
-        aGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy8zLzAwLzUyMmEwZDUwNTliNzUi
-        LCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2YWlsYWJsZSI6
-        MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20v
-        djEvcHVibGljL2NvbWljcy80OTAwMS9jcmVhdG9ycyIsIml0ZW1zIjpbeyJy
-        ZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFyIiwicm9sZSI6
-        IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2
-        ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1lIjoiSm9obiBS
-        b21pdGEgSlIuIiwicm9sZSI6ImFydGlzdCJ9XSwicmV0dXJuZWQiOjJ9LCJj
-        aGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80OTAw
-        MS9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0sInN0b3Jp
-        ZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ5MDAxL3N0b3Jp
-        ZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5t
-        YXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzExMDA4OSIsIm5hbWUiOiJj
-        b3ZlciBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICMzIChNQUNLIFZBUklBTlQp
-        IiwidHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTEwMDkwIiwibmFt
-        ZSI6InN0b3J5IGZyb20gS2ljay1Bc3MgMyAoMjAxMykgIzMgKE1BQ0sgVkFS
-        SUFOVCkiLCJ0eXBlIjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJuZWQiOjJ9
-        LCJldmVudHMiOnsiYXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0
-        cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ5MDAx
-        L2V2ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7ImlkIjo0NTk3
-        NiwiZGlnaXRhbElkIjozMTA2MCwidGl0bGUiOiJDYXB0YWluIEFtZXJpY2Eg
-        KDIwMTIpICMxMCIsImlzc3VlTnVtYmVyIjoxMCwidmFyaWFudERlc2NyaXB0
-        aW9uIjoiIiwiZGVzY3JpcHRpb24iOiJUSEUgU0hPQ0tJTkcgRElNRU5TSU9O
-        IFogRklOQUxFIVxyXG5cclxuXHJcblxyXG5cclxuPHVsPjxsaT5BZnRlciBv
-        dmVyIGEgZGVjYWRlIGluIERpbWVuc2lvbiBaIENhcHRhaW4gQW1lcmljYSBt
-        dXN0IG1ha2UgaGlzIGZpbmFsIHB1c2ggdG8gZXNjYXBlLS1idXQgYXQgd2hh
-        dCBjb3N0PzwvbGk+PGxpPkVudGVyOiBHT0RaT0xBITwvbGk+PGxpPkEgc2hv
-        Y2tpbmcgZGVhdGggYW5kIGFuIGFjdGlvbi1wYWNrZWQgY29uY2x1c2lvbiB0
-        aGF0IHdpbGwgbGVhdmUgQ2FwIGNoYW5nZWQgZm9yZXZlciBhbmQgbGVhdmUg
-        eW91IGdhc3BpbmcgZm9yIGFpciE8L2xpPjwvdWw+IiwibW9kaWZpZWQiOiIy
-        MDEzLTA5LTA0VDEwOjU3OjA5LTA0MDAiLCJpc2JuIjoiIiwidXBjIjo3NTk2
-        MDYwNzkwNDkwMTAwMCwiZGlhbW9uZENvZGUiOiJKVU4xMzA2MzIiLCJlYW4i
-        OiIiLCJpc3NuIjoiIiwiZm9ybWF0IjoiQ29taWMiLCJwYWdlQ291bnQiOjMy
-        LCJ0ZXh0T2JqZWN0cyI6W3sidHlwZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIs
-        Imxhbmd1YWdlIjoiZW4tdXMiLCJ0ZXh0IjoiVEhFIFNIT0NLSU5HIERJTUVO
-        U0lPTiBaIEZJTkFMRSFcclxuXHJcblxyXG5cclxuXHJcbjx1bD48bGk+QWZ0
-        ZXIgb3ZlciBhIGRlY2FkZSBpbiBEaW1lbnNpb24gWiBDYXB0YWluIEFtZXJp
-        Y2EgbXVzdCBtYWtlIGhpcyBmaW5hbCBwdXNoIHRvIGVzY2FwZS0tYnV0IGF0
-        IHdoYXQgY29zdD88L2xpPjxsaT5FbnRlcjogR09EWk9MQSE8L2xpPjxsaT5B
-        IHNob2NraW5nIGRlYXRoIGFuZCBhbiBhY3Rpb24tcGFja2VkIGNvbmNsdXNp
-        b24gdGhhdCB3aWxsIGxlYXZlIENhcCBjaGFuZ2VkIGZvcmV2ZXIgYW5kIGxl
-        YXZlIHlvdSBnYXNwaW5nIGZvciBhaXIhPC9saT48L3VsPiJ9XSwicmVzb3Vy
-        Y2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9j
-        b21pY3MvNDU5NzYiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0YWlsIiwidXJsIjoi
-        aHR0cDovL21hcnZlbC5jb20vY29taWNzL2lzc3VlLzQ1OTc2L2NhcHRhaW5f
-        YW1lcmljYV8yMDEyXzEwP3V0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJj
-        ZT08UFVCTElDX0tFWT4ifSx7InR5cGUiOiJwdXJjaGFzZSIsInVybCI6Imh0
-        dHA6Ly9jb21pY3N0b3JlLm1hcnZlbC5jb20vQ2FwdGFpbi1BbWVyaWNhLTEw
-        L2RpZ2l0YWwtY29taWMvMzEwNjA/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1f
-        c291cmNlPTxQVUJMSUNfS0VZPiJ9LHsidHlwZSI6InJlYWRlciIsInVybCI6
-        Imh0dHA6Ly9tYXJ2ZWwuY29tL2RpZ2l0YWxjb21pY3Mvdmlldy5odG0/aWlk
-        PTMxMDYwJnV0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVCTElD
-        X0tFWT4ifSx7InR5cGUiOiJpbkFwcExpbmsiLCJ1cmwiOiJodHRwOi8vYXBw
-        bGluay5tYXJ2ZWwuY29tL2lzc3VlLzMxMDYwP3V0bV9jYW1wYWlnbj1hcGlS
-        ZWYmdXRtX3NvdXJjZT08UFVCTElDX0tFWT4ifV0sInNlcmllcyI6eyJyZXNv
-        dXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L3Nlcmllcy8xNjUxNiIsIm5hbWUiOiJDYXB0YWluIEFtZXJpY2EgKDIwMTIg
-        LSBQcmVzZW50KSJ9LCJ2YXJpYW50cyI6W10sImNvbGxlY3Rpb25zIjpbXSwi
-        Y29sbGVjdGVkSXNzdWVzIjpbXSwiZGF0ZXMiOlt7InR5cGUiOiJvbnNhbGVE
-        YXRlIiwiZGF0ZSI6IjIwMTMtMDgtMjhUMDA6MDA6MDAtMDQwMCJ9LHsidHlw
-        ZSI6ImZvY0RhdGUiLCJkYXRlIjoiMjAxMy0wOC0xNFQwMDowMDowMC0wNDAw
-        In0seyJ0eXBlIjoidW5saW1pdGVkRGF0ZSIsImRhdGUiOiIyMDE0LTAyLTE3
-        VDAwOjAwOjAwLTA1MDAifSx7InR5cGUiOiJkaWdpdGFsUHVyY2hhc2VEYXRl
-        IiwiZGF0ZSI6IjIwMTMtMDgtMjhUMDA6MDA6MDAtMDQwMCJ9XSwicHJpY2Vz
-        IjpbeyJ0eXBlIjoicHJpbnRQcmljZSIsInByaWNlIjozLjk5fSx7InR5cGUi
-        OiJkaWdpdGFsUHVyY2hhc2VQcmljZSIsInByaWNlIjozLjk5fV0sInRodW1i
-        bmFpbCI6eyJwYXRoIjoiaHR0cDovL2kuYW5uaWhpbC51cy91L3Byb2QvbWFy
-        dmVsL2kvbWcvYy8xMC81MjEyNjIwMjVhMjMxIiwiZXh0ZW5zaW9uIjoianBn
-        In0sImltYWdlcyI6W3sicGF0aCI6Imh0dHA6Ly9pLmFubmloaWwudXMvdS9w
-        cm9kL21hcnZlbC9pL21nL2MvMTAvNTIxMjYyMDI1YTIzMSIsImV4dGVuc2lv
-        biI6ImpwZyJ9XSwiY3JlYXRvcnMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0
-        aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMv
-        Y29taWNzLzQ1OTc2L2NyZWF0b3JzIiwiaXRlbXMiOlt7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY3JlYXRv
-        cnMvMTE4MzUiLCJuYW1lIjoiUmljayBSZW1lbmRlciIsInJvbGUiOiJ3cml0
-        ZXIifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvY3JlYXRvcnMvMjE0IiwibmFtZSI6IkpvaG4gUm9taXRh
-        IEpSLiIsInJvbGUiOiJwZW5jaWxsZXIgKGNvdmVyKSJ9XSwicmV0dXJuZWQi
-        OjJ9LCJjaGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWlj
-        cy80NTk3Ni9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5lZCI6MH0s
-        InN0b3JpZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0
-        cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ1OTc2
-        L3N0b3JpZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwMzQ3MCIsIm5h
-        bWUiOiJjb3ZlciBmcm9tIENhcHRhaW4gQW1lcmljYSAoMjAxMikgIzEwIiwi
-        dHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3JpZXMvMTAzNDcxIiwibmFtZSI6
-        InN0b3J5IGZyb20gQ2FwdGFpbiBBbWVyaWNhICgyMDEyKSAjMTAiLCJ0eXBl
-        IjoiaW50ZXJpb3JTdG9yeSJ9XSwicmV0dXJuZWQiOjJ9LCJldmVudHMiOnsi
-        YXZhaWxhYmxlIjowLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXku
-        bWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ1OTc2L2V2ZW50cyIsIml0
-        ZW1zIjpbXSwicmV0dXJuZWQiOjB9fSx7ImlkIjo0ODI1NSwiZGlnaXRhbElk
-        IjowLCJ0aXRsZSI6IktpY2stQXNzIDMgKDIwMTMpICMyIChGZWdyZWRvIFZh
-        cmlhbnQpIiwiaXNzdWVOdW1iZXIiOjIsInZhcmlhbnREZXNjcmlwdGlvbiI6
-        IkZlZ3JlZG8gVmFyaWFudCIsImRlc2NyaXB0aW9uIjoiV2hhdOKAmXMgYSB0
-        d2VlbiBnaXJsIGFzc2Fzc2luIHRvIGRvIG9uY2Ugc2hl4oCZcyBsb2NrZWQg
-        dXA/IFN0YXJ0IHJ1bm5pbmcgYWxsIHRoZSBnYW5ncyBpbiB0aGUgam9pbnQs
-        IG9mIGNvdXJzZSEgQWZ0ZXIgdGhlIHN1cnZpdmluZyB0aGUgYnJ1dGFsIHBl
-        Y2tpbmcgb3JkZXIgb2YgbWlkZGxlIHNjaG9vbCwgSGl0LUdpcmwgZmluZHMg
-        amFpbCBqdXN0IG1pZ2h0IGJlIGEgbGl0dGxlIG1vcmUgdXAgaGVyIGFsbGV5
-        LiBNZWFud2hpbGUsIEtpY2stQXNzIHN0YXJ0cyBsZWFybmluZyB0aGVyZeKA
-        mXMgbW9yZSB0byBsaWZlIHRoYW4ganVzdCBzdXBlcmhlcm8gd29yay4iLCJt
-        b2RpZmllZCI6IjIwMTMtMDctMjNUMTI6NDY6MzktMDQwMCIsImlzYm4iOiIi
-        LCJ1cGMiOjc1OTYwNjA3OTM3NzAwMjIwLCJkaWFtb25kQ29kZSI6Ik1BUjEz
-        ODMyOSIsImVhbiI6IiIsImlzc24iOiIiLCJmb3JtYXQiOiJDb21pYyIsInBh
-        Z2VDb3VudCI6MzIsInRleHRPYmplY3RzIjpbeyJ0eXBlIjoiaXNzdWVfc29s
-        aWNpdF90ZXh0IiwibGFuZ3VhZ2UiOiJlbi11cyIsInRleHQiOiJXaGF04oCZ
-        cyBhIHR3ZWVuIGdpcmwgYXNzYXNzaW4gdG8gZG8gb25jZSBzaGXigJlzIGxv
-        Y2tlZCB1cD8gU3RhcnQgcnVubmluZyBhbGwgdGhlIGdhbmdzIGluIHRoZSBq
-        b2ludCwgb2YgY291cnNlISBBZnRlciB0aGUgc3Vydml2aW5nIHRoZSBicnV0
-        YWwgcGVja2luZyBvcmRlciBvZiBtaWRkbGUgc2Nob29sLCBIaXQtR2lybCBm
-        aW5kcyBqYWlsIGp1c3QgbWlnaHQgYmUgYSBsaXR0bGUgbW9yZSB1cCBoZXIg
-        YWxsZXkuIE1lYW53aGlsZSwgS2ljay1Bc3Mgc3RhcnRzIGxlYXJuaW5nIHRo
-        ZXJl4oCZcyBtb3JlIHRvIGxpZmUgdGhhbiBqdXN0IHN1cGVyaGVybyB3b3Jr
-        LiJ9XSwicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29t
-        L3YxL3B1YmxpYy9jb21pY3MvNDgyNTUiLCJ1cmxzIjpbeyJ0eXBlIjoiZGV0
-        YWlsIiwidXJsIjoiaHR0cDovL21hcnZlbC5jb20vY29taWNzL2lzc3VlLzQ4
-        MjU1L2tpY2stYXNzXzNfMjAxM18yX2ZlZ3JlZG9fdmFyaWFudC9mZWdyZWRv
-        X3ZhcmlhbnQ/dXRtX2NhbXBhaWduPWFwaVJlZiZ1dG1fc291cmNlPTxQVUJM
-        SUNfS0VZPiJ9XSwic2VyaWVzIjp7InJlc291cmNlVVJJIjoiaHR0cDovL2dh
-        dGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc2VyaWVzLzE3OTQ2IiwibmFt
-        ZSI6IktpY2stQXNzIDMgKDIwMTMgLSBQcmVzZW50KSJ9LCJ2YXJpYW50cyI6
-        W3sicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3Yx
-        L3B1YmxpYy9jb21pY3MvNDc2NzAiLCJuYW1lIjoiS2ljay1Bc3MgMyAoMjAx
-        MykgIzIgKEpyanIgU2tldGNoIFZhcmlhbnQpIn0seyJyZXNvdXJjZVVSSSI6
-        Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80
-        NzUyNyIsIm5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAjMiJ9XSwiY29sbGVj
-        dGlvbnMiOltdLCJjb2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlw
-        ZSI6Im9uc2FsZURhdGUiLCJkYXRlIjoiMjAxMy0wOC0wN1QwMDowMDowMC0w
-        NDAwIn0seyJ0eXBlIjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTA3LTI0VDAw
-        OjAwOjAwLTA0MDAifV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2Ui
-        LCJwcmljZSI6Mi45OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9p
-        LmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzYvNjAvNTFlZWIyODBm
-        Mzg4MCIsImV4dGVuc2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJo
-        dHRwOi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy82LzYwLzUx
-        ZWViMjgwZjM4ODAiLCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7
-        ImF2YWlsYWJsZSI6MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80ODI1NS9jcmVhdG9ycyIs
-        Iml0ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZl
-        bC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWls
-        bGFyIiwicm9sZSI6IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJu
-        YW1lIjoiSm9obiBSb21pdGEgSlIuIiwicm9sZSI6ImFydGlzdCJ9XSwicmV0
-        dXJuZWQiOjJ9LCJjaGFyYWN0ZXJzIjp7ImF2YWlsYWJsZSI6MCwiY29sbGVj
-        dGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L2NvbWljcy80ODI1NS9jaGFyYWN0ZXJzIiwiaXRlbXMiOltdLCJyZXR1cm5l
-        ZCI6MH0sInN0b3JpZXMiOnsiYXZhaWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzQ4MjU1L3N0b3JpZXMiLCJpdGVtcyI6W3sicmVzb3VyY2VVUkkiOiJodHRw
-        Oi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwODcw
-        MyIsIm5hbWUiOiJjb3ZlciBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICMyIChG
-        RUdSRURPIFZBUklBTlQpIiwidHlwZSI6ImNvdmVyIn0seyJyZXNvdXJjZVVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3Jp
-        ZXMvMTA4NzA0IiwibmFtZSI6InN0b3J5IGZyb20gS2ljay1Bc3MgMyAoMjAx
-        MykgIzIgKEZFR1JFRE8gVkFSSUFOVCkiLCJ0eXBlIjoiaW50ZXJpb3JTdG9y
-        eSJ9XSwicmV0dXJuZWQiOjJ9LCJldmVudHMiOnsiYXZhaWxhYmxlIjowLCJj
-        b2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9w
-        dWJsaWMvY29taWNzLzQ4MjU1L2V2ZW50cyIsIml0ZW1zIjpbXSwicmV0dXJu
-        ZWQiOjB9fSx7ImlkIjo0NzY3MCwiZGlnaXRhbElkIjowLCJ0aXRsZSI6Iktp
-        Y2stQXNzIDMgKDIwMTMpICMyIChKcmpyIFNrZXRjaCBWYXJpYW50KSIsImlz
-        c3VlTnVtYmVyIjoyLCJ2YXJpYW50RGVzY3JpcHRpb24iOiJKcmpyIFNrZXRj
-        aCBWYXJpYW50IiwiZGVzY3JpcHRpb24iOiJXaGF04oCZcyBhIHR3ZWVuIGdp
-        cmwgYXNzYXNzaW4gdG8gZG8gb25jZSBzaGXigJlzIGxvY2tlZCB1cD8gU3Rh
-        cnQgcnVubmluZyBhbGwgdGhlIGdhbmdzIGluIHRoZSBqb2ludCwgb2YgY291
-        cnNlISBBZnRlciB0aGUgc3Vydml2aW5nIHRoZSBicnV0YWwgcGVja2luZyBv
-        cmRlciBvZiBtaWRkbGUgc2Nob29sLCBIaXQtR2lybCBmaW5kcyBqYWlsIGp1
-        c3QgbWlnaHQgYmUgYSBsaXR0bGUgbW9yZSB1cCBoZXIgYWxsZXkuIE1lYW53
-        aGlsZSwgS2ljay1Bc3Mgc3RhcnRzIGxlYXJuaW5nIHRoZXJl4oCZcyBtb3Jl
-        IHRvIGxpZmUgdGhhbiBqdXN0IHN1cGVyaGVybyB3b3JrLiIsIm1vZGlmaWVk
-        IjoiMjAxMy0wNy0yM1QxMjo1NjozOC0wNDAwIiwiaXNibiI6IiIsInVwYyI6
-        NzU5NjA2MDc5Mzc3MDAyMjAsImRpYW1vbmRDb2RlIjoiQVBSMTMwNzA2Iiwi
-        ZWFuIjoiIiwiaXNzbiI6IiIsImZvcm1hdCI6IkNvbWljIiwicGFnZUNvdW50
-        IjozMiwidGV4dE9iamVjdHMiOlt7InR5cGUiOiJpc3N1ZV9zb2xpY2l0X3Rl
-        eHQiLCJsYW5ndWFnZSI6ImVuLXVzIiwidGV4dCI6IldoYXTigJlzIGEgdHdl
-        ZW4gZ2lybCBhc3Nhc3NpbiB0byBkbyBvbmNlIHNoZeKAmXMgbG9ja2VkIHVw
-        PyBTdGFydCBydW5uaW5nIGFsbCB0aGUgZ2FuZ3MgaW4gdGhlIGpvaW50LCBv
-        ZiBjb3Vyc2UhIEFmdGVyIHRoZSBzdXJ2aXZpbmcgdGhlIGJydXRhbCBwZWNr
-        aW5nIG9yZGVyIG9mIG1pZGRsZSBzY2hvb2wsIEhpdC1HaXJsIGZpbmRzIGph
-        aWwganVzdCBtaWdodCBiZSBhIGxpdHRsZSBtb3JlIHVwIGhlciBhbGxleS4g
-        TWVhbndoaWxlLCBLaWNrLUFzcyBzdGFydHMgbGVhcm5pbmcgdGhlcmXigJlz
-        IG1vcmUgdG8gbGlmZSB0aGFuIGp1c3Qgc3VwZXJoZXJvIHdvcmsuIn1dLCJy
-        ZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVi
-        bGljL2NvbWljcy80NzY3MCIsInVybHMiOlt7InR5cGUiOiJkZXRhaWwiLCJ1
-        cmwiOiJodHRwOi8vbWFydmVsLmNvbS9jb21pY3MvaXNzdWUvNDc2NzAva2lj
-        ay1hc3NfM18yMDEzXzJfanJqcl9za2V0Y2hfdmFyaWFudC9qcmpyX3NrZXRj
-        aF92YXJpYW50P3V0bV9jYW1wYWlnbj1hcGlSZWYmdXRtX3NvdXJjZT08UFVC
-        TElDX0tFWT4ifV0sInNlcmllcyI6eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9n
-        YXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3Nlcmllcy8xNzk0NiIsIm5h
-        bWUiOiJLaWNrLUFzcyAzICgyMDEzIC0gUHJlc2VudCkifSwidmFyaWFudHMi
-        Olt7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzQ4MjU1IiwibmFtZSI6IktpY2stQXNzIDMgKDIw
-        MTMpICMyIChGZWdyZWRvIFZhcmlhbnQpIn0seyJyZXNvdXJjZVVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzUy
-        NyIsIm5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAjMiJ9XSwiY29sbGVjdGlv
-        bnMiOltdLCJjb2xsZWN0ZWRJc3N1ZXMiOltdLCJkYXRlcyI6W3sidHlwZSI6
-        Im9uc2FsZURhdGUiLCJkYXRlIjoiMjAxMy0wOC0wN1QwMDowMDowMC0wNDAw
-        In0seyJ0eXBlIjoiZm9jRGF0ZSIsImRhdGUiOiIyMDEzLTA3LTI0VDAwOjAw
-        OjAwLTA0MDAifV0sInByaWNlcyI6W3sidHlwZSI6InByaW50UHJpY2UiLCJw
-        cmljZSI6Mi45OX1dLCJ0aHVtYm5haWwiOnsicGF0aCI6Imh0dHA6Ly9pLmFu
-        bmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzYvMDAvNTFlZWI0MWYwMTQ1
-        OCIsImV4dGVuc2lvbiI6ImpwZyJ9LCJpbWFnZXMiOlt7InBhdGgiOiJodHRw
-        Oi8vaS5hbm5paGlsLnVzL3UvcHJvZC9tYXJ2ZWwvaS9tZy82LzAwLzUxZWVi
-        NDFmMDE0NTgiLCJleHRlbnNpb24iOiJqcGcifV0sImNyZWF0b3JzIjp7ImF2
-        YWlsYWJsZSI6MiwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1h
-        cnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3MC9jcmVhdG9ycyIsIml0
-        ZW1zIjpbeyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5j
-        b20vdjEvcHVibGljL2NyZWF0b3JzLzg4IiwibmFtZSI6Ik1hcmsgTWlsbGFy
-        Iiwicm9sZSI6IndyaXRlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0
-        ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jcmVhdG9ycy8yMTQiLCJuYW1l
-        IjoiSm9obiBSb21pdGEgSlIuIiwicm9sZSI6InBlbmNpbGxlciAoY292ZXIp
-        In1dLCJyZXR1cm5lZCI6Mn0sImNoYXJhY3RlcnMiOnsiYXZhaWxhYmxlIjow
-        LCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzQ3NjcwL2NoYXJhY3RlcnMiLCJpdGVtcyI6W10s
-        InJldHVybmVkIjowfSwic3RvcmllcyI6eyJhdmFpbGFibGUiOjIsImNvbGxl
-        Y3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1Ymxp
-        Yy9jb21pY3MvNDc2NzAvc3RvcmllcyIsIml0ZW1zIjpbeyJyZXNvdXJjZVVS
-        SSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL3N0b3Jp
-        ZXMvMTA3NjIwIiwibmFtZSI6ImNvdmVyIGZyb20gS2ljay1Bc3MgMyAoMjAx
-        MykgIzIgKEpSSlIgU0tFVENIIFZBUklBTlQpIiwidHlwZSI6ImNvdmVyIn0s
-        eyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
-        cHVibGljL3N0b3JpZXMvMTA3NjIxIiwibmFtZSI6InN0b3J5IGZyb20gS2lj
-        ay1Bc3MgMyAoMjAxMykgIzIgKEpSSlIgU0tFVENIIFZBUklBTlQpIiwidHlw
-        ZSI6ImludGVyaW9yU3RvcnkifV0sInJldHVybmVkIjoyfSwiZXZlbnRzIjp7
-        ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3MC9ldmVudHMiLCJp
-        dGVtcyI6W10sInJldHVybmVkIjowfX0seyJpZCI6NDc1MjcsImRpZ2l0YWxJ
-        ZCI6MCwidGl0bGUiOiJLaWNrLUFzcyAzICgyMDEzKSAjMiIsImlzc3VlTnVt
-        YmVyIjoyLCJ2YXJpYW50RGVzY3JpcHRpb24iOiIiLCJkZXNjcmlwdGlvbiI6
-        IldoYXTigJlzIGEgdHdlZW4gZ2lybCBhc3Nhc3NpbiB0byBkbyBvbmNlIHNo
-        ZeKAmXMgbG9ja2VkIHVwPyBTdGFydCBydW5uaW5nIGFsbCB0aGUgZ2FuZ3Mg
-        aW4gdGhlIGpvaW50LCBvZiBjb3Vyc2UhIEFmdGVyIHRoZSBzdXJ2aXZpbmcg
-        dGhlIGJydXRhbCBwZWNraW5nIG9yZGVyIG9mIG1pZGRsZSBzY2hvb2wsIEhp
-        dC1HaXJsIGZpbmRzIGphaWwganVzdCBtaWdodCBiZSBhIGxpdHRsZSBtb3Jl
-        IHVwIGhlciBhbGxleS4gTWVhbndoaWxlLCBLaWNrLUFzcyBzdGFydHMgbGVh
-        cm5pbmcgdGhlcmXigJlzIG1vcmUgdG8gbGlmZSB0aGFuIGp1c3Qgc3VwZXJo
-        ZXJvIHdvcmsuIiwibW9kaWZpZWQiOiIyMDEzLTA3LTIzVDE1OjM3OjU1LTA0
-        MDAiLCJpc2JuIjoiIiwidXBjIjo3NTk2MDYwNzkzNzcwMDIxMCwiZGlhbW9u
-        ZENvZGUiOiJBUFIxMzA3MDUiLCJlYW4iOiIiLCJpc3NuIjoiIiwiZm9ybWF0
-        IjoiQ29taWMiLCJwYWdlQ291bnQiOjMyLCJ0ZXh0T2JqZWN0cyI6W3sidHlw
-        ZSI6Imlzc3VlX3NvbGljaXRfdGV4dCIsImxhbmd1YWdlIjoiZW4tdXMiLCJ0
-        ZXh0IjoiV2hhdOKAmXMgYSB0d2VlbiBnaXJsIGFzc2Fzc2luIHRvIGRvIG9u
-        Y2Ugc2hl4oCZcyBsb2NrZWQgdXA/IFN0YXJ0IHJ1bm5pbmcgYWxsIHRoZSBn
-        YW5ncyBpbiB0aGUgam9pbnQsIG9mIGNvdXJzZSEgQWZ0ZXIgdGhlIHN1cnZp
-        dmluZyB0aGUgYnJ1dGFsIHBlY2tpbmcgb3JkZXIgb2YgbWlkZGxlIHNjaG9v
-        bCwgSGl0LUdpcmwgZmluZHMgamFpbCBqdXN0IG1pZ2h0IGJlIGEgbGl0dGxl
-        IG1vcmUgdXAgaGVyIGFsbGV5LiBNZWFud2hpbGUsIEtpY2stQXNzIHN0YXJ0
-        cyBsZWFybmluZyB0aGVyZeKAmXMgbW9yZSB0byBsaWZlIHRoYW4ganVzdCBz
-        dXBlcmhlcm8gd29yay4ifV0sInJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NTI3IiwidXJscyI6
-        W3sidHlwZSI6ImRldGFpbCIsInVybCI6Imh0dHA6Ly9tYXJ2ZWwuY29tL2Nv
-        bWljcy9pc3N1ZS80NzUyNy9raWNrLWFzc18zXzIwMTNfMj91dG1fY2FtcGFp
-        Z249YXBpUmVmJnV0bV9zb3VyY2U9PFBVQkxJQ19LRVk+In1dLCJzZXJpZXMi
-        OnsicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3Yx
-        L3B1YmxpYy9zZXJpZXMvMTc5NDYiLCJuYW1lIjoiS2ljay1Bc3MgMyAoMjAx
-        MyAtIFByZXNlbnQpIn0sInZhcmlhbnRzIjpbeyJyZXNvdXJjZVVSSSI6Imh0
-        dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzY3
-        MCIsIm5hbWUiOiJLaWNrLUFzcyAzICgyMDEzKSAjMiAoSnJqciBTa2V0Y2gg
-        VmFyaWFudCkifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ4MjU1IiwibmFtZSI6IktpY2st
-        QXNzIDMgKDIwMTMpICMyIChGZWdyZWRvIFZhcmlhbnQpIn1dLCJjb2xsZWN0
-        aW9ucyI6W10sImNvbGxlY3RlZElzc3VlcyI6W10sImRhdGVzIjpbeyJ0eXBl
-        Ijoib25zYWxlRGF0ZSIsImRhdGUiOiIyMDEzLTA4LTA3VDAwOjAwOjAwLTA0
-        MDAifSx7InR5cGUiOiJmb2NEYXRlIiwiZGF0ZSI6IjIwMTMtMDctMjRUMDA6
-        MDA6MDAtMDQwMCJ9XSwicHJpY2VzIjpbeyJ0eXBlIjoicHJpbnRQcmljZSIs
-        InByaWNlIjoyLjk5fV0sInRodW1ibmFpbCI6eyJwYXRoIjoiaHR0cDovL2ku
-        YW5uaWhpbC51cy91L3Byb2QvbWFydmVsL2kvbWcvMS9lMC81MWVlYWQ1MmRk
-        YmE2IiwiZXh0ZW5zaW9uIjoianBnIn0sImltYWdlcyI6W3sicGF0aCI6Imh0
-        dHA6Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzEvZTAvNTFl
-        ZWFkNTJkZGJhNiIsImV4dGVuc2lvbiI6ImpwZyJ9LHsicGF0aCI6Imh0dHA6
-        Ly9pLmFubmloaWwudXMvdS9wcm9kL21hcnZlbC9pL21nLzkvYjAvNTE1ZWZm
-        YTI1Zjc5MCIsImV4dGVuc2lvbiI6ImpwZyJ9XSwiY3JlYXRvcnMiOnsiYXZh
-        aWxhYmxlIjoyLCJjb2xsZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFy
-        dmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzQ3NTI3L2NyZWF0b3JzIiwiaXRl
-        bXMiOlt7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNv
-        bS92MS9wdWJsaWMvY3JlYXRvcnMvODgiLCJuYW1lIjoiTWFyayBNaWxsYXIi
-        LCJyb2xlIjoid3JpdGVyIn0seyJyZXNvdXJjZVVSSSI6Imh0dHA6Ly9nYXRl
-        d2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2NyZWF0b3JzLzIxNCIsIm5hbWUi
-        OiJKb2huIFJvbWl0YSBKUi4iLCJyb2xlIjoicGVuY2lsbGVyIChjb3Zlciki
-        fV0sInJldHVybmVkIjoyfSwiY2hhcmFjdGVycyI6eyJhdmFpbGFibGUiOjAs
-        ImNvbGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3Yx
-        L3B1YmxpYy9jb21pY3MvNDc1MjcvY2hhcmFjdGVycyIsIml0ZW1zIjpbXSwi
-        cmV0dXJuZWQiOjB9LCJzdG9yaWVzIjp7ImF2YWlsYWJsZSI6MiwiY29sbGVj
-        dGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGlj
-        L2NvbWljcy80NzUyNy9zdG9yaWVzIiwiaXRlbXMiOlt7InJlc291cmNlVVJJ
-        IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvc3Rvcmll
-        cy8xMDczMzgiLCJuYW1lIjoiY292ZXIgZnJvbSBLaWNrLUFzcyAzICgyMDEz
-        KSAjMiIsInR5cGUiOiJjb3ZlciJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zdG9yaWVzLzEwNzMzOSIs
-        Im5hbWUiOiJzdG9yeSBmcm9tIEtpY2stQXNzIDMgKDIwMTMpICMyIiwidHlw
-        ZSI6ImludGVyaW9yU3RvcnkifV0sInJldHVybmVkIjoyfSwiZXZlbnRzIjp7
-        ImF2YWlsYWJsZSI6MCwiY29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5
-        Lm1hcnZlbC5jb20vdjEvcHVibGljL2NvbWljcy80NzUyNy9ldmVudHMiLCJp
-        dGVtcyI6W10sInJldHVybmVkIjowfX1dfX0=
     http_version: 
   recorded_at: Thu, 13 Feb 2014 18:47:24 GMT
 recorded_with: VCR 2.8.0

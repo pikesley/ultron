@@ -28,7 +28,7 @@ module Ultron
 
     it 'should accept with as a synonym for where', :vcr do
       comics = Comics.with sharedAppearances: '1009685,1009351' # Ultron and Hulk
-      comics.first.title.should == 'Avengers: First to Last Premiere (Hardcover)'
+      comics.first.title.should == 'Avengers: First to Last (Hardcover)'
     end
 
     it 'should let us get comics by a creator *with params*', :vcr do
@@ -44,9 +44,9 @@ module Ultron
     context 'pre-baked searches' do
       it 'should give us just regular comics', :vcr do
         comics = Comics.vanilla_comics
-        comics.first.id.should == 49241
-        comics.first.title.should == 'Wolverine (2014) #5'
-        comics.first.issueNumber.should == 5
+        comics.first.id.should == 47589
+        comics.first.title.should == 'Avengers A.I. (2013) #12'
+        comics.first.issueNumber.should == 12
       end
 
       it 'should give us regular comics filtered by character', :vcr do

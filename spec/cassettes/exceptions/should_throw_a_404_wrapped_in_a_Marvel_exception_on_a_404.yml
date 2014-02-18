@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/comics/1000000?apikey=<PUBLIC_KEY>&hash=a304d29c7e65217654f6ddd18daf2b3c&ts=1392317244
+    uri: http://gateway.marvel.com/v1/public/comics/1000000?apikey=<PUBLIC_KEY>&hash=76ea33f152cc264d192e39c2648392e7&ts=1392317244
     body:
       encoding: US-ASCII
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
+      - 'Ultron v0.1.9: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 404
@@ -21,7 +21,7 @@ http_interactions:
       Content-Length:
       - '57'
       Date:
-      - Sun, 16 Feb 2014 21:09:03 GMT
+      - Tue, 18 Feb 2014 20:56:42 GMT
       Connection:
       - keep-alive
     body:

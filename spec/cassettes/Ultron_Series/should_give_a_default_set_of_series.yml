@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://gateway.marvel.com/v1/public/series?apikey=<PUBLIC_KEY>&hash=a304d29c7e65217654f6ddd18daf2b3c&ts=1392317244
+    uri: http://gateway.marvel.com/v1/public/series?apikey=<PUBLIC_KEY>&hash=76ea33f152cc264d192e39c2648392e7&ts=1392317244
     body:
       encoding: US-ASCII
       string: ''
@@ -10,27 +10,27 @@ http_interactions:
       Accept:
       - application/json
       User-Agent:
-      - 'Ultron v0.1.5: https://rubygems.org/gems/ultron'
+      - 'Ultron v0.1.9: https://rubygems.org/gems/ultron'
   response:
     status:
       code: 200
       message: OK
     headers:
       Etag:
-      - 758dbea01029c9b2a49751a6b74585b11a381fb8
+      - 4ab6d18c7656427b9275035945e0d65849367c84
       Content-Type:
       - application/json
       Content-Length:
       - '76061'
       Date:
-      - Sun, 16 Feb 2014 21:09:16 GMT
+      - Tue, 18 Feb 2014 20:56:11 GMT
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6Ijc1OGRiZWEwMTAy
-        OWM5YjJhNDk3NTFhNmI3NDU4NWIxMWEzODFmYjgiLCJkYXRhIjp7Im9mZnNl
+        eyJjb2RlIjoyMDAsInN0YXR1cyI6Ik9rIiwiZXRhZyI6IjRhYjZkMThjNzY1
+        NjQyN2I5Mjc1MDM1OTQ1ZTBkNjU4NDkzNjdjODQiLCJkYXRhIjp7Im9mZnNl
         dCI6MCwibGltaXQiOjIwLCJ0b3RhbCI6NzIxOSwiY291bnQiOjIwLCJyZXN1
         bHRzIjpbeyJpZCI6MTMzNzksInRpdGxlIjoiMTUtTG92ZSAoMjAxMSkiLCJk
         ZXNjcmlwdGlvbiI6bnVsbCwicmVzb3VyY2VVUkkiOiJodHRwOi8vZ2F0ZXdh
@@ -352,35 +352,35 @@ http_interactions:
         ZWN0aW9uVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJs
         aWMvc2VyaWVzLzc1MjEvY29taWNzIiwiaXRlbXMiOlt7InJlc291cmNlVVJJ
         IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzI0MzQwIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
+        LzI0MzI5IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
         fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzI0MzQxIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
+        MS9wdWJsaWMvY29taWNzLzI0MzM2IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
         ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzIzIiwibmFtZSI6
+        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzM3IiwibmFtZSI6
         IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJ
         IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzI0MzQyIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
+        LzI0MzM4IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
         fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzI0MzI0IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
+        MS9wdWJsaWMvY29taWNzLzI0MzM5IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
         ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzQzIiwibmFtZSI6
+        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzQwIiwibmFtZSI6
         IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJ
         IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzI0MzI1IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
+        LzI0MzQxIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
         fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzI0MzI4IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
+        MS9wdWJsaWMvY29taWNzLzI0MzIzIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
         ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzI5IiwibmFtZSI6
+        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzQyIiwibmFtZSI6
         IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJ
         IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzI0MzM2IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
+        LzI0MzI0IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
         fSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92
-        MS9wdWJsaWMvY29taWNzLzI0MzM3IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
+        MS9wdWJsaWMvY29taWNzLzI0MzQzIiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0
         ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3
-        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzM4IiwibmFtZSI6
+        YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzI1IiwibmFtZSI6
         IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEifSx7InJlc291cmNlVVJJ
         IjoiaHR0cDovL2dhdGV3YXkubWFydmVsLmNvbS92MS9wdWJsaWMvY29taWNz
-        LzI0MzM5IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
+        LzI0MzI4IiwibmFtZSI6IjIwMDkgTWluaS1Qb3N0ZXIgNiAoMjAwOSkgIzEi
         fV0sInJldHVybmVkIjoxM30sImV2ZW50cyI6eyJhdmFpbGFibGUiOjAsImNv
         bGxlY3Rpb25VUkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1
         YmxpYy9zZXJpZXMvNzUyMS9ldmVudHMiLCJpdGVtcyI6W10sInJldHVybmVk
@@ -1333,12 +1333,12 @@ http_interactions:
         Y29sbGVjdGlvblVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEv
         cHVibGljL3Nlcmllcy83MDgyL2NvbWljcyIsIml0ZW1zIjpbeyJyZXNvdXJj
         ZVVSSSI6Imh0dHA6Ly9nYXRld2F5Lm1hcnZlbC5jb20vdjEvcHVibGljL2Nv
-        bWljcy8yMzkxNSIsIm5hbWUiOiI3MHRoIEFubml2ZXJzYXJ5IEFsYW4gRGF2
+        bWljcy8yNDM0NyIsIm5hbWUiOiI3MHRoIEFubml2ZXJzYXJ5IEFsYW4gRGF2
         aXMgUG9zdGVyICgyMDA5KSAjMSJ9LHsicmVzb3VyY2VVUkkiOiJodHRwOi8v
-        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvMjQzNDYiLCJu
+        Z2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9jb21pY3MvMjM5MTUiLCJu
         YW1lIjoiNzB0aCBBbm5pdmVyc2FyeSBBbGFuIERhdmlzIFBvc3RlciAoMjAw
         OSkgIzEifSx7InJlc291cmNlVVJJIjoiaHR0cDovL2dhdGV3YXkubWFydmVs
-        LmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzQ3IiwibmFtZSI6IjcwdGggQW5u
+        LmNvbS92MS9wdWJsaWMvY29taWNzLzI0MzQ2IiwibmFtZSI6IjcwdGggQW5u
         aXZlcnNhcnkgQWxhbiBEYXZpcyBQb3N0ZXIgKDIwMDkpICMxIn1dLCJyZXR1
         cm5lZCI6M30sImV2ZW50cyI6eyJhdmFpbGFibGUiOjAsImNvbGxlY3Rpb25V
         UkkiOiJodHRwOi8vZ2F0ZXdheS5tYXJ2ZWwuY29tL3YxL3B1YmxpYy9zZXJp
