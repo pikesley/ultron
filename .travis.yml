@@ -3,8 +3,9 @@ rvm:
 - 2.1.0
 env:
   global:
-  - secure: I6w+eRCXNkVnye8y/NVU9FAiSGgSC6RKtClXUdM1ZbYZHYf/PtruM0eHQAA+2fMR3Vg3Ekg88D2ePWUwLG1HfJO694YMyYIMnaIsK1ESvnhavPSmpWxnXlQhrQcAsDi4QDLM1qpUtnwAOAmo+WNXpU5Jdaoa6024IGKm5VMwWtE=
-  - secure: V3Ebf8/4PMSD8vv/kto8OoUlKWk7RlvPmhySbDGkyO6XgPmCYhUMblvwP9gYBjZzowiZcU4bD5D0HUMBimz5XSojK4FpMKPtxtjt20wf3FS43LTxLbvpST6XWDcKfqcEPLIRn/9Z/o5I019O4LbkI7PmHNJyP2MXyNYfZuGvrvw=
+    secure: "OgD1k370C6KqoGgzCq4L/6unhS166E/GN4UbNhNXQUnEzjvIhK2KZ4Db/CbCDanimhtr6Ch1RlySawYYby/Szm22w4l+cl8k9f78xjvX0jDe6eZ3sMPHXmfHu1DSKKc8ZpZVyzdxLnHv5dLPPPQaLY2wL7nOoCfWxjcsLBX2WpA="
+    secure: "LsOT4xb7EwiGyFslR4CF/TYzKv5t75AcbQggmFTGVWY4d9sB9IkV7SKUje5/iR8S9APL3lL20ge4LyjPFaUAzKs386tP9I9+osoef3xkZM1moKn5yxrHM6sh1n8py9D+JpS+cSQKPhbxIQmJW8khtHHN5uRc0PVQ/RlcnVl8DnM="
+
 deploy:
   provider: rubygems
   api_key:
