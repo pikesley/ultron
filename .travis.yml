@@ -9,6 +9,7 @@ deploy:
   on:
     tags: true
     repo: pikesley/ultron
+    all_branches: true
 env:
   global:
   - secure: Mu9oEVFn+MJCSciSwWySJtlCqbU6dUKuxfOVbUNe98gvyr3BiMpEjoWuegWnUuKCBTsIisDEhL11RqyHIv2MtSYD3yaqmK9f3E2qkCySoKSeE6svcvZwD8VsXjjLZOk+3qwMOvmhDRfEXX5/VMU9zs7l46iC4GeIkYUJAUtNexg=
