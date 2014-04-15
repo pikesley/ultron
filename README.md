@@ -15,7 +15,7 @@ Ruby bindings for the [Marvel Comics API](http://developer.marvel.com/)
     bundle
     rake
     
-Or just
+Or just 
 
     gem install ultron
 

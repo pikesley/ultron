@@ -7,6 +7,8 @@ require 'digest'
 require 'ostruct'
 require 'active_support/core_ext/string'
 
+require 'pry'
+
 require 'ultron/version'
 require 'ultron/auth'
 require 'ultron/config'
@@ -23,5 +25,3 @@ require 'ultron/models/stories'
 
 require 'ultron/exceptions/marvel_exception'
 require 'ultron/exceptions/ultron_exception'
-
-require 'pry'
