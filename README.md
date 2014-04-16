@@ -14,8 +14,8 @@ Ruby bindings for the [Marvel Comics API](http://developer.marvel.com/)
     ultron
     bundle
     rake
-    
-Or just 
+
+Or just
 
     gem install ultron
 
@@ -36,7 +36,7 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comic = Comics.find 12518
       comic.title.should == 'Uncanny X-Men (1963) #67'
     end
-    
+
 ### Get a set of things filtered by some other thing
 
     it 'should find a list of comics featuring the character', :vcr do
@@ -47,14 +47,14 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comics.class.should == Comics
       comics.count.should == 20
     end
-    
+
 ### Get a set of things using query-string parameters
 
     it 'should let us search with parameters', :vcr do
       comics = Comics.where sharedAppearances: '1009351,1009718' # Hulk and Wolverine
       comics[7].title.should == 'Deadpool (2008) #37'
     end
-    
+
 ### Get a set of things using multiple query-string parameters
 
     it 'should let us search with multiple parameters', :vcr do
@@ -68,13 +68,13 @@ I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/
       comics = Comics.by_creator_and_with 214, dateRange: '1980-01-01,1989-12-31'
       comics.first.resourceURI.should == 'http://gateway.marvel.com/v1/public/comics/8268'
     end
-    
+
 ### Get a random thing
 
 Something like this works, but it's proving very difficult to test it:
 
     Characters.sample
-    
+
 ### Get a random thing from a search
 
       it 'should give us a random comic', :vcr do
@@ -88,7 +88,7 @@ Something like this works, but it's proving very difficult to test it:
         set.stub(:random_offset).and_return(99)
         set.sample.title.should == 'Dazzler (1981) #19'
       end
-      
+
 ### Pre-baked custom searches
 
 There's a lot of noise in the data, and I found myself applying the same filters again and again. So:
@@ -97,13 +97,13 @@ There's a lot of noise in the data, and I found myself applying the same filters
       comics = Comics.by_character_and_vanilla_comics 1009685
       comics.first.title.should == 'AGE OF ULTRON (2013) #1'
     end
-    
+
 This applies the following search params:
 
     format: 'comic', formatType: 'comic', noVariants: true
-    
+
 which purges all sorts of hardbacks and reprints and so on from the results.
-    
+
 ## Exceptions
 
 ### Catch and re-raise a 404
@@ -116,7 +116,7 @@ which purges all sorts of hardbacks and reprints and so on from the results.
         e.status.should == "We couldn't find that comic_issue"
       end
     end
-    
+
 ### Raise a custom exception when we do something dumb
 
     it 'should throw a Resource Not Found exception when we search for something nonsensical', :vcr do
@@ -126,7 +126,7 @@ which purges all sorts of hardbacks and reprints and so on from the results.
         e.status.should == 'Resource does not exist. Check http://developer.marvel.com/docs'
       end
     end
-    
-This all got a lot more elegant after a chat over a fry-up with @floppy at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
+
+This all got a lot more elegant after a chat over a fry-up with [@floppy](http://github.com/floppy) at the always-superb [First-Step Cafe](https://plus.google.com/100027883675109761806/about?gl=uk&hl=en) in Shoreditch.
 
 And here's a [Gource video](https://vimeo.com/86940385) of the project as of 2014-02-17.
