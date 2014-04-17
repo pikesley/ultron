@@ -7,7 +7,7 @@ require 'digest'
 require 'ostruct'
 require 'active_support/core_ext/string'
 
-require "pry"
+require 'pry'
 
 require 'ultron/version'
 require 'ultron/auth'
