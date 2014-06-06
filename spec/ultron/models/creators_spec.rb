@@ -7,16 +7,16 @@ module Ultron
     end
 
     it 'should generate the right string for the URL path' do
-      Creators.name_for_path.should == 'creators'
+      expect(Creators.name_for_path).to eq ('creators')
     end
 
     it 'should find a list of series by the creator', :vcr do
       creator = Creators.find 196
-      creator.fullName.should == 'Jack Kirby'
+      expect(creator.fullName).to eq ('Jack Kirby')
       series = Series.by_creator 196
-      series[3].title.should == 'Amazing Fantasy (1962)'
-      series.class.should == Series
-      series.count.should == 20
+      expect(series[3].title).to eq ('Amazing Fantasy (1962)')
+      expect(series.class).to eq (Series)
+      expect(series.count).to eq (20)
     end
 
     after :each do

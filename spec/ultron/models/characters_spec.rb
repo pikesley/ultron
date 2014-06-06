@@ -7,21 +7,21 @@ module Ultron
     end
 
     it 'should generate the right string for the URL path' do
-      Characters.name_for_path.should == 'characters'
+      expect(Characters.name_for_path).to eq ('characters')
     end
 
     it 'should find a character', :vcr do
       character = Characters.find 1009685
-      character.name.should == 'Ultron'
+      expect(character.name).to eq ('Ultron')
     end
 
     it 'should find a list of comics featuring the character', :vcr do
       character = Characters.find 1009610
-      character.name.should == 'Spider-Man'
+      expect(character.name).to eq ('Spider-Man')
       comics = Comics.by_character 1009610
-      comics.first.title.should == 'Superior Spider-Man (2013) #22'
-      comics.class.should == Comics
-      comics.count.should == 20
+      expect(comics.first.title).to eq ('Superior Spider-Man (2013) #22')
+      expect(comics.class).to eq (Comics)
+      expect(comics.count).to eq (20)
     end
 
     after :each do
