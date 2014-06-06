@@ -10,7 +10,7 @@ module Ultron
       Timecop.freeze '1974-06-15T00:00:00+00:00'
       b = Comics.by_character 1009472
 
-      a.should == b
+      expect(a).to eq (b)
       Timecop.return
     end
   end

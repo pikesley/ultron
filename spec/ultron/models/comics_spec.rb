@@ -7,12 +7,12 @@ module Ultron
     end
 
     it 'should generate the right string for the URL path' do
-      Comics.name_for_path.should == 'comics'
+      expect(Comics.name_for_path).to eq ('comics')
     end
 
     it 'should find a comic', :vcr do
       comic = Comics.find 12518
-      comic.title.should == 'Uncanny X-Men (1963) #67'
+      expect(comic.title).to eq ('Uncanny X-Men (1963) #67')
     end
 
     after :each do
