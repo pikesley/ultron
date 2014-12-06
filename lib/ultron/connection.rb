@@ -1,4 +1,5 @@
 Dotenv.load
+Dotenv.load "#{ENV['HOME']}/.ultronrc"
 
 module Ultron
   class Connection
