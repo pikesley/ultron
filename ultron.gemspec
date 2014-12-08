@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['github@orgraphone.org']
   spec.summary       = %q{Ruby bindings for the Marvel COmics API}
   spec.description   = %q{MADE FROM ADAMANTIUM}
-  spec.homepage      = 'http://pikesley.github.io/ultron/'
+  spec.homepage      = 'http://sam.pikesley.org/projects/ultron/'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
