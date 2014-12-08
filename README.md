@@ -24,7 +24,7 @@ To actually use it you need an API keypair which you can get from [here](https:/
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
 
-I've made a [little toy app](https://github.com/pikesley/powerman) which uses this gem to explore the data.
+I've built [another gem](http://sam.pikesley.org/projects/marvel-explorer/) which uses Ultron to [explore](https://twitter.com/marvel_explorer) the [data](http://marvelexplorer.github.io/).
 
 ## API
 
