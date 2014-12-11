@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'curb', '~> 0.8'
-  spec.add_dependency 'dotenv', '~> 0.9'
+  spec.add_dependency 'dotenv', '~> 1.0'
   spec.add_dependency 'activesupport', '~> 4.0'
 
   spec.add_development_dependency 'bundler', '~> 1.5'
