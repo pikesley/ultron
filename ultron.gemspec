@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'webmock', '~> 1.17'
   spec.add_development_dependency 'vcr', '~> 2.8'
   spec.add_development_dependency 'timecop', '~> 0.7'
+  spec.add_development_dependency 'github_changelog_generator', '~> 1.6'
 end
