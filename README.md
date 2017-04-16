@@ -6,29 +6,29 @@
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://pikesley.mit-license.org)
 [![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/pikesley/badger)
 
-# Ultron
+# Megatron
 
 Ruby bindings for the [Marvel Comics API](http://developer.marvel.com/)
 
     git clone https://github.com/pikesley/ultron
-    cd ultron
+    cd megatron
     bundle
     rake
 
 Or just
 
-    gem install ultron
+    gem install megatron
 
-To actually use it you need an API keypair which you can get from [here](https://developer.marvel.com/signup), put them into `~/.ultronrc` or `.env` like this
+To actually use it you need an API keypair which you can get from [here](https://developer.marvel.com/signup), put them into `~/.megatronrc` or `.env` like this
 
     PUBLIC_KEY: this_r_public_key
     PRIVATE_KEY: this_one_r_private_key
 
-I've built [another gem](http://sam.pikesley.org/projects/marvel-explorer/) which uses Ultron to [explore](https://twitter.com/marvel_explorer) the [data](http://marvelexplorer.github.io/).
+I've built [another gem](http://sam.pikesley.org/projects/marvel-explorer/) which uses Megatron to [explore](https://twitter.com/marvel_explorer) the [data](http://marvelexplorer.github.io/).
 
 ## API
 
-I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/) as closely as possible. It's probably best illustrated with some examples from the [specs](https://github.com/pikesley/ultron/tree/master/spec/ultron):
+I've tried to follow the [Marvel API](http://developer.marvel.com/docs#!/public/) as closely as possible. It's probably best illustrated with some examples from the [specs](https://github.com/pikesley/ultron/tree/master/spec/megatron):
 
 ### Get a thing by its ID
 
