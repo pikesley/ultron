@@ -6,7 +6,7 @@
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://pikesley.mit-license.org)
 [![Badges](http://img.shields.io/:badges-7/7-ff6799.svg)](https://github.com/pikesley/badger)
 
-# Ultron
+# Megatron
 
 Ruby bindings for the [Marvel Comics API](http://developer.marvel.com/)
 
